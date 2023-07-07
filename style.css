@@ -1,3 +1,20 @@
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   /*  transform: translate(-50%,-150%) scale(0); */
+    width: 350px; 
+    height: 430px;
+    z-index: 2; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    border-style: solid;
+    z-index: 1;  
+}
+
+
 .section-title {
     height: 32px;
     padding-left: 8px;

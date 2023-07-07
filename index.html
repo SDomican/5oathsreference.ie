@@ -9,8 +9,12 @@
   </head>
     <body>
         <script src="index.js"></script>
-        <div>   
-            <!-- Movement section -->
+        <div>  
+            <div class="popup" id="popupId">
+                <p>POPUP</p>
+            </div> 
+
+            Movement section
             <div class="section-container">
                 <div class="section-title">
                     Movement <span class="float-right">limited by movement speed</span>
@@ -21,7 +25,7 @@
                     </div>
                     <div class="section-row">
                         <div class="item itemsize">
-                            <div class="item-icon iconsize icon-run" style="background-color: brown;"></div>
+                            <div class="item-icon iconsize icon-run" style="background-color: brown;" onclick="showHide()" ></div>
                             <div class="item-text-container text">
                                 <div class="item-title">Move</div>
                                 <div class="item-desc">Cost: 5ft per 5ft</div>
@@ -52,7 +56,6 @@
                 </div>
             </div>
     
-            <!-- Action section -->
             <div id="section-action" class="section-container">
                 <div class="section-title">
                     Action <span class="float-right">1/turn</span>
@@ -66,7 +69,7 @@
                 </div>
             </div>
     
-            <!-- Bonus action section -->
+
             <div id="section-bonus-action" class="section-container">
                 <div class="section-title">
                     Bonus action <span class="float-right">max. 1/turn</span>
@@ -79,8 +82,7 @@
                     <div class="section-row" id="basic-bonus-actions"></div>
                 </div>
             </div>
-    
-            <!-- Reaction section -->
+
             <div id="section-reaction" class="section-container">
                 <div class="section-title">
                     Reaction <span class="float-right">max. 1/round</span>
@@ -94,7 +96,7 @@
                 </div>
             </div>
     
-            <!-- Condition section -->
+
             <div id="section-condition" class="section-container">
                 <div class="section-title">
                     Condition
@@ -107,7 +109,7 @@
                 </div>
             </div>
             
-            <!-- Environmental section -->
+
             <div id="section-environment" class="section-container">
                 <div class="section-title">
                     Environmental Effects
@@ -134,7 +136,6 @@
     
         </div>
     
-        <!-- Modal -->
         <div class="modal" id="modal" tabindex="-1">
             <div class="modal-backdrop" id="modal-backdrop"></div>
             <div class="modal-dialog modalsize">
@@ -156,7 +157,7 @@
                 </div>
             </div>
         </div>
-    
+
         <!-- Data -->
         <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
         <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
