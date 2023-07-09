@@ -1,23 +1,58 @@
 
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
 .darken{
     background:rgba(0,0,0,0.3); 
 }
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30vh;
+  }
+
+ .flex-container > div {
+    margin: 1%;
+    padding: 1%;
+  } 
+
+  .flex-container-title{
+    flex-grow: 4;
+    background-color: purple;
+  }
+
+  .flex-container-text-box{
+    background-color: aqua;
+  }
+
+  .flex-container-image{
+    background-color: red;
+  }
 
 .popup{
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%; 
-    height: 20%;
+    width: 50vw; 
+    height: 30vh;
     z-index: 2; 
-    text-align: center;
     padding: 10px;
     border-radius: 5px;
     background-color: #dfdfdf;
     border-style: solid;
     z-index: 1;  
     display: flex;
+}
+
+.popup-text-container{
+    background-color: aquamarine;
+    height: 20vh;
 }
 
 
@@ -70,7 +105,6 @@
 .item-icon {
     color: aquamarine;
     border-style: solid;
-    float: left;
     flex: 0 0 auto;
     background-repeat: no-repeat;
     background-size: contain;
