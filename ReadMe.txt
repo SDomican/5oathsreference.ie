@@ -68,6 +68,7 @@ Calls:
 	
 Rituals:
 
-Specuial rules:
+Special rules:
 	Effect interactions/priority
+
 
