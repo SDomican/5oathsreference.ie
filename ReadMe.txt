@@ -119,12 +119,12 @@ The Way of Martial Prowess:
 	Warrior’s Heart	(2 Martial Prowess Feats)
 	
 The Way of Power:
-	Spellcraft (First Level Casting)
-	First Level Casting (Nothing)
-	Second Level Casting (First Level Casting)
-	Third Level Casting (Second Level Casting)
-	Fourth Level Casting (Third Level Casting)
-	Fifth Level Casting (Fourth Level Casting)
+	Spellcraft (First Level Casting) - spell-book
+	First Level Casting (Nothing) - bolt-spell-cast1
+	Second Level Casting (First Level Casting) - bolt-spell-cast2
+	Third Level Casting (Second Level Casting)- bolt-spell-cast3
+	Fourth Level Casting (Third Level Casting)- bolt-spell-cast4
+	Fifth Level Casting (Fourth Level Casting)- bolt-spell-cast5
 	
 The Way of Shadowed Blades:
 	Aggressive Solution (Nothing)
@@ -145,7 +145,7 @@ The Way of Shadowed Blades:
 	Puncture (Penetrating Strike Feat)
 	Severed Artery (2 Shadowed Blades Feats)
 	Shattered Focus  (Distracting Strike Feat)
-	Silencing Strikes (Cutthroat Feat)
+	Silencing Strikes (Cutthroat Feat) - cloak-dagger
 	Slip Strike (Nothing)
 	Steering the Conversation (1 Shadowed Blades Feat)
 	Volatile Substances (2 Shadowed Blades Feats)
@@ -163,10 +163,10 @@ The Way of Sturdy Flesh:
 	Vigorous (Nothing)
 	
 The Way of the Alchemist:
-	Student Alchemist (Nothing)
-	Apprentice Alchemist (Student Alchemist)
-	Journeyman Alchemist (Apprentice Alchemist)
-	Master Alchemist (Journeyman Alchemist)
+	Student Alchemist (Nothing) - test-tube-held
+	Apprentice Alchemist (Student Alchemist) - test-tube-held2
+	Journeyman Alchemist (Apprentice Alchemist) - test-tube-held3
+	Master Alchemist (Journeyman Alchemist) - test-tube-held4
 
 The Way of the Arcanist:
 	Student Arcanist(Nothing)
@@ -175,17 +175,17 @@ The Way of the Arcanist:
 	Master Arcanist (Journeyman Arcanist)
 	
 The Way of the Forge:
-	Student Blacksmith (Nothing)
-	Apprentice Blacksmith (Student Blacksmith)
-	Journeyman Blacksmith (Apprentice Blacksmith)
-	Master Blacksmith (Journeyman Blacksmith)
+	Student Blacksmith (Nothing) - wayforge
+	Apprentice Blacksmith (Student Blacksmith) - wayforge1
+	Journeyman Blacksmith (Apprentice Blacksmith) - wayforge2
+	Master Blacksmith (Journeyman Blacksmith) - wayforge3
 	
 The Way of the Professions:
-	Artisan (Nothing)
-	Farmer (Nothing)
-	Hunter (Nothing)
-	Merchant (Nothing)
-	Miner (Nothing)
+	Artisan (Nothing) - artisan
+	Farmer (Nothing) - farmer
+	Hunter (Nothing) - hunter
+	Merchant (Nothing) - merchant
+	Miner (Nothing) - miner
 	
 The Way of the Ritualist [materials cost] (Prerequisites):
 	Benediction of the Shaper's Forgiveness [none](Nothing)
@@ -212,7 +212,7 @@ The Way of the Ritualist [materials cost] (Prerequisites):
 	Whisper With The Dead [none](Nothing)
 	
 The Way of the Scholar (Prerequisites):
-	Alchemy Lore (Nothing)
+	Alchemy Lore (Nothing) bookmarklet_alchemist
 	Anatomist (Nothing)
 	Five Realms Lore (Nothing)
 	Magic Lore (Nothing)

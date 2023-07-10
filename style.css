@@ -124,6 +124,10 @@
     background-image: url("./img/run.png");
 }
 
+.icon-test{
+    background-image: url("./img/test-tube-held.png");  
+}
+
 #section-movement .item-icon {
     background-color: maroon;
     border-color: maroon;
