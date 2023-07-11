@@ -7,31 +7,30 @@
         <title>5 Oaths Reference</title>
         <link rel="stylesheet" href="style.css">
         <div class="topnav">
-            <a class="active" href="index.html">References</a>
-            <a href="feats.html">Feats</a>
+            <a href="index.html">References</a>
+            <a class="active" href="feats.html">Feats</a>
             <a href="spells.html">Spells</a>
             <a href="craftables.html">Craftable Items</a>
             <a href="charactercreator.html">Character Creator</a>
           </div>
       </head>
     <body id="body">
-        <script src="index.js"></script>
+        <script type="module" src="js/index.js"></script>
         <div>  
-            <div class="popup" id="popupId" style="display: block;">
+            <div class="popup" id="popupId" style="display: none;">
                 <div class="flex-container">
                     <div class="flex-container-title"><p>POPUP 1</p></div>
                     <div class="flex-container-image"><p>POPUP 2</p></div>
                     <div class="break"></div>
                     <div class="flex-container-text-box"><p>POPUP 3</p></div>
                 </div>
-                <!-- <div class="popup-text-container">
-                    <p>Content Text</p>
-                </div> -->
             </div> 
+
+            <div class="section-container" id="featsContainer"></div>
 
             <div class="section-container">
                 <div class="section-title">
-                    FEATS <span class="float-right">limited by movement speed</span>
+                    <span class="float-right">Way of Leather and Steel </span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -45,34 +44,22 @@
                                 <div class="item-desc">Cost: 5ft per 5ft</div>
                             </div>
                         </div>
+
                         <div class="item itemsize">
-                            <div class="item-icon iconsize icon-run"></div>
+                            <div class="item-icon iconsize icon-run" style="background-color: brown;" onclick="showHide()" ></div>
                             <div class="item-text-container text">
-                                <div class="item-title">Test</div>
+                                <div class="item-title">Weapon blow</div>
                                 <div class="item-desc">Cost: 5ft per 5ft</div>
                             </div>
                         </div>
-                        <div class="item itemsize">
-                            <div class="item-icon iconsize icon-run"></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Test2</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
-                        <div class="item itemsize">
-                            <div class="item-icon iconsize icon-run"></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Test4</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-    
-            <div id="section-action" class="section-container">
+             
+            <!-- <div id="section-action" class="section-container">
                 <div class="section-title">
-                    Action <span class="float-right">1/turn</span>
+                    Way of Martial Prowess <span class="float-right"></span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -81,12 +68,12 @@
                     </div>
                     <div class="section-row" id="basic-actions"></div>
                 </div>
-            </div>
-    
+            </div> -->
+    <!--
 
             <div id="section-bonus-action" class="section-container">
                 <div class="section-title">
-                    Bonus action <span class="float-right">max. 1/turn</span>
+                    Way of Power <span class="float-right"></span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -99,7 +86,7 @@
 
             <div id="section-reaction" class="section-container">
                 <div class="section-title">
-                    Reaction <span class="float-right">max. 1/round</span>
+                    Way of Shadowed Blades <span class="float-right"></span>
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -113,7 +100,19 @@
 
             <div id="section-condition" class="section-container">
                 <div class="section-title">
-                    Condition
+                    Way of Sturdy Flesh
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text fontsize">
+                        Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                    </div>
+                    <div class="section-row" id="basic-conditions"></div>
+                </div>
+            </div>
+
+            <div id="section-condition" class="section-container">
+                <div class="section-title">
+                    Way of the Alchemist
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -123,10 +122,9 @@
                 </div>
             </div>
             
-
             <div id="section-environment" class="section-container">
                 <div class="section-title">
-                    Environmental Effects
+                    Way of the Alchemist
                 </div>
                 <div class="section-content">
                     <div class="section-row section-subtitle text fontsize">
@@ -147,7 +145,30 @@
                     <div class="section-row" id="environment-cover"></div>
                 </div>
             </div>
-    
+
+            <div id="section-condition" class="section-container">
+                <div class="section-title">
+                    Way of the Forge
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text fontsize">
+                        Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                    </div>
+                    <div class="section-row" id="basic-conditions"></div>
+                </div>
+            </div>
+
+            <div id="section-condition" class="section-container">
+                <div class="section-title">
+                    Way of the Professions
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text fontsize">
+                        Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                    </div>
+                    <div class="section-row" id="basic-conditions"></div>
+                </div>
+            </div> 
         </div>
     
         <div class="modal" id="modal" tabindex="-1">
@@ -155,7 +176,7 @@
             <div class="modal-dialog modalsize">
                 <div class="section-container modal-container" id="modal-container">
                     <div class="section-title" id="modal-title">
-                        Modal title<span class="float-right">Action</span>
+                        Way of the Ritualist<span class="float-right"></span>
                     </div>
                     <div class="section-content">
                         <div class="section-row section-subtitle text" id="modal-subtitle">
@@ -170,6 +191,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </body>
 </html>
+<script type="module" src="js/feats.js"></script>
+

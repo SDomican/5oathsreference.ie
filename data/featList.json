@@ -1,0 +1,27 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "Way of Leather and Steel",
+            "feats":[
+                {
+                    "featName" : "featName"
+                },
+                {
+                    "featName" : "featName2"
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of Martial Prowess",
+            "feats":[
+                {
+                    "featName" : "featName"
+                },
+                {
+                    "featName" : "featName2"
+                }
+            ]
+        }
+    ]
+}
