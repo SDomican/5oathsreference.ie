@@ -17,71 +17,71 @@ The Path of Renewal:
 The Way of Affinity:
 	
 	Creidhe:
-		Careful Maintenance
-		Unshakable Camaraderie
-		Odds and Ends
-		Ever Onwards
-		Deft Hands
+		Careful Maintenance - anvil
+		Unshakable Camaraderie - unshakable_camaraderie
+		Odds and Ends - swap-bag
+		Ever Onwards - gear-hammer
+		Deft Hands - sewing-string
 
 	Drakeblooded:
-		Dragon’s Roar
-		Endless Reach
-		Closing the Circle
-		Profitable Prowl
-		Furious Endurance
+		Dragon’s Roar - drakkar-dragon
+		Endless Reach/chain lightning - chain-lightning
+		Closing the Circle - crafting
+		Profitable Prowl - snatch
+		Furious Endurance - confrontation
 
 
 	Fathach:
-		Pillar of the Community
-		Expanded Potential
-		Joint Purpose
-		Prosperous Works
-		Unshakeable Camaraderie
+		Pillar of the Community - rock-golem
+		Expanded Potential - muscle-up
+		Joint Purpose - fizzing-flask
+		Prosperous Works - plow
+		Unshakeable Camaraderie - unshakable_camaraderie
 
 
 	Firetouched:
-		Inner Power
-		Bloody Resistance
-		Beacon of Life
-		Unexpected Opportunities
-		Waste Not, Want Not
+		Inner Power - embraced-energy
+		Bloody Resistance - fire-dash
+		Beacon of Life - fomorian
+		Unexpected Opportunities - target-prize
+		Waste Not, Want Not - bell-shield
 
 	Humans:
-		Ingenious Craft
-		Endless Reach
-		Expanded Potential
-		Fascinations and Distractions
-		Odds and Ends
+		Ingenious Craft - recycle
+		Endless Reach/chain lightnin - chain-lightning
+		Expanded Potential - muscle-up
+		Fascinations and Distractions - distraction
+		Odds and Ends - swap-bag
 
 	Leasair:
-		Lasting Impressions
-		Ever Onwards
-		Closing the Circle
-		What Doesn’t Kill You
-		Quick Exit
+		Lasting Impressions - elf-ear
+		Ever Onwards - gear-hammer
+		Closing the Circle - crafting
+		What Doesn’t Kill You - skull-crossed-bones
+		Quick Exit - run
 
 
 	Krieger:
-		In the Face of Danger
-		Beacon of Life
-		Furious Endurance
-		Deft Hands
-		Profitable Prowl
+		In the Face of Danger - orc-head
+		Beacon of Life - fomorian
+		Furious Endurance - confrontation
+		Deft Hands - sewing-string
+		Profitable Prowl - snatch
 
 
 	Vartach:
-		Mark of Destiny
-		Joint Purpose
-		Bloody Resistance
-		Waste Not, Want Not
-		Fascinations and Distractions
+		Mark of Destiny - sundial
+		Joint Purpose - fizzing-flask
+		Bloody Resistance - fire-dash
+		Waste Not, Want Not - bell-shield
+		Fascinations and Distractions - distraction
 
 	Wildlings:
-		In Beast’s Clothing
-		Unexpected Opportunities
-		Prosperous Works
-		Quick Exit
-		What Doesn’t Kill You
+		In Beast’s Clothing - hunting-horn
+		Unexpected Opportunities - target-prize
+		Prosperous Works - plow
+		Quick Exit - run
+		What Doesn’t Kill You - skull-crossed-bones
 
 
 The Way of Leather and Steel (Requires):
