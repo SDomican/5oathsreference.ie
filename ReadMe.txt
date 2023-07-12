@@ -151,28 +151,28 @@ The Way of Shadowed Blades:
 	Volatile Substances (2 Shadowed Blades Feats) - chemical-bolt
 	
 The Way of Sturdy Flesh:
-	Deathproof (1 Sturdy Flesh Feat)
-	Die Hard (1 Sturdy Flesh Feat)
-	Fortified Resistance (3 Sturdy Flesh Feats)
-	Immutable Body (2 Sturdy Flesh Feats)
-	Perfect Health (3 Sturdy Flesh Feats)
-	Plague Bearer  (2 Sturdy Flesh Feats)
-	Seasoned Veteran  (2 Sturdy Flesh Feats)
-	Steady Pace (3 Sturdy Flesh Feats)
-	Veteran (Nothing)
-	Vigorous (Nothing)
+	Deathproof (1 Sturdy Flesh Feat) - scythe
+	Die Hard (1 Sturdy Flesh Feat) - time-bomb
+	Fortified Resistance (3 Sturdy Flesh Feats) - armor-upgrade
+	Immutable Body (2 Sturdy Flesh Feats) - vitruvian-man
+	Perfect Health (3 Sturdy Flesh Feats) - weight-lifting-up
+	Plague Bearer  (2 Sturdy Flesh Feats) - plague-doctor-profile
+	Seasoned Veteran  (2 Sturdy Flesh Feats) - medal
+	Steady Pace (3 Sturdy Flesh Feats) - no-scorpion
+	Veteran (Nothing) - crossed-axes
+	Vigorous (Nothing) - beams-aura
 	
 The Way of the Alchemist:
 	Student Alchemist (Nothing) - test-tube-held
-	Apprentice Alchemist (Student Alchemist) - test-tube-held2
-	Journeyman Alchemist (Apprentice Alchemist) - test-tube-held3
-	Master Alchemist (Journeyman Alchemist) - test-tube-held4
+	Apprentice Alchemist (Student Alchemist) - test-tube-held1
+	Journeyman Alchemist (Apprentice Alchemist) - test-tube-held2
+	Master Alchemist (Journeyman Alchemist) - test-tube-held3
 
 The Way of the Arcanist:
-	Student Arcanist(Nothing)
-	Apprentice Arcanist (Student Arcanist)
-	Journeyman Arcanist (Apprentice Arcanist)
-	Master Arcanist (Journeyman Arcanist)
+	Student Arcanist(Nothing) - gem-chain
+	Apprentice Arcanist (Student Arcanist) - gem-chain1
+	Journeyman Arcanist (Apprentice Arcanist) -  gem-chain2
+	Master Arcanist (Journeyman Arcanist) - gem-chain3
 	
 The Way of the Forge:
 	Student Blacksmith (Nothing) - wayforge
@@ -188,39 +188,39 @@ The Way of the Professions:
 	Miner (Nothing) - miner
 	
 The Way of the Ritualist [materials cost] (Prerequisites):
-	Benediction of the Shaper's Forgiveness [none](Nothing)
-	Binding Ties [1 Incense, 1 Iron ](Nothing)
-	Chastisement of the Traitorous Hands [1 Root, 1 Bone](Nothing)
-	Consult the Lost Tome [none](Nothing)
-	Grand Ritual [none] (Ritual Celebrant)
-	Honour the Shaper's Champions [none](Nothing)
-	Invigoration [none](Nothing)
-	Indelible Mark [1 Ink, 1 Heart](nothing)
-	Make Peace Before War [1 Incense, 1 Heart ](Nothing)
-	Moon Soaked Blades  [1 Silver, 1 Fang](Nothing)
-	Moonlit Vigil [1 Bone, 1 Seed ](Nothing)
-	Penance of Leaden Blood [1 Parchment, 1 Wax](Nothing)
-	Quicken the Inevitable Solace [none](Nothing)
-	Ready Ritualist  [none](1 Ritualist Feat)
-	Ritual Celebrant [none](Nothing)
-	Sacrificial Rite [none](Sympathetic Ingredients)
-	Sever the Unbreakable Bonds [none](Nothing)
-	Shaper’s Blessing On The Flock [1 Wax, 1 Gold](Nothing)
-	Solitude of Shame [1 Dung, 1 Glass ](Nothing)
-	Supreme Forgiveness [none](Nothing)
-	Sympathetic Ingredients [none](Nothing)
-	Whisper With The Dead [none](Nothing)
+	Benediction of the Shaper's Forgiveness [none](Nothing) - caduceus
+	Binding Ties [1 Incense, 1 Iron ](Nothing) - sun-priest
+	Chastisement of the Traitorous Hands [1 Root, 1 Bone](Nothing) - spiked-halo
+	Consult the Lost Tome [none](Nothing) - burning-book
+	Grand Ritual [none] (Ritual Celebrant) - over-infinity
+	Honour the Shaper's Champions [none](Nothing) - laurels
+	Invigoration [none](Nothing) - fluffy-trefoil
+	Indelible Mark [1 Ink, 1 Heart](nothing) - maze-cornea
+	Make Peace Before War [1 Incense, 1 Heart ](Nothing) - olive
+	Moon Soaked Blades  [1 Silver, 1 Fang](Nothing) - moon
+	Moonlit Vigil [1 Bone, 1 Seed ](Nothing) - evil-moon
+	Penance of Leaden Blood [1 Parchment, 1 Wax](Nothing) - death-juice
+	Quicken the Inevitable Solace [none](Nothing) - telefrag
+	Ready Ritualist  [none](1 Ritualist Feat) - tribal-pendant
+	Ritual Celebrant [none](Nothing) - robe
+	Sacrificial Rite [none](Sympathetic Ingredients) - sacrificial-dagger
+	Sever the Unbreakable Bonds [none](Nothing) - breaking-chain
+	Shaper’s Blessing On The Flock [1 Wax, 1 Gold](Nothing) - shepherds-crook
+	Solitude of Shame [1 Dung, 1 Glass ](Nothing) - heavy-thorny-triskelion
+	Supreme Forgiveness [none](Nothing) - kneeling
+	Sympathetic Ingredients [none](Nothing) - incense
+	Whisper With The Dead [none](Nothing) - divided-spiral
 	
 The Way of the Scholar (Prerequisites):
-	Alchemy Lore (Nothing) bookmarklet_alchemist
-	Anatomist (Nothing)
-	Five Realms Lore (Nothing)
-	Magic Lore (Nothing)
-	Religion Lore (Nothing)
-	Smithing Lore (Nothing)
+	Alchemy Lore (Nothing) - drink-me
+	Anatomist (Nothing) - anatomy
+	Five Realms Lore (Nothing) - torc
+	Magic Lore (Nothing) - magic-lamp
+	Religion Lore (Nothing) - gift-of-knowledge
+	Smithing Lore (Nothing) - gear-hammer
 	
 The Way of the Sorcerous Schools:
-	Be the Change You Want to See (Nothing)
+	Be the Change You Want to See (Nothing) - wizard-staff
 	Do Unto Others (1 Sorcerous School Feat)
 	Enchanting Chain (Nothing)
 	Evocative Chain (Nothing)
