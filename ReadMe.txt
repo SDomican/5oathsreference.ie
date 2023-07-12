@@ -85,37 +85,37 @@ The Way of Affinity:
 
 
 The Way of Leather and Steel (Requires):
-	Armour Bearer (Nothing)
-	Armour Mastery (3 Leather and Steel Feats)
-	Complete Set (Light Armour OR Heavy Armour)
-	Easily Maintained (Heavy Armour)
-	Hardened  (Heavy Armour)
-	Heavy Armour (Nothing)
-	Light Armour (Nothing)
-	Mender’s Focus (Nothing)
-	Quickened Searching (Light Armour)
-	Reinforced (Heavy Armour)
-	Squire (1 Leather and Steel Feat OR Deft Hands Feat)
-	Unexposed (Light Armour)
-	Well Balanced (Light Armour)
-	Well Oiled (Light Armour)
+	Armour Bearer (Nothing) - pincers
+	Armour Mastery (3 Leather and Steel Feats) - scale-mail
+	Complete Set (Light Armour OR Heavy Armour) - battle-gear
+	Easily Maintained (Heavy Armour) - anvil-impact
+	Hardened  (Heavy Armour) - spiked-armor
+	Heavy Armour (Nothing) - breastplate
+	Light Armour (Nothing) - leather-armor
+	Mender’s Focus (Nothing) - look-at
+	Quickened Searching (Light Armour) - robber-hand
+	Reinforced (Heavy Armour) - helmet-head-shot
+	Squire (1 Leather and Steel Feat OR Deft Hands Feat) - mounted-knight
+	Unexposed (Light Armour) - elbow-pad
+	Well Balanced (Light Armour) - body-balance
+	Well Oiled (Light Armour) - oil-can
 	
 The Way of Martial Prowess:
-	Adrenaline Surge (1 Martial Prowess Feat)
-	Blade of the Shaper (3 Martial Prowess Feats)
-	Boot Camp (1 Martial Prowess Feat)
-	Constant Vigil (Nothing)
-	Last Stand (3 Martial Prowess Feats)
-	Heroic Loyalty (Nothing)
-	Hold the Line (3 Martial Prowess Feats)
-	Lay to Rest (3 Martial Prowess Feats)
-	Mighty Blows (Tripping Blow Feat)
-	Punishing Blows (Shattering Strike Feat)
-	Repelling Blow (Nothing)
-	Room to Breath (Repelling Blow Feat)
-	Second Wind (3 Martial Prowess Feats)
-	Shattering Strike (2 Martial Prowess Feats)
-	Tripping Blow (Nothing)
+	Adrenaline Surge (1 Martial Prowess Feat) - enrage
+	Blade of the Shaper (3 Martial Prowess Feats) - winged-sword
+	Boot Camp (1 Martial Prowess Feat) - jumping-rope
+	Constant Vigil (Nothing) - awareness
+	Last Stand (3 Martial Prowess Feats) - surrounded-shield
+	Heroic Loyalty (Nothing) - heart-tower
+	Hold the Line (3 Martial Prowess Feats) - crenulated-shield
+	Lay to Rest (3 Martial Prowess Feats) - pirate-grave
+	Mighty Blows (Tripping Blow Feat) - wave-strike
+	Punishing Blows (Shattering Strike Feat) - stick-splitting
+	Repelling Blow (Nothing) - vertical-flip
+	Room to Breath (Repelling Blow Feat) - expander
+	Second Wind (3 Martial Prowess Feats) - pummeled
+	Shattering Strike (2 Martial Prowess Feats) - shattered-sword
+	Tripping Blow (Nothing) - falling
 	Warrior’s Heart	(2 Martial Prowess Feats)
 	
 The Way of Power:
@@ -127,28 +127,28 @@ The Way of Power:
 	Fifth Level Casting (Fourth Level Casting)- bolt-spell-cast5
 	
 The Way of Shadowed Blades:
-	Aggressive Solution (Nothing)
-	Blinding Fumes (Nothing)
-	Cutthroat (Nothing)
-	Dexterous Poisoner (3 Shadowed Blades Feats)
-	Disarmed and Dangerous (1 Shadowed Blades Feat)
-	Distilled Fragility (1 Shadowed Blades Feat)
-	Distracting Strike (1 Shadowed Blades Feat)
-	Dropping the Guard  (3 Shadowed Blades Feats)
-	Escape Restraints  (Nothing)
-	Fatal Blow (4 Shadowed Blades Feats)
-	Internal Damage (2 Shadowed Blades Feats)
-	Local Informants  (Nothing)
-	Penetrating Strike (2 Shadowed Blades Feats)
-	Petrifying Potion  (3 Shadowed Blades Feat)
-	Pointed Questions (1 Shadowed Blades Feat)
-	Puncture (Penetrating Strike Feat)
-	Severed Artery (2 Shadowed Blades Feats)
-	Shattered Focus  (Distracting Strike Feat)
-	Silencing Strikes (Cutthroat Feat) - cloak-dagger
-	Slip Strike (Nothing)
-	Steering the Conversation (1 Shadowed Blades Feat)
-	Volatile Substances (2 Shadowed Blades Feats)
+	Aggressive Solution (Nothing) - thrown-knife
+	Blinding Fumes (Nothing) - bottle-vapors
+	Cutthroat (Nothing) - silenced
+	Dexterous Poisoner (3 Shadowed Blades Feats) - chemical-arrow
+	Disarmed and Dangerous (1 Shadowed Blades Feat) - shield-reflect
+	Distilled Fragility (1 Shadowed Blades Feat) - thrown-charcoal
+	Distracting Strike (1 Shadowed Blades Feat) - knockout
+	Dropping the Guard  (3 Shadowed Blades Feats) - bone-gnawer
+	Escape Restraints  (Nothing) - handcuffs
+	Fatal Blow (4 Shadowed Blades Feats) - pierced-heart
+	Internal Damage (2 Shadowed Blades Feats) - internal-injury
+	Local Informants  (Nothing) - spy
+	Penetrating Strike (2 Shadowed Blades Feats) - pierced-body
+	Petrifying Potion  (3 Shadowed Blades Feat) - medusa-head
+	Pointed Questions (1 Shadowed Blades Feat) - discussion
+	Puncture (Penetrating Strike Feat) - sun-spear
+	Severed Artery (2 Shadowed Blades Feats) - bleeding-wound
+	Shattered Focus  (Distracting Strike Feat) - brain-freeze
+	Silencing Strikes (Cutthroat Feat) - cloak-dagger 
+	Slip Strike (Nothing) - amputation
+	Steering the Conversation (1 Shadowed Blades Feat) - conversation
+	Volatile Substances (2 Shadowed Blades Feats) - chemical-bolt
 	
 The Way of Sturdy Flesh:
 	Deathproof (1 Sturdy Flesh Feat)
@@ -249,7 +249,7 @@ First Level Spells (Cost 1 Vigour):
 	Detect Gwyllt (Ev)
 	Detect Mortal (Ev)
 	Detect Undead (Ev)
-	Fumble(C/Tr)
+	Fumble(C/Tr) - drop-weapon
 	Global Stop Bleed (Tr)
 	Healing 1(Location)(En)
 	Mindslash(C/En)
