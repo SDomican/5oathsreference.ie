@@ -221,29 +221,29 @@ The Way of the Scholar (Prerequisites):
 	
 The Way of the Sorcerous Schools:
 	Be the Change You Want to See (Nothing) - wizard-staff
-	Do Unto Others (1 Sorcerous School Feat)
-	Enchanting Chain (Nothing)
-	Evocative Chain (Nothing)
-	Evocative Ward (Nothing)
-	Inclusive Casting (2 Sorcerous School Feats)
-	Oathbound (3 Sorcerous School Feats)
-	Physician Heal Thyself (1 Sorcerous School Feat)
-	Prevention and Cure (1 Sorcerous School Feat)
-	Saoi’s Revenge (3 Sorcerous School Feats)
-	Transmutative Chain (Nothing)
+	Do Unto Others (1 Sorcerous School Feat) - divert
+	Enchanting Chain (Nothing) - chained-heart
+	Evocative Chain (Nothing) - linked-rings
+	Evocative Ward (Nothing) - icicles-aura
+	Inclusive Casting (2 Sorcerous School Feats) - team-downgrade
+	Oathbound (3 Sorcerous School Feats) - laurel-crown
+	Physician Heal Thyself (1 Sorcerous School Feat) - healing
+	Prevention and Cure (1 Sorcerous School Feat) - rod-of-asclepius
+	Saoi’s Revenge (3 Sorcerous School Feats) - spiky-explosion
+	Transmutative Chain (Nothing) - eye-shield
 	
 
 
 <-- Spells -->
 
 First Level Spells (Cost 1 Vigour):
-	Charm 10s(C/En)
-	Cure Charm(Ev)
-	Cure Daze(Ev)
-	Cure Fear(Ev)
+	Charm 10s(C/En) - charm
+	Cure Charm(Ev) - broken-heart
+	Cure Daze(Ev) - cure-daze
+	Cure Fear(Ev) - cure-fear
 	Cure Mute(Ev)
 	Cure Sleep(Ev)
-	Daze 10s(C/Ev)
+	Daze 10s(C/Ev) - daze
 	Detect Beast(Ev)
 	Detect Bleeding (Ev)
 	Detect Gwyllt (Ev)
@@ -255,7 +255,7 @@ First Level Spells (Cost 1 Vigour):
 	Mindslash(C/En)
 	Mute 10s(C/En)
 	Protection Charm 5 minute (Tr)
-	Protection Daze 5 minute (Tr)
+	Protection Daze 5 minute (Tr) - protection-daze
 	Protection Fumble 5 minute (Tr)
 	Protection Mindslash 5 minute (Tr)
 	Protection Mute 5 minute (Tr)
@@ -287,9 +287,9 @@ Second Level Spells (Cost 2 Vigour):
 Third Level Spells (Cost 3 Vigour):
 	Charm 30s(C/En)
 	Cure Protection(Ev)
-	Daze 30s (C/Ev)
+	Daze 30s (C/Ev) - daze30
 	Disease(C/En)
-	Fear 10s (C/En)
+	Fear 10s (C/En) - fear
 	Full Healing (Location)(En)
 	Halt 10s(C/Ev)
 	Lure 10s Gwyllt(C/En)
@@ -316,7 +316,7 @@ Fourth Level Spells (Cost 4 Vigour):
 	Mass Cure Charm (Tr)
 	Mass Cure Daze (Tr)
 	Mass Cure Mute (Tr)
-	Mass Cure Fear (Tr)
+	Mass Cure Fear (Tr) - mass-cure-fear
 	Mass Cure Sleep (Tr)
 	Mass Daze 10s (C/Ev)
 	Mass Fumble (C/Tr)
@@ -334,7 +334,7 @@ Fourth Level Spells (Cost 4 Vigour):
 	Ward 3 (Ev)
 
 Fifth Level Spells (Cost 5 Vigour):
-	Fear 30s(C/En)
+	Fear 30s(C/En) - fear30
 	Full Global Healing (En)
 	Halt 30s (C/Ev)
 	Mass Cure Halt (Tr)
