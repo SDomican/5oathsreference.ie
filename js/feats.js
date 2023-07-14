@@ -8,7 +8,8 @@ function apendText(featPath){
 
   var featsArray = featPath.feats;
   var pathName = featPath.pathName;
-  console.log(pathName);
+  var featPathColour = featPath.featPathColour;
+  console.log(featPathColour);
 
   var featCode = "<div class=\"section-container\">" + 
   "<div class=\"section-title\">" +
@@ -24,23 +25,24 @@ function apendText(featPath){
 
         var featName = feat.featName;
         var featRequirements = feat.prequisites;
-
-        console.log(featRequirements);
+        var art = feat.art;
 
         featCode +=
         "<div class=\"item itemsize\">" +
-          "<div class=\"item-icon iconsize icon-run\" style=\"background-color: brown;\" onclick=\"showHide()\" ></div>" +
+          "<div class=\"item-icon iconsize icon-run\" name=\"item-icon\" id = \"" + featName + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');  \"></div>" +
           "<div class=\"item-text-container text\">" +
             "<div class=\"item-title\">" + featName + "</div>" +
             "<div class=\"item-desc\">Prerequisites: " + featRequirements + "</div>" +
         "</div>" +
     "</div>";
+
       });
 
     featCode +=   
   "</div>" +
   "</div>" +
 "</div>";
+
 
 document.getElementById("featsContainer").innerHTML += featCode;
 
@@ -54,3 +56,13 @@ document.getElementById("featsContainer").innerHTML += featCode;
 // }
 
 addSectionContainer("addSectionContainer");
+
+var itemIconElements = document.getElementsByClassName("item-icon"); 
+
+for(let element of itemIconElements){
+  element.addEventListener("click", e => event.stopPropagation(), true);
+  element.addEventListener("click", e => showHide(), true);
+}
+
+document.addEventListener("click", e => hidePopup(), true)
+  
