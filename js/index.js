@@ -2,13 +2,8 @@ var popupVisible = false;
 
 function showHide() {
 
-  console.log("showHide");
-
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
-   
-    console.log("popupBefore: " + popupVisible);
-    console.log("DarkenBefore: " + bodyElement.classList);
 
     if(bodyElement.classList.contains("darken") || popupVisible){
       bodyElement.classList.remove("darken");
@@ -20,35 +15,27 @@ function showHide() {
     if (x.style.display === "none") {
       x.style.display = "block";
       popupVisible = true;
+
+      // console.log(featName);
+      // populatePopup(featName);
     }
     else {
       x.style.display = "none";
       popupVisible = false;
     }
-
-    console.log("popupAfter: " + popupVisible);
-    console.log("DarkenAfter: " + bodyElement.classList);
-    console.log("<------------------------------>");
   }
 
   function hidePopup(){
-
-    console.log("hidePopup -  popupVisible: " + popupVisible);
-
-    if(popupVisible){
-      
-      console.log("Running showHide from popVisible");
-      showHide();
-    }
-
-    // var popup = document.getElementById("popupId");
-    // var bodyElement = document.getElementById("body");
-
-    // if(popup.style.display = "block"){
-    //   bodyElement.classList.remove("darken");
-    // }
-
+    if(popupVisible){ showHide();}
   }
 
+  function populatePopup(featName){
+
+    console.log(featName);
+
+    var popupTextElement = document.getElementById("popupTitle");
+    popupTextElement.innerHTML += "featTitleGoesHere";
+
+  }
 
 

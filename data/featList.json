@@ -3,6 +3,7 @@
     "featPath": [
         {
             "pathName" : "Way of Leather and Steel",
+            "featPathColour" : "brown",
             "feats":[
                 {
                     "featName" : "Armour Bearer",
@@ -61,6 +62,7 @@
         },
         {
             "pathName" : "Way of Martial Prowess",
+            "featPathColour" : "green",
             "feats":[
                 {
                     "featName" : "Armour Bearer",
