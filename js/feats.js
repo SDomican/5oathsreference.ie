@@ -1,5 +1,7 @@
 import featJson from '../data/featList.json' assert { type: 'json' };
 
+let bodyElement = document.getElementById("body");
+
 function addSectionContainer(idToAmend){
   featJson.featPath.forEach((feat) => apendText(feat));
 }
@@ -8,7 +10,6 @@ function apendText(featPath){
 
   var featsArray = featPath.feats;
   var pathName = featPath.pathName;
-  console.log(pathName);
 
   var featCode = "<div class=\"section-container\">" + 
   "<div class=\"section-title\">" +
@@ -25,11 +26,9 @@ function apendText(featPath){
         var featName = feat.featName;
         var featRequirements = feat.prequisites;
 
-        console.log(featRequirements);
-
         featCode +=
         "<div class=\"item itemsize\">" +
-          "<div class=\"item-icon iconsize icon-run\" style=\"background-color: brown;\" onclick=\"showHide()\" ></div>" +
+          "<div class=\"item-icon iconsize icon-run\" name=\"item-icon\" style=\"background-color: brown;\"></div>" +
           "<div class=\"item-text-container text\">" +
             "<div class=\"item-title\">" + featName + "</div>" +
             "<div class=\"item-desc\">Prerequisites: " + featRequirements + "</div>" +
@@ -54,3 +53,13 @@ document.getElementById("featsContainer").innerHTML += featCode;
 // }
 
 addSectionContainer("addSectionContainer");
+
+var itemIconElements = document.getElementsByClassName("item-icon"); 
+
+for(let element of itemIconElements){
+  element.addEventListener("click", e => event.stopPropagation(), true);
+  element.addEventListener("click", e => showHide(), true);
+}
+
+bodyElement.addEventListener("click", e => hidePopup(), true);
+  
