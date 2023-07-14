@@ -241,31 +241,31 @@ First Level Spells (Cost 1 Vigour):
 	Cure Charm(Ev) - broken-heart
 	Cure Daze(Ev) - cure-daze
 	Cure Fear(Ev) - cure-fear
-	Cure Mute(Ev)
-	Cure Sleep(Ev)
+	Cure Mute(Ev) - cure-mute
+	Cure Sleep(Ev) - cure-sleep
 	Daze 10s(C/Ev) - daze
-	Detect Beast(Ev)
-	Detect Bleeding (Ev)
-	Detect Gwyllt (Ev)
-	Detect Mortal (Ev)
-	Detect Undead (Ev)
-	Fumble(C/Tr) - drop-weapon
-	Global Stop Bleed (Tr)
-	Healing 1(Location)(En)
-	Mindslash(C/En)
-	Mute 10s(C/En)
-	Protection Charm 5 minute (Tr)
+	Detect Beast(Ev) - beast-eye
+	Detect Bleeding (Ev) - bleeding-eye
+	Detect Gwyllt (Ev) - monster-grasp
+	Detect Mortal (Ev) - person
+	Detect Undead (Ev) - shambling-zombie
+	Fumble(C/Tr) - drop-weapon 
+	Global Stop Bleed (Tr) - hand-bandage
+	Healing 1(Location)(En) - hospital-cross
+	Mindslash(C/En) - brain-tentacle
+	Mute 10s(C/En) - mute
+	Protection Charm 5 minute (Tr) - protection-charm
 	Protection Daze 5 minute (Tr) - protection-daze
-	Protection Fumble 5 minute (Tr)
-	Protection Mindslash 5 minute (Tr)
-	Protection Mute 5 minute (Tr)
-	Protection Push 5 minute(Tr)
-	Single Damage(location)(C/Ev)
+	Protection Fumble 5 minute (Tr) - protection-fumble
+	Protection Mindslash 5 minute (Tr) - protection-mindslash
+	Protection Mute 5 minute (Tr) - protection-mute
+	Protection Push 5 minute(Tr) - protection-push
+	Single Damage(location)(C/Ev) - punch-blast
 	
 Second Level Spells (Cost 2 Vigour):
-	Charm 30s Beast (C/En)
-	Charm 30s Mortal(C/En)
-	Cure Disease (Ev)
+	Charm 30s Beast (C/En) - charm-beast
+	Charm 30s Mortal(C/En) - charm-mortal
+	Cure Disease (Ev) - cure-disease
 	Cure Halt(Ev)
 	Cure Lure(Ev)
 	Cure Rampage(Ev)
@@ -275,26 +275,26 @@ Second Level Spells (Cost 2 Vigour):
 	Global Healing 1(En)
 	Halt 10s Gwyllt(C/Ev)
 	Halt 10s Undead(C/Ev)
-	Protection Healing 5 minute(C/Tr)
+	Protection Healing 5 minute(C/Tr) - protection-healing
 	Protection Protection 5 minute (Tr)
 	Protection Strikedown 5 minute (Tr)
 	Rampage 10s Beast (C/En)
 	Rampage 10s Mortal(C/En)
-	Sleep Beast 10s (C/En)
-	Sleep Mortal 10s (C/En)
+	Sleep Beast 10s (C/En) - sleep-beast
+	Sleep Mortal 10s (C/En) - sleep-mortal
 	Ward 1 (Ev)
 
 Third Level Spells (Cost 3 Vigour):
-	Charm 30s(C/En)
+	Charm 30s(C/En) - charm30
 	Cure Protection(Ev)
 	Daze 30s (C/Ev) - daze30
-	Disease(C/En)
+	Disease(C/En) - disease
 	Fear 10s (C/En) - fear
-	Full Healing (Location)(En)
+	Full Healing (Location)(En) - heart-plus
 	Halt 10s(C/Ev)
 	Lure 10s Gwyllt(C/En)
 	Lure 10s Undead(C/En)
-	Mute 30s(C/En)
+	Mute 30s(C/En) - mute30
 	Protection Disease 5 minute (Tr)
 	Protection Fear 5 minute (Tr)
 	Protection Halt 5 min(Tr)
@@ -303,7 +303,7 @@ Third Level Spells (Cost 3 Vigour):
 	Protection Stop Bleed 5 minute(C/Tr)
 	Protection Through 5 minute (Tr)
 	Protection Venom 5 minute (Tr)
-	Sleep 10s (C/En)
+	Sleep 10s (C/En) - sleep
 	Rampage 10s(C/En)
 	Ward 2 (Ev)
 
@@ -312,16 +312,16 @@ Fourth Level Spells (Cost 4 Vigour):
 	Halt 30s Undead(C/Ev)
 	Identify (Tr)
 	Lure (C/En)
-	Mass Charm 10s (C/En)
-	Mass Cure Charm (Tr)
+	Mass Charm 10s (C/En) - mass-charm
+	Mass Cure Charm (Tr) - mass-cure-charm
 	Mass Cure Daze (Tr)
-	Mass Cure Mute (Tr)
+	Mass Cure Mute (Tr) - mass-cure-mute
 	Mass Cure Fear (Tr) - mass-cure-fear
 	Mass Cure Sleep (Tr)
 	Mass Daze 10s (C/Ev)
 	Mass Fumble (C/Tr)
-	Mass Mute 10s (C/En)
-	Mass Protection Charm 5 minute (Tr)
+	Mass Mute 10s (C/En) - mass-mute
+	Mass Protection Charm 5 minute (Tr) - mass-protection-charm
 	Mass Protection Daze 5 minute (Tr)
 	Mass Protection Fumble 5 minute (Tr)
 	Mass Protection Mindslash 5 minute (Tr)
@@ -335,7 +335,7 @@ Fourth Level Spells (Cost 4 Vigour):
 
 Fifth Level Spells (Cost 5 Vigour):
 	Fear 30s(C/En) - fear30
-	Full Global Healing (En)
+	Full Global Healing (En) - health-increase
 	Halt 30s (C/Ev)
 	Mass Cure Halt (Tr)
 	Mass Cure Lure (Tr)
@@ -348,7 +348,7 @@ Fifth Level Spells (Cost 5 Vigour):
 	Mass Protection Protection 5 minute (Tr)
 	Mass Protection Strikedown 5 minute (Tr)
 	Rampage 30s (C/En)
-	Sleep 30s (C/En)
+	Sleep 30s (C/En) - sleep30
 
 <----------------------------------------------------------->
 
@@ -478,8 +478,8 @@ Conditions:
 	Unresisting
 	
 Physical Effects:
-	Fumble
-	Push
+	Fumble - drop-weapon
+	Push - push
 	Strikedown
 	Halt
 	
