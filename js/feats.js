@@ -9,7 +9,6 @@ function apendText(featPath){
   var featsArray = featPath.feats;
   var pathName = featPath.pathName;
   var featPathColour = featPath.featPathColour;
-  console.log(featPathColour);
 
   var featCode = "<div class=\"section-container\">" + 
   "<div class=\"section-title\">" +
@@ -43,10 +42,23 @@ function apendText(featPath){
   "</div>" +
 "</div>";
 
-
 document.getElementById("featsContainer").innerHTML += featCode;
 
 }
+
+function populateFeatPopup(featName){
+  console.log("populateFeat");
+  // var matchingResult = featJson['featPath'].filter(function(x){ return x.featName == featName; });
+  // var matchingResult = featJson;
+
+  
+  // console.log("Match: " + matchingResult);
+
+  // var popupTextElement = document.getElementById("popupTitle");
+  // popupTextElement.innerHTML = featName;
+
+}
+
 
 // function fetch(){
 //   // console.log(featJson);
@@ -60,8 +72,9 @@ addSectionContainer("addSectionContainer");
 var itemIconElements = document.getElementsByClassName("item-icon"); 
 
 for(let element of itemIconElements){
+
   element.addEventListener("click", e => event.stopPropagation(), true);
-  element.addEventListener("click", e => showHide(), true);
+  element.addEventListener("click", e => showHide(element.id), true);
 }
 
 document.addEventListener("click", e => hidePopup(), true)

@@ -1,6 +1,6 @@
 var popupVisible = false;
 
-function showHide() {
+function showHide(elementId) {
 
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
@@ -12,30 +12,33 @@ function showHide() {
       bodyElement.classList.add("darken");
     }
 
-    if (x.style.display === "none") {
+    if (x.style.display === "none" && elementId != undefined) {
       x.style.display = "block";
       popupVisible = true;
-
-      // console.log(featName);
-      // populatePopup(featName);
+      populateFeatPopup(elementId);
     }
     else {
       x.style.display = "none";
       popupVisible = false;
     }
-  }
+}
 
   function hidePopup(){
     if(popupVisible){ showHide();}
   }
 
-  function populatePopup(featName){
 
-    console.log(featName);
+function populateFeatPopup(featName){
 
-    var popupTextElement = document.getElementById("popupTitle");
-    popupTextElement.innerHTML += "featTitleGoesHere";
+  // var matchingResult = featJson['featPath'].filter(function(x){ return x.featName == featName; });
+  // var matchingResult = featJson;
 
-  }
+  
+  // console.log("Match: " + matchingResult);
+
+  var popupTextElement = document.getElementById("popupTitle");
+  popupTextElement.innerHTML = featName;
+
+}
 
 

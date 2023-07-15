@@ -2,7 +2,7 @@
 
     "featPath": [
         {
-            "pathName" : "Way of Leather and Steel",
+            "pathName" : "Way of leather and steel",
             "featPathColour" : "brown",
             "feats":[
                 {
@@ -61,20 +61,20 @@
             ]
         },
         {
-            "pathName" : "Way of Martial Prowess",
+            "pathName" : "Way of martial prowess",
             "featPathColour" : "green",
             "feats":[
                 {
                     "featName" : "Armour Bearer",
                     "prequisites" : "Nothing",
-                    "art" : "pincers",
+                    "art" : "acrobatic",
                     "description" : "You may repair Heavy Armour and Light Armour",
                     "keywords" : ["Leather and Steel"]
                 },
                 {
                     "featName" : "Armour Mastery",
                     "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
+                    "art" : "acrobatic",
                     "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
                     "keywords" : ["Leather and Steel"]
                 }
