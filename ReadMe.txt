@@ -115,8 +115,8 @@ The Way of Martial Prowess:
 	Room to Breath (Repelling Blow Feat) - expander
 	Second Wind (3 Martial Prowess Feats) - pummeled
 	Shattering Strike (2 Martial Prowess Feats) - shattered-sword
-	Tripping Blow (Nothing) - falling
-	Warrior’s Heart	(2 Martial Prowess Feats)
+	Tripping Blow (Nothing) - tripwire
+	Warrior’s Heart	(2 Martial Prowess Feats) - love-howl
 	
 The Way of Power:
 	Spellcraft (First Level Casting) - spell-book
@@ -266,88 +266,88 @@ Second Level Spells (Cost 2 Vigour):
 	Charm 30s Beast (C/En) - charm-beast
 	Charm 30s Mortal(C/En) - charm-mortal
 	Cure Disease (Ev) - cure-disease
-	Cure Halt(Ev)
-	Cure Lure(Ev)
-	Cure Rampage(Ev)
-	Cure Venom(Ev)
-	Fear Beast 10s (C/En)
-	Fear Undead 10s (C/En)
-	Global Healing 1(En)
-	Halt 10s Gwyllt(C/Ev)
-	Halt 10s Undead(C/Ev)
+	Cure Halt(Ev) - cure-halt
+	Cure Lure(Ev) - cure-lure
+	Cure Rampage(Ev) - cure-rampage
+	Cure Venom(Ev) - cure-venom
+	Fear Beast 10s (C/En) - fear-beast
+	Fear Undead 10s (C/En) - fear-undead
+	Global Healing 1(En) - healing-shield
+	Halt 10s Gwyllt(C/Ev) - halt-gwyllt
+	Halt 10s Undead(C/Ev) - halt-undead
 	Protection Healing 5 minute(C/Tr) - protection-healing
-	Protection Protection 5 minute (Tr)
-	Protection Strikedown 5 minute (Tr)
-	Rampage 10s Beast (C/En)
-	Rampage 10s Mortal(C/En)
+	Protection Protection 5 minute (Tr) - protection-protection
+	Protection Strikedown 5 minute (Tr) - protection-strikedown
+	Rampage 10s Beast (C/En) - rampage-beast
+	Rampage 10s Mortal(C/En) - rampage-mortal
 	Sleep Beast 10s (C/En) - sleep-beast
 	Sleep Mortal 10s (C/En) - sleep-mortal
-	Ward 1 (Ev)
+	Ward 1 (Ev) - ward1
 
 Third Level Spells (Cost 3 Vigour):
 	Charm 30s(C/En) - charm30
-	Cure Protection(Ev)
+	Cure Protection(Ev) - cure-protection
 	Daze 30s (C/Ev) - daze30
 	Disease(C/En) - disease
 	Fear 10s (C/En) - fear
 	Full Healing (Location)(En) - heart-plus
-	Halt 10s(C/Ev)
-	Lure 10s Gwyllt(C/En)
-	Lure 10s Undead(C/En)
+	Halt 10s(C/Ev) - halt
+	Lure 10s Gwyllt(C/En) - lure-gwyllt
+	Lure 10s Undead(C/En) - lure-undead
 	Mute 30s(C/En) - mute30
-	Protection Disease 5 minute (Tr)
-	Protection Fear 5 minute (Tr)
-	Protection Halt 5 min(Tr)
-	Protection Rampage 5 min (Tr)
-	Protection Sleep 5 minute (Tr)
+	Protection Disease 5 minute (Tr) - protection-disease
+	Protection Fear 5 minute (Tr) - protection-fear
+	Protection Halt 5 min(Tr) - protection-halt
+	Protection Rampage 5 min (Tr) - protection-rampage
+	Protection Sleep 5 minute (Tr) - protection-sleep
 	Protection Stop Bleed 5 minute(C/Tr)
 	Protection Through 5 minute (Tr)
-	Protection Venom 5 minute (Tr)
+	Protection Venom 5 minute (Tr) - protection-venom
 	Sleep 10s (C/En) - sleep
-	Rampage 10s(C/En)
-	Ward 2 (Ev)
+	Rampage 10s(C/En) - rampage
+	Ward 2 (Ev) - ward2
 
 Fourth Level Spells (Cost 4 Vigour):
-	Halt 30s Gwyllt(C/Ev)
-	Halt 30s Undead(C/Ev)
-	Identify (Tr)
-	Lure (C/En)
+	Halt 30s Gwyllt(C/Ev) - halt30-gwyllt
+	Halt 30s Undead(C/Ev) - halt30-undead
+	Identify (Tr) - magnifying-glass
+	Lure (C/En) - lure
 	Mass Charm 10s (C/En) - mass-charm
 	Mass Cure Charm (Tr) - mass-cure-charm
-	Mass Cure Daze (Tr)
+	Mass Cure Daze (Tr) - mass-cure-daze
 	Mass Cure Mute (Tr) - mass-cure-mute
 	Mass Cure Fear (Tr) - mass-cure-fear
-	Mass Cure Sleep (Tr)
-	Mass Daze 10s (C/Ev)
-	Mass Fumble (C/Tr)
+	Mass Cure Sleep (Tr) - mass-cure-sleep
+	Mass Daze 10s (C/Ev) - mass-daze
+	Mass Fumble (C/Tr) - mass-fumble
 	Mass Mute 10s (C/En) - mass-mute
 	Mass Protection Charm 5 minute (Tr) - mass-protection-charm
-	Mass Protection Daze 5 minute (Tr)
-	Mass Protection Fumble 5 minute (Tr)
-	Mass Protection Mindslash 5 minute (Tr)
-	Mass Protection Mute 5 minute (Tr)
-	Protection Execute 5 minute (Tr)
-	Protection Lure 5 min (Tr)
-	Protection Shatter 5 minute (Tr)
-	Rampage 30s Beast (C/En)
-	Rampage 30s Mortal(C/En)
-	Ward 3 (Ev)
+	Mass Protection Daze 5 minute (Tr) - mass-protection-daze
+	Mass Protection Fumble 5 minute (Tr) - mass-protection-fumble
+	Mass Protection Mindslash 5 minute (Tr) - mass-protection-mindslash
+	Mass Protection Mute 5 minute (Tr) - mass-protection-mute
+	Protection Execute 5 minute (Tr) - protection-execute
+	Protection Lure 5 min (Tr) - protection-lure
+	Protection Shatter 5 minute (Tr) - protection-shatter
+	Rampage 30s Beast (C/En) - rampage30-beast
+	Rampage 30s Mortal(C/En) - rampage30-mortal
+	Ward 3 (Ev) - ward3
 
 Fifth Level Spells (Cost 5 Vigour):
 	Fear 30s(C/En) - fear30
 	Full Global Healing (En) - health-increase
-	Halt 30s (C/Ev)
-	Mass Cure Halt (Tr)
-	Mass Cure Lure (Tr)
-	Mass Cure Rampage (Tr)
-	Mass Fear Beast 10s (C/En)
-	Mass Fear Undead 10s (C/En)
+	Halt 30s (C/Ev) - halt30
+	Mass Cure Halt (Tr) - mass-cure-halt
+	Mass Cure Lure (Tr) - mass-cure-lure
+	Mass Cure Rampage (Tr) - mass-cure-rampage
+	Mass Fear Beast 10s (C/En) - mass-fear-beast
+	Mass Fear Undead 10s (C/En) - mass-fear-undead
 	Mass Halt Gwyllt 10s (C/Ev)
-	Mass Halt Undead 10s (C/Ev)
+	Mass Halt Undead 10s (C/Ev) - mass-halt-unliving
 	Mass Protection Healing 5 minute(C/Tr)
 	Mass Protection Protection 5 minute (Tr)
-	Mass Protection Strikedown 5 minute (Tr)
-	Rampage 30s (C/En)
+	Mass Protection Strikedown 5 minute (Tr) - mass-protection-strikedown
+	Rampage 30s (C/En) - rampage30
 	Sleep 30s (C/En) - sleep30
 
 <----------------------------------------------------------->
@@ -469,7 +469,7 @@ Default effects:
 	Weapon blow
 	Zero Damage
 	Concentration
-	Execute
+	Execute - executioner-hood
 	Notice Bleeding
 	General Repair
 
@@ -480,14 +480,14 @@ Conditions:
 Physical Effects:
 	Fumble - drop-weapon
 	Push - push
-	Strikedown
-	Halt
+	Strikedown - strikedown
+	Halt - halt
 	
 Mental Effects:
 	Fear
-	Rampage
-	Sleep
-	Daze
+	Rampage - rampage
+	Sleep - sleep
+	Daze - daze
 	Charm
 		
 Other Effects:
@@ -501,15 +501,15 @@ Other Effects:
 	Healing
 	Identify
 	Lure
-	Mindslash
+	Mindslash - brain-tentacle
 	Mute
 	Protection
 	Rend
 	Repair
-	Shatter
+	Shatter - shatter
 	Stop Bleed
 	Through
-	Venom
+	Venom - venom
 	Ward
 
 Event Team Effects:
