@@ -59,7 +59,7 @@
 }
 
 .popup-text-container{
-    background-color: aquamarine;
+    background-color: white;
 }
 
 .section-title {
@@ -121,20 +121,11 @@
 }
 
 .popupImageArt {
-    /* background-image: url("./img/run.png"); */
     background-repeat: no-repeat; 
     width: 7vh;
     height: 0;
     padding-top: 7vh;
     background-size: contain;
-}
-
-.icon-test{
-    background-image: url("./img/test-tube-held.png");  
-}
-
-.icon-test2{
-  background-image: url("./img/RacialAbilities/unshakable_camaraderie.png");  
 }
 
 #section-movement .item-icon {

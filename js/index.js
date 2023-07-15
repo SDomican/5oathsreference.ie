@@ -29,7 +29,6 @@ function showHide(elementId) {
 
 
 function populateFeatPopup(elementId){
-  console.log("populateFeatPopup");
 
   let element = document.getElementById(elementId);
 
