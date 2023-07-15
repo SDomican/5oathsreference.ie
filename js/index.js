@@ -28,17 +28,20 @@ function showHide(elementId) {
   }
 
 
-function populateFeatPopup(featName){
+function populateFeatPopup(elementId){
 
-  // var matchingResult = featJson['featPath'].filter(function(x){ return x.featName == featName; });
-  // var matchingResult = featJson;
+  var element = document.getElementById(elementId);
+  console.log("Element: " + element);
+  console.log("ElementId: " + element.id);
+  console.log("ElementAtt: " + element.getAttributeNames());
 
-  
-  // console.log("Match: " + matchingResult);
+  var popupDescription = element.getAttribute("data-description");
 
   var popupTextElement = document.getElementById("popupTitle");
-  popupTextElement.innerHTML = featName;
-
+  popupTextElement.innerHTML = elementId;
+  
+  var popupDescriptionElement = document.getElementById("popupDescription");
+  popupDescriptionElement.innerHTML = popupDescription;
 }
 
 
