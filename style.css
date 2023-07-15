@@ -120,12 +120,13 @@
     margin-right: 4px;
 }
 
-.icon-run {
+.popupImageArt {
     /* background-image: url("./img/run.png"); */
-    /* background-image: url("./img/Feats/Way of Leather and Steel/pincers.png"); */
-
-    /* background-image: url("./img/Feats/Way of Leather and Steel/pincers.png");  */
-
+    background-repeat: no-repeat; 
+    width: 7vh;
+    height: 0;
+    padding-top: 7vh;
+    background-size: contain;
 }
 
 .icon-test{

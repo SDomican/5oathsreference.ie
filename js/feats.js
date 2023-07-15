@@ -29,7 +29,7 @@ function apendText(featPath){
 
         featCode +=
         "<div class=\"item itemsize\">" +
-          "<div class=\"item-icon iconsize icon-run\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
+          "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
           "<div class=\"item-text-container text\">" +
             "<div class=\"item-title\">" + featName + "</div>" +
             "<div class=\"item-desc\">Prerequisites: " + featRequirements + "</div>" +

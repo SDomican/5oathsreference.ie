@@ -29,18 +29,20 @@ function showHide(elementId) {
 
 
 function populateFeatPopup(elementId){
+  console.log("populateFeatPopup");
 
-  var element = document.getElementById(elementId);
-  console.log("Element: " + element);
-  console.log("ElementId: " + element.id);
-  console.log("ElementAtt: " + element.getAttributeNames());
+  let element = document.getElementById(elementId);
 
-  var popupDescription = element.getAttribute("data-description");
+  let popupArt = element.style.backgroundImage;
+  let popupArtElement = document.getElementById("popupArt");
+  popupArtElement.style.backgroundImage = popupArt;
 
-  var popupTextElement = document.getElementById("popupTitle");
+  let popupDescription = element.getAttribute("data-description");
+
+  let popupTextElement = document.getElementById("popupTitle");
   popupTextElement.innerHTML = elementId;
   
-  var popupDescriptionElement = document.getElementById("popupDescription");
+  let popupDescriptionElement = document.getElementById("popupDescription");
   popupDescriptionElement.innerHTML = popupDescription;
 }
 
