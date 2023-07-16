@@ -20,43 +20,90 @@
                     "keywords" : ["Leather and Steel"]
                 },
                 {
-                    "featName" : "TEST",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
+                    "featName" : "Complete Set",
+                    "prequisites" : "Light Armour OR Heavy Armour",
+                    "art" : "battle-gear",
+                    "description" : "Your character is committed to being fully armoured and gains benefit from this inconvenience. If 5 locations (out of the 6 locations: Head, Torso, Left Leg and Arm, Right Leg and Arm) are more than 50% covered by light or heavy armour the character gains a further +1 to their maximum Armour hits.",
+                    "keywords" : ["Leather and Steel"]
+                },
+                {
+                    "featName" : "Easily Maintained",
+                    "prequisites" : "Heavy Armour",
+                    "art" : "anvil-impact",
+                    "description" : "You keep your armour in good shape, making it easy to repair. When subject to the Repair Effect on any location, gain the benefit of an additional Repair Effect to the same location.",
                     "keywords" : ["Leather and Steel"]
                 }
                 ,
                 {
-                    "featName" : "TEST",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
-                    "keywords" : ["Leather and Steel"]
+                    "featName" : "Hardened",
+                    "prequisites" : "Heavy Armour",
+                    "art" : "spiked-armor",
+                    "description" : "Your hardened outlook extends to your possessions, and your enemies find it difficult to break you or the items you carry. You may reactively spend 1 Vigour to gain Immunity Shatter for 10s.",
+                    "keywords" : ["Leather and Steel, Resistance"]
                 }
                 ,
                 {
-                    "featName" : "TEST2",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
+                    "featName" : "Heavy Armour",
+                    "prequisites" : "Nothing",
+                    "art" : "breastplate",
+                    "description" : "You gain the ability to wear heavy armour. Heavy armour must be phys repped with a sturdy armour phys rep such as plated or rigid leather, chainmail, plate mail, or a convincing metal phys rep. This Feat gives +2 Armour hits per location while wearing heavy armour. This Feat gives the ability to repair heavy armour.",
                     "keywords" : ["Leather and Steel"]
-                }
-                ,
+                },
                 {
-                    "featName" : "TEST3",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
+                    "featName" : "Light Armour",
+                    "prequisites" : "Nothing",
+                    "art" : "leather-armor",
+                    "description" : "You gain the ability to wear light armour. Light armour must be phys repped by light flexible leather or more rigid leather, heavily padded fabric, skinned furs, lighter material with some reinforced pads, and so on. This Feat gives +1 Armour hit per location while wearing light armour. This Feat gives the ability to repair light armour.",
                     "keywords" : ["Leather and Steel"]
-                }
-                ,
+                },
                 {
-                    "featName" : "TEST4",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
+                    "featName" : "Mender’s Focus",
+                    "prequisites" : "Nothing",
+                    "art" : "look-at",
+                    "description" : "You are used to keeping your focus during long sessions smithing and mending armour. You may reactively spend 1 Vigour to gain Immunity Mindslash 10s.",
+                    "keywords" : ["Leather and Steel, Resistance"]
+                },
+                {
+                    "featName" : "Quickened Searching",
+                    "prequisites" : "Light Armour",
+                    "art" : "robber-hand",
+                    "description" : "Your familiarity with wearing armour means you know where others are likely to keep things about their person. You may search with only 10s of roleplay action following all other searching rules, and should call “Quickened Searching” while doing so.",
                     "keywords" : ["Leather and Steel"]
+                },
+                {
+                    "featName" : "Reinforced",
+                    "prequisites" : "Heavy Armour",
+                    "art" : "helmet-head-shot",
+                    "description" : "You have reinforced the armour you wear to make it even sturdier. When wearing heavy armour gain an additional +1 Armour hit per location.",
+                    "keywords" : ["Leather and Steel"]
+                },
+                {
+                    "featName" : "Squire",
+                    "prequisites" : "1 Leather and Steel Feat OR Deft Hands Feat",
+                    "art" : "mounted-knight",
+                    "description" : "You are skilled at maintaining armour, weapons and other items. You can manually perform the Repair Effect with 30s of roleplayed action and Concentration, instead of 1 minute of the same.",
+                    "keywords" : ["Leather and Steel"]
+                },
+                {
+                    "featName" : "Unexposed",
+                    "prequisites" : "Light Armour",
+                    "art" : "elbow-pad",
+                    "description" : "What little armour you wear covers all the sensitive areas. You may reactively spend 1 Vigour to gain Immunity Through 10s.",
+                    "keywords" : ["Leather and Steel, Resistance"]
+                },
+                {
+                    "featName" : "Well Balanced ",
+                    "prequisites" : "Light Armour",
+                    "art" : "body-balance",
+                    "description" : "You may reactively spend 1 Vigour to gain Immunity Strikedown 10s",
+                    "keywords" : ["Leather and Steel, Resistance"]
+                },
+                {
+                    "featName" : "Well Oiled",
+                    "prequisites" : "Light Armour",
+                    "art" : "oil-can",
+                    "description" : "You may reactively spend 1 Vigour to gain Immunity Halt 10s.",
+                    "keywords" : ["Leather and Steel, Resistance"]
                 }
             ]
         },
@@ -65,18 +112,372 @@
             "featPathColour" : "green",
             "feats":[
                 {
-                    "featName" : "Armour Bearer",
-                    "prequisites" : "Nothing",
-                    "art" : "acrobatic",
-                    "description" : "You may repair Heavy Armour and Light Armour",
-                    "keywords" : ["Leather and Steel"]
+                    "featName" : "Adrenaline Surge",
+                    "prequisites" : "1 Martial Prowess Feat",
+                    "art" : "enrage",
+                    "description" : "When you are subject to either the Fear or Rampage effects (and are not Immune to or Protected from them) you additionally gain a Global Heal 1 effect.",
+                    "keywords" : ["Combat, Martial Prowess"]
                 },
                 {
-                    "featName" : "Armour Mastery",
-                    "prequisites" : "3 Leather and Steel Feats",
-                    "art" : "acrobatic",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
-                    "keywords" : ["Leather and Steel"]
+                    "featName" : "Blade of the Shaper",
+                    "prequisites" : "3 Martial Prowess Feats",
+                    "art" : "winged-sword",
+                    "description" : "For 2 Vigour you may generate Gwyllt Bane by weapon blow",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Boot Camp",
+                    "prequisites" : "1 Martial Prowess Feat",
+                    "art" : "jumping-rope",
+                    "description" : "You gain 1 Body hit per location.",
+                    "keywords" : ["Martial Prowess"]
+                },
+                {
+                    "featName" : "Constant Vigil",
+                    "prequisites" : "Nothing",
+                    "art" : "awareness",
+                    "description" : "Reactively spend 1 Vigour, gain Immunity Sleep 10s.",
+                    "keywords" : ["Martial Prowess, Resistance"]
+                },
+                {
+                    "featName" : "Last Stand",
+                    "prequisites" : "3 Martial Prowess Feats",
+                    "art" : "surrounded-shield",
+                    "description" : "Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul><li>Your torso immediately goes to -1 Body hits, if it wasn’t already</li><li>Your deathcount is reduced to 1 minute remaining (if it was greater than this)</li><li>For the next minute, you may use all your locations as if they were on 1 or more Body hits</li><li>You may not generate the Healing, Repair, or Stop Bleed Effects by any means (including by using potions or other items) or cast Spells</li><li>Leaving your death count will end this Effect immediately.</li></ul>",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Heroic Loyalty",
+                    "prequisites" : "Nothing",
+                    "art" : "heart-tower",
+                    "description" : "You may reflexively spend 1 Vigour to gain Immunity Rampage 10s.",
+                    "keywords" : ["Combat, Resistance, Martial Prowess"]
+                },
+                {
+                    "featName" : "Hold the Line",
+                    "prequisites" : "3 Martial Prowess Feats",
+                    "art" : "crenulated-shield",
+                    "description" : "Spend 1 Vigour reactively to gain Immunity Lure 10s.",
+                    "keywords" : ["Martial Prowess, Resistance"]
+                },
+                {
+                    "featName" : "Lay to Rest",
+                    "prequisites" : "3 Martial Prowess Feats",
+                    "art" : "pirate-grave",
+                    "description" : "For 2 Vigour, you may generate the Undead Bane Effect by weapon blow.",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Mighty Blows",
+                    "prequisites" : "Tripping Blow Feat",
+                    "art" : "wave-strike",
+                    "description" : "When you activate the Tripping Blow Feat with a medium or large weapon, you may additionally generate the Strikedown Effect on your next successful strike within 10 seconds. This is in addition to the Damage Effect of a weapon blow",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Punishing Blows",
+                    "prequisites" : "Shattering Strike Feat",
+                    "art" : "stick-splitting",
+                    "description" : "When you activate the Shattering Strike Feat with either a large weapon or a ranged weapon you may additionally generate the Shatter Effect on your next successful strike within 10s. If this Effect is delivered by ranged weapon it will only work on a shield (for safety reasons).",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Repelling Blow",
+                    "prequisites" : "Nothing",
+                    "art" : "vertical-flip",
+                    "description" : "For 1 Vigour, you may generate the Push Effect by weapon blow. This is in addition to the Damage Effect of the weapon blow.",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Room to Breath",
+                    "prequisites" : "Repelling Blow Feat",
+                    "art" : "expander",
+                    "description" : "When you activate the Repelling Blow Feat with a medium or large weapon, you may additionally generate the Push Effect on your next successful strike within 10s. This is in addition to the Damage Effect of a weapon blow.",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Second Wind",
+                    "prequisites" : "3 Martial Prowess Feats",
+                    "art" : "pummeled",
+                    "description" : "You are adept at getting back in the fight even after having the wind knocked out of you, improving your Recovery. When subject to the Recovery mechanic and taking the Healing 1 Effect to any locations that were on 0 Body hits, take the Healing 1 Effect a second time to those locations.",
+                    "keywords" : ["Martial Prowess"]
+                },
+                {
+                    "featName" : "Shattering Strike",
+                    "prequisites" : "2 Martial Prowess Feats",
+                    "art" : "shattered-sword",
+                    "description" : "When you activate the Shattering Strike Feat with either a large weapon or a ranged weapon you may additionally generate the Shatter Effect on your next successful strike within 10s. If this Effect is delivered by ranged weapon it will only work on a shield (for safety reasons).",
+                    "keywords" : ["Combat, Martial Prowessword"]
+                },
+                {
+                    "featName" : "Tripping Blow",
+                    "prequisites" : "Nothing",
+                    "art" : "tripwire",
+                    "description" : "For 1 Vigour, you may generate the Strikedown Effect by weapon blow. This is in addition to the Damage Effect of the weapon blow",
+                    "keywords" : ["Combat, Martial Prowess"]
+                },
+                {
+                    "featName" : "Warrior’s Heart",
+                    "prequisites" : "2 Martial Prowess Feats",
+                    "art" : "love-howl",
+                    "description" : "By spending 1 Vigour reactively, gain Immunity Fear 10s.",
+                    "keywords" : ["Martial Prowess, Resistance"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of Power",
+            "featPathColour" : "blue",
+            "feats":[
+                {
+                    "featName" : "Spellcraft",
+                    "prequisites" : "First Level Casting",
+                    "art" : "spell-book",
+                    "description" : "This Feat can be taken multiple times. You learn a Spell of a level that you can already cast.",
+                    "keywords" : ["Multiple, Power"]
+                },
+                {
+                    "featName" : "First Level Casting",
+                    "prequisites" : "Nothing",
+                    "art" : "bolt-spell-cast1",
+                    "description" : "You learn two first level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Second Level Casting",
+                    "prequisites" : "First Level Casting",
+                    "art" : "bolt-spell-cast2",
+                    "description" : "You learn two second level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Third Level Casting",
+                    "prequisites" : "Second Level Casting",
+                    "art" : "bolt-spell-cast3",
+                    "description" : "You learn two third level Spells",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Fourth Level Casting",
+                    "prequisites" : "Third Level Casting",
+                    "art" : "bolt-spell-cast4",
+                    "description" : "You learn two fourth level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Fifth Level Casting",
+                    "prequisites" : "Fourth Level Casting",
+                    "art" : "bolt-spell-cast5",
+                    "description" : "You learn two fifth level Spells",
+                    "keywords" : ["Power"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of Shadowed Blades",
+            "featPathColour" : "black",
+            "feats":[
+                {
+                    "featName" : "Aggressive Solution",
+                    "prequisites" : "Nothing",
+                    "art" : "thrown-knife",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that can be activated through Vigour. For 1 Vigour, you may deliver the Through Effect via a thrown weapon, which phys reps throwing a vial. This is in addition to the Damage Effect of a thrown weapon blow. A character using Aggressive Solution will cause Single Damage combined with the Through Effect.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Blinding Fumes",
+                    "prequisites" : "Nothing",
+                    "art" : "bottle-vapors",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that can be activated through Vigour. For 1 Vigour you may deliver the Daze Effect via a thrown weapon which phys reps throwing a vial of noxious, blinding fumes. This is in addition to the Damage Effect of a thrown weapon blow. A character using Blinding Fumes causes the Single Damage Effect and cause the target to suffer the Daze Effect.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Cutthroat",
+                    "prequisites" : "Nothing",
+                    "art" : "silenced",
+                    "description" : "For 1 Vigour, on your next weapon blow you may generate the Mute 10s Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Dexterous Poisoner",
+                    "prequisites" : "3 Shadowed Blades Feats",
+                    "art" : "chemical-arrow",
+                    "description" : "Due to your training, you know how to get the best use out of your poisons. Double the duration of any poison that you apply to your own weapon (eg. An “on next weapon blow” poison becomes “on next two weapon blows”).",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Disarmed and Dangerous",
+                    "prequisites" : "1 Shadowed Blades Feat",
+                    "art" : "shield-reflect",
+                    "description" : "When a weapon or shield you are holding suffers the Shatter Effect, you may instantly cast Daze for 0 Vigour at a target within normal Spellcasting range.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Distilled Fragility",
+                    "prequisites" : "1 Shadowed Blades Feat",
+                    "art" : "thrown-charcoal",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that can be activated through Vigour. For 2 Vigour you may deliver the Shatter Effect via a thrown weapon which phys reps throwing a vial of noxious, blinding fumes. This may only be used to target a shield",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Distracting Strike",
+                    "prequisites" : "1 Shadowed Blades Feat",
+                    "art" : "knockout",
+                    "description" : "For 1 Vigour, on your next blow you may generate the Mindslash Effect by blow. This is in addition to the Damage Effect of a weapon blow",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Dropping the Guard",
+                    "prequisites" : "3 Shadowed Blades Feats",
+                    "art" : "bone-gnawer",
+                    "description" : "A life of ill repute has meant that, on occasion, you have needed to deal with guard dogs. For 2 Vigour, you may generate the Beast Bane Effect by weapon blow.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Escape Restraints",
+                    "prequisites" : "Nothing",
+                    "art" : "handcuffs",
+                    "description" : "After 30s Concentration, you may be free of any IC restraints your character has been the subject of.",
+                    "keywords" : ["Shadowed Blades"]
+                },
+                {
+                    "featName" : "Fatal Blow",
+                    "prequisites" : "4 Shadowed Blades Feats",
+                    "art" : "pierced-heart",
+                    "description" : "You have studied the exact points to strike to cripple mortal beings. For 2 Vigour, your next weapon blow generates the Mortal Bane Effect",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Internal Damage",
+                    "prequisites" : "2 Shadowed Blades Feats",
+                    "art" : "internal-injury",
+                    "description" : "For 3 Vigour, you may generate the Protection Healing 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Local Informants",
+                    "prequisites" : "Nothing",
+                    "art" : "spy",
+                    "description" : "Each time you take this Feat select one of the realms. Each event you attend you will receive a report on recent events in that realm",
+                    "keywords" : ["Multiple, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Penetrating Strike",
+                    "prequisites" : "2 Shadowed Blades Feats",
+                    "art" : "pierced-body",
+                    "description" : "For 2 Vigour, you may generate the Through Effect by weapon blow. This is in combination with the Damage Effect of a weapon blow.",
+                    "keywords" : ["Combat, Shadowed Blade"]
+                },
+                {
+                    "featName" : "Petrifying Potion",
+                    "prequisites" : "3 Shadowed Blades Feat",
+                    "art" : "medusa-head",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that you may use offensively. For 3 Vigour, you may deliver the Halt Effect via a thrown weapon which phys reps throwing a vial of chemicals the briefly harden flesh into stone. This is in addition to the Damage Effect of a thrown weapon blow. A character using Petrifying Potion will cause the Single Damage Effect and cause the target to suffer the Halt Effect.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Pointed Questions",
+                    "prequisites" : "1 Shadowed Blades Feat",
+                    "art" : "discussion",
+                    "description" : "You may use the Research downtime action to ask a question about recent events and activities in Tirneach. The availability of information will be based on your Feats. Taking this Feat without the Local Informants Feats will produce no additional information.",
+                    "keywords" : ["Shadowed Blades"]
+                },
+                {
+                    "featName" : "Puncture",
+                    "prequisites" : "Penetrating Strike Feat",
+                    "art" : "sun-spear",
+                    "description" : "When you activate the Penetrating Strike Feat with either a ranged weapon or a small weapon you may additionally generate the Through Effect on your next successful weapon strike within 10s. This is in combination with the Damage Effect of a weapon blow",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Severed Artery",
+                    "prequisites" : "2 Shadowed Blades Feats",
+                    "art" : "bleeding-wound",
+                    "description" : "For 3 Vigour, you may generate the Protection Stop Bleed 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Shattered Focus",
+                    "prequisites" : "Distracting Strike Feat",
+                    "art" : "brain-freeze",
+                    "description" : "When you activate the Distracting Strike Feat with either a small weapon or ranged weapon you may additionally generate the Mindslash Effect on your next successful strike within 10s.This is in addition to the Damage Effect of a weapon blow.",
+                    "keywords" : ["Combat, Shadowed Blades"]
+                },
+                {
+                    "featName" : "Silencing Strikes",
+                    "prequisites" : "Cutthroat Feat",
+                    "art" : "cloak-dagger",
+                    "description" : "When you activate the Cutthroat Feat you may additionally generate the Mute 10s Effect by weapon blow with small and medium weapons on your next successful strike within 10s. This is in addition to the Damage Effect of a weapon blow.",
+                    "keywords" : ["Combat","Shadowed Blades"]
+                },
+                {
+                    "featName" : "Slip Strike ",
+                    "prequisites" : "Nothing",
+                    "art" : "amputation",
+                    "description" : "For 1 Vigour, on your next weapon blow you may generate the Fumble Effect by weapon blow against a weapon or shield. If this Effect is delivered by a ranged weapon or thrown weapon it will only work on a shield (for safety reasons).",
+                    "keywords" : ["Combat","Shadowed Blades"]
+                },
+                {
+                    "featName" : "Steering the Conversation",
+                    "prequisites" : "1 Shadowed Blades Feat",
+                    "art" : "conversation",
+                    "description" : "You may submit a piece of information (true or false) to be included in reports from a specific realm. The Event Team will decide how this information affects the reports",
+                    "keywords" : ["Shadowed Blades"]
+                },
+                {
+                    "featName" : "Volatile Substances",
+                    "prequisites" : "2 Shadowed Blades Feats",
+                    "art" : "chemical-bolt",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that you may activate with Vigour. For 2 Vigour you may deliver the Global Single Damage Effect via a thrown weapon which phys reps throwing a cocktail of volatile alchemical substances",
+                    "keywords" : ["Combat", "Shadowed Blades"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of Power",
+            "featPathColour" : "blue",
+            "feats":[
+                {
+                    "featName" : "Spellcraft",
+                    "prequisites" : "First Level Casting)",
+                    "art" : "spell-book",
+                    "description" : "This Feat can be taken multiple times. You learn a Spell of a level that you can already cast.",
+                    "keywords" : ["Multiple, Power"]
+                },
+                {
+                    "featName" : "First Level Casting",
+                    "prequisites" : "Nothing",
+                    "art" : "bolt-spell-cast1",
+                    "description" : "You learn two first level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Second Level Casting",
+                    "prequisites" : "First Level Casting",
+                    "art" : "bolt-spell-cast2",
+                    "description" : "You learn two second level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Third Level Casting",
+                    "prequisites" : "Second Level Casting",
+                    "art" : "bolt-spell-cast3",
+                    "description" : "You learn two third level Spells",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Fourth Level Casting",
+                    "prequisites" : "Third Level Casting",
+                    "art" : "bolt-spell-cast4",
+                    "description" : "You learn two fourth level Spells.",
+                    "keywords" : ["Power"]
+                },
+                {
+                    "featName" : "Fifth Level Casting",
+                    "prequisites" : "Fourth Level Casting",
+                    "art" : "bolt-spell-cast5",
+                    "description" : "You learn two fifth level Spells",
+                    "keywords" : ["Power"]
                 }
             ]
         }

@@ -14,7 +14,7 @@
     display: flex;
     background-color: DodgerBlue;
     flex-wrap: wrap;
-    height: 30vh;
+    height: 35vh;
   }
 
   .flex-container-title{
@@ -31,7 +31,7 @@
     margin-bottom: 1vh;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
-    height: 20vh;
+    height: 25vh;
   }
 
   .flex-container-image{
@@ -48,7 +48,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50vw; 
-    height: 30vh;
+    height: 35vh;
     z-index: 2; 
     padding: 10px;
     border-radius: 5px;
@@ -118,6 +118,16 @@
     border-radius: 4px;
     display: inline-block;
     margin-right: 4px;
+}
+
+.item-text-container{
+  border-style: solid;
+  width: 25vw;
+  height: 8vh;
+}
+
+.item-desc{
+  
 }
 
 .popupImageArt {
