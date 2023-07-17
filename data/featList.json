@@ -434,50 +434,146 @@
             ]
         },
         {
-            "pathName" : "Way of Power",
-            "featPathColour" : "blue",
+            "pathName" : "Way of Sturdy Flesh",
+            "featPathColour" : "silver",
             "feats":[
                 {
-                    "featName" : "Spellcraft",
-                    "prequisites" : "First Level Casting)",
-                    "art" : "spell-book",
-                    "description" : "This Feat can be taken multiple times. You learn a Spell of a level that you can already cast.",
-                    "keywords" : ["Multiple, Power"]
+                    "featName" : "Deathproof",
+                    "prequisites" : "1 Sturdy Flesh Feat",
+                    "art" : "scythe",
+                    "description" : "For 1 Vigour may gain Immunity Execute 10s. This Feat may be used even while unconscious.",
+                    "keywords" : ["Resistance","Sturdy Flesh"]
                 },
                 {
-                    "featName" : "First Level Casting",
+                    "featName" : "Die Hard",
+                    "prequisites" : "Sturdy Flesh Feat",
+                    "art" : "time-bomb",
+                    "description" : "Your death count is extended by 120 seconds (to 420 seconds total, or 7 minutes).",
+                    "keywords" : ["Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Fortified Resistance",
+                    "prequisites" : "3 Sturdy Flesh Feats",
+                    "art" : "armor-upgrade",
+                    "description" : "When you spend 1 Vigour to activate any Resistance Feat, gain Immunity 1 minute to the Effect listed in the Feat instead of Immunity 10s.",
+                    "keywords" : ["Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Immutable Body",
+                    "prequisites" : "2 Sturdy Flesh Feats",
+                    "art" : "vitruvian-man",
+                    "description" : "You may spend 1 point of Vigour to gain Immunity Protection 10s.",
+                    "keywords" : ["Sturdy Flesh", "Resistance"]
+                },
+                {
+                    "featName" : "Perfect Health",
+                    "prequisites" : "3 Sturdy Flesh Feats",
+                    "art" : "weight-lifting-up",
+                    "description" : "Desc.",
+                    "keywords" : ["Resistance", "Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Plague Bearer",
+                    "prequisites" : "2 Sturdy Flesh Feats",
+                    "art" : "plague-doctor-profile",
+                    "description" : "While you are under the Disease Effect you may generate the Disease Effect by weapon blow for 2 Vigour.",
+                    "keywords" : ["Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Seasoned Veteran",
+                    "prequisites" : "2 Sturdy Flesh Feats",
+                    "art" : "medal",
+                    "description" : "You gain 1 Body hit per location.",
+                    "keywords" : ["Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Steady Pace",
+                    "prequisites" : "3 Sturdy Flesh Feats",
+                    "art" : "no-scorpion",
+                    "description" : "Reactively spend 1 Vigour to gain Immunity Venom 10s.",
+                    "keywords" : ["Sturdy Flesh"]
+                },
+                {
+                    "featName" : "Veteran",
                     "prequisites" : "Nothing",
-                    "art" : "bolt-spell-cast1",
-                    "description" : "You learn two first level Spells.",
-                    "keywords" : ["Power"]
+                    "art" : "crossed-axes",
+                    "description" : "You gain 1 Body hit per location.",
+                    "keywords" : [": Sturdy Flesh"]
                 },
                 {
-                    "featName" : "Second Level Casting",
-                    "prequisites" : "First Level Casting",
-                    "art" : "bolt-spell-cast2",
-                    "description" : "You learn two second level Spells.",
-                    "keywords" : ["Power"]
+                    "featName" : "Vigorous",
+                    "prequisites" : "Nothing",
+                    "art" : "beams-aura",
+                    "description" : "Upon taking this Feat, gain an additional 4 Vigour. This Feat may be taken up to 6 times.",
+                    "keywords" : ["Multiple", "Sturdy Flesh"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of the Alchemist",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Student Alchemist",
+                    "prequisites" : "Nothing",
+                    "art" : "test-tube-held",
+                    "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. Start the first event after you take this Feat with the Tonic Potion item.",
+                    "keywords" : ["Alchemist", "Crafting"]
                 },
                 {
-                    "featName" : "Third Level Casting",
-                    "prequisites" : "Second Level Casting",
-                    "art" : "bolt-spell-cast3",
-                    "description" : "You learn two third level Spells",
-                    "keywords" : ["Power"]
+                    "featName" : "Apprentice Alchemist",
+                    "prequisites" : "Student Alchemist",
+                    "art" : "test-tube-held1",
+                    "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. Start the first event after you take this Feat with the Flesh and Steel item.",
+                    "keywords" : ["Alchemist", "Crafting"]
                 },
                 {
-                    "featName" : "Fourth Level Casting",
-                    "prequisites" : "Third Level Casting",
-                    "art" : "bolt-spell-cast4",
-                    "description" : "You learn two fourth level Spells.",
-                    "keywords" : ["Power"]
+                    "featName" : "Journeyman Alchemist",
+                    "prequisites" : "Apprentice Alchemist",
+                    "art" : "test-tube-held2",
+                    "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. Start the first event after you take this Feat with the Dazzling Liquid item.",
+                    "keywords" : ["Alchemist", "Crafting"]
                 },
                 {
-                    "featName" : "Fifth Level Casting",
-                    "prequisites" : "Fourth Level Casting",
-                    "art" : "bolt-spell-cast5",
-                    "description" : "You learn two fifth level Spells",
-                    "keywords" : ["Power"]
+                    "featName" : "Master Alchemist",
+                    "prequisites" : "Journeyman Alchemist",
+                    "art" : "test-tube-held3",
+                    "description" : "Allows the crafting of master alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Master Alchemist in Appendix 4. Start the first event after you take this Feat with the Revitalising Tonic item.",
+                    "keywords" : ["Alchemist", "Crafting"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Way of the Arcanist",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Student Arcanist",
+                    "prequisites" : "Nothing",
+                    "art" : "gem-chain",
+                    "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. Start the first event after you take this Feat with the Student Ritual Effigy item.",
+                    "keywords" : ["Arcanist", "Crafting"]
+                },
+                {
+                    "featName" : "Apprentice Arcanist",
+                    "prequisites" : "Student Arcanist",
+                    "art" : "gem-chain1",
+                    "description" : "Allows the crafting of apprentice arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Arcanist in Appendix 4. Start the first event after you take this Feat with the Greater Eye of the Shaper item.",
+                    "keywords" : ["Arcanist", "Crafting"]
+                },
+                {
+                    "featName" : "Journeyman Arcanist",
+                    "prequisites" : "Apprentice Arcanist",
+                    "art" : "gem-chain2",
+                    "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. Start the first event after you take this Feat with the Lesser Way Stone item.",
+                    "keywords" : ["Arcanist", "Crafting"]
+                },
+                {
+                    "featName" : "Master Arcanist",
+                    "prequisites" : "Journeyman Arcanist",
+                    "art" : "gem-chain3",
+                    "description" : "Allows the crafting of master arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Master Arcanist in Appendix 4. Start the first event after you take this Feat with the Casting Crystal item.",
+                    "keywords" : ["Arcanist", "Crafting"]
                 }
             ]
         }
