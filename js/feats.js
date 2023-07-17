@@ -10,11 +10,11 @@ function apendText(featPath){
   var pathName = featPath.pathName;
   var featPathColour = featPath.featPathColour;
 
-  var featCode = "<div class=\"section-container\">" + 
+  var featCode = "<div class=\"section-container expandable\">" + 
   "<div class=\"section-title\">" +
-      "<span class=\"float-right\">" + pathName + "</span>" +
+      "<span class=\"float-right\"><a href=\"#nav\">" + pathName + "</a></span>" +
   "</div>" +
-  "<div class=\"section-content\">" +
+  "<div class=\"section-content\" id=\"nav\" >" +
       "<div class=\"section-row section-subtitle text fontsize\">" +
           "You can move at any time during your turn (before, after, or during actions)." +
       "</div>" +
