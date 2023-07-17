@@ -651,6 +651,47 @@
                     "keywords" : ["Multiple", "Professions"]
                 }
             ]
+        },
+        {
+            "pathName" : "Way of the Professions",
+            "featPathColour" : "orange",
+            "feats":[
+                {
+                    "featName" : "Artisan",
+                    "prequisites" : "Nothing",
+                    "art" : "artisan",
+                    "description" : "You are skilled at creating useful processed good through a variety of methods.. Each event you attend, gain 3 additional processed material crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific processed material crafting ingredient (one of glass, ink, incense, parchment or wax), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                    "keywords" : ["Multiple", "Professions"]
+                },
+                {
+                    "featName" : "Farmer",
+                    "prequisites" : "Nothing",
+                    "art" : "farmer",
+                    "description" : "You are practiced in the field of growing plants and harvesting useful products from them. Each event you attend, gain 3 additional plant crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific plant crafting ingredient (one of bark, flower, leaf, root seed), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                    "keywords" : ["Multiple", "Professions"]
+                },
+                {
+                    "featName" : "Hunter",
+                    "prequisites" : "Nothing",
+                    "art" : "hunter",
+                    "description" : "You are experienced with the arts of tracking animals or finding those animals that have died of illness, natural causes or other means, and breaking them down into useful products. Each event you attend, gain 3 additional animal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific animal crafting ingredient (one of bone, dung, fang, heart, pelt), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                    "keywords" : ["Multiple", "Professions"]
+                },
+                {
+                    "featName" : "Merchant",
+                    "prequisites" : "Journeyman Blacksmith",
+                    "art" : "merchant",
+                    "description" : "You have a steady stream of income. Each event you attend, gain 6 additional coins. This Feat may be taken multiple times, up to 3 times",
+                    "keywords" : ["Multiple", "Professions"]
+                },
+                {
+                    "featName" : "Miner",
+                    "prequisites" : "Nothing",
+                    "art" : "miner",
+                    "description" : "You are accustomed to working in the mines and extracting useful metals. Each event you attend, gain 3 additional metal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific metal crafting ingredient (one of bronze, copper, gold, iron, silver), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times",
+                    "keywords" : ["Multiple", "Professions"]
+                }
+            ]
         }
     ]
 }
