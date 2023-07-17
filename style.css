@@ -43,7 +43,9 @@
   }
 
 .popup{
-    position: absolute;
+    position: -webkit-sticky;
+    position: sticky;  
+    /* position: absolute; */
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
