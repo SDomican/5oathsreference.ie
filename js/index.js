@@ -14,11 +14,13 @@ function showHide(elementId) {
 
     if (x.style.display === "none" && elementId != undefined) {
       x.style.display = "block";
+      x.style.position = "fixed";
       popupVisible = true;
       populateFeatPopup(elementId);
     }
     else {
       x.style.display = "none";
+      x.style.position = "sticky";
       popupVisible = false;
     }
 }
