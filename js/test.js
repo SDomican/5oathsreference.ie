@@ -65,21 +65,46 @@ document.getElementById("featsContainer").innerHTML += featCode;
 
 const parentDiv = document.getElementById('test-parentItemContainer');
 const childDiv = document.getElementById('test-childItemContainer');
+const parentTitleDiv = document.getElementById('test-parentItemTitle');
 
-parentDiv.addEventListener('click', function() {
+parentDiv.addEventListener('click', function(event) {
   // specify the action to take when the div is clicked
-  childDiv.style.height = "8vh";
-  childDiv.classList.add("active");
-  parentDiv.style.height = "20vh";
+  let clickedId = event.target.id;
+  let isChildDivActive = childDiv.classList.contains("active");
 
-}, true);
+  if(!isChildDivActive){expandFeatDiv();}
+  else if(clickedId !== "test-childItemContainer"){shrinkFeatDiv();}
+
+  event.stopImmediatePropagation();
+});
   
 bodyElement.addEventListener('click', function() {
   // specify the action to take when the div is clicked
-
+  console.log("Body");
   if(childDiv.classList.contains("active")){
-    childDiv.style.height = "0vh";
-    childDiv.classList.remove("active");
-    parentDiv.style.height = "10vh";
+    shrinkFeatDiv();
   }
-}, true);
+});
+
+parentTitleDiv.addEventListener('click', function(event) {
+  // specify the action to take when the div is clicked
+  let isChildDivActive = childDiv.classList.contains("active");
+  console.log("parentTitleDiv");
+
+  if(!isChildDivActive){expandFeatDiv();}
+  else {shrinkFeatDiv();}
+
+  event.stopImmediatePropagation();
+});
+
+function expandFeatDiv(){
+  childDiv.style.height = "8vh";
+  childDiv.classList.add("active");
+  parentDiv.style.height = "20vh";
+}
+
+function shrinkFeatDiv(){
+  childDiv.style.height = "0vh";
+  childDiv.classList.remove("active");
+  parentDiv.style.height = "10vh";
+}
