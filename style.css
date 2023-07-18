@@ -68,6 +68,8 @@
 
 .popup-text-container{
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-title {
@@ -87,10 +89,6 @@
     color: orange;
     border-style: solid;
     background-color: orange;
-    
-    /* Experimental?? */
-    /* height: 0vh;
-    overflow: hidden; */
 }
 
 .section-row{
@@ -151,6 +149,16 @@
     box-sizing: border-box;
 }
 
+.item2 {
+  margin-bottom: 8px;
+  float: left;
+  display: flex;
+  font-size: inherit;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: pink;
+}
+
 .item-icon {
     color: aquamarine;
     border-style: solid;
@@ -161,10 +169,6 @@
     border-radius: 4px;
     display: inline-block;
     margin-right: 4px;
-
-    /* Experimental */
-    /* height: 0vh;
-    overflow: hidden; */
 }
 
 .item-text-container{
@@ -172,17 +176,14 @@
   width: 25vw;
   height: 8vh;
   background-color: white;
-
-
-    /* Experimental */
-    /* height: 0vh;
-    overflow: hidden; */
 }
 
-.item-desc{
-   /* Experimental */
-  /* height: 0vh;
-  overflow: hidden; */
+.item-text-container2{
+  border-style: solid;
+  width: 25vw;
+  height: 0vh;
+  background-color: white;
+  transition: height 0.5s;
 }
 
 .popupImageArt {

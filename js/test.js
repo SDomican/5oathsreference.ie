@@ -66,6 +66,7 @@ document.getElementById("featsContainer").innerHTML += featCode;
 const parentDiv = document.getElementById('test-parentItemContainer');
 const childDiv = document.getElementById('test-childItemContainer');
 const parentTitleDiv = document.getElementById('test-parentItemTitle');
+const featContainerDiv = document.getElementById('itemContainer');
 
 parentDiv.addEventListener('click', function(event) {
   // specify the action to take when the div is clicked
@@ -101,10 +102,13 @@ function expandFeatDiv(){
   childDiv.style.height = "8vh";
   childDiv.classList.add("active");
   parentDiv.style.height = "20vh";
+  featContainerDiv.style.height = "8vh";
 }
 
 function shrinkFeatDiv(){
   childDiv.style.height = "0vh";
   childDiv.classList.remove("active");
   parentDiv.style.height = "10vh";
+  featContainerDiv.style.height = "0vh";
+  featContainerDiv.innerHTML = "";
 }
