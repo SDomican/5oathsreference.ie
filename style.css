@@ -122,9 +122,10 @@
 
 .test-parentItemContainer{
   background-color: green;
-  height: 20vh;
+  height: 10vh;
   margin: 1vh;
   border: 8px solid;
+  transition: height 0.5s;
 }
 
 .test-parentItemTitle{

@@ -1,5 +1,7 @@
 import featJson from '../data/featList.json' assert { type: 'json' };
 
+const bodyElement = document.getElementById("body");
+
 function addSectionContainer(idToAmend){
   featJson.featPath.forEach((feat) => apendText(feat));
 }
@@ -61,18 +63,23 @@ document.getElementById("featsContainer").innerHTML += featCode;
 
 
 
-const myDiv = document.getElementById('test-parentItemContainer');
+const parentDiv = document.getElementById('test-parentItemContainer');
 const childDiv = document.getElementById('test-childItemContainer');
-console.log(myDiv);
 
-myDiv.addEventListener('click', function() {
+parentDiv.addEventListener('click', function() {
   // specify the action to take when the div is clicked
-  console.log("clicked");
-  // childDiv.style.transition = "0.50s ease-in";
-  // childDiv.style.maxHeight = "500px";
   childDiv.style.height = "8vh";
+  childDiv.classList.add("active");
+  parentDiv.style.height = "20vh";
 
-  // max-height: 500px;
-  // transition: max-height 0.50s ease-in;
-});
+}, true);
   
+bodyElement.addEventListener('click', function() {
+  // specify the action to take when the div is clicked
+
+  if(childDiv.classList.contains("active")){
+    childDiv.style.height = "0vh";
+    childDiv.classList.remove("active");
+    parentDiv.style.height = "10vh";
+  }
+}, true);
