@@ -89,8 +89,8 @@
     background-color: orange;
     
     /* Experimental?? */
-    height: 0vh;
-    overflow: hidden;
+    /* height: 0vh;
+    overflow: hidden; */
 }
 
 .section-row{
@@ -111,6 +111,34 @@
     page-break-inside: avoid;
     background-color: white;
     z-index: 1;
+}
+
+.test-container{
+  border: 8px solid;
+  background-color: yellow;
+  height: 90vh;
+  margin-top: 1vh;
+}
+
+.test-parentItemContainer{
+  background-color: green;
+  height: 20vh;
+  margin: 1vh;
+  border: 8px solid;
+}
+
+.test-parentItemTitle{
+  background-color: purple;
+  height: 5vh;
+  margin: 1vh;
+  border: 8px solid;
+}
+
+.test-childItemContainer{
+  background-color: white;
+  margin: 1vh;
+  height: 0vh;
+  transition: height 0.5s;
 }
 
 .item {
@@ -134,23 +162,26 @@
     margin-right: 4px;
 
     /* Experimental */
-    height: 0vh;
-    overflow: hidden;
+    /* height: 0vh;
+    overflow: hidden; */
 }
 
 .item-text-container{
   border-style: solid;
   width: 25vw;
   height: 8vh;
+  background-color: white;
+
+
     /* Experimental */
-    height: 0vh;
-    overflow: hidden;
+    /* height: 0vh;
+    overflow: hidden; */
 }
 
 .item-desc{
    /* Experimental */
-  height: 0vh;
-  overflow: hidden;
+  /* height: 0vh;
+  overflow: hidden; */
 }
 
 .popupImageArt {
@@ -167,6 +198,7 @@
 }
 
 .iconsize {
+    /* comment out to hide art   */
     /* width: 40px;
     height: 40px; */
 }
