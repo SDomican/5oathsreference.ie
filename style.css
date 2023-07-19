@@ -70,24 +70,24 @@
     font-variant: small-caps;
     font-weight: bold;
     background-color: inherit;
-    color: rgb(240, 17, 17);
     font-size: 16pt;
-    border-style: solid;
+    color: white;
 }
 
 .section-content{
-    color: orange;
-    border-style: solid;
+
+    border-radius: 0.5vw;
+    background-color: white;
+    margin: 0.5vw;
 }
 
 .section-row{
-    color: black;
-    border-style: solid;
+    /* color: black;
+    border-style: solid; */
 }
 
 .section-container {
-    border: 8px solid;
-    border-radius: 8px;
+    border: 8px;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -96,7 +96,6 @@
     width: 100%;
     margin-bottom: 8px;
     page-break-inside: avoid;
-    background-color: white;
     z-index: 1;
 }
 
@@ -107,28 +106,24 @@
     font-size: inherit;
     vertical-align: top;
     box-sizing: border-box;
+    width: 12vw;
 }
 
 .item-icon {
-    color: aquamarine;
-    border-style: solid;
     flex: 0 0 auto;
     background-repeat: no-repeat;
     background-size: contain;
     box-sizing: border-box;
     border-radius: 4px;
     display: inline-block;
-    margin-right: 4px;
+    margin: 0.5vw;
+    width: 20vw;
 }
+
 
 .item-text-container{
-  border-style: solid;
   width: 25vw;
   height: 8vh;
-}
-
-.item-desc{
-  
 }
 
 .popupImageArt {
@@ -145,8 +140,9 @@
 }
 
 .iconsize {
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
+    width: 3vw;
 }
 
 /* Add a black background color to the top navigation */

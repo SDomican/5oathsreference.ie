@@ -10,14 +10,12 @@ function apendText(featPath){
   var pathName = featPath.pathName;
   var featPathColour = featPath.featPathColour;
 
-  var featCode = "<div class=\"section-container\">" + 
-  "<div class=\"section-title\">" +
+  var featCode = 
+  "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
+    "<div class=\"section-title\">" +
       "<span class=\"float-right\">" + pathName + "</span>" +
-  "</div>" +
-  "<div class=\"section-content\">" +
-      "<div class=\"section-row section-subtitle text fontsize\">" +
-          "You can move at any time during your turn (before, after, or during actions)." +
-      "</div>" +
+    "</div>" +
+    "<div class=\"section-content\">" +
       "<div class=\"section-row\">";
       
       featsArray.forEach(feat => {
@@ -28,20 +26,22 @@ function apendText(featPath){
         var description = feat.description;
 
         featCode +=
-        "<div class=\"item itemsize\">" +
-          "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
-          "<div class=\"item-text-container text\">" +
-            "<div class=\"item-title\">" + featName + "</div>" +
-            "<div class=\"item-desc\">Prerequisites: " + featRequirements + "</div>" +
-        "</div>" +
-    "</div>";
+          "<div class=\"item\">" +
+            "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
+            "<div class=\"item-text-container text\">" +
+              "<div class=\"item-title\">" + featName + "</div>" +
+              "<div class=\"item-desc\">(P): " + featRequirements + "</div>" +
+            "</div>" +
 
-      });
+
+            
+          "</div>";
+        });
 
     featCode +=   
-  "</div>" +
-  "</div>" +
-"</div>";
+      "</div>" +
+    "</div>" +
+  "</div>";
 
 document.getElementById("featsContainer").innerHTML += featCode;
 

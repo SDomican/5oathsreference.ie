@@ -21,7 +21,7 @@
                 },
                 {
                     "featName" : "Complete Set",
-                    "prequisites" : "Light Armour OR Heavy Armour",
+                    "prequisites" : "Light Armour/Heavy Armour",
                     "art" : "battle-gear",
                     "description" : "Your character is committed to being fully armoured and gains benefit from this inconvenience. If 5 locations (out of the 6 locations: Head, Torso, Left Leg and Arm, Right Leg and Arm) are more than 50% covered by light or heavy armour the character gains a further +1 to their maximum Armour hits.",
                     "keywords" : ["Leather and Steel"]
@@ -79,7 +79,7 @@
                 },
                 {
                     "featName" : "Squire",
-                    "prequisites" : "1 Leather and Steel Feat OR Deft Hands Feat",
+                    "prequisites" : "1 Leather and Steel Feat/Deft Hands",
                     "art" : "mounted-knight",
                     "description" : "You are skilled at maintaining armour, weapons and other items. You can manually perform the Repair Effect with 30s of roleplayed action and Concentration, instead of 1 minute of the same.",
                     "keywords" : ["Leather and Steel"]
