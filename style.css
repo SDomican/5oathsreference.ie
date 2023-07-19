@@ -27,16 +27,14 @@
 
   .flex-container-title{
     flex-grow: 4;
-    margin: 1vh;
-    margin-bottom: 0vh;
-    margin-right: 0.5vw;
-    margin-left: 0.5vw;
+    margin: 0.5vh;
     font-weight: bold;
     color: white;
     font-size: 100px;
     font-size: 2em;
     padding-top: 1%;
     padding-bottom: 1%;
+    border: solid;
   }
 
   .flex-container-text-box{
@@ -155,10 +153,11 @@
 
 .popupImageArt {
     background-repeat: no-repeat; 
-    width: 7%;
+    width: 5%;
     height: 0;
-    padding-top: 7%;
+    padding-top: 5%;
     background-size: contain;
+    margin-top: 1vh;
 }
 
 #section-movement .item-icon {
