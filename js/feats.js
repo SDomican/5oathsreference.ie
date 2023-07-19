@@ -41,7 +41,6 @@ function apendText(featPath){
   "</div>";
 
 document.getElementById("featsContainer").innerHTML += featCode;
-
 }
 
 addSectionContainer("addSectionContainer");
@@ -54,5 +53,5 @@ for(let element of itemIconElements){
   element.addEventListener("click", e => showHide(element.id), true);
 }
 
-document.addEventListener("click", e => hidePopup(), true)
+document.addEventListener("click", e => hidePopup(e), true)
   

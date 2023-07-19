@@ -3,7 +3,7 @@
     "featPath": [
         {
             "pathName" : "Way of leather and steel",
-            "featPathColour" : "brown",
+            "featPathColour" : "maroon",
             "feats":[
                 {
                     "featName" : "Armour Bearer",

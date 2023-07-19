@@ -1,6 +1,8 @@
 var popupVisible = false;
 
 function showHide(elementId) {
+  
+    console.log("showHide");
 
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
@@ -25,8 +27,12 @@ function showHide(elementId) {
     }
 }
 
-  function hidePopup(){
-    if(popupVisible){ showHide();}
+  function hidePopup(event){
+    console.log("hidePopup: " + popupVisible);
+    console.log("Event: " + event.target.classList);
+    let classList = event.target.classList;
+
+    if(popupVisible && classList != "item-icon iconsize"){ showHide();}
   }
 
 
