@@ -121,10 +121,6 @@
 }
 
 .item {
-    margin-top: 0.25%;
-    margin-bottom: 0.25%;
-    margin-left: 1vw;
-    margin-right: 1vh;
     float: left;
     display: flex;
     font-size: inherit;
