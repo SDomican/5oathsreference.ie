@@ -6,8 +6,9 @@
   }
 
 .darken{
-    background:rgba(0,0,0,0.3); 
+    /* background:rgba(0,0,0,0.3);  */
 }
+
 
 .feat-description-title-text{
   margin-top: 0.5vh;
@@ -72,6 +73,7 @@
     border-style: solid;
     z-index: 2;  
     display: flex;
+    box-shadow:0 0 0 1600px rgba(0,0,0,0.5);/* dark around it */
 }
 
 .popup-text-container{
