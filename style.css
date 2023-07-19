@@ -9,6 +9,22 @@
     background:rgba(0,0,0,0.3); 
 }
 
+.feat-description-title-text{
+  margin-top: 0.5vh;
+  font-weight: bold;
+  font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.feat-description-requirements-text{
+  margin-top: 0.25vh;
+  font-size: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
@@ -72,18 +88,20 @@
     background-color: inherit;
     font-size: 16pt;
     color: white;
+    border-radius: 0.5vw;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+
 }
 
 .section-content{
-
     border-radius: 0.5vw;
     background-color: white;
-    margin: 0.5vw;
-}
-
-.section-row{
-    /* color: black;
-    border-style: solid; */
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    height: auto;
 }
 
 .section-container {
@@ -97,6 +115,7 @@
     margin-bottom: 8px;
     page-break-inside: avoid;
     z-index: 1;
+    border-radius: 0.5vw;
 }
 
 .item {
@@ -106,7 +125,7 @@
     font-size: inherit;
     vertical-align: top;
     box-sizing: border-box;
-    width: 12vw;
+    width: 15vw;
 }
 
 .item-icon {
@@ -120,10 +139,11 @@
     width: 20vw;
 }
 
-
 .item-text-container{
   width: 25vw;
   height: 8vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .popupImageArt {

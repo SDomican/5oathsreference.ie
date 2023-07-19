@@ -13,7 +13,7 @@ function apendText(featPath){
   var featCode = 
   "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
     "<div class=\"section-title\">" +
-      "<span class=\"float-right\">" + pathName + "</span>" +
+      "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
     "</div>" +
     "<div class=\"section-content\">" +
       "<div class=\"section-row\">";
@@ -29,12 +29,9 @@ function apendText(featPath){
           "<div class=\"item\">" +
             "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
             "<div class=\"item-text-container text\">" +
-              "<div class=\"item-title\">" + featName + "</div>" +
-              "<div class=\"item-desc\">(P): " + featRequirements + "</div>" +
-            "</div>" +
-
-
-            
+              "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
+              "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
+            "</div>" +       
           "</div>";
         });
 
