@@ -7,13 +7,6 @@ function showHide(elementId) {
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
 
-    if(bodyElement.classList.contains("darken") || popupVisible){
-      bodyElement.classList.remove("darken");
-    }
-    else {
-      bodyElement.classList.add("darken");
-    }
-
     if (x.style.display === "none" && elementId != undefined) {
       x.style.display = "block";
       x.style.position = "fixed";
@@ -27,27 +20,32 @@ function showHide(elementId) {
     }
 }
 
-  function hidePopup(event){
-    console.log("hidePopup: " + popupVisible);
-    console.log("Event: " + event.target.classList);
-    let classList = event.target.classList;
+function hidePopup(event){
 
-    if(popupVisible && classList != "item-icon iconsize"){ showHide();}
-  }
+  let classList = event.target.classList;
 
+  if(popupVisible && classList != "item-icon iconsize"){ showHide();}
+}
 
 function populateFeatPopup(elementId){
 
   let element = document.getElementById(elementId);
-
+  let colour = element.style.backgroundColor;
   let popupArt = element.style.backgroundImage;
   let popupArtElement = document.getElementById("popupArt");
+  let popupContainerElement = document.getElementById("popupId");
+  let popupFlexContainerElement = document.getElementById("popupFlexContainer");
+
+  popupFlexContainerElement.style.backgroundColor = colour;
+  popupContainerElement.style.backgroundColor = colour;
   popupArtElement.style.backgroundImage = popupArt;
+  popupArtElement.style.backgroundColor = colour;
 
   let popupDescription = element.getAttribute("data-description");
 
   let popupTextElement = document.getElementById("popupTitle");
   popupTextElement.innerHTML = elementId;
+  popupTextElement.style.backgroundColor = colour;
   
   let popupDescriptionElement = document.getElementById("popupDescription");
   popupDescriptionElement.innerHTML = popupDescription;
