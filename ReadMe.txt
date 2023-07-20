@@ -304,8 +304,8 @@ Third Level Spells (Cost 3 Vigour):
 	Protection Halt 5 min(Tr) - protection-halt
 	Protection Rampage 5 min (Tr) - protection-rampage
 	Protection Sleep 5 minute (Tr) - protection-sleep
-	Protection Stop Bleed 5 minute(C/Tr)
-	Protection Through 5 minute (Tr)
+	Protection Stop Bleed 5 minute(C/Tr) - protection-stop-bleed
+	Protection Through 5 minute (Tr) - protection-through
 	Protection Venom 5 minute (Tr) - protection-venom
 	Sleep 10s (C/En) - sleep
 	Rampage 10s(C/En) - rampage
@@ -512,7 +512,7 @@ Other Effects:
 	Repair
 	Shatter - shatter
 	Stop Bleed
-	Through
+	Through - through
 	Venom - venom
 	Ward
 
