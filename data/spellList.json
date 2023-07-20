@@ -1,0 +1,186 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "First Level Spells (Cost 1 Vigour)",
+            "featPathColour" : "maroon",
+            "feats":[
+                {
+                    "featName" : "Charm",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)",
+                    "art" : "charm",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Cure Charm",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Charm",
+                    "art" : "broken-heart",
+                    "description" : "This Effect is instantaneous. The target of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Daze",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Daze",
+                    "art" : "cure-daze",
+                    "description" : "This Effect is instantaneous. The target of a Daze Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Fear",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Fear",
+                    "art" : "cure-fear",
+                    "description" : "This Effect is instantaneous. The target of a Fear Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Mute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Mute",
+                    "art" : "cure-mute",
+                    "description" : "This Effect is instantaneous. The target of a Mute Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Sleep",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Sleep",
+                    "art" : "cure-sleep",
+                    "description" : "This Effect is instantaneous. The target of a Sleep Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Daze 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Daze (10 seconds)",
+                    "art" : "daze",
+                    "description" : "The target is confused for the duration of the Effect. They cannot voluntarily walk or run, cannot strike anyone, and cannot concentrate. They can still talk, and can still defend themselves from strikes.",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Detect Beast",
+                    "call" : "Detect Beast",
+                    "art" : "beast-eye",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Detect Bleeding",
+                    "call" : "Detect Bleeding",
+                    "art" : "bleeding-eye",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Detect Gwyllt",
+                    "call" : "Detect Gwyllt",
+                    "art" : "monster-grasp",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Detect Mortal",
+                    "call" : "Detect Mortal",
+                    "art" : "person",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Detect Gwyllt",
+                    "call" : "Detect Gwyllt",
+                    "art" : "monster-grasp",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Detect Undead",
+                    "call" : "Detect Undead",
+                    "art" : "shambling-zombie",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Fumble",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fumble (Location)",
+                    "art" : "drop-weapon",
+                    "description" : "This Effect is instantaneous. The target is forced to drop any items held in the target location. Items may not be caught until they have fallen on the ground. If an item held within the target’s hand is a larp-safe item, such as a weapon, a shield or an approved spell-focus then the Effect may be generated by striking the item where the Effect is being delivered by weapon blow. If you have an OOC reason for not wishing to drop the affected item you may choose to let the item hang limp for 10 seconds. During this time it may not be used in any way and blows that strike it are treated as having struck the location holding it.",
+                    "magicSchool" : ["C","Tr"]
+                },
+                {
+                    "featName" : "Global Stop Bleed",
+                    "call" : "Instant Cast Global Stop Bleed",
+                    "art" : "hand-bandage",
+                    "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Healing 1",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Healing 1 (Location)",
+                    "art" : "hospital-cross",
+                    "description" : "This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect.",
+                    "magicSchool" : ["En"]
+                },
+                {
+                    "featName" : "Mindslash",
+                    "call" : "Instant cast Mindslash",
+                    "art" : "brain-tentacle",
+                    "description" : "This Effect is instantaneous. The Effect breaks the Concentration of the target",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mute 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mute (10 seconds)",
+                    "art" : "mute",
+                    "description" : "The target is silenced. For the duration of the Spell the character cannot perform any vocal action including casting Spells. They may still generate weapon blow Effects, or other actions which require Concentration.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Protection Charm 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Charm 5 minutes",
+                    "art" : "protection-charm",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Daze 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Daze 5 minutes",
+                    "art" : "protection-daze",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Fumble 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Fumble 5 minutes",
+                    "art" : "protection-fumble",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Mindslash 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Mindslash 5 minutes",
+                    "art" : "protection-mindslash",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Mute 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Mute 5 minutes",
+                    "art" : "protection-mute",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Push 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Push 5 minutes",
+                    "art" : "protection-push",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Single Damage",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Single Damage (Location)",
+                    "art" : "punch-blast",
+                    "description" : "This Effect is instantaneous. 1 is removed from the target hits on the called location, starting with Armour, then Body.",
+                    "magicSchool" : ["C","Ev"]
+                }
+            ]
+        }
+    ]
+}
