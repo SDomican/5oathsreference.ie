@@ -916,39 +916,74 @@
                     "keywords" : ["Sorcerous Schools"]
                 },
                 {
-                    "featName" : "Anatomist",
-                    "prequisites" : "Nothing",
-                    "art" : "anatomy",
-                    "description" : "When within touch range of an unresisting target, you may generate the Diagnose Effect. With 10s of roleplayed treatment and Concentration in touch range on an unresisting target, you may generate the Stop Bleed (Location) Effect for 0 Vigour. You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
-                    "keywords" : ["Scholar"]
+                    "featName" : "Do Unto Others",
+                    "prequisites" : "1 Sorcerous School Feat",
+                    "art" : "divert",
+                    "description" : "If you are able to cast both (X) Effect by Spell and Protection (X), when you cast that Effect at a target for its normal Vigour cost, you are able to also cast the Protection (X) spell on yourself for a cost of 1 Vigour less than normal to a minimum of 2.",
+                    "keywords" : ["Sorcerous Schools", "combat"]
                 },
                 {
-                    "featName" : "Five Realms Lore",
+                    "featName" : "Enchanting Chain",
                     "prequisites" : "Nothing",
-                    "art" : "torc",
-                    "description" : "You have either travelled widely in the Five Realms or you have closely studied the accounts of those who have. You may use the Research downtime action to ask a question relating to the history and geography of the Five Realms. Your character is familiar with more Locations throughout the Five Realms than the average character. You may get additional relevant information to the history and geography of the Realms throughout events at times deemed relevant by the Event Team.",
-                    "keywords" : ["Scholar"]
+                    "art" : "chained-heart",
+                    "description" : "So long as you maintain Concentration, after you cast a Single Target enchantment Spell, you may immediately Instant Cast another Single Target enchantment Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                    "keywords" : ["Sorcerous Schools"]
                 },
                 {
-                    "featName" : "Magic Lore",
+                    "featName" : "Evocative Chain",
                     "prequisites" : "Nothing",
-                    "art" : "magic-lamp",
-                    "description" : "You have been trained in the art of understanding magic and its rules on a deeper level. You may spend 1 minute concentrating on a magical focus,scroll, or talisman and generate the Identify Effect. You may use the Research downtime action to ask a question relating to magical lore. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.",
-                    "keywords" : ["Scholar"]
+                    "art" : "linked-rings",
+                    "description" : "So long as you maintain Concentration, after you cast a Single Target evocation Spell, you may immediately Instant Cast another Single Target evocation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced.This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                    "keywords" : ["Sorcerous Schools"]
                 },
                 {
-                    "featName" : "Religion Lore",
+                    "featName" : "Evocative Ward",
                     "prequisites" : "Nothing",
-                    "art" : "gift-of-knowledge",
-                    "description" : "You have received extensive training in the tenets of the church. Gain a +1 bonus to your score for rituals you participate in that have the Church of the Shaper (CotS) keyword. You may use the Research downtime action to ask a question relating to religious lore. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.",
-                    "keywords" : ["Scholar"]
+                    "art" : "icicles-aura",
+                    "description" : "When the charges of your Ward Effect are entirely removed by blocking Effects, you may instantly generate a first level Spell Effect that you know how to cast",
+                    "keywords" : ["Sorcerous Schools"]
                 },
                 {
-                    "featName" : "Smithing Lore",
+                    "featName" : "Inclusive Casting",
+                    "prequisites" : "2 Sorcerous Schools Feats",
+                    "art" : "team-downgrade",
+                    "description" : "When casting a Spell with the Mass modifier, you may include yourself as a target of the effect for an additional cost of 1 Vigour. You must include the key words “and myself” to the end of your casting.",
+                    "keywords" : ["Sorcerous Schools"]
+                },
+                {
+                    "featName" : "Oathbound",
+                    "prequisites" : "3 Sorcerous Schools Feats",
+                    "art" : "laurel-crown",
+                    "description" : "When you generate an Effect with the Mass modifier that does not already have a target category, you may add either the target category “Non-Gallóglaigh” or “Gallóglach” for 1 additional Vigour cost.",
+                    "keywords" : ["Sorcerous Schools"]
+                },
+                {
+                    "featName" : "Physician Heal Thyself",
+                    "prequisites" : "1 Sorcerous Schools Feat",
+                    "art" : "healing",
+                    "description" : "When you cast a Healing Spell on a target other than yourself, you may also cast the exact same Spell on yourself for 1 additional Vigour.",
+                    "keywords" : ["Sorcerous Schools"]
+                },
+                {
+                    "featName" : "Prevention and Cure",
+                    "prequisites" : "1 Sorcerous School Feat",
+                    "art" : "rod-of-asclepius",
+                    "description" : "You have focused your studies on the complete nullification of certain Effects. If you know both the Cure and Protection Spell for the same Effect, when you cast the Cure (X) spell for its normal Vigour cost, you are able to additionally cast the Protection (X) Spell at the same target for 1 less Vigour than the normal combined cost of the two Spells, to a minimum of 2 Vigour.",
+                    "keywords" : ["Sorcerous Schools"]
+                },
+                {
+                    "featName" : "Saoi’s Revenge",
+                    "prequisites" : "3 Sorcerous Schools Feats",
+                    "art" : "spiky-explosion",
+                    "description" : "When you are reduced to an unconscious state by the Damage Effect, you may cast one 1 Vigour Spell (not Healing) you know as an instant Spell for 0 Vigour.",
+                    "keywords" : ["Sorcerous Schools"]
+                },
+                {
+                    "featName" : "Transmutative Chain",
                     "prequisites" : "Nothing",
-                    "art" : "gear-hammer",
-                    "description" : "You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p>",
-                    "keywords" : ["Scholar"]
+                    "art" : "eye-shield",
+                    "description" : "So long as you maintain Concentration, after you cast a Single Target transmutation Spell, you may immediately Instant Cast another Single Target transmutation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                    "keywords" : ["Sorcerous Schools"]
                 }
             ]
         }
