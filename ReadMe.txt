@@ -1,3 +1,7 @@
+To-Do
+Copy paste of popups
+Colourblind contrasting???
+
 
 Realm Feats:
 	Baol: Stubborn as a Goat

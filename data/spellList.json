@@ -181,6 +181,298 @@
                     "magicSchool" : ["C","Ev"]
                 }
             ]
+        },
+        {
+            "pathName" : "Second Level Spells (Cost 2 Vigour)",
+            "featPathColour" : "blue",
+            "feats":[
+                {
+                    "featName" : "Charm 30s Beast",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 second Beast",
+                    "art" : "charm-beast",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Charm 30s Mortal",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 second Mortal",
+                    "art" : "charm-mortal",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Cure Disease",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Disease",
+                    "art" : "cure-disease",
+                    "description" : "This Effect is instantaneous. The target of a Disease Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Halt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Halt",
+                    "art" : "cure-halt",
+                    "description" : "This Effect is instantaneous. The target of a Cure Halt has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Lure",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Lure",
+                    "art" : "cure-lure",
+                    "description" : "This Effect is instantaneous. The target of a Lure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Rampage",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Rampage",
+                    "art" : "cure-rampage",
+                    "description" : "This Effect is instantaneous. The target of a Rampage Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Venom",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Venom",
+                    "art" : "cure-venom",
+                    "description" : "This Effect is instantaneous. The target of a Venom Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Fear Beast 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fear Fear",
+                    "art" : "fear-beast",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or concentrate, and must roleplay terror (cowering, hiding, etc).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Fear Undead 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fear Undead",
+                    "art" : "fear-undead",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or concentrate, and must roleplay terror (cowering, hiding, etc).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Global Healing 1",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Global Healing 1",
+                    "art" : "healing-shield",
+                    "description" : "This Effect is instantaneous. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location.",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Halt 10s Gwyllt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt 10 second Gwyllt",
+                    "art" : "halt-gwyllt",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Halt 10s Undead",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt 10 second Undead",
+                    "art" : "halt-undead",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Protection Healing 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Healing 5 minutes",
+                    "art" : "protection-healing",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["C","Tr"]
+                },
+                {
+                    "featName" : "Protection Protection 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Protection 5 minutes",
+                    "art" : "protection-protection",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Strikedown 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Strikedown 5 minutes",
+                    "art" : "protection-strikedown",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Rampage 10s Beast",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 10 seconds ",
+                    "art" : "rampage-beast",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Rampage 10s Mortal",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 10 seconds ",
+                    "art" : "rampage-mortal",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Sleep Beast 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Beast 10 seconds",
+                    "art" : "sleep-beast",
+                    "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Sleep Mortal 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Mortal 10 seconds",
+                    "art" : "sleep-mortal",
+                    "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Ward 1",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward One",
+                    "art" : "ward1",
+                    "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.",
+                    "magicSchool" : ["Ev"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Third Level Spells (Cost 2 Vigour)",
+            "featPathColour" : "orange",
+            "feats":[
+                {
+                    "featName" : "Charm 30s Beast",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 second Beast",
+                    "art" : "charm-beast",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Charm 30s Mortal",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 second Mortal",
+                    "art" : "charm-mortal",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Cure Disease",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Disease",
+                    "art" : "cure-disease",
+                    "description" : "This Effect is instantaneous. The target of a Disease Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Halt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Halt",
+                    "art" : "cure-halt",
+                    "description" : "This Effect is instantaneous. The target of a Cure Halt has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Lure",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Lure",
+                    "art" : "cure-lure",
+                    "description" : "This Effect is instantaneous. The target of a Lure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Rampage",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Rampage",
+                    "art" : "cure-rampage",
+                    "description" : "This Effect is instantaneous. The target of a Rampage Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Cure Venom",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Cure Venom",
+                    "art" : "cure-venom",
+                    "description" : "This Effect is instantaneous. The target of a Venom Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Ev"]
+                },
+                {
+                    "featName" : "Fear Beast 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fear Fear",
+                    "art" : "fear-beast",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or concentrate, and must roleplay terror (cowering, hiding, etc).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Fear Undead 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fear Undead",
+                    "art" : "fear-undead",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or concentrate, and must roleplay terror (cowering, hiding, etc).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Global Healing 1",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Global Healing 1",
+                    "art" : "healing-shield",
+                    "description" : "This Effect is instantaneous. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location.",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Halt 10s Gwyllt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt 10 second Gwyllt",
+                    "art" : "halt-gwyllt",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Halt 10s Undead",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt 10 second Undead",
+                    "art" : "halt-undead",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Protection Healing 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Healing 5 minutes",
+                    "art" : "protection-healing",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["C","Tr"]
+                },
+                {
+                    "featName" : "Protection Protection 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Protection 5 minutes",
+                    "art" : "protection-protection",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Strikedown 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Strikedown 5 minutes",
+                    "art" : "protection-strikedown",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Rampage 10s Beast",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 10 seconds ",
+                    "art" : "rampage-beast",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Rampage 10s Mortal",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 10 seconds ",
+                    "art" : "rampage-mortal",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Sleep Beast 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Beast 10 seconds",
+                    "art" : "sleep-beast",
+                    "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Sleep Mortal 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Mortal 10 seconds",
+                    "art" : "sleep-mortal",
+                    "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Ward 1",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward One",
+                    "art" : "ward1",
+                    "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.",
+                    "magicSchool" : ["Ev"]
+                }
+            ]
         }
     ]
 }
