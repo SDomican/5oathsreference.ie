@@ -329,7 +329,7 @@
             ]
         },
         {
-            "pathName" : "Third Level Spells (Cost 2 Vigour)",
+            "pathName" : "Third Level Spells (Cost 3 Vigour)",
             "featPathColour" : "orange",
             "feats":[
                 {
