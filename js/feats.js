@@ -6,11 +6,11 @@ function addSectionContainer(idToAmend){
 
 function apendText(featPath){
 
-  var featsArray = featPath.feats;
-  var pathName = featPath.pathName;
-  var featPathColour = featPath.featPathColour;
+  let featsArray = featPath.feats;
+  let pathName = featPath.pathName;
+  let featPathColour = featPath.featPathColour;
 
-  var featCode = 
+  let featCode = 
   "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
     "<div class=\"section-title\">" +
       "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
@@ -20,10 +20,23 @@ function apendText(featPath){
       
       featsArray.forEach(feat => {
 
-        var featName = feat.featName;
-        var featRequirements = feat.prequisites;
-        var art = feat.art;
-        var description = feat.description;
+        let featName = feat.featName;
+        let featRequirements = feat.prequisites;
+        let art = feat.art;
+        let description = feat.description;
+
+        if(pathName === "Way of the ritualist"){
+          let difficulty = feat.difficulty;
+          let materialCosts = feat.materialCosts;
+
+          if(materialCosts !== "N/A" && materialCosts !== "None"){
+            description = "<p><i>Material Costs: " + materialCosts + " </i></p>" + description;
+          }
+
+          if(difficulty !== "N/A"){
+            description = "<p><i>Difficulty: " + difficulty + " </i></p>" + description;
+          }
+        }
 
         featCode +=
           "<div class=\"item\">" +
