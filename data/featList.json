@@ -226,7 +226,7 @@
             ]
         },
         {
-            "pathName" : "Way of Power",
+            "pathName" : "Way of power",
             "featPathColour" : "blue",
             "feats":[
                 {
@@ -274,7 +274,7 @@
             ]
         },
         {
-            "pathName" : "Way of Shadowed Blades",
+            "pathName" : "Way of shadowed blades",
             "featPathColour" : "black",
             "feats":[
                 {
@@ -434,7 +434,7 @@
             ]
         },
         {
-            "pathName" : "Way of Sturdy Flesh",
+            "pathName" : "Way of sturdy flesh",
             "featPathColour" : "silver",
             "feats":[
                 {
@@ -510,7 +510,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Alchemist",
+            "pathName" : "Way of the alchemist",
             "featPathColour" : "green",
             "feats":[
                 {
@@ -544,7 +544,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Arcanist",
+            "pathName" : "Way of the arcanist",
             "featPathColour" : "purple",
             "feats":[
                 {
@@ -578,7 +578,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Forge",
+            "pathName" : "Way of the forge",
             "featPathColour" : "red",
             "feats":[
                 {
@@ -612,7 +612,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Professions",
+            "pathName" : "Way of the professions",
             "featPathColour" : "orange",
             "feats":[
                 {
@@ -653,7 +653,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Ritualist",
+            "pathName" : "Way of the ritualist",
             "featPathColour" : "blue",
             "feats":[
                 {
@@ -857,7 +857,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Scholar",
+            "pathName" : "Way of the scholar",
             "featPathColour" : "pink",
             "feats":[
                 {
@@ -905,7 +905,7 @@
             ]
         },
         {
-            "pathName" : "Way of the Sorcerous Schools",
+            "pathName" : "Way of the sorcerous schools",
             "featPathColour" : "brown",
             "feats":[
                 {
