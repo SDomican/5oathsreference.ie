@@ -654,6 +654,180 @@
                     "magicSchool" : ["Ev"]
                 }
             ]
+        },
+        {
+            "pathName" : "Fourth Level Spells (Cost 5 Vigour)",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Halt 30s Gwyllt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt Gwyllt 30 seconds",
+                    "art" : "halt30-gwyllt",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Halt 30s Undead",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt Undead 30 seconds",
+                    "art" : "halt30-undead",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Identify",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Identify",
+                    "art" : "magnifying-glass",
+                    "description" : "This Effect is instantaneous. You gain knowledge of the properties of a lammied item without attuning to that item",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Lure",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Lure",
+                    "art" : "lure",
+                    "description" : "For the duration, the target of this Effect becomes fixated on the source of the Effect and can do nothing but move towards it at normal walking speed, altering their path if the source moves locations, and remaining motionless when they reach the source. Being struck by the Damage Effect will not break the Lure Effect. Please note: Grappling/restraining people is not permitted.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mass Charm 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Charm 10 seconds",
+                    "art" : "mass-charm",
+                    "description" : "For the duration of the Effect, the target(s) of this Effect become well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mass Cure Charm",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Charm",
+                    "art" : "mass-cure-charm",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Daze",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Daze",
+                    "art" : "mass-cure-daze",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Mute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Mute",
+                    "art" : "mass-cure-mute",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Fear",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Fear",
+                    "art" : "mass-cure-fear",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Sleep",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Sleep",
+                    "art" : "mass-cure-sleep",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Daze 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Daze 10 seconds",
+                    "art" : "mass-daze",
+                    "description" : "The target(s) are confused for the duration of the Effect. They cannot voluntarily walk or run, cannot strike anyone, and cannot concentrate. They can still talk, and can still defend themselves from strikes.",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Mass Fumble",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Fumble (Location)",
+                    "art" : "mass-fumble",
+                    "description" : "This Effect is instantaneous. The target(s) are forced to drop any items held in the target location. Items may not be caught until they have fallen on the ground. If an item held within the target’s hand is a larp-safe item, such as a weapon, a shield or an approved spell-focusthen the Effect may be generated by striking the item where the Effect is being delivered by weapon blow. If you have an OOC reason for not wishing to drop the affected item you may choose to let the item hang limp for 10 seconds. During this time it may not be used in any way and blows that strike it are treated as having struck the location holding it.",
+                    "magicSchool" : ["C","Tr"]
+                },
+                {
+                    "featName" : "Mass Mute 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Mute 10 seconds",
+                    "art" : "mass-mute",
+                    "description" : "The target(s) are silenced. For the duration of the Spell the character cannot perform any vocal action including casting Spells. They may still generate weapon blow Effects, or other actions which require Concentration.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mass Protection Charm 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Charm 5 minutes",
+                    "art" : "mass-protection-charm",
+                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Protection Daze 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Daze 5 minutes",
+                    "art" : "mass-protection-daze",
+                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Protection Fumble 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Fumble 5 minutes",
+                    "art" : "mass-protection-fumble",
+                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Protection Mindslash 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Mindslash 5 minutes",
+                    "art" : "mass-protection-mindslash",
+                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Protection Mute 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Mute 5 minutes",
+                    "art" : "mass-protection-mute",
+                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Execute 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Execute 5 minute",
+                    "art" : "protection-execute",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Lure 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Lure 5 minute",
+                    "art" : "protection-lure",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Protection Shatter 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Shatter 5 minute",
+                    "art" : "protection-shatter",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Rampage 30s Beast",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 30 seconds",
+                    "art" : "rampage30-beast",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Rampage 30s Mortal",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 30 seconds",
+                    "art" : "rampage30-mortal",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Ward 3",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 3",
+                    "art" : "ward3",
+                    "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.<p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                    "magicSchool" : ["Ev"]
+                }
+            ]
         }
     ]
 }
