@@ -73,7 +73,8 @@ function manageKeywordsOnPopup(keyword){
     returnText = "<span class='tooltip' data-tooltip='Global is a Modifier that can be applied to the Damage, Healing or Repair Effects, which allows the Effect to target all 6 locations on the target character’s body. A Global Damage Effect will target all 6 locations on the targets body, and remove 1 Body hit from each location, removing Armour hits first as normal. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location. A Global Repair 1 Effect will target all 6 locations on the target character’s body, and restore 1 Armour hit to each location. This Modifier can be combined with the Full Modifier.' data-tooltip-position='bottom' style='margin-top: 60px;'>Global</span>";
     return returnText;
   case "C":
-    return "Combat";
+    returnText = "<span class='tooltip' data-tooltip='If you decided that your character was a Peacesworn, your character will not be able to take any Feats that have the Combat keyword.'data-tooltip-position='bottom' style='margin-top: 60px;'>Combat</span>";
+    return returnText; 
   default:
     return "N/A"
   }

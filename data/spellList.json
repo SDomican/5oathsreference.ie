@@ -108,7 +108,7 @@
                     "call" : "Instant Cast Global Stop Bleed",
                     "art" : "hand-bandage",
                     "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits.",
-                    "magicSchool" : ["Tr"]
+                    "magicSchool" : ["Global","Tr"]
                 },
                 {
                     "featName" : "Healing 1",
@@ -254,7 +254,7 @@
                     "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Global Healing 1",
                     "art" : "healing-shield",
                     "description" : "This Effect is instantaneous. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location.",
-                    "magicSchool" : ["C","Ev"]
+                    "magicSchool" : ["Global","C","Ev"]
                 },
                 {
                     "featName" : "Halt 10s Gwyllt",
