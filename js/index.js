@@ -22,7 +22,7 @@ function hidePopup(event){
 
   let classList = event.target.classList;
 
-  if(popupVisible && classList != "item-icon iconsize"){ showHide();}
+  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt"){ showHide();}
 }
 
 function populateFeatPopup(elementId){
