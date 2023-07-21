@@ -24,19 +24,22 @@ function apendText(featPath){
         let featRequirements = feat.prequisites;
         let art = feat.art;
         let description = feat.description;
+        let keywords = feat.magicSchool;
+        let keywordsText = "<i>Keywords: ";
 
-        if(pathName === "Way of the ritualist"){
-          let difficulty = feat.difficulty;
-          let materialCosts = feat.materialCosts;
-
-          if(materialCosts !== "N/A" && materialCosts !== "None"){
-            description = "<p><i>Material Costs: " + materialCosts + " </i></p>" + description;
+        for (let i = 0; i < keywords.length; i++) {
+          
+          if(i < (keywords.length - 1)){
+            keywordsText += keywords[i] + ", ";
           }
+          else{ keywordsText += keywords[i] + " "; }
+          
+      }
 
-          if(difficulty !== "N/A"){
-            description = "<p><i>Difficulty: " + difficulty + " </i></p>" + description;
-          }
-        }
+        keywordsText + "</i>";
+        description += "<hr><p>" + keywordsText + "</p>";
+
+        
 
         featCode +=
           "<div class=\"item\">" +

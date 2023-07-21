@@ -660,172 +660,109 @@
             "featPathColour" : "purple",
             "feats":[
                 {
-                    "featName" : "Halt 30s Gwyllt",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt Gwyllt 30 seconds",
-                    "art" : "halt30-gwyllt",
-                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
-                    "magicSchool" : ["C","Ev"]
-                },
-                {
-                    "featName" : "Halt 30s Undead",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt Undead 30 seconds",
-                    "art" : "halt30-undead",
-                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item",
-                    "magicSchool" : ["C","Ev"]
-                },
-                {
-                    "featName" : "Identify",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Identify",
-                    "art" : "magnifying-glass",
-                    "description" : "This Effect is instantaneous. You gain knowledge of the properties of a lammied item without attuning to that item",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Lure",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Lure",
-                    "art" : "lure",
-                    "description" : "For the duration, the target of this Effect becomes fixated on the source of the Effect and can do nothing but move towards it at normal walking speed, altering their path if the source moves locations, and remaining motionless when they reach the source. Being struck by the Damage Effect will not break the Lure Effect. Please note: Grappling/restraining people is not permitted.",
+                    "featName" : "Fear 30s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Fear 30 seconds",
+                    "art" : "fear30",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or Concentrate, and must roleplay terror (cowering, hiding, etc).",
                     "magicSchool" : ["C","En"]
                 },
                 {
-                    "featName" : "Mass Charm 10s",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Charm 10 seconds",
-                    "art" : "mass-charm",
-                    "description" : "For the duration of the Effect, the target(s) of this Effect become well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
-                    "magicSchool" : ["C","En"]
-                },
-                {
-                    "featName" : "Mass Cure Charm",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Charm",
-                    "art" : "mass-cure-charm",
-                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Cure Daze",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Daze",
-                    "art" : "mass-cure-daze",
-                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Cure Mute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Mute",
-                    "art" : "mass-cure-mute",
-                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Cure Fear",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Fear",
-                    "art" : "mass-cure-fear",
-                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Cure Sleep",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Sleep",
-                    "art" : "mass-cure-sleep",
-                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Daze 10s",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Daze 10 seconds",
-                    "art" : "mass-daze",
-                    "description" : "The target(s) are confused for the duration of the Effect. They cannot voluntarily walk or run, cannot strike anyone, and cannot concentrate. They can still talk, and can still defend themselves from strikes.",
+                    "featName" : "Full Global Healing ",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Full Global Healing ",
+                    "art" : "health-increase",
+                    "description" : "This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect. This number may be 1, or it may be “Full”, which restores all Body hits to the location. <p>A Full Healing will restore a character’s Body hits to the total allowed by their Feats and any magic items the character has that give extra Body hits.</p><p>A Global Healing Effect will target all 6 locations on the target character’s body, and restore full Body hit to each location</p>",
                     "magicSchool" : ["C","Ev"]
                 },
                 {
-                    "featName" : "Mass Fumble",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Fumble (Location)",
-                    "art" : "mass-fumble",
-                    "description" : "This Effect is instantaneous. The target(s) are forced to drop any items held in the target location. Items may not be caught until they have fallen on the ground. If an item held within the target’s hand is a larp-safe item, such as a weapon, a shield or an approved spell-focusthen the Effect may be generated by striking the item where the Effect is being delivered by weapon blow. If you have an OOC reason for not wishing to drop the affected item you may choose to let the item hang limp for 10 seconds. During this time it may not be used in any way and blows that strike it are treated as having struck the location holding it.",
+                    "featName" : "Halt 30s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Halt 30 seconds",
+                    "art" : "halt30",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item.",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Mass Cure Halt",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Halt",
+                    "art" : "mass-cure-halt",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect <p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Lure",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Lure",
+                    "art" : "mass-cure-lure",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect <p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Cure Rampage",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Cure Rampage",
+                    "art" : "mass-cure-rampage",
+                    "description" : "This Effect is instantaneous. The target(s) of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect <p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["Tr"]
+                },
+                {
+                    "featName" : "Mass Fear Beast 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Fear Beast 10 seconds",
+                    "art" : "mass-fear-beast",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or Concentrate, and must roleplay terror (cowering, hiding, etc).<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mass Fear Undead 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Fear Undead 10 seconds",
+                    "art" : "mass-fear-undead",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or Concentrate, and must roleplay terror (cowering, hiding, etc).<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["C","En"]
+                },
+                {
+                    "featName" : "Mass Halt Gwyllt 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Halt Gwyllt 10 seconds",
+                    "art" : "mass-halt-gwyllt",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item.<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Mass Halt Undead 10s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Halt Undead 10 seconds",
+                    "art" : "mass-halt-unliving",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item.<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
+                    "magicSchool" : ["C","Ev"]
+                },
+                {
+                    "featName" : "Mass Protection Healing 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Healing 5 minute",
+                    "art" : "mass-protection-healing",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
                     "magicSchool" : ["C","Tr"]
                 },
                 {
-                    "featName" : "Mass Mute 10s",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Mute 10 seconds",
-                    "art" : "mass-mute",
-                    "description" : "The target(s) are silenced. For the duration of the Spell the character cannot perform any vocal action including casting Spells. They may still generate weapon blow Effects, or other actions which require Concentration.",
-                    "magicSchool" : ["C","En"]
-                },
-                {
-                    "featName" : "Mass Protection Charm 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Charm 5 minutes",
-                    "art" : "mass-protection-charm",
-                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "featName" : "Mass Protection Protection 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Protection 5 minute",
+                    "art" : "mass-protection-protection",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
                     "magicSchool" : ["Tr"]
                 },
                 {
-                    "featName" : "Mass Protection Daze 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Daze 5 minutes",
-                    "art" : "mass-protection-daze",
-                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
+                    "featName" : "Mass Protection Strikedown 5 minute",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Strikedown 5 minute",
+                    "art" : "mass-protection-strikedown",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.<p><i>Mass: The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</i></p>",
                     "magicSchool" : ["Tr"]
                 },
                 {
-                    "featName" : "Mass Protection Fumble 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Fumble 5 minutes",
-                    "art" : "mass-protection-fumble",
-                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Protection Mindslash 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Mindslash 5 minutes",
-                    "art" : "mass-protection-mindslash",
-                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Mass Protection Mute 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Mute 5 minutes",
-                    "art" : "mass-protection-mute",
-                    "description" : "The target(s) are protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Protection Execute 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Execute 5 minute",
-                    "art" : "protection-execute",
-                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Protection Lure 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Lure 5 minute",
-                    "art" : "protection-lure",
-                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Protection Shatter 5 minute",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Shatter 5 minute",
-                    "art" : "protection-shatter",
-                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect",
-                    "magicSchool" : ["Tr"]
-                },
-                {
-                    "featName" : "Rampage 30s Beast",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 30 seconds",
-                    "art" : "rampage30-beast",
+                    "featName" : "Rampage 30s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 30 seconds",
+                    "art" : "rampage30",
                     "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
                     "magicSchool" : ["C","En"]
                 },
                 {
-                    "featName" : "Rampage 30s Mortal",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 30 seconds",
-                    "art" : "rampage30-mortal",
-                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                    "featName" : "Sleep 30s",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 30 seconds",
+                    "art" : "sleep30",
+                    "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
                     "magicSchool" : ["C","En"]
-                },
-                {
-                    "featName" : "Ward 3",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 3",
-                    "art" : "ward3",
-                    "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.<p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
-                    "magicSchool" : ["Ev"]
                 }
             ]
         }

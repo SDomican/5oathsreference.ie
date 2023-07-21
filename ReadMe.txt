@@ -1,7 +1,22 @@
 To-Do
 Copy paste of popups
-Colourblind contrasting???
+Colourblind contrasting - sort colours???
+Add Keywords
+Add Term popup to spells (e.g. what is mass)
+Check site sizing
+Check works on mobile
+Resize art icons
+Get permission
+Buy domain
+Get published on domain
+Craftables Page
+Effects page
+Realm and Open Feats
 
+Future
+Character creator
+Keyword search
+Monster creator
 
 Realm Feats:
 	Baol: Stubborn as a Goat
@@ -346,10 +361,10 @@ Fifth Level Spells (Cost 5 Vigour):
 	Mass Cure Rampage (Tr) - mass-cure-rampage
 	Mass Fear Beast 10s (C/En) - mass-fear-beast
 	Mass Fear Undead 10s (C/En) - mass-fear-undead
-	Mass Halt Gwyllt 10s (C/Ev)
+	Mass Halt Gwyllt 10s (C/Ev) - mass-halt-gwyllt
 	Mass Halt Undead 10s (C/Ev) - mass-halt-unliving
-	Mass Protection Healing 5 minute(C/Tr)
-	Mass Protection Protection 5 minute (Tr)
+	Mass Protection Healing 5 minute(C/Tr) - mass-protection-healing
+	Mass Protection Protection 5 minute (Tr) - mass-protection-protection
 	Mass Protection Strikedown 5 minute (Tr) - mass-protection-strikedown
 	Rampage 30s (C/En) - rampage30
 	Sleep 30s (C/En) - sleep30
