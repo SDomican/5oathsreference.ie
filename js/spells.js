@@ -30,16 +30,13 @@ function apendText(featPath){
         for (let i = 0; i < keywords.length; i++) {
           
           if(i < (keywords.length - 1)){
-            keywordsText += keywords[i] + ", ";
+            keywordsText += manageKeywordsOnPopup(keywords[i]) + ", ";
           }
-          else{ keywordsText += keywords[i] + " "; }
-          
-      }
+          else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
+        }
 
         keywordsText + "</i>";
         description += "<hr><p>" + keywordsText + "</p>";
-
-        
 
         featCode +=
           "<div class=\"item\">" +
@@ -58,6 +55,34 @@ function apendText(featPath){
 
 document.getElementById("featsContainer").innerHTML += featCode;
 }
+
+function manageKeywordsOnPopup(keyword){
+  let returnText = "";
+
+  switch(keyword){
+  case "En":
+    return "Enchantment"
+  case "Ev":
+    return "Evocation";
+  case "Tr":
+    return "Transmutation";
+  case "Mass":
+     
+    returnText = "<span class='tooltip'>Mass</span>";
+
+    return returnText;
+  case "Global":
+    return "Global";
+  case "C":
+    return "Combat";
+  default:
+    return "N/A"
+  }
+
+}
+
+
+
 
 addSectionContainer("addSectionContainer");
 
