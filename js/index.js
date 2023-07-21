@@ -21,8 +21,11 @@ function showHide(elementId) {
 function hidePopup(event){
 
   let classList = event.target.classList;
+  let id = event.target.id;
+  console.log("Id: " + id);
+  console.log("Class: " + classList);
 
-  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt"){ showHide();}
+  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="toolTip"){ showHide();}
 }
 
 function populateFeatPopup(elementId){
