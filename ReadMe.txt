@@ -12,6 +12,7 @@ Get published on domain
 Craftables Page
 Effects page
 Realm and Open Feats
+Clicking Ritual/Material costs on Ritual Feat closes popup.
 
 Future
 Character creator
