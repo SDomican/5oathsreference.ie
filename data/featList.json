@@ -638,7 +638,7 @@
                 },
                 {
                     "featName" : "Merchant",
-                    "prequisites" : "Journeyman Blacksmith",
+                    "prequisites" : "Nothing",
                     "art" : "merchant",
                     "description" : "You have a steady stream of income. Each event you attend, gain 6 additional coins. This Feat may be taken multiple times, up to 3 times",
                     "keywords" : ["Multiple", "Professions"]
