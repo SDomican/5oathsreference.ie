@@ -27,11 +27,11 @@ Keyword search
 Monster creator
 
 Realm Feats:
-	Baol: Stubborn as a Goat
-	Bruid: Careful Hands
-	Draíod: Strident Voice
-	Siabhal: Loyalty Undivided
-	Uasa: Clarity of Focus
+	Baol: Stubborn as a Goat - ram
+	Bruid: Careful Hands - gloves
+	Draíod: Strident Voice - shouting
+	Siabhal: Loyalty Undivided - public-speaker
+	Uasa: Clarity of Focus - dagger-rose
 
 Open Feats
 
@@ -493,16 +493,16 @@ Master Blacksmith:
 <----------------------------------------------------------->
 
 Default effects:
-	Weapon blow
-	Zero Damage
-	Concentration
+	Weapon blow - sword-slice
+	Zero Damage - sword-break
+	Concentration - rear-aura
 	Execute - executioner-hood
-	Notice Bleeding
-	General Repair
+	Notice Bleeding - ragged-wound
+	General Repair - sewing-string
 
 Conditions:
-	Restrained
-	Unresisting
+	Restrained - handcuffed
+	Unresisting - person
 	
 Physical Effects:
 	Fumble - drop-weapon
@@ -511,25 +511,24 @@ Physical Effects:
 	Halt - halt
 	
 Mental Effects:
-	Fear
+	Fear - surprised-skull
 	Rampage - rampage
 	Sleep - sleep
 	Daze - daze
-	Charm
+	Charm - charm
 		
 Other Effects:
-	Immunity
+	Immunity - bell-shield
 	Bane - bane
-	Cure
-	Damage
-	Detect
-	Diagnose
-	Disease
-	Healing
-	Identify
-	Lure
+	Cure - remedy
+	Detect - semi-closed-eye
+	Diagnose - caduceus
+	Disease - tumor
+	Healing - healing
+	Identify - magnifying-glass
+	Lure - lure
 	Mindslash - brain-tentacle
-	Mute
+	Mute - mute
 	Protection
 	Rend - rend
 	Repair
