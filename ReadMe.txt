@@ -20,6 +20,7 @@ Change highlight colour of keywords dynamically
 Downtime actions page
 realmFeatsAdd Keyword info to popup
 Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
+Spells page has undefinied prerequisites
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
@@ -421,62 +422,62 @@ Master Alchemist:
 	Vapours of the Moon (c): 1 Dung, 1 Flower, 1 Heart, 1 Leaf, 1 Root - mass-gwyllt-bane
 	
 Student Arcanist:
-	Amulet of Increased Potential(d): 1 Copper, 1 Heart, 1 Incense, 1 Ink, 1 Iron, 1 Leaf
-	Crystal of the Clear Mind (c): 1 Bark, 1 Incense
-	Lesser Eye of the Shaper (d): 1 Bronze, 1 Fang, 2 Incense, 1 Parchment, 1 Seed
-	Student Ritual Effigy (c): 1 Heart, 1 Wax
-	Student Spellbook Transcription (d): 1 Bark, 1 Fang, 1 Ink, 1 Parchment, 1 Silver, 1 Wax
-	Student Windfall Arcanistry (w): 1 metal, 1 Plant, 2 Processed
-	Unrelenting Rant (c): 1 Bone, 1 Glass
+	Amulet of Increased Potential(d): 1 Copper, 1 Heart, 1 Incense, 1 Ink, 1 Iron, 1 Leaf - necklace
+	Crystal of the Clear Mind (c): 1 Bark, 1 Incense - crystal-growth
+	Lesser Eye of the Shaper (d): 1 Bronze, 1 Fang, 2 Incense, 1 Parchment, 1 Seed - warlock-eye
+	Student Ritual Effigy (c): 1 Heart, 1 Wax - puppet
+	Student Spellbook Transcription (d): 1 Bark, 1 Fang, 1 Ink, 1 Parchment, 1 Silver, 1 Wax - spell-book
+	Student Windfall Arcanistry (w): 1 metal, 1 Plant, 2 Processed - windfall
+	Unrelenting Rant (c): 1 Bone, 1 Glass - crystalize
 	
 Apprentice Arcanist:
-	Apprentice Spellbook Transcription (d): 1 Copper, 1 Flower, 3 Glass, 1 Leaf, 1 Pelt, 1 Seed, 1 Silver
-	Apprentice Ritual Effigy (c): 1 Fang, 2 Ink 
-	Apprentice Windfall Arcanistry (w): 1 metal, 1 animal, 1 plant, 3 processed
-	Greater Eye of the Shaper (d): 1 Bark, 3 Heart, 1 Iron, 3 Parchment, 1 Root
-	Warding Charm (c): 1 Copper, 1 Glass, 1 Incense
-	Talisman of Barbarous Vitality (d): 3 Bone, 1 Bronze, 1 Gold, 2 Ink, 2 Wax
-	Wand of Increased Potential (d): 1 Bronze, 3 Dung, 2 Incense, 1 Leaf, 1 Seed, 1 Silver
+	Apprentice Spellbook Transcription (d): 1 Copper, 1 Flower, 3 Glass, 1 Leaf, 1 Pelt, 1 Seed, 1 Silver - burning-book
+	Apprentice Ritual Effigy (c): 1 Fang, 2 Ink - voodoo-doll
+	Apprentice Windfall Arcanistry (w): 1 metal, 1 animal, 1 plant, 3 processed - windfall
+	Greater Eye of the Shaper (d): 1 Bark, 3 Heart, 1 Iron, 3 Parchment, 1 Root - warlock-eye-plus
+	Warding Charm (c): 1 Copper, 1 Glass, 1 Incense - feather-necklace
+	Talisman of Barbarous Vitality (d): 3 Bone, 1 Bronze, 1 Gold, 2 Ink, 2 Wax - skull-signet
+	Wand of Increased Potential (d): 1 Bronze, 3 Dung, 2 Incense, 1 Leaf, 1 Seed, 1 Silver - lunar-wand
 
 Journeyman Arcanist:
-	Amulet of the Gwyllt Foe (d): 1 Glass, 1 Gold, 1 Incense, 3 Ink, 1 Iron, 1 Leaf, 3 Pelt, 1 Root
-	Amulet of the Prodigy (d): 2 Fang, 2 Flower, 4 Glass, 1 Gold, 1 Incense, 1 Root, 1 Silver
-	Champion of Life’s Amulet (d): 2 Bark, 1 Bone, 1 Bronze, 1 Copper, 3 Parchment, 4 Wax
-	Journeyman Ritual Effigy (c): 2 Dung, 1 Ink, 1 Iron
-	Journeyman Spellbook Transcription (d): 1 Bark, 2 Copper, 1 Flower, 1 Glass, 2 Heart, 1 Leaf, 4 Parchment 
-	Journeyman Windfall Arcanistry (w): 1 metals, 1 animals, 2 plants, 4 processed
-	Lesser Way Stone (c): 1 Glass, 1 Incense, 1 Silver, 1 Wax
+	Amulet of the Gwyllt Foe (d): 1 Glass, 1 Gold, 1 Incense, 3 Ink, 1 Iron, 1 Leaf, 3 Pelt, 1 Root - holy-symbol
+	Amulet of the Prodigy (d): 2 Fang, 2 Flower, 4 Glass, 1 Gold, 1 Incense, 1 Root, 1 Silver - gem-pendant
+	Champion of Life’s Amulet (d): 2 Bark, 1 Bone, 1 Bronze, 1 Copper, 3 Parchment, 4 Wax - intricate-necklace
+	Journeyman Ritual Effigy (c): 2 Dung, 1 Ink, 1 Iron - candle-skull
+	Journeyman Spellbook Transcription (d): 1 Bark, 2 Copper, 1 Flower, 1 Glass, 2 Heart, 1 Leaf, 4 Parchment - gift-of-knowledge
+	Journeyman Windfall Arcanistry (w): 1 metals, 1 animals, 2 plants, 4 processed - windfall
+	Lesser Way Stone (c): 1 Glass, 1 Incense, 1 Silver, 1 Wax - menhir
 	
 Master Arcanist:
-	Amulet of Boundless Vitality (d): 1 Bronze, 2 Dung, 1 Fang, 2 Flower, 4 Glass, 1 Incense, 1 Ink, 2 Iron, 1 Silver
-	Casting Crystal (c): 1 Fang, 1 Gold, 1 Ink, 1 Root, 1 Wax
-	Greater Way Stone (c): 1 Incense, 1 Seed, 3 Wax
-	Master Ritual Effigy (c): 1 Bone, 1 Bronze, 1 Ink, 1 Leaf, 1 Parchment
-	Master Spellbook Transcription (d): 1 Bark, 2 Bone, 1 Fang, 3 Ink, 4 Parchment, 2 Root, 2 Seed
-	Master Windfall Arcanistry (w): 1 metals, 2 animals, 3 plants, 4 processed
-	Wand of the Nemesis (d): 1 Bark, 1 Fang, 2 Flower, 2 Heart, 5 Incense, 2 Leaf, 2 Pelt
+	Amulet of Boundless Vitality (d): 1 Bronze, 2 Dung, 1 Fang, 2 Flower, 4 Glass, 1 Incense, 1 Ink, 2 Iron, 1 Silver - necklace-display
+	Casting Crystal (c): 1 Fang, 1 Gold, 1 Ink, 1 Root, 1 Wax - topaz
+	Greater Way Stone (c): 1 Incense, 1 Seed, 3 Wax - greater-menhir
+	Master Ritual Effigy (c): 1 Bone, 1 Bronze, 1 Ink, 1 Leaf, 1 Parchment - ifrit
+	Master Spellbook Transcription (d): 1 Bark, 2 Bone, 1 Fang, 3 Ink, 4 Parchment, 2 Root, 2 Seed - enlightenment
+	Master Windfall Arcanistry (w): 1 metals, 2 animals, 3 plants, 4 processed - windfall
+	Wand of the Nemesis (d): 1 Bark, 1 Fang, 2 Flower, 2 Heart, 5 Incense, 2 Leaf, 2 Pelt - crystal-wand
 
 Student Blacksmith:
-	Fortifying Leathers (Light armour) (d): 3 Bronze, 1 Dung, 1 Pelt
-	Hamstringing Knife (Small weapon) (d): 3 Copper, 1 Fang, 1 Glass, 1 Heart
-	Improved Steel (Heavy armour) (d): 1 Bone, 3 Gold, 1 Heart, 1 Incense
-	Lengthy Silence (Large weapon) (d): 2 Iron, 2 Bone, 1 Pelt, 1 Parchment
-	Piercing Blade (Medium weapon) (d): 2 Dung, 1 Ink, 1 Iron, 2 Silver
-	Powerful Bow (Ranged weapon) (d): 2 Bronze, 2 Iron, 1 Flower, 1 Wax
-	Student Windfall Forging (w): 2 Metals, 1 Animal, 1 Processed 
+	Fortifying Leathers (Light armour) (d): 3 Bronze, 1 Dung, 1 Pelt - bracers
+	Hamstringing Knife (Small weapon) (d): 3 Copper, 1 Fang, 1 Glass, 1 Heart - plain-dagger
+	Improved Steel (Heavy armour) (d): 1 Bone, 3 Gold, 1 Heart, 1 Incense - all-for-one 
+	Lengthy Silence (Large weapon) (d): 2 Iron, 2 Bone, 1 Pelt, 1 Parchment - silenced
+	Piercing Blade (Medium weapon) (d): 2 Dung, 1 Ink, 1 Iron, 2 Silver - split-body
+	Powerful Bow (Ranged weapon) (d): 2 Bronze, 2 Iron, 1 Flower, 1 Wax - heavy-arrow
+	Student Windfall Forging (w): 2 Metals, 1 Animal, 1 Processed - windfall
 	
 Apprentice Blacksmith:
-	Apprentice Windfall Forging (w): 3 metals, 2 Animal, 1 Plant
-	Breaking Bow (Ranged weapon) (d): 1 Bark, 5 Bronze, 2 Dung, 1 Leaf
-	Creviced Steel (Heavy armour) (d): 4 Copper, 2 Gold, 1 Iron, 2 Seed 
-	Honed Dagger (Small weapon) (d): 2 Bone, 2 Fang, 1 Flower, 3 Gold, 1 Pelt
-	Offensive Blade (Medium weapon) (d): 3 Copper, 1 Glass, 2 Gold, 1 Leaf, 2 Silver
-	Shattering Staff (Large weapon) (d): 4 Iron, 1 Parchment, 1 Root, 3 Silver
-	Strengthened Leathers (Light armour) (d): 1 Bronze, 2 Fang, 1 Incense, 5 Pelt
+	Apprentice Windfall Forging (w): 3 metals, 2 Animal, 1 Plant - windfall
+	Breaking Bow (Ranged weapon) (d): 1 Bark, 5 Bronze, 2 Dung, 1 Leaf - double-shot
+	Creviced Steel (Heavy armour) (d): 4 Copper, 2 Gold, 1 Iron, 2 Seed - shard-sword
+	Honed Dagger (Small weapon) (d): 2 Bone, 2 Fang, 1 Flower, 3 Gold, 1 Pelt - stiletto
+	Offensive Blade (Medium weapon) (d): 3 Copper, 1 Glass, 2 Gold, 1 Leaf, 2 Silver - reaper-scythe
+	Shattering Staff (Large weapon) (d): 4 Iron, 1 Parchment, 1 Root, 3 Silver - crescent-staff
+	Strengthened Leathers (Light armour) (d): 1 Bronze, 2 Fang, 1 Incense, 5 Pelt - leather-vest
 	
 Journeyman Blacksmith:
-	Armour of Broad Resistance (Light armour) (d): 1 Bone, 2 Dung, 1 Glass, 1 Incense, 2 Iron, 1 Leaf, 4 Silver
-	Death of the Mage (All weapon types) (d): 2 Bone, 1 Glass, 3 Heart, 5 Iron, 1 Seed
+	Armour of Broad Resistance (Light armour) (d): 1 Bone, 2 Dung, 1 Glass, 1 Incense, 2 Iron, 1 Leaf, 4 Silver - cape-armor
+	Death of the Mage (All weapon types) (d): 2 Bone, 1 Glass, 3 Heart, 5 Iron, 1 Seed - energy-shield
 	Fear of the Unsettled (All weapon types) (d): 2 Bone, 2 Fang, 5 Gold, 1 Pelt, 1 Root, 1 Parchment 
 	Fear of the Wicked (All weapon types) (d): 6 Copper, 3 Fang, 1 Flower, 1 Incense, 1 Pelt
 	Journeyman Windfall Forging (w): 4 metals, 2 animals, 1 Plant, 1 Processed
