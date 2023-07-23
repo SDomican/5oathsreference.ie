@@ -17,6 +17,8 @@ Clicking Ritual/Material costs on Ritual Feat closes popup.
 Spell Keywords close page on click
 Clicking near Feat art closes page.
 Change highlight colour of keywords dynamically
+Downtime actions page
+realmFeatsAdd Keyword info to popup
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
@@ -36,7 +38,7 @@ Realm Feats:
 Open Feats
 
 The Path of Peace:
-	Peacesworn
+	Peacesworn - peace-dove
 
 The Path of Renewal:
 	Weeping

@@ -9,14 +9,14 @@
                     "featName" : "Armour Bearer",
                     "prequisites" : "Nothing",
                     "art" : "pincers",
-                    "description" : "You may repair Heavy Armour and Light Armour",
+                    "description" : "You may repair Heavy Armour and Light Armour.",
                     "keywords" : ["Leather and Steel"]
                 },
                 {
                     "featName" : "Armour Mastery",
                     "prequisites" : "3 Leather and Steel Feats",
                     "art" : "scale-mail",
-                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour",
+                    "description" : "You are an expert in gaining the full benefit of your armour. Gain an additional +1 Armour hit per location when wearing any armour.",
                     "keywords" : ["Leather and Steel"]
                 },
                 {
