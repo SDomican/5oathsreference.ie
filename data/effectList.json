@@ -1,0 +1,18 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "First Level Spells (Cost 1 Vigour)",
+            "featPathColour" : "maroon",
+            "feats":[
+                {
+                    "featName" : "Charm",
+                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)",
+                    "art" : "charm",
+                    "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                    "magicSchool" : ["C","En"]
+                }
+            ]
+        }
+    ]
+}

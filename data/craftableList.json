@@ -1,0 +1,225 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "Student Alchemist:",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Armour Polish",
+                    "art" : "armour-polish",
+                    "description" : "This item is a potion. On use, this potion generates the Global Repair 1 Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Flower", "1 Seed"]
+                },
+                {
+                    "featName" : "Coagulant Potion",
+                    "art" : "coagulant-potion",
+                    "description" : "This item is a potion. This potion may only affect a character not in their death count. On use, for the next hour extend your death count by 60 seconds.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Heart"]
+                },
+                {
+                    "featName" : "Increased Vitality",
+                    "art" : "increased-vitality",
+                    "description" : "This item is a potion. On use, gain +1 maximum and current Body hits for 5 mins when consumed. You may only be under the effect of one instance of this potion at a time. After 5 minutes your maximum hits reset to normal, your current hits are unaffected unless they would be more than your maximum and if so they decrease to your maximum.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark","1 Seed"]
+                },
+                {
+                    "featName" : "Restorative Balm",
+                    "art" : "restorative-balm",
+                    "description" : "This item is a potion. On use, generate the Global Heal 1 Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bone", "1 Root"]
+                },
+                {
+                    "featName" : "Student Windfall Alchemy",
+                    "art" : "windfall",
+                    "description" : "Randomly produces 3 of a Student level Consumable.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["3 plant","1 Animal"]
+                },
+                {
+                    "featName" : "Stunning Poison",
+                    "art" : "stunning-poison",
+                    "description" : "This item is a poison and must be applied to a weapon on use. On use, the next weapon blow with the weapon to which the poison has been applied generates the Daze 10s Effect in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Flower", "1 Leaf"]
+                },
+                {
+                    "featName" : "Tonic Potion",
+                    "art" : "tonic-potion",
+                    "description" : "This item is a potion. On use, regain 6 Vigour.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Flower"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Apprentice Alchemist:",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Apprentice Windfall Alchemy",
+                    "art" : "windfall",
+                    "description" : "Randomly produces 3 of a Apprentice level Consumable.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["3 Plant", "2 Animal", "1 processed"]
+                },
+                {
+                    "featName" : "Bracing Brew",
+                    "art" : "protection-strikedown",
+                    "description" : " This item is a potion. On use, generate the Protection Strikedown 5 min and Protection Push 5 min Effects.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Pelt", "1 Flower"]
+                },
+                {
+                    "featName" : "Curing Tonic ",
+                    "art" : "cure-disease",
+                    "description" : "This item is a potion. On use, generate the Cure Disease Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Flower", "1 Glass", "1 Heart"]
+                },
+                {
+                    "featName" : "Cleansing Tonic",
+                    "art" : "cure-venom",
+                    "description" : "This item is a potion. On use, generate the Cure Venom Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Incense", "1 Seed", "1 Wax"]
+                },
+                {
+                    "featName" : "Flesh and Steel",
+                    "art" : "flesh-and-steel",
+                    "description" : "This item is a potion. On use, generates the Global Heal 1 and Global Repair 1 Effects.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Fang", "1 Leaf", "1 Root"]
+                },
+                {
+                    "featName" : "Locking Poison",
+                    "art" : "halt",
+                    "description" : "This item is a poison and must be applied to a weapon on use. On use, the next weapon blow with the weapon to which the poison has been applied generates the Halt 30s Effect in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Dung", "1 Seed","1 Root"]
+                },
+                {
+                    "featName" : "Mystic Counterstrike",
+                    "art" : "cure-ward",
+                    "description" : "This item is a poison and must be applied to a weapon on use. On use, the next weapon blow with the weapon to which the poison has been applied generates the Cure Ward Effect in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Bone", "1 Seed"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Journeyman Alchemist:",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Armour Salve",
+                    "art" : "chain-mail",
+                    "description" : "This item is a potion. On use, generates the Full Global Repair Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Dung", "2 Leaf", "1 Ink"]
+                },
+                {
+                    "featName" : "Dazzling Liquid",
+                    "art" : "mass-daze",
+                    "description" : "This item is a potion. On use, generate the Mass Daze 10s Effect. This Effect may not target an arc.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Bone", "1 Glass", "1 Seed"]
+                },
+                {
+                    "featName" : "Health Tonic",
+                    "art" : "hospital-cross",
+                    "description" : "This item is a potion. On use, generates the Full Global Heal Effect.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Fang", "1 Flower", "1 Gold", "1 Leaf"]
+                },
+                {
+                    "featName" : "Journeyman Windfall Alchemy ",
+                    "art" : "windfall",
+                    "description" : "Randomly produces 3 of a Journeyman level Consumable",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["3 Plants", "2 Animal", "2 Processed", "1 Metal"]
+                },
+                {
+                    "featName" : "Muffling Smoke ",
+                    "art" : "mass-mute30",
+                    "description" : "This item is a potion. On use, generate the Mass Mute 30s Effect. This Effect may not target an arc.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bronze", "1 Leaf", "1 Parchment", "1 Seed"]
+                },
+                {
+                    "featName" : "Purging Poison",
+                    "art" : "cure-protection",
+                    "description" : "This item is a poison and must be applied to a weapon on use. On use, the next weapon blow with the weapon to which the poison has been applied generates the Cure Protection Effect in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Flower", "1 Pelt", "1 Seed"]
+                },
+                {
+                    "featName" : "Vigour Tonic",
+                    "art" : "vigour-tonic",
+                    "description" : "This item is a potion. On use, regain 12 Vigour.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Fang", "1 Incense", "1 Seed", "1 Silver"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Master Alchemist:",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Flash Freeze",
+                    "art" : "mass-halt",
+                    "description" : "This item is a potion. On use, generate the Mass Halt 10s Effect. This Effect may not target an arc.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Flower", "1 Heart", "1 Ink", "1 Iron", "1 Root"]
+                },
+                {
+                    "featName" : "Master Windfall Alchemy",
+                    "art" : "windfall",
+                    "description" : " Randomly produces 3 of a Master level Consumable.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["5 Plants", "2 Animal", "2 Processed", "1 Metal"]
+                },
+                {
+                    "featName" : "Murderer’s Ointment",
+                    "art" : "death-juice",
+                    "description" : "This item is a poison and must be applied to a weapon on use. On use, the next weapon blow with the weapon to which the poison has been applied generates the Rend Effect in addition to any other effects (including the Damage effect) of the blow",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Incense", "1 Pelt", "2 Root "]
+                },
+                {
+                    "featName" : "Revitalising Tonic",
+                    "art" : "nectar",
+                    "description" : "On use, generate the Global Heal 1 and Global Repair 1 Effects and restores 9 Vigour.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bark", "1 Fang", "1 Leaf", "1 Root", "1 Wax"]
+                },
+                {
+                    "featName" : "Unbreakable Varnish",
+                    "art" : "breaking-chain",
+                    "description" : "This item is a potion. On use, generate the Protection Sunder 5 minutes Effect when consumed.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Dung", "1 Leaf", "1 Parchment", "1 Seed", "1 Wax"]
+                },
+                {
+                    "featName" : "Vapours of Life",
+                    "art" : "mass-undead-bane",
+                    "description" : "On use, generate the Mass Undead Bane Chest Effect. This Effect may not target an arc.",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Bone", "1 Copper", "1 Glass", "1 Pelt", "1 Seed"]
+                },
+                {
+                    "featName" : "Vapours of the Moon",
+                    "art" : "mass-gwyllt-bane",
+                    "description" : "This item is a potion. On use, generate the Mass Gwyllt Bane Chest Effect. This Effect may not target an arc",
+                    "craftableKeyword" : ["Consumable"],
+                    "ingeredientCost" : ["1 Dung", "1 Flower", "1 Heart", "1 Leaf", "1 Root"]
+                }
+            ]
+        }
+    ]
+}

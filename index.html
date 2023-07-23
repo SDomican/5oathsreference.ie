@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>5 Oaths Reference</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <div class="topnav">
-            <a class="active" href="index.html">References</a>
+            <a class="active" href="index.html">Effects</a>
             <a href="feats.html">Feats</a>
             <a href="spells.html">Spells</a>
             <a href="craftables.html">Craftable Items</a>
@@ -15,161 +15,22 @@
           </div>
       </head>
     <body id="body">
+        <script type="module" src="js/effects.js"></script>
         <script src="js/index.js"></script>
-        <div>  
-            <div class="popup" id="popupId" style="display: none;">
-                <div class="flex-container">
-                    <div class="flex-container-title"><p>POPUP 1</p></div>
-                    <div class="flex-container-image"><p>POPUP 2</p></div>
-                    <div class="break"></div>
-                    <div class="flex-container-text-box"><p>POPUP 3</p></div>
-                </div>
-                <!-- <div class="popup-text-container">
-                    <p>Content Text</p>
-                </div> -->
-            </div> 
+        <div>
 
-            <div class="section-container">
-                <div class="section-title">
-                    Movement <span class="float-right">limited by movement speed</span>
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        You can move at any time during your turn (before, after, or during actions).
+                <div class="popup" id="popupId" style="display: none;">
+                 <div class="flex-container" id="popupFlexContainer">
+                        <div class="flex-container-title" id="popupTitle"></div>
+                        <div class="flex-container-image popupImageArt" id="popupArt"></div>
+                        <div class="break"></div>
+                        <div class="flex-container-text-box popup-text-container" id="popupDescription"></div>
                     </div>
-                    <div class="section-row">
-                        <div class="item itemsize">
-                            <div class="item-icon iconsize icon-run" style="background-color: brown;" onclick="showHide()" ></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Weapon blow</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
-                        <div class="item itemsize">
-                            <div class="item-icon iconsize icon-test" style="background-color: brown"></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Test</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
-                        <div class="item itemsize">
-                            <div class="item-icon iconsize icon-test2" style="background-color: brown"></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Test2</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
-                        <div class="item itemsize2">
-                            <div class="item-icon iconsize icon-test" style="background-color: brown"></div>
-                            <div class="item-text-container text">
-                                <div class="item-title">Test4</div>
-                                <div class="item-desc">Cost: 5ft per 5ft</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div id="section-action" class="section-container">
-                <div class="section-title">
-                    Action <span class="float-right">1/turn</span>
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        You can also interact with one object or feature of the
-                        environment for free.
-                    </div>
-                    <div class="section-row" id="basic-actions"></div>
-                </div>
-            </div>
-    
+                </div>    
 
-            <div id="section-bonus-action" class="section-container">
-                <div class="section-title">
-                    Bonus action <span class="float-right">max. 1/turn</span>
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        You can take a bonus action only when a special ability, spell, or feature
-                        states that you can do something as a bonus action.
-                    </div>
-                    <div class="section-row" id="basic-bonus-actions"></div>
-                </div>
+                <div class="section-container" id="featsContainer"></div>
             </div>
-
-            <div id="section-reaction" class="section-container">
-                <div class="section-title">
-                    Reaction <span class="float-right">max. 1/round</span>
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        A reaction is an instant response to a trigger of some kind, which
-                        can occur on your turn or on someone else's.
-                    </div>
-                    <div class="section-row" id="basic-reactions"></div>
-                </div>
-            </div>
-    
-
-            <div id="section-condition" class="section-container">
-                <div class="section-title">
-                    Condition
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
-                    </div>
-                    <div class="section-row" id="basic-conditions"></div>
-                </div>
-            </div>
-            
-
-            <div id="section-environment" class="section-container">
-                <div class="section-title">
-                    Environmental Effects
-                </div>
-                <div class="section-content">
-                    <div class="section-row section-subtitle text fontsize">
-                        Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
-                    </div>
-                    <div class="section-row" id="environment-obscurance"></div>
-                    <div class="section-row section-subtitle text fontsize">
-                        The presence or absence of light in an environment creates three categories of illumination.
-                    </div>
-                    <div class="section-row" id="environment-light"></div>
-                    <div class="section-row section-subtitle text fontsize">
-                        Some creatures have extraordinary senses that allow them to perceive their environment.
-                    </div>
-                    <div class="section-row" id="environment-vision"></div>
-                    <div class="section-row section-subtitle text fontsize">
-                        Obstacles can provide cover during combat, making a target more difficult to harm.
-                    </div>
-                    <div class="section-row" id="environment-cover"></div>
-                </div>
-            </div>
-    
-        </div>
-    
-        <div class="modal" id="modal" tabindex="-1">
-            <div class="modal-backdrop" id="modal-backdrop"></div>
-            <div class="modal-dialog modalsize">
-                <div class="section-container modal-container" id="modal-container">
-                    <div class="section-title" id="modal-title">
-                        Modal title<span class="float-right">Action</span>
-                    </div>
-                    <div class="section-content">
-                        <div class="section-row section-subtitle text" id="modal-subtitle">
-                            Subtitle
-                        </div>
-                        <div class="section-row text">
-                            <div id="modal-bullets">
-                            </div>
-                        </div>
-                        <div class="section-row text" id="modal-reference">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </body>
 </html>
+
+

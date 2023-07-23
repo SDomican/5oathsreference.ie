@@ -1,4 +1,5 @@
 To-Do
+Add "Call" to spell popups
 Copy paste of popups
 Colourblind contrasting - sort colours???
 Add Keywords
@@ -378,20 +379,20 @@ Fifth Level Spells (Cost 5 Vigour):
 Craftables
 
 Student Alchemist:
-	Armour Polish (c): 1 Flower, 1 Seed
-	Coagulant Potion (c): 1 Bark, 1 Heart
-	Increased Vitality (c): 1 Bark, 1 Seed
-	Restorative Balm (c): 1 Bone, 1 Root
-	Student Windfall Alchemy (w): 3 plant, 1 Animal 
-	Stunning Poison (c): 1 Flower, 1 Leaf
-	Tonic Potion (c): 1 Bark, 1 Flower
+	Armour Polish (c): 1 Flower, 1 Seed - armour-polish
+	Coagulant Potion (c): 1 Bark, 1 Heart - coagulant-potion
+	Increased Vitality (c): 1 Bark, 1 Seed - increased-vitality
+	Restorative Balm (c): 1 Bone, 1 Root - restorative-balm
+	Student Windfall Alchemy (w): 3 plant, 1 Animal - windfall
+	Stunning Poison (c): 1 Flower, 1 Leaf - stunning-poison
+	Tonic Potion (c): 1 Bark, 1 Flower - tonic-potion
 	
 Apprentice Alchemist:
-	 Apprentice Windfall Alchemy (w): 3 Plant, 2 Animal, 1 processed
-	 Bracing Brew (c): 1 Bark, 1 Pelt, 1 Flower
-	 Curing Tonic (c): 1 Flower, 1 Glass, 1 Heart
-	 Cleansing Tonic (c): 1 Incense, 1 Seed, 1 Wax
-	 Flesh and Steel (c): 1 Fang, 1 Leaf, 1 Root 
+	 Apprentice Windfall Alchemy (w): 3 Plant, 2 Animal, 1 processed - windfall
+	 Bracing Brew (c): 1 Bark, 1 Pelt, 1 Flower - protection-strikedown
+	 Curing Tonic (c): 1 Flower, 1 Glass, 1 Heart - cure-disease
+	 Cleansing Tonic (c): 1 Incense, 1 Seed, 1 Wax - cure-venom
+	 Flesh and Steel (c): 1 Fang, 1 Leaf, 1 Root - flesh-and-steel
 	 Locking Poison (c): 1 Dung, 1 Seed, 1 Root
 	 Mystic Counterstrike (c): 1 Bark, 1 Bone, 1 Seed
 	 
@@ -401,17 +402,17 @@ Journeyman Alchemist:
 	Health Tonic (c): 1 Fang, 1 Flower, 1 Gold, 1 Leaf
 	Journeyman Windfall Alchemy (w): 3 Plants, 2 Animal, 2 Processed, 1 Metal 
 	Muffling Smoke (c): 1 Bronze, 1 Leaf, 1 Parchment, 1 Seed
-	Purging Poison (c): 1 Bark, 1 Flower, 1 Pelt, 1 Seed
+	Purging Poison (c): 1 Bark, 1 Flower, 1 Pelt, 1 Seed - cure-protection
 	Vigour Tonic (c): 1 Fang, 1 Incense, 1 Seed, 1 Silver
 	
 Master Alchemist:
-	Flash Freeze (c): 1 Flower, 1 Heart, 1 Ink, 1 Iron, 1 Root
+	Flash Freeze (c): 1 Flower, 1 Heart, 1 Ink, 1 Iron, 1 Root - mass-halt
 	Master Windfall Alchemy (w): 5 Plants, 2 Animal, 2 Processed, 1 Metal
-	Murderer’s Ointment (c): 1 Bark, 1 Incense, 1 Pelt, 2 Root 
+	Murderer’s Ointment (c): 1 Bark, 1 Incense, 1 Pelt, 2 Root  - death-juice
 	Revitalising Tonic (c): 1 Bark, 1 Fang, 1 Leaf, 1 Root, 1 Wax
 	Unbreakable Varnish (c): 1 Dung, 1 Leaf, 1 Parchment, 1 Seed, 1 Wax
 	Vapours of Life (c): 1 Bone, 1 Copper, 1 Glass, 1 Pelt, 1 Seed
-	Vapours of the Moon (c): 1 Dung, 1 Flower, 1 Heart, 1 Leaf, 1 Root
+	Vapours of the Moon (c): 1 Dung, 1 Flower, 1 Heart, 1 Leaf, 1 Root - mass-gwyllt-bane
 	
 Student Arcanist:
 	Amulet of Increased Potential(d): 1 Copper, 1 Heart, 1 Incense, 1 Ink, 1 Iron, 1 Leaf
@@ -515,7 +516,7 @@ Mental Effects:
 		
 Other Effects:
 	Immunity
-	Bane
+	Bane - bane
 	Cure
 	Damage
 	Detect
@@ -527,13 +528,14 @@ Other Effects:
 	Mindslash - brain-tentacle
 	Mute
 	Protection
-	Rend
+	Rend - rend
 	Repair
 	Shatter - shatter
 	Stop Bleed
 	Through - through
 	Venom - venom
 	Ward
+	Sunder - sunder
 
 Event Team Effects:
 	Time In
