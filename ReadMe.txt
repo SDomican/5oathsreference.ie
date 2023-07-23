@@ -19,6 +19,7 @@ Clicking near Feat art closes page.
 Change highlight colour of keywords dynamically
 Downtime actions page
 realmFeatsAdd Keyword info to popup
+Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials

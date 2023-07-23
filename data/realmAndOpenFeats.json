@@ -226,6 +226,211 @@
                     "keywords" : ["Affinity"]
                 }
             ]
+        },
+        {
+            "pathName" : "Human",
+            "featPathColour" : "Red",
+            "feats":[
+                {
+                    "featName" : "Ingenious Craft",
+                    "prequisites" : "Human",
+                    "art" : "recycle",
+                    "description" : "You may use crafting materials as though they were any other materials of the same type needed for the recipe. (The four types are metal, animal, plant, and processed material – so you could use iron instead of bronze, or fang instead of dung.)",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Endless Reach/chain lightning",
+                    "prequisites" : "Drakeblooded, Human",
+                    "art" : "chain-lightning",
+                    "description" : "So long as you maintain Concentration, after you cast a Single Target spell, you may immediately Instant Cast the same spell on a different target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times for different targets at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any of the Way of Sorcerous Schools Feats or the Expanded Potential Feat.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Expanded Potential",
+                    "prequisites" : "Fathach, Human",
+                    "art" : "muscle-up",
+                    "description" : "You may extend the duration of any Single Target ability you possess that has a non-instantaneous duration when you cast it. You may increase the duration by one step for 3 Vigour. An ability may only be increased by one step. The steps are 10s → 30s → 60s → 5mins → 10mins. This Feat does not combine with any Way of Sorcerous Schools Feats or Chain Lightning.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Fascinations and Distractions",
+                    "prequisites" : "Human, Vartach",
+                    "art" : "distraction",
+                    "description" : "You may generate the effect Daze 30s Mortal (C/Ev) or the effect Identify for 2 Vigour, as per the normal spellcasting rules.",
+                    "keywords" : ["Affinity", "Combat"]
+                },
+                {
+                    "featName" : "Odds and Ends",
+                    "prequisites" : "Creidhe, Human",
+                    "art" : "swap-bag",
+                    "description" : "The first Travel action you take each downtime generates 4 random ingredients in addition to its usual effects.",
+                    "keywords" : ["Affinity"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Leasair",
+            "featPathColour" : "Olive",
+            "feats":[
+                {
+                    "featName" : "Lasting Impressions",
+                    "prequisites" : "Leasair",
+                    "art" : "elf-ear",
+                    "description" : "Take 2 additional realm Feats. This Feat counts as any one prerequisite Feat for the purposes of Resistance Feats.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Ever Onwards",
+                    "prequisites" : "Creidhe, Leasair",
+                    "art" : "gear-hammer",
+                    "description" : "You may repair weapons, shields, and armour while moving at walking speed. The target of the repair may also be moving.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Closing the Circle",
+                    "prequisites" : "Drakeblooded, Leasair",
+                    "art" : "crafting",
+                    "description" : "You may reduce the cost of an item you are crafting by destroying one non-expired item. The item you destroy in this way contributes two-thirds (rounded up) of the number of ingredients required to craft the destroyed item.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "What Doesn’t Kill You",
+                    "prequisites" : "Leasair, Wildling",
+                    "art" : "skull-crossed-bones",
+                    "description" : "While Immune to an effect, each time you are hit by an instance of that effect, after the instance that triggered your Immunity, your next weapon blow within 10s may deliver that effect for 0 Vigour.",
+                    "keywords" : ["Affinity", "Combat"]
+                },
+                {
+                    "featName" : "Quick Exit",
+                    "prequisites" : "Leasair, Wildling",
+                    "art" : "run",
+                    "description" : "Travel does not take an action in downtime for you, you still may not take more than 4 Travel actions in a single Downtime.",
+                    "keywords" : ["Affinity"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Krieger",
+            "featPathColour" : "Green",
+            "feats":[
+                {
+                    "featName" : "In the Face of Danger",
+                    "prequisites" : "Krieger",
+                    "art" : "orc-head",
+                    "description" : "You may reactively spend 3 Vigour to gain Immunity Fear 10s and Instant Cast Mass Cure Fear (Tr). This does not require a free hand.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Beacon of Life ",
+                    "prequisites" : "Firetouched, Krieger",
+                    "art" : "fomorian",
+                    "description" : "You may generate the effect Rampage Undead 10s (C/En) or the effect Fear Undead 10s for 2 Vigour, as per the normal spellcasting rules. You may also generate the effect Detect Undead for 1 Vigour, as per the normal spellcasting rules",
+                    "keywords" : ["Affinity", "Combat"]
+                },
+                {
+                    "featName" : "Furious Endurance",
+                    "prequisites" : "Drakeblooded, Krieger",
+                    "art" : "confrontation",
+                    "description" : "By Concentrating and roleplaying a show of heroic defiance (such as a battle cry or beating your chest) you may spend 2 Vigour to generate the effect Global Healing 1 on yourself only. The cost of this effect may not be reduced. This can be performed without a free hand. This can not be performed while unconscious.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Deft Hands",
+                    "prequisites" : "Creidhe, Krieger",
+                    "art" : "sewing-string",
+                    "description" : "You may repair a shattered or otherwise destroyed weapon, shield, or item with 10s of roleplayed action. This Feat does not reduce the time required to repair armour, but you may repair all armour types regardless of what you can use yourself. This includes characters which have the Pillar of the Community Feat. This Feat counts as the prerequisite for purchasing the Squire Feat.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Profitable Prowl",
+                    "prequisites" : "Drakeblooded, Krieger",
+                    "art" : "snatch",
+                    "description" : "The first Travel action you take each downtime generates 8 Pingin in addition to its usual effects.",
+                    "keywords" : ["Affinity"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Vartach",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Mark of Destiny",
+                    "prequisites" : "Vartach",
+                    "art" : "sundial",
+                    "description" : "Choose any two Spells or Feats that each cost 2 or more Vigour to use. This choice is permanent and cannot be changed. The chosen Spells or Feats permanently cost 1 less Vigour for you to use. When making this choice, you may choose a Spell or Feat you do not have: if so, you only gain the benefits once you acquire that Spell or Feat. This does not lower the level of the Spell, if you chose a Spell.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Joint Purpose",
+                    "prequisites" : "Fathach, Vartach",
+                    "art" : "fizzing-flask",
+                    "description" : "You may spend two downtime actions to craft one durable item with the effects of two recipes that you can craft, consuming the full cost of both recipes. The recipes must be of the same type (both armour, both weapons, etc.) and may not provide the same effect (such as both giving a bonus to Armour Value). The item produced may not have its duration extended by Careful Maintenance. You may also Repair Fathach with the Pillar of the Community Feat as though you were able to Repair Armour.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Bloody Resistance",
+                    "prequisites" : "Firetouched, Vartach",
+                    "art" : "fire-dash",
+                    "description" : "When targeted by a Mass Effect, you may choose to lose 1 Body hit from every location instead of taking the Effect. When you activate this ability you must reply <b>No Effect</b> to the Effect you were targeted with. While you may enter an unconscious or bleeding state this way, you may not use this Feat if any location is already on -1.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Waste Not, Want Not",
+                    "prequisites" : "Firetouched, Vartach",
+                    "art" : "bell-shield",
+                    "description" : "If you are under a Protection which expires without you having been targeted by the effect it was protecting against, regain 1 Vigour.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Fascinations and Distractions",
+                    "prequisites" : "Human, Vartach",
+                    "art" : "distraction",
+                    "description" : "You may generate the effect Daze 30s Mortal (C/Ev) or the effect Identify for 2 Vigour, as per the normal spellcasting rules.",
+                    "keywords" : ["Affinity", "Combat"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Wildlings",
+            "featPathColour" : "Olive",
+            "feats":[
+                {
+                    "featName" : "In Beast’s Clothing",
+                    "prequisites" : "Wildling",
+                    "art" : "hunting-horn",
+                    "description" : "You may generate the effect Mass Charm Beast (C/En) 30s for 3 Vigour, as per the normal spellcasting rules. You may also generate the effect Detect Beast for 1 Vigour, as per the normal spellcasting rules",
+                    "keywords" : ["Affinity", "Combat"]
+                },
+                {
+                    "featName" : "Unexpected Opportunities",
+                    "prequisites" : "Firetouched, Wildling",
+                    "art" : "target-prize",
+                    "description" : "This Feat allows you to craft Windfall recipes for which you possess the appropriate Alchemist, Arcanist, or Blacksmith Feat. There is a small chance of Windfall recipes producing unlisted items from time to time.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Prosperous Works",
+                    "prequisites" : "Fathach, Wildling",
+                    "art" : "plow",
+                    "description" : "At the start of each game gain one additional ingredient for each level of the Artisan, Farmer, Hunter, and/or Miner Feats you have.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "Quick Exit",
+                    "prequisites" : "Leasair, Wildling",
+                    "art" : "run",
+                    "description" : "Travel does not take an action in downtime for you, you still may not take more than 4 Travel actions in a single Downtime.",
+                    "keywords" : ["Affinity"]
+                },
+                {
+                    "featName" : "What Doesn’t Kill You",
+                    "prequisites" : "Leasair, Wildling",
+                    "art" : "skull-crossed-bones",
+                    "description" : "While Immune to an effect, each time you are hit by an instance of that effect, after the instance that triggered your Immunity, your next weapon blow within 10s may deliver that effect for 0 Vigour.",
+                    "keywords" : ["Affinity", "Combat"]
+                }
+            ]
         }
 
     ]
