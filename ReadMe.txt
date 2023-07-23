@@ -18,6 +18,9 @@ Spell Keywords close page on click
 Clicking near Feat art closes page.
 Change highlight colour of keywords dynamically
 
+Bugs:
+Text overlap on Journeyman Windfall Alchemy materials
+
 Future
 Character creator
 Keyword search
