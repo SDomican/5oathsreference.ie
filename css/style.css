@@ -325,7 +325,7 @@
   }
 
   .item-text-container{
-    height: 5vh;
+    height: 10vh;
     width: 80%;
     padding-left: 0.5%;
   }
@@ -347,6 +347,12 @@
   .popupImageArt{
     width: 25%;
     padding-top: 25%;
+  }
+
+  .popup{
+    top: 50%;
+    border: solid;
+    width: 70%;
   }
 
 }
