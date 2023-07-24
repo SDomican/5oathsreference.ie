@@ -1,3 +1,5 @@
+
+
 .break {
     flex-basis: 100%;
     height: 0;
@@ -311,3 +313,47 @@
     display: block;
     z-index: 50;
 }
+
+@media only screen and (max-width: 480px) {
+
+  .topnav{background-color: orange;}
+
+  .item {
+    width: 100%;
+    border: solid;
+    border-radius: 10px;
+  }
+
+  .item-text-container{
+    height: 5vh;
+    width: 80%;
+    padding-left: 0.5%;
+  }
+
+  .flex-container-image{
+    border: solid white;
+    border-radius: 5px;
+  }
+
+  .flex-container-title{
+    width: 50%;
+    font-size: 1.5em;
+    height: 10%;
+    margin: 0;
+    margin-top: 5%;
+    word-wrap: break-word;
+  }
+
+  .popupImageArt{
+    width: 25%;
+    padding-top: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1800px) {
+  .item {width: 30%;}
+  .item-text-container{height: 5vh;}
+  .feat-description-requirements-text{margin-top: 0.25%;}
+}
+

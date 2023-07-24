@@ -17,13 +17,12 @@ function apendText(featPath){
     "</div>" +
     "<div class=\"section-content\">" +
       "<div class=\"section-row\">";
-      console.log(featsArray);
+
       featsArray.forEach(feat => {
 
         let featName = feat.featName;
         let featRequirements = feat.prequisites;
         let art = feat.art;
-        console.log("Art:" + art);
         let description = feat.description;
 
         if(pathName === "Way of the ritualist"){
