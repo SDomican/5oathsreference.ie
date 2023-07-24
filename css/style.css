@@ -6,6 +6,10 @@
     margin-bottom: 0.5vh;
   }
 
+  .expandable{
+    transition: all 0.2s ease-in;
+  }
+
 .feat-description-title-text{
   margin-top: 0.5vh;
   font-weight: bold;
@@ -316,8 +320,6 @@
 
 @media only screen and (max-width: 480px) {
 
-  .topnav{background-color: orange;}
-
   .item {
     width: 100%;
     border: solid;
@@ -342,6 +344,7 @@
     height: 0;
     width: 80%;
     padding-left: 0.5%;
+    max-height: 10vh;
   }
 
   .flex-container-image{

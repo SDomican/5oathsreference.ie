@@ -3,40 +3,41 @@ var mq = window.matchMedia( "(max-width: 480px)" );
 
 
 function mobileExpand(sectionContainerId){
+    
     if (mq.matches) {
-        // window width is at less than 570px
-        console.log("mobileExpand: " + sectionContainerId);
+
 
         let element = document.getElementById(sectionContainerId);
-        console.log(element);
 
-        let children = element.childNodes; 
         let sectionContainer = element.lastChild;
 
         let sectionRow = sectionContainer.firstChild;
-        let sectionRowChildren = sectionRow.children;
+        let sectionRowChildren = sectionRow.childNodes;
 
-        let firstItem = sectionRow.firstChild;
-        let firstItemTextContainer = firstItem.lastChild;
+        sectionRowChildren.forEach(item => {
 
-        console.log(sectionRowChildren);
+            let itemTextContainerDiv = item.lastChild;
+            let artContainerDiv = item.firstChild;
+            let featDescriptionDiv = itemTextContainerDiv.firstChild;
+            let featDescriptionRequirementsDiv = itemTextContainerDiv.lastChild;
 
-        // console.log(sectionContainer);
-        // console.log(sectionRow);
-        // // console.log(children);
-        // console.log(firstItem);
-        // console.log(firstItemTextContainer);
-
-        // firstItemTextContainer.style.height = "10vh";
-
-        // sectionRowChildren.forEach(item => {
-        //     console.log(item);
-        // });
-
-
-
-
-        // sectionContainer.style.height = "50%";
+            if(itemTextContainerDiv.style.height === "5%"){
+                itemTextContainerDiv.style.height = "0";
+                artContainerDiv.style.padding = "0";
+                artContainerDiv.style.margin = "0";
+                featDescriptionDiv.style.display = "none";
+                featDescriptionRequirementsDiv.style.display = "none";
+            }
+            else{
+                itemTextContainerDiv.style.height = "5%";
+                featDescriptionDiv.style.display = "block";
+                featDescriptionRequirementsDiv.style.display = "block";
+                
+                artContainerDiv.style.width = "20%";
+                artContainerDiv.style.padding = "10%";
+                artContainerDiv.style.margin = "1%";
+            }
+        });
        
     }
     

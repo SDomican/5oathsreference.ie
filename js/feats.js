@@ -41,10 +41,10 @@ function apendText(featPath){
 
         featCode +=
           "<div class=\"item\">" +
-            "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
-            "<div class=\"item-text-container text\">" +
-              "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
+            "<div class=\"item-icon iconsize expandable\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Feats/" + pathName + "/" + art + ".png');\"></div>" +
+            "<div class=\"item-text-container text expandable\">" +
+              "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
+              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
         });

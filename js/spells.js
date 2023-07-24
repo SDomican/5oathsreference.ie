@@ -9,9 +9,10 @@ function apendText(featPath){
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
   let featPathColour = featPath.featPathColour;
+  let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
 
   let featCode = 
-  "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
+  "<div class=\"section-container\" id=\"" + sectionContainerId + "\" style=\"background-color: " + featPathColour + ";\" onclick=\"mobileExpand('" + sectionContainerId + "')\" >" + 
     "<div class=\"section-title\">" +
       "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
     "</div>" +
@@ -40,10 +41,11 @@ function apendText(featPath){
 
         featCode +=
           "<div class=\"item\">" +
-            "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Spells/" + "/" + art + ".png');\"></div>" +
-            "<div class=\"item-text-container text\">" +
-              "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
+            // "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Spells/" + "/" + art + ".png');\"></div>" +
+            "<div class=\"item-icon iconsize expandable\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Spells/" + "/" + art + ".png');\"></div>" +
+            "<div class=\"item-text-container text expandable\">" +
+              "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
+              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
         });
