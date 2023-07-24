@@ -1,5 +1,5 @@
 To-Do
-Add "Call" to spell popups
+Add "Call" to Spell popups
 Copy paste of popups
 Colourblind contrasting - sort colours???
 Add Keywords

@@ -324,8 +324,22 @@
     border-radius: 10px;
   }
 
+  .iconsize {
+    padding-top: 0%;
+  }
+
+  .item{
+    border: none;
+  }
+
+  .item-icon{
+    margin: 0;
+    border-radius: 0;
+  }
+
   .item-text-container{
-    height: 10vh;
+    /* height: 10vh; */
+    height: 0;
     width: 80%;
     padding-left: 0.5%;
   }
