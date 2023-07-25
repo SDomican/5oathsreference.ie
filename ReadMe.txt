@@ -492,13 +492,13 @@ Journeyman Blacksmith:
 	Unbreakable Armour (Heavy armour) (d): 1 Flower, 2 Gold, 1 Heart, 2 Iron, 1 Leaf, 5 Silver - heavy-helm
 	
 Master Blacksmith:
-	Armour of Leadership (All armour types) (d): 2 Bark, 4 Bone, 2 Copper, 1 Gold, 2 Incense, 4 Silver
-	Death’s Grip (All weapon types) (d): 6 Bronze, 2 Copper, 1 Flower, 4 Heart, 2 Ink
-	Masterwork Armour (All armour types) (d): 6 Copper, 4 Fang, 1 Gold, 1 Leaf, 3 Parchment
-	Master Windfall Forging (w): 5 metals, 2 animal, 1 plants, 2 processed
-	Pacifying Edge (All weapon types) (d): 1 Fang, 1 Glass, 7 Gold, 2 Heart, 1 Ink, 1 Root, 2 Wax
-	Provocative Barb (Ranged weapon) (d): 2 Bronze, 4 Dung, 6 Iron, 2 Seed, 1 Wax
-	True Foe’s Weapon (All weapon types) (d): 1 Bronze, 1 Ink, 1 Iron, 4 Pelt, 2 Root, 6 Silver
+	Armour of Leadership (All armour types) (d): 2 Bark, 4 Bone, 2 Copper, 1 Gold, 2 Incense, 4 Silver - uprising
+	Death’s Grip (All weapon types) (d): 6 Bronze, 2 Copper, 1 Flower, 4 Heart, 2 Ink - pirate-flag
+	Masterwork Armour (All armour types) (d): 6 Copper, 4 Fang, 1 Gold, 1 Leaf, 3 Parchment - breastplate
+	Master Windfall Forging (w): 5 metals, 2 animal, 1 plants, 2 processed - windfall
+	Pacifying Edge (All weapon types) (d): 1 Fang, 1 Glass, 7 Gold, 2 Heart, 1 Ink, 1 Root, 2 Wax - cure-rampage
+	Provocative Barb (Ranged weapon) (d): 2 Bronze, 4 Dung, 6 Iron, 2 Seed, 1 Wax - barbed-arrow
+	True Foe’s Weapon (All weapon types) (d): 1 Bronze, 1 Ink, 1 Iron, 4 Pelt, 2 Root, 6 Silver - bane
 	
 	
 <----------------------------------------------------------->

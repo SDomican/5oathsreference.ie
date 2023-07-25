@@ -186,6 +186,68 @@
                     "ingeredientCost" : ["1 Flower", "2 Gold", "1 Heart", "2 Iron", "1 Leaf", "5 Silver"]
                 }
             ]
+        },
+        {
+            "pathName" : "Master Blacksmith:",
+            "featPathColour" : "brown",
+            "feats":[
+                {
+                    "featName" : "Armour of Leadership",
+                    "art" : "uprising",
+                    "itemType" : "All armour types",
+                    "description" : "This item is a set of armour of any type. Attunes to torso. While attuned, you may cast the Spell “Mass Protection Rampage 5 minutes” for 5 vigour as per the spellcasting rules.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bark", "4 Bone", "2 Copper", "1 Gold", "2 Incense", "4 Silver"]
+                },
+                {
+                    "featName" : "Death’s Grip",
+                    "art" : "pirate-flag",
+                    "itemType" : "All weapon types",
+                    "description" : "This item is a weapon of any type. Attunes to hand. While attuned, you may spend 3 Vigour to generate the Halt 10s Effect by weapon blow with this weapon in addition to the Damage Effect of the weapon blow",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["Bronze", "2 Copper", "1 Flower", "4 Heart", "2 Ink"]
+                },
+                {
+                    "featName" : "Masterwork Armour",
+                    "art" : "breastplate",
+                    "itemType" : "All armour types",
+                    "description" : "This item is a set of armour of any type. Attunes to torso. While attuned, this armour gives +2 Armour hits when worn.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["6 Copper", "4 Fang", "1 Gold", "1 Leaf", "3 Parchment"]
+                },
+                {
+                    "featName" : "Master Windfall Forgingd",
+                    "art" : "windfall",
+                    "itemType" : "Windfall",
+                    "description" : "Randomly produces a single Master level Durable item.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["5 metals", "2 animal", "1 plants", "2 processe"]
+                },
+                {
+                    "featName" : "Pacifying Edge",
+                    "art" : "cure-rampage",
+                    "itemType" : "All weapon types",
+                    "description" : "This item is a weapon of any type. Attunes to hand. While attuned, you may spend 2 Vigour to generate the Cure Rampage Effect by weapon Blow with this weapon, in addition to the Damage Effect of the weapon blow",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["1 Fang", "1 Glass", "7 Gold", "2 Heart", "1 Ink", "1 Root", "2 Wax"]
+                },
+                {
+                    "featName" : "Provocative Barb",
+                    "art" : "barbed-arrow",
+                    "itemType" : "Ranged Weapon",
+                    "description" : "This item is a ranged weapon Attunes to hand. While attuned, you may spend 3 Vigour to generate the Rampage 10s Effect by weapon blow with this weapon , in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bronze", "4 Dung", "6 Iron", "2 Seed", "1 Wax"]
+                },
+                {
+                    "featName" : "True Foe’s Weapon",
+                    "art" : "bane",
+                    "itemType" : "All weapon types",
+                    "description" : "This item is a weapon of any type. Attunes to hand. While attuned, when you activate any Feat that allows you to strike for the (X) Bane Effect, additionally strike for the (X) Bane Effect on your next successful weapon blow within 10s.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bronze", "1 Ink", "1 Iron", "4 Pelt", "2 Root", "6 Silver"]
+                }
+            ]
         }
     ]
   }
