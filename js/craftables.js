@@ -1,7 +1,16 @@
 import spellJson from '../data/craftableList.json' assert { type: 'json' };
+import blacksmithJson from '../data/blacksmithList.json' assert { type: 'json' };
 
 function addSectionContainer(idToAmend){
-  spellJson.featPath.forEach((feat) => apendText(feat));
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+  console.log( page );
+  if(page ==="blacksmith.html"){
+    blacksmithJson.featPath.forEach((feat) => apendText(feat));
+  }else{
+    spellJson.featPath.forEach((feat) => apendText(feat));
+  }
+
 }
 
 function apendText(featPath){

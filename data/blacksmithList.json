@@ -1,0 +1,191 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "Student Blacksmith:",
+            "featPathColour" : "brown",
+            "feats":[
+                {
+                    "featName" : "Fortifying Leathers",
+                    "art" : "bracers",
+                    "itemType" : "Light armour",
+                    "description" : "This item is a set of light armour.- Attunes to torso. While attuned, whenever you activate a Resistance Feat to gain Immunity X 10s, instead gain Immunity X 30s.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["3 Bronze", "1 Dung", "1 Pelt"]
+                },
+                {
+                    "featName" : "Hamstringing Knife",
+                    "art" : "plain-dagger",
+                    "itemType" : "Small weapon",
+                    "description" : "This item is a small weapon. Attunes to hand. While attuned, when you activate the Tripping Blow Feat with this small weapon, you may additionally generate the Strikedown Effect on your next successful weapon blow with this weapon within 10s. This is in addition to the Damage effect of a weapon blow",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["3 Copper", "1 Fang", "1 Glass", "1 Heart"]
+                },
+                {
+                    "featName" : "Improved Steel",
+                    "art" : "all-for-one",
+                    "itemType" : "Heavy armour",
+                    "description" : "This item is a set of heavy armour. Attunes to torso. While attuned, this armour gives +1 Armour hits when worn.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bone", "3 Gold", "1 Heart", "1 Incense"]
+                },
+                {
+                    "featName" : "Lengthy Silence",
+                    "art" : "silenced",
+                    "itemType" : "Large Weapon",
+                    "description" : "This item is a large weapon. Attunes to hand. While attuned, when you activate the Cutthroat Feat with this large weapon, you may additionally generate the Mute 10s Effect on your next successful weapon blow with this weapon within 10s,. This is in addition to the normal damage for a weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Iron", "2 Bone", "1 Pelt", "1 Parchment"]
+                },
+                {
+                    "featName" : "Piercing Blade",
+                    "art" : "split-body",
+                    "itemType" : "Medium Weapon",
+                    "description" : "This item is a medium weapon. Attunes to hand. While attuned, when you activate the Penetrating Strike Feat with this medium weapon, you may additionally generate the Through Effect on your next successful weapon blow with this weapon within 10s,. This is in addition to the normal damage for a weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Dung", "1 Ink", "1 Iron", "2 Silver"]
+                },
+                {
+                    "featName" : "Powerful Bow",
+                    "art" : "heavy-arrow",
+                    "itemType" : "Ranged Weapon",
+                    "description" : "This item is a ranged weapon. Attunes to hand. While attuned, when you activate the Repelling  Blow Feat with this ranged weapon, you may additionally generate the Push Effect on your next successful weapon blow with this weapon within 10s. This is in addition to the Damage Effect of a weapon blow",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bronze", "2 Iron", "1 Flower", "1 Wax"]
+                },
+                {
+                    "featName" : "Student Windfall Forging",
+                    "art" : "windfall",
+                    "itemType" : "Windfall",
+                    "description" : "Randomly produces a single Student level Durable item",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["2 Metals", "1 Animal", "1 Processed"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Apprentice Blacksmith:",
+            "featPathColour" : "brown",
+            "feats":[
+                {
+                    "featName" : "Apprentice Windfall Forging",
+                    "art" : "bracers",
+                    "itemType" : "Windfall",
+                    "description" : "Randomly produces a single Apprentice level Durable item.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["3 metals", "2 Animal", "1 Plant "]
+                },
+                {
+                    "featName" : "Breaking Bow",
+                    "art" : "double-shot",
+                    "itemType" : "Ranged weapon",
+                    "description" : "This item is a ranged weapon. Attunes to hand. While attuned, when you activate the Shattering Strike Feat with this ranged weapon you may additionally generate the Shatter Effect on the next successful weapon blow with this weapon within 10s. This Effect will only work on a shield (for safety reasons).",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bark", "5 Bronze", "2 Dung", "1 Leaf"]
+                },
+                {
+                    "featName" : "Creviced Steel",
+                    "art" : "shard-sword",
+                    "itemType" : "Heavy armour",
+                    "description" : "This item is a set of heavy armour. Attunes to torso. While attuned, you count as resisting searching even if you would not normally be able to do so.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["4 Copper", "2 Gold", "1 Iron", "2 Seed"]
+                },
+                {
+                    "featName" : "Honed Dagger ",
+                    "art" : "stiletto",
+                    "itemType" : "Small weapon",
+                    "description" : "This item is a small weapon. Attunes to hand. While attuned, reduce the cost of generating the Through Effect by weapon blow with this weapon by 1 Vigour to a minimum of 1 Vigour",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bone", "2 Fang", "1 Flower", "3 Gold", "1 Pelt"]
+                },
+                {
+                    "featName" : "Offensive Blade",
+                    "art" : "reaper-scythe",
+                    "itemType" : "Medium Weapon",
+                    "description" : "This item is a medium weapon. Attunes to hand. While attuned, reduce the cost of generating the Bane Effect by weapon blow with this weapon by 1 Vigour to a minimum of 1 Vigour.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["3 Copper", "1 Glass", "2 Gold", "1 Leaf", "2 Silver"]
+                },
+                {
+                    "featName" : "Shattering Staff",
+                    "art" : "crescent-staff",
+                    "itemType" : "Large Weapon",
+                    "description" : "This item is a large weapon. Attunes to hand. While attuned, reduce the cost of generating the Shatter Effect by weapon blow with this weapon by 1 Vigour to a minimum of 1 Vigour.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["4 Iron", "1 Parchment", "1 Root", "3 Silver"]
+                },
+                {
+                    "featName" : "Strengthened Leathers",
+                    "art" : "leather-vest",
+                    "itemType" : "Light armour",
+                    "description" : "This item is a set of light armor. Attunes to torso. While attuned, this armour gives +1 Armour hits when worn",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bronze", "2 Fang", "1 Incense", "5 Pelt"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Journeyman Blacksmith:",
+            "featPathColour" : "brown",
+            "feats":[
+                {
+                    "featName" : "Armour of Broad Resistance",
+                    "art" : "cape-armor",
+                    "itemType" : "Light armour",
+                    "description" : "This item is a set of light armour. Attunes to torso. While attuned, when you activate a Resistance Feat while wearing this armor, all of your Resistance Feats activate for no additional cost.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bone", "2 Dung", "1 Glass", "1 Incense", "2 Iron", "1 Leaf", "4 Silver"]
+                },
+                {
+                    "featName" : "Death of the Mage",
+                    "art" : "energy-shield",
+                    "itemType" : "All weapon types",
+                    "description" : "This item is a weapon or any type. Attunes to hand. While attuned, you may spend 3 Vigour to generate the Cure Ward Effect by weapon blow with this weapon in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bone", "1 Glass", "3 Heart", "5 Iron", "1 Seed"]
+                },
+                {
+                    "featName" : "Fear of the Unsettled",
+                    "art" : "fear-undead",
+                    "itemType" : "All weapon types",
+                    "description" : "This item is a weapon or any type. Attunes to hand. While attuned, you may spend 2 Vigour to generate the Fear Undead Effect by weapon blow with this weapon in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["2 Bone", "2 Fang", "5 Gold", "1 Pelt", "1 Root", "1 Parchment"]
+                },
+                {
+                    "featName" : "Fear of the Wicked",
+                    "art" : "fear-gwyllt",
+                    "itemType" : "All weapon types",
+                    "description" : "- This item is a weapon or any type. Attunes to hand. While attuned, you may spend 2 Vigour to generate the Fear Gwyllt Effect by weapon blow with this weapon in addition to the Damage Effect of a the weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["6 Copper", "3 Fang", "1 Flower", "1 Incense", "1 Pelt"]
+                },
+                {
+                    "featName" : "Journeyman Windfall Forging",
+                    "art" : "windfall",
+                    "itemType" : "Windfall",
+                    "description" : "Randomly produces a single Journeyman level Durable item.",
+                    "craftableKeyword" : ["Windfall"],
+                    "ingeredientCost" : ["4 metals", "2 animals", "1 Plant", "1 Processed"]
+                },
+                {
+                    "featName" : "Stunning Bow",
+                    "art" : "frozen-arrow",
+                    "itemType" : "Ranged Weapon",
+                    "description" : "This item is a ranged weapon. Attunes to hand. While attuned, you may spend 1 Vigour to generate the Daze Effect by weapon blow with this weapon , in addition to the Damage Effect of the weapon blow.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Bark", "6 Bronze", "3 Dung", "1 Fang", "1 Wax"]
+                },
+                {
+                    "featName" : "Unbreakable Armour",
+                    "art" : "heavy-helm",
+                    "itemType" : "Heavy armour",
+                    "description" : "This item is a set of heavy armour. Attunes to torso. While attuned, you may cast the Spell <b>Protection Sunder 1 minute</b> only targetting yourself for 5 Vigour as per the spellcasting rules.",
+                    "craftableKeyword" : ["Durable"],
+                    "ingeredientCost" : ["1 Flower", "2 Gold", "1 Heart", "2 Iron", "1 Leaf", "5 Silver"]
+                }
+            ]
+        }
+    ]
+  }
