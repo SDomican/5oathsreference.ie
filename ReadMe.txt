@@ -24,8 +24,10 @@ Spells page has undefinied prerequisites
 Craftable requirements cut off on page
 Add effect calls to popup
 
+
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
+Searching & IC Theft popup text too big
 
 Future
 Character creator
@@ -535,26 +537,24 @@ Other Effects:
 	Lure - lure
 	Mindslash - brain-tentacle
 	Mute - mute
-	Protection
+	Protection - protection
 	Rend - rend
 	Shatter - shatter
-	Stop Bleed
+	Stop Bleed - stop-bleed
 	Through - through
 	Venom - venom
 	Ward
 	Sunder - sunder
 
 Event Team Effects:
-	Time In
-	Time Freeze
+	Time In - time-in
+	Time Freeze - time-freeze
 	Time Out
 	Drop
 	Fair Escape
 	
 Special actions:
-	Restraining
-	Theft
-	Searching
+	Searching & IC Theft
 	Disarming
 	
 Effect Modifiers:

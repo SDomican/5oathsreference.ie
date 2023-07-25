@@ -535,27 +535,24 @@ Other Effects:
 	Lure - lure
 	Mindslash - brain-tentacle
 	Mute - mute
-	Protection
+	Protection - protection
 	Rend - rend
-	Repair
 	Shatter - shatter
-	Stop Bleed
+	Stop Bleed - stop-bleed
 	Through - through
 	Venom - venom
 	Ward
 	Sunder - sunder
 
 Event Team Effects:
-	Time In
-	Time Freeze
+	Time In - time-in
+	Time Freeze - time-freeze
 	Time Out
 	Drop
 	Fair Escape
 	
 Special actions:
-	Restraining
-	Theft
-	Searching
+	Searching & IC Theft
 	Disarming
 	
 Effect Modifiers:

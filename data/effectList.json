@@ -176,17 +176,182 @@
                     "magicSchool" : ["Effect"]
                 },
                 {
-                    "featName" : "Detect",
-                    "call" : "Detect (Target group)",
-                    "art" : "semi-closed-eye",
-                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "featName" : "Disease",
+                    "call" : "Disease",
+                    "art" : "tumor",
+                    "description" : "This Effect is instantaneous. The target of Disease suffers a detriment to the Healing Effect. Any Healing that would cause the target’s Body hits to rise above 0 causes them to rise to 0 only. This includes the Healing Effect granted by the Recovery mechanic. This Effect remains in place until a Cure Effect is called on the target, or until Time Out is called",
                     "magicSchool" : ["Effect"]
                 },
                 {
-                    "featName" : "Detect",
-                    "call" : "Detect (Target group)",
-                    "art" : "semi-closed-eye",
-                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "featName" : "Healing",
+                    "call" : "Healing 1 (Location)/Full Healing (Location)",
+                    "art" : "healing",
+                    "description" : "This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect. This number may be 1, or it may be “Full”, which restores all Body hits to the location.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Identify",
+                    "call" : "Identify",
+                    "art" : "magnifying-glass",
+                    "description" : "This Effect is instantaneous. You gain knowledge of the properties of a lammied item without attuning to that item.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Lure",
+                    "call" : "Lure (Duration)",
+                    "art" : "lure",
+                    "description" : "For the duration, the target of this Effect becomes fixated on the source of the Effect and can do nothing but move towards it at normal walking speed, altering their path if the source moves locations, and remaining motionless when they reach the source. Being struck by the Damage Effect will not break the Lure Effect. Please note: Grappling/restraining people is not permitted.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Mindslash",
+                    "call" : "Mindslash",
+                    "art" : "brain-tentacle",
+                    "description" : "This Effect is instantaneous. The Effect breaks the Concentration of the target.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Mute",
+                    "call" : "Mute (Duration)",
+                    "art" : "mute",
+                    "description" : "The target is silenced. For the duration of the Spell the character cannot perform any vocal action including casting Spells. They may still generate weapon blow Effects, or other actions which require Concentration.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Protection",
+                    "call" : "Protection (Effect) (Duration)",
+                    "art" : "protection",
+                    "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Rend",
+                    "call" : "Rend",
+                    "art" : "rend",
+                    "description" : "This Effect is instantaneous. The location struck with this Effect begins to bleed and the character gains Immunity Healing. The character can use the location as normal (depending on the number of Body hits) but the location is also bleeding. Your character is in their deathcount as if the location was at -1 Body hits. The response to a Diagnose call is the number of Body hits remaining and bleeding. A Stop Bleed that affects the location will end the Rend Effect.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Shatter",
+                    "call" : "Shatter",
+                    "art" : "shatter",
+                    "description" : "This Effect is instantaneous. Weapons, shields and items are cracked and broken, making them useless. If a weapon or shield is shattered it becomes unusable until repaired. The special properties of items cannot be used if the item is shattered.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Stop Bleed",
+                    "call" : "Stop Bleed (Location)",
+                    "art" : "stop-bleed",
+                    "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Through",
+                    "call" : "Through",
+                    "art" : "through",
+                    "description" : "This Effect is instantaneous. This Effect allows a combined Damage Effect to ignore the target’s Armour hits and directly affect their Body hits, leaving Armour hits unhurt.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Venom",
+                    "call" : "Venom",
+                    "art" : "venom",
+                    "description" : "This Effect is instantaneous. The target of a Venom Effect has their deathcount length reduced by 120 seconds. If a character is in their deathcount when struck by Venom, the reduction does not happen until they leave their current deathcount. This reduction stays in place until Time Out or until the application of a Cure Effect, whichever comes first.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Ward",
+                    "call" : "Ward (Number)",
+                    "art" : "ward",
+                    "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Sunder",
+                    "call" : "Sunder",
+                    "art" : "sunder",
+                    "description" : "This Effect is instantaneous. If this Effect targets a location that location’s Armour hits are reduced to 0. If the location’s Armour hits were already at 0, then the location is taken to -1 Body hits. This Effect cannot be combined with a Damage Effect.",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },        
+        {
+            "pathName" : "Event Team Effects",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Time In",
+                    "call" : "Time In",
+                    "art" : "time-in",
+                    "description" : "This indicates that play has begun for the day, and the game area is to be considered In Character (IC). This call is also used to end a Time Freeze and resume play.<p>When Time In is called at the beginning of the gameplay for that day, all characters who were still alive at Time Out the night before come into play with full Body hits, Armour hits, and Vigour.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Time Freeze",
+                    "call" : "Time Freeze",
+                    "art" : "time-freeze",
+                    "description" : "This indicates that play is to be paused in the area until further notice from a Referee, who will resume play with the Time In call.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Time Out",
+                    "call" : "Time Out",
+                    "art" : "time-out",
+                    "description" : "This Indicates that play has ended for the day. The game area is to now be considered Out of Character (OOC).",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Drop",
+                    "call" : "Drop",
+                    "art" : "drop",
+                    "description" : "Your character immediately enters an unconscious state. Your Body and Armour hits cannot be discerned and a Diagnose Effect targeting your character should receive the response “Indeterminate”. The Referee who called you to Drop will brief you on your character’s new status as soon as possible.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Fair Escape",
+                    "call" : "Fair Escape",
+                    "art" : "fair-escape",
+                    "description" : "This means that a character (or group of characters) has successfully evaded their pursuers for now and should not be chased. A referee may declare “Fair Escape” if a character has sufficient distance or obstacles between them and their pursuers, or if a character has an IC attribute to support it.",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },        
+        {
+            "pathName" : "Special actions",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Searching & IC Theft",
+                    "call" : "N/A",
+                    "art" : "search",
+                    "description" : "Sometimes one character may want to take items from another character. Any weapons or IC items (other than armour or clothing) that are being held or worn visibly by an unresisting character may be freely taken by asking the player to hand them over. Sometimes one character may want to search another character for further weapons and IC items. OOC personal space must be respected and to facilitate this we have an IC searching mechanic. While searching another character, you should mime actions of searching them without touching the target.<p> To search another character, that character should be stationary and unresisting (and can state they are resisting at any stage during the search to stop it). A character can resist if they would reasonably be able to resist someone searching them. You should spend 30 seconds of Concentration and roleplayed action, at the end of which time you will be informed of any lammied items on the character, as well as any IC documents, currency, or other IC items on the character. You will also be informed if the character was recently searched. The victim is required to hand over any items that are requested of them. Do not take items by OOC force.</p><p The normal rules for knowing what a lammied item does applies to stolen items, so a character must either attune to the item or use the relevant Identify Effect to know what a magic item does.</p><p>If you have taken a lammied item from another player and do not intend to return it in a prompt fashion, please take the item to a member of the Event Team to have the item change ownership. You must not remove stolen lammies from items without going to the Event Team first. You will be asked to supply an unlammied phys rep of the appropriate type to transfer the lammie onto. If you cannot provide a phys rep, the Event Team will liaise with you about resolving the theft. Please do not use someone else’s phys rep without their permission.</p><p> Searching a character requires that you search that character thoroughly. As such it is not possible to stand behind someone and “stealth” search them. NOTE: Some items may be unique and specifically remain on the original phys rep. If you are stealing such an item you still need to bring it to the Event Team but may not move the lammie to another phys rep.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Disarming",
+                    "call" : "N/A",
+                    "art" : "disarm",
+                    "description" : "If you have a prisoner and you wish to disarm them you may “take” any obviously visible weapons from them instantly rather than requiring a full search. This can either be done either by placing the phys reps nearby or informing the prisoner that the weapons have been taken and tossed away (allowing the prisoner to retain their phys reps).",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },        
+        {
+            "pathName" : "Effect Modifiers",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Searching & IC Theft",
+                    "call" : "N/A",
+                    "art" : "search",
+                    "description" : "Sometimes one character may want to take items from another character. Any weapons or IC items (other than armour or clothing) that are being held or worn visibly by an unresisting character may be freely taken by asking the player to hand them over. Sometimes one character may want to search another character for further weapons and IC items. OOC personal space must be respected and to facilitate this we have an IC searching mechanic. While searching another character, you should mime actions of searching them without touching the target.<p> To search another character, that character should be stationary and unresisting (and can state they are resisting at any stage during the search to stop it). A character can resist if they would reasonably be able to resist someone searching them. You should spend 30 seconds of Concentration and roleplayed action, at the end of which time you will be informed of any lammied items on the character, as well as any IC documents, currency, or other IC items on the character. You will also be informed if the character was recently searched. The victim is required to hand over any items that are requested of them. Do not take items by OOC force.</p><p The normal rules for knowing what a lammied item does applies to stolen items, so a character must either attune to the item or use the relevant Identify Effect to know what a magic item does.</p><p>If you have taken a lammied item from another player and do not intend to return it in a prompt fashion, please take the item to a member of the Event Team to have the item change ownership. You must not remove stolen lammies from items without going to the Event Team first. You will be asked to supply an unlammied phys rep of the appropriate type to transfer the lammie onto. If you cannot provide a phys rep, the Event Team will liaise with you about resolving the theft. Please do not use someone else’s phys rep without their permission.</p><p> Searching a character requires that you search that character thoroughly. As such it is not possible to stand behind someone and “stealth” search them. NOTE: Some items may be unique and specifically remain on the original phys rep. If you are stealing such an item you still need to bring it to the Event Team but may not move the lammie to another phys rep.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Disarming",
+                    "call" : "N/A",
+                    "art" : "disarm",
+                    "description" : "If you have a prisoner and you wish to disarm them you may “take” any obviously visible weapons from them instantly rather than requiring a full search. This can either be done either by placing the phys reps nearby or informing the prisoner that the weapons have been taken and tossed away (allowing the prisoner to retain their phys reps).",
                     "magicSchool" : ["Effect"]
                 }
             ]
