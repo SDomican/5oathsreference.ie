@@ -22,6 +22,7 @@ realmFeatsAdd Keyword info to popup
 Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 Spells page has undefinied prerequisites
 Craftable requirements cut off on page
+Add effect calls to popup
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials

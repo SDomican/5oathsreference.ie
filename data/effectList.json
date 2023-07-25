@@ -2,15 +2,137 @@
 
     "featPath": [
         {
-            "pathName" : "First Level Spells (Cost 1 Vigour)",
+            "pathName" : "Default effects",
             "featPathColour" : "maroon",
             "feats":[
                 {
+                    "featName" : "Weapon blow",
+                    "call" : "",
+                    "art" : "sword-slice",
+                    "description" : "Weapon blows, by default, cause the Single Damage Effect when they strike a location. Weapon blows delivered by ranged projectile weapons (not thrown weapons) apply the Single Damage Effect directly to Body Hits, ignoring armour, this is separate to the Through effect. Players are not required to call <b>Single</b> when striking for the Single Damage Effect.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Zero Damage",
+                    "art" : "sword-break",
+                    "description" : "All characters may choose to generate Zero Damage, representing an IC pulled blow. If two characters agree to only generate the Zero Damage Effect then they are not required to call it for their bout; they should call Single once to indicate that they are no longer pulling their blow.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Concentration",
+                    "call" : "",
+                    "art" : "rear-aura",
+                    "description" : "Certain actions in these rules refer to a character requiring Concentration to perform them. Although fighting, watching where you are walking and talking to people do require you as a player to concentrate, they do not require your character’s “Concentration.” <p>An action will state if it requires Concentration in order to be performed. A character may only concentrate on one thing at a time. If their Concentration is broken, they may begin the task again, but must do so from scratch. Some of the actions that require Concentration include casting a Spell, repairing armour and searching someone.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Execute",
+                    "call" : "Execute",
+                    "art" : "executioner-hood",
+                    "description" : "This Effect is instantaneous. If the target is bleeding, they are killed instantly. Any character wielding a melee weapon may generate this effect by concentrating on an unresisting, bleeding target within melee strike range and repeating the OOC call “Executing” at a level audible to all within 10 metres while counting down from 30 seconds. They may then strike with a call of “Execute” and instantly kill that target at the end of the 30 seconds.<p>Attempting to generate an Execute Effect on an invalid target will get a “No Effect” response at the end of the process. All characters can generate this Effect if they have a melee weapon drawn.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Notice Bleeding",
+                    "call" : "Notice Bleeding",
+                    "art" : "ragged-wound",
+                    "description" : "This effect is instantaneous. A character with locations on -1 Body hits will respond by stating the locations that are bleeding. A character that is not bleeding will respond by saying “Not bleeding”. A character who is dead will respond “Dead”. Notice Bleeding will work on a character under the Ward Effect, but does not remove a charge from Ward.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Repair",
+                    "call" : "Repair (Armour location)/Repair (Item)",
+                    "art" : "sewing-string",
+                    "description" : "<p>This Effect is instantaneous. When this Effect targets a character’s armour, the target character’s Armour hits on the target location are restored by 1. This cannot increase the target’s Armour hits above the total allowed by their Feats and any bonuses given by magic armour. When this Effect targets a weapon, shield, or other item which has been affected by Shatter, it will become usable again.</p><p>The Repair Effect can be delivered manually by all characters on weapons, shields and other items, however armour can only be repaired by a character with the correct Feat (see the Way of Leather and Steel in Chapter 4). The Repair Effect is done within touch range and requires 1 minute of roleplayed action of handling and fixing the armour, weapon or shield. Generating the Repair Effect is an action which requires Concentration and the repairer and repairee to be standing stationary for the duration of the required roleplay action. It is not possible to repair the armour or weapons of a target which is actively engaged in melee combat.</p>",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Conditions",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Restrained",
+                    "call" : "",
+                    "art" : "handcuffed",
+                    "description" : "At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash. After 30s roleplayed action miming tying up an unresisting target, the target is restrained. The target should now hold the phys rep in their hands, such that it appears to be binding them (Please note, they should not be OOC tied). A restrained character may not strike, repair armour, cast spells, or move faster than a slow walking place. If there is a suitable phys rep of a solid object such as a tree or a post, a character may be restrained to this object,making them unable to move from the spot. To do this, you should inform the target that they are being restrained to this object, and after the appropriate amount of role played action they hold the binding phys rep such that it is around the object. <p>To release a restrained character, an unrestrained character must spend 30s role played action releasing them, at which point the target is no longer restrained. Alternatively, a character with the Escape Restraints Feat may use that to escape.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Unresisting",
+                    "call" : "",
+                    "art" : "person",
+                    "description" : "Various Effects and abilities specify “an unresisting target” such as searching, moving, diagnosing, etc. A target can normally choose to cooperate or resist these efforts. Some things that would remove the choice of resisting and make a target unresisting (unless they have a Feat or are using an item which specifies otherwise) would be: being unconscious, or being under the Sleep or Halt Effects.<p>A target that is being actively hostile towards should be considered obviously resisting.</p>",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Physical Effects",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Fumble",
+                    "call" : "Fumble (Location)",
+                    "art" : "drop-weapon",
+                    "description" : "This Effect is instantaneous. The target is forced to drop any items held in the target location. Items may not be caught until they have fallen on the ground. If an item held within the target’s hand is a larp-safe item, such as a weapon, a shield or an approved spell-focus then the Effect may be generated by striking the item where the Effect is being delivered by weapon blow. If you have an OOC reason for not wishing to drop the affected item you may choose to let the item hang limp for 10 seconds. During this time it may not be used in any way and blows that strike it are treated as having struck the location holding it.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Push",
+                    "call" : "Push",
+                    "art" : "push",
+                    "description" : "This Effect is instantaneous. A force pushes the character. The target is pushed directly away from the source for 10m. During this time they may defend themselves. Once the target has moved 10m from the location of the source at the time of casting, they may come back (note this Effect does not have a duration). If a player is OOC unable to move as directed by the Push Effect due to something blocking you (such as a wall or OOC unsafe terrain) they must stop at the blocking terrain for 10 seconds.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Strikedown",
+                    "call" : "Strikedown",
+                    "art" : "strikedown",
+                    "description" : "This Effect is instantaneous. The target is made to fall to the ground. Their torso must fall on the ground before they can get back up. If it is OOC unsafe to do so, they may kneel down and not take any offensive action (including Spellcasting) for 5s instead.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Halt",
+                    "call" : "Halt (Duration)",
+                    "art" : "halt",
+                    "description" : "The target is frozen to the spot for the duration of the Effect, and may not move, speak, or take any actions. They are still aware of their surroundings. <p><b>Items may not be taken from a Halted character, voluntarily or otherwise. Fumble will still cause a Halted character to drop a carried item.</p></b>",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },
+        {
+            "pathName" : "Mental Effects",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Fear",
+                    "call" : "Fear (Location)",
+                    "art" : "surprised-skull",
+                    "description" : "The target becomes filled with dread towards the source of this Effect for the duration of the Effect. For the duration they must move out of the source’s melee and spellcasting range (10m), cannot strike anyone or Concentrate, and must roleplay terror (cowering, hiding, etc).",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Rampage",
+                    "call" : "Rampage (Duration)",
+                    "art" : "rampage",
+                    "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Daze",
+                    "call" : "Daze (Duration)",
+                    "art" : "daze",
+                    "description" : "The target is confused for the duration of the Effect. They cannot voluntarily walk or run, cannot strike anyone, and cannot concentrate. They can still talk, and can still defend themselves from strikes.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
                     "featName" : "Charm",
-                    "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)",
+                    "call" : "Charm (Duration)",
                     "art" : "charm",
                     "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
-                    "magicSchool" : ["C","En"]
+                    "magicSchool" : ["Effect"]
                 }
             ]
         }
