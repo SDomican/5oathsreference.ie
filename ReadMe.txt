@@ -23,11 +23,13 @@ Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 Spells page has undefinied prerequisites
 Craftable requirements cut off on page
 Add effect calls to popup
+Effect interactions lists - make them side by side.
 
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
 Searching & IC Theft popup text too big
+Effect interactions/priority popup text too big
 
 Future
 Character creator
@@ -564,8 +566,6 @@ Effect Modifiers:
 
 Calls:
 	Action Calls
-	
-Rituals:
 
 Special rules:
 	Effect interactions/priority

@@ -341,17 +341,44 @@
             "featPathColour" : "green",
             "feats":[
                 {
-                    "featName" : "Searching & IC Theft",
-                    "call" : "N/A",
-                    "art" : "search",
-                    "description" : "Sometimes one character may want to take items from another character. Any weapons or IC items (other than armour or clothing) that are being held or worn visibly by an unresisting character may be freely taken by asking the player to hand them over. Sometimes one character may want to search another character for further weapons and IC items. OOC personal space must be respected and to facilitate this we have an IC searching mechanic. While searching another character, you should mime actions of searching them without touching the target.<p> To search another character, that character should be stationary and unresisting (and can state they are resisting at any stage during the search to stop it). A character can resist if they would reasonably be able to resist someone searching them. You should spend 30 seconds of Concentration and roleplayed action, at the end of which time you will be informed of any lammied items on the character, as well as any IC documents, currency, or other IC items on the character. You will also be informed if the character was recently searched. The victim is required to hand over any items that are requested of them. Do not take items by OOC force.</p><p The normal rules for knowing what a lammied item does applies to stolen items, so a character must either attune to the item or use the relevant Identify Effect to know what a magic item does.</p><p>If you have taken a lammied item from another player and do not intend to return it in a prompt fashion, please take the item to a member of the Event Team to have the item change ownership. You must not remove stolen lammies from items without going to the Event Team first. You will be asked to supply an unlammied phys rep of the appropriate type to transfer the lammie onto. If you cannot provide a phys rep, the Event Team will liaise with you about resolving the theft. Please do not use someone else’s phys rep without their permission.</p><p> Searching a character requires that you search that character thoroughly. As such it is not possible to stand behind someone and “stealth” search them. NOTE: Some items may be unique and specifically remain on the original phys rep. If you are stealing such an item you still need to bring it to the Event Team but may not move the lammie to another phys rep.</p>",
+                    "featName" : "Full",
+                    "call" : "Full",
+                    "art" : "full",
+                    "description" : "Full is a Modifier that can be applied to the Healing or Repair Effects. A Full Healing will restore a character’s Body hits to the total allowed by their Feats and any magic items the character has that give extra Body hits. A Full Repair will restore a character’s Armour hits to the total allowed by their Feats and any magic items the character has that give extra Armour hits. This Modifier can be combined with the Global Modifier.",
                     "magicSchool" : ["Effect"]
                 },
                 {
-                    "featName" : "Disarming",
+                    "featName" : "Global",
+                    "call" : "Global",
+                    "art" : "global",
+                    "description" : "Global is a Modifier that can be applied to the Damage, Healing or Repair Effects, which allows the Effect to target all 6 locations on the target character’s body. A Global Damage Effect will target all 6 locations on the targets body, and remove 1 Body hit from each location, removing Armour hits first as normal. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location. A Global Repair 1 Effect will target all 6 locations on the target character’s body, and restore 1 Armour hit to each location. This Modifier can be combined with the Full Modifier",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Mass",
+                    "call" : "Mass",
+                    "art" : "mass",
+                    "description" : "The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc. <p>The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</p>",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
+        },        
+        {
+            "pathName" : "Special Calls & Rules",
+            "featPathColour" : "purple",
+            "feats":[
+                {
+                    "featName" : "Action Calls",
+                    "call" : "(Action) (10...9...8...)",
+                    "art" : "action-call",
+                    "description" : "To indicate that an important, interruptible action is being taken IC, a character may be instructed by a referee to use an Action Call. This consists of a countdown and a short, repeated description of the action being taken. For example: “Destroying the evidence 10! Destroying the evidence 9! Destroying the evidence 8!...”. Once the end of the countdown is reached the final call should indicate that the action has been completed, eg “Evidence Destroyed!”. Action Calls require Concentration. Executing is a special and specific case of the Action Call with its own rules for how and when it can be used.<p> If a character with their finger in the air is performing an Action Call that is describing how they are appearing (eg “Crawling out of the ground 5! Crawling out of the ground 4!...”), they can not be attacked or interacted with until their Action Call has been completed. Once the character has finished their Action Call and lowered their finger, they can be interacted with as normal.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Effect interactions/priority",
                     "call" : "N/A",
-                    "art" : "disarm",
-                    "description" : "If you have a prisoner and you wish to disarm them you may “take” any obviously visible weapons from them instantly rather than requiring a full search. This can either be done either by placing the phys reps nearby or informing the prisoner that the weapons have been taken and tossed away (allowing the prisoner to retain their phys reps).",
+                    "art" : "priority",
+                    "description" : "For the purposes of Effect interaction, Effects are broken into physical effects and mental effects. If one Effect would interfere with carrying out another Effect, physical takes precedence over mental, and the first listed Effect gets resolved first. If the original Effect would still be in duration when the interfering Effect is resolved you then resolve the original Effect until the duration is over.<p> E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.</p><hr><p><i>Physical Effects priority</i></p><ul><li>Fumble</li><li>Push</li><li>Strikedown</li><li>Halt</li></ul><hr><p><i>Mental Effects priority</i></p><ul><li>Lure</li><li>Fear</li><li>Rampage</li><li>Sleep</li><li>Daze</li><li>Charm</li></ul>",
                     "magicSchool" : ["Effect"]
                 }
             ]
