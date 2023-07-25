@@ -135,6 +135,61 @@
                     "magicSchool" : ["Effect"]
                 }
             ]
+        },
+        {
+            "pathName" : "Other Effects",
+            "featPathColour" : "green",
+            "feats":[
+                {
+                    "featName" : "Immunity",
+                    "call" : "No Effect",
+                    "art" : "bell-shield",
+                    "description" : "Characters may through Feats be immune to an Effect. A character should state <b>No Effect</b> and not take the Effect when they are the target of an Effect to which they are immune. The Feat or item ability that grants the Immunity will determine the duration it lasts. If you are under an Effect and become immune to it, the Effect is removed from you. A character can be immune to multiple Effects at the same time.<p>These rules by and large do not have permanent immunities, with two exceptions. Peacesworn are always immune to Rampage for the OOC reason that it would make them violate non-com rules. The Rend Effect makes the target immune to the Healing Effect while they are suffering Rend.</p> <p>Most Immunities are reactive. What this means is that Feat or items will grant a character the ability to spend Vigour and become immune to an Effect when they are targeted with the Effect. If they spend the Vigour, the character declares “No Effect”, and gains the Immunity which lasts for a further short duration as specified by the Feat or item.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Bane",
+                    "call" : "(Category) Bane",
+                    "art" : "bane",
+                    "description" : "This Effect is instantaneous. A fearsome blow specifically designed to strike at the vulnerabilities of an enemy. When striking an unarmoured location of the Category stated (Beast, Gwyllt, Mortal, or Undead) the location is destroyed, going to -1 Body hits. <p>If a Bane Effect strikes an armoured location 1 point of Damage is dealt to that location. Similarly, if the Bane strikes an unarmoured location and the target is not of the stated Category, they take the Single Damage Effect instead. This Effect cannot be combined with the Damage Effect.</p>",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Cure",
+                    "call" : "Cure (Effect)",
+                    "art" : "remedy",
+                    "description" : "This Effect is instantaneous. The target of a Cure Effect has the specified Effect removed if they are under it, but will not be protected from any future iterations of that Effect.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Detect",
+                    "call" : "Detect (Target group)",
+                    "art" : "semi-closed-eye",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Diagnose",
+                    "call" : "Diagnose",
+                    "art" : "caduceus",
+                    "description" : "This Effect is instantaneous and has a range of 5cm from an unresisting target. They should OOC tell the source how many Body hits they have left on each location as well as the character’s maximum Body hits on each location, current and maximum Vigour, as well as if they are under the Effects of Disease, Venom, or if they are bleeding. In addition, a Referee may tell the source about special Effects that the target is suffering from. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Detect",
+                    "call" : "Detect (Target group)",
+                    "art" : "semi-closed-eye",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Effect"]
+                },
+                {
+                    "featName" : "Detect",
+                    "call" : "Detect (Target group)",
+                    "art" : "semi-closed-eye",
+                    "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                    "magicSchool" : ["Effect"]
+                }
+            ]
         }
     ]
 }

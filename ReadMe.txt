@@ -537,7 +537,6 @@ Other Effects:
 	Mute - mute
 	Protection
 	Rend - rend
-	Repair
 	Shatter - shatter
 	Stop Bleed
 	Through - through
