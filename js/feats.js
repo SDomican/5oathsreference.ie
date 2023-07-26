@@ -31,11 +31,11 @@ function apendText(featPath){
           let materialCosts = feat.materialCosts;
 
           if(materialCosts !== "N/A" && materialCosts !== "None"){
-            description = "<p><i>Material Costs: " + materialCosts + " </i></p>" + description;
+            description = "<p><i id='popupMaterialCost'>Material Costs: " + materialCosts + " </i></p>" + description;
           }
 
           if(difficulty !== "N/A"){
-            description = "<p><i>Difficulty: " + difficulty + " </i></p>" + description;
+            description = "<p><i id='popupDifficulty' >Difficulty: " + difficulty + " </i></p>" + description;
           }
         }
 

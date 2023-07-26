@@ -12,8 +12,6 @@ Buy domain
 Get published on domain
 Craftables Page
 Effects page
-Realm and Open Feats
-Clicking Ritual/Material costs on Ritual Feat closes popup.
 Spell Keywords close page on click
 Clicking near Feat art closes page.
 Change highlight colour of keywords dynamically
@@ -24,6 +22,7 @@ Spells page has undefinied prerequisites
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
+Clicking Ritual/Material costs on Ritual Feat closes popup.
 
 Future
 Character creator
