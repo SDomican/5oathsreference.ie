@@ -10,8 +10,6 @@ Resize art icons
 Get permission
 Buy domain
 Get published on domain
-Craftables Page
-Effects page
 Spell Keywords close page on click
 Clicking near Feat art closes page.
 Change highlight colour of keywords dynamically
@@ -23,6 +21,7 @@ Craftable requirements cut off on page
 Add effect calls to popup
 Effect interactions lists - make them side by side.
 Blacksmith - add weapon type to page and popup.
+Fix navbar
 
 
 Bugs:
@@ -570,7 +569,7 @@ Special rules:
 	Effect interactions/priority
 
 Downtime Actions:
-Analyze (Requires Scholar Feats)
+Analyze (Requires Scholar Feats) - magnifying-glass
 Craft (Requires Crafting Feats)
 Guard (Non-Peacesworn Only)
 Mediate (Peacesworn Only)

@@ -1,7 +1,18 @@
 import featJson from '../data/featList.json' assert { type: 'json' };
+import downtimeJson from '../data/downtimeList.json' assert { type: 'json' };
+
+
 
 function addSectionContainer(idToAmend){
-  featJson.featPath.forEach((feat) => apendText(feat));
+
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+
+  if(page ==="downtime.html"){
+    downtimeJson.featPath.forEach((feat) => apendText(feat));
+  }else{
+    featJson.featPath.forEach((feat) => apendText(feat));
+  }
 }
 
 function apendText(featPath){

@@ -1,0 +1,67 @@
+{
+
+    "featPath": [
+        {
+            "pathName" : "Downtime",
+            "featPathColour" : "blue",
+            "feats":[
+                {
+                    "featName" : "Analyze",
+                    "prequisites" : "Scholar Feats",
+                    "art" : "magnifying-glass",
+                    "description" : "Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with Scholar Feats, and the Lore Feat must match the type of item, i.e. weapon items can only be studied by characters with Smithing Lore, magical foci by characters with Magic Lore, and potions by characters with Alchemy Lore.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Craft",
+                    "prequisites" : "Crafting Feats",
+                    "art" : "crafting",
+                    "description" : "Your character makes one durable item or one to three consumable items with the same recipe according to the Crafting Feats your character has, if they have the correct Ingredients for the recipe as per Appendix 4. Arcanist and Alchemist crafting are mostly possible only in Locations which are larger Settlements, whereas most Locations which are at least a small Settlement will have a smithy for Forge crafting. The Ingredients needed for the recipe will be used up.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Gather",
+                    "prequisites" : "Profession Feats",
+                    "art" : "basket",
+                    "description" : "Your character is adept at seeking out Ingredients, and has better luck in finding exactly what they want. A character with one or more Professions Feats can use this action to find a particular Ingredient no matter where they are. For each instance of this action taken, a character will get 1 of the specified Ingredient for each Feat of the relevant type they have. A character with 2 Artisan Feats could use this action to gather 2 Glass, for example.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Guard",
+                    "prequisites" : "Non-Peacesworn Only",
+                    "art" : "guards",
+                    "description" : "Your character stands guard duty in a Settlement, and gets paid 2 coins as a reward. This action is only available in smaller Settlements. A Peacesworn character cannot use the Guard action.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Mediate",
+                    "prequisites" : "Peacesworn Only",
+                    "art" : "discussion",
+                    "description" : "Your character acts as a mediator in local disputes, an investigator into violent matters where only a Peacesworn can be trusted, and generally provides a calming influence in the locality. The local populace are grateful and the character receives a payment of 2 coins to represent this. This action is only available in smaller Settlements. Only a Peacesworn character can use the Mediate action.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Research",
+                    "prequisites" : "A Scholar Feat/Pointed Questions Feat",
+                    "art" : "archive-research",
+                    "description" : "To select this action, your character needs to have an appropriate Feat. This action allows your character to seek the answer to a question about the world of the game relating to their qualifying Feat. The answer to your character’s question may not be available in their Location, or at all, in which case the response will either point your character to another Location where the answer could be, or make it clear that the answer is not something they can discover using the Research action.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Scout",
+                    "prequisites" : "None",
+                    "art" : "periscope",
+                    "description" : "Your character spends some time roving over a Region or Riding Location, getting a good idea of any threats or military activity in the Location. This will give your character an idea of what types of creatures are active in the area, and any other information deemed relevant by the Event Team.",
+                    "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Travel",
+                    "prequisites" : "None",
+                    "art" : "sinagot",
+                    "description" : "As described above, your character starts their downtime either at their Location at the end of their last downtime or the last Location of the band. If your character wishes to Travel to another location halfway through their downtime, they select this action and pick their new Location from their list of Known Locations. Travel between any two Locations, however far they are from each other in the game world, takes one action.",
+                    "keywords" : ["Downtime"]
+                }
+            ]
+        }
+    ]
+  }

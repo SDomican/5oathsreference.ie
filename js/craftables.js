@@ -4,7 +4,7 @@ import blacksmithJson from '../data/blacksmithList.json' assert { type: 'json' }
 function addSectionContainer(idToAmend){
   var path = window.location.pathname;
   var page = path.split("/").pop();
-  console.log( page );
+
   if(page ==="blacksmith.html"){
     blacksmithJson.featPath.forEach((feat) => apendText(feat));
   }else{
