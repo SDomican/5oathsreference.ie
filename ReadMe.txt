@@ -22,7 +22,7 @@ Add effect calls to popup
 Effect interactions lists - make them side by side.
 Blacksmith - add weapon type to page and popup.
 Fix navbar
-
+Speed up image load
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
