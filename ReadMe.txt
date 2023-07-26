@@ -27,12 +27,8 @@ Blacksmith - add weapon type to page and popup.
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
-<<<<<<< HEAD
-Clicking Ritual/Material costs on Ritual Feat closes popup.
-=======
 Searching & IC Theft popup text too big
 Effect interactions/priority popup text too big
->>>>>>> aaa8e7639dba28eacaa8317a4de094c6c513fe1b
 
 Future
 Character creator
