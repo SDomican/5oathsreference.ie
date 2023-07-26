@@ -1,6 +1,6 @@
 To-Do
 [ ]Add "Call" to Spell popups
-[ ]Copy paste of popups
+[X]Copy paste of popups
 [ ]Colourblind contrasting - sort colours???
 [ ]Add Keywords
 [ ]Add Term popup to spells (e.g. what is mass)
@@ -21,7 +21,7 @@ To-Do
 [ ]Add effect calls to popup
 [ ]Effect interactions lists - make them side by side.
 [ ]Blacksmith - add weapon type to page and popup.
-[ ] Fix navbar
+[X] Fix navbar
 [X] Speed up image load
 [ ]Add lazy load to popups (if required)
 
