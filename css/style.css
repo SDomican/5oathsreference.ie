@@ -157,7 +157,7 @@
 
 .item-text-container{
   width: 25vw;
-  height: 8vh;
+  height: 9vh;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -374,7 +374,7 @@
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 1800px) {
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
   .item {width: 30%;}
   .item-text-container{height: 5vh;}
   .feat-description-requirements-text{margin-top: 0.25%;}

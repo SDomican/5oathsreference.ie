@@ -19,10 +19,20 @@ Downtime actions page
 realmFeatsAdd Keyword info to popup
 Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 Spells page has undefinied prerequisites
+Craftable requirements cut off on page
+Add effect calls to popup
+Effect interactions lists - make them side by side.
+Blacksmith - add weapon type to page and popup.
+
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
+<<<<<<< HEAD
 Clicking Ritual/Material costs on Ritual Feat closes popup.
+=======
+Searching & IC Theft popup text too big
+Effect interactions/priority popup text too big
+>>>>>>> aaa8e7639dba28eacaa8317a4de094c6c513fe1b
 
 Future
 Character creator
@@ -477,20 +487,20 @@ Apprentice Blacksmith:
 Journeyman Blacksmith:
 	Armour of Broad Resistance (Light armour) (d): 1 Bone, 2 Dung, 1 Glass, 1 Incense, 2 Iron, 1 Leaf, 4 Silver - cape-armor
 	Death of the Mage (All weapon types) (d): 2 Bone, 1 Glass, 3 Heart, 5 Iron, 1 Seed - energy-shield
-	Fear of the Unsettled (All weapon types) (d): 2 Bone, 2 Fang, 5 Gold, 1 Pelt, 1 Root, 1 Parchment 
+	Fear of the Unsettled (All weapon types) (d): 2 Bone, 2 Fang, 5 Gold, 1 Pelt, 1 Root, 1 Parchment - fear-undead
 	Fear of the Wicked (All weapon types) (d): 6 Copper, 3 Fang, 1 Flower, 1 Incense, 1 Pelt
 	Journeyman Windfall Forging (w): 4 metals, 2 animals, 1 Plant, 1 Processed
-	Stunning Bow (Ranged weapon) (d): 1 Bark, 6 Bronze, 3 Dung, 1 Fang, 1 Wax
-	Unbreakable Armour (Heavy armour) (d): 1 Flower, 2 Gold, 1 Heart, 2 Iron, 1 Leaf, 5 Silver
+	Stunning Bow (Ranged weapon) (d): 1 Bark, 6 Bronze, 3 Dung, 1 Fang, 1 Wax - frozen-arrow
+	Unbreakable Armour (Heavy armour) (d): 1 Flower, 2 Gold, 1 Heart, 2 Iron, 1 Leaf, 5 Silver - heavy-helm
 	
 Master Blacksmith:
-	Armour of Leadership (All armour types) (d): 2 Bark, 4 Bone, 2 Copper, 1 Gold, 2 Incense, 4 Silver
-	Death’s Grip (All weapon types) (d): 6 Bronze, 2 Copper, 1 Flower, 4 Heart, 2 Ink
-	Masterwork Armour (All armour types) (d): 6 Copper, 4 Fang, 1 Gold, 1 Leaf, 3 Parchment
-	Master Windfall Forging (w): 5 metals, 2 animal, 1 plants, 2 processed
-	Pacifying Edge (All weapon types) (d): 1 Fang, 1 Glass, 7 Gold, 2 Heart, 1 Ink, 1 Root, 2 Wax
-	Provocative Barb (Ranged weapon) (d): 2 Bronze, 4 Dung, 6 Iron, 2 Seed, 1 Wax
-	True Foe’s Weapon (All weapon types) (d): 1 Bronze, 1 Ink, 1 Iron, 4 Pelt, 2 Root, 6 Silver
+	Armour of Leadership (All armour types) (d): 2 Bark, 4 Bone, 2 Copper, 1 Gold, 2 Incense, 4 Silver - uprising
+	Death’s Grip (All weapon types) (d): 6 Bronze, 2 Copper, 1 Flower, 4 Heart, 2 Ink - pirate-flag
+	Masterwork Armour (All armour types) (d): 6 Copper, 4 Fang, 1 Gold, 1 Leaf, 3 Parchment - breastplate
+	Master Windfall Forging (w): 5 metals, 2 animal, 1 plants, 2 processed - windfall
+	Pacifying Edge (All weapon types) (d): 1 Fang, 1 Glass, 7 Gold, 2 Heart, 1 Ink, 1 Root, 2 Wax - cure-rampage
+	Provocative Barb (Ranged weapon) (d): 2 Bronze, 4 Dung, 6 Iron, 2 Seed, 1 Wax - barbed-arrow
+	True Foe’s Weapon (All weapon types) (d): 1 Bronze, 1 Ink, 1 Iron, 4 Pelt, 2 Root, 6 Silver - bane
 	
 	
 <----------------------------------------------------------->
@@ -532,27 +542,24 @@ Other Effects:
 	Lure - lure
 	Mindslash - brain-tentacle
 	Mute - mute
-	Protection
+	Protection - protection
 	Rend - rend
-	Repair
 	Shatter - shatter
-	Stop Bleed
+	Stop Bleed - stop-bleed
 	Through - through
 	Venom - venom
 	Ward
 	Sunder - sunder
 
 Event Team Effects:
-	Time In
-	Time Freeze
+	Time In - time-in
+	Time Freeze - time-freeze
 	Time Out
 	Drop
 	Fair Escape
 	
 Special actions:
-	Restraining
-	Theft
-	Searching
+	Searching & IC Theft
 	Disarming
 	
 Effect Modifiers:
@@ -562,8 +569,6 @@ Effect Modifiers:
 
 Calls:
 	Action Calls
-	
-Rituals:
 
 Special rules:
 	Effect interactions/priority

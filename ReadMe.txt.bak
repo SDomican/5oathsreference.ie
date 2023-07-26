@@ -1,5 +1,5 @@
 To-Do
-Add "Call" to spell popups
+Add "Call" to Spell popups
 Copy paste of popups
 Colourblind contrasting - sort colours???
 Add Keywords
@@ -21,9 +21,16 @@ Downtime actions page
 realmFeatsAdd Keyword info to popup
 Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 Spells page has undefinied prerequisites
+Craftable requirements cut off on page
+Add effect calls to popup
+Effect interactions lists - make them side by side.
+Blacksmith - add weapon type to page and popup.
+
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
+Searching & IC Theft popup text too big
+Effect interactions/priority popup text too big
 
 Future
 Character creator
@@ -533,27 +540,24 @@ Other Effects:
 	Lure - lure
 	Mindslash - brain-tentacle
 	Mute - mute
-	Protection
+	Protection - protection
 	Rend - rend
-	Repair
 	Shatter - shatter
-	Stop Bleed
+	Stop Bleed - stop-bleed
 	Through - through
 	Venom - venom
 	Ward
 	Sunder - sunder
 
 Event Team Effects:
-	Time In
-	Time Freeze
+	Time In - time-in
+	Time Freeze - time-freeze
 	Time Out
 	Drop
 	Fair Escape
 	
 Special actions:
-	Restraining
-	Theft
-	Searching
+	Searching & IC Theft
 	Disarming
 	
 Effect Modifiers:
@@ -563,8 +567,6 @@ Effect Modifiers:
 
 Calls:
 	Action Calls
-	
-Rituals:
 
 Special rules:
 	Effect interactions/priority
