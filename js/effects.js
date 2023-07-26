@@ -35,12 +35,14 @@ function apendText(featPath){
           else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
         }
 
+        let url = "./img/Effects/" + art + ".png";
+
         keywordsText + "</i>";
         description += keywordsText + "</p>";
 
         featCode +=
           "<div class=\"item\">" +
-            "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Effects/" + "/" + art + ".png');\"></div>" +
+            "<div class=\"item-icon iconsize\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" + 
             "<div class=\"item-text-container text\">" +
               "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
               "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +

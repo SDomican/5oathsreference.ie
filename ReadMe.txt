@@ -23,11 +23,13 @@ Effect interactions lists - make them side by side.
 Blacksmith - add weapon type to page and popup.
 Fix navbar
 Speed up image load
+Add lazy load to popups (if required)
 
 Bugs:
 Text overlap on Journeyman Windfall Alchemy materials
 Searching & IC Theft popup text too big
 Effect interactions/priority popup text too big
+Certain pages not opening on mobile
 
 Future
 Character creator

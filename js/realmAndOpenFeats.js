@@ -38,9 +38,11 @@ function apendText(featPath){
           }
         }
 
+        let url = "./img/Realm_Feats/" + art + ".png";
+
         featCode +=
           "<div class=\"item\">" +
-            "<div class=\"item-icon iconsize\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('./img/Realm_Feats/" + art + ".png');\"></div>" +
+            "<div class=\"item-icon iconsize\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
             "<div class=\"item-text-container text\">" +
               "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
               "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
