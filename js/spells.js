@@ -21,10 +21,11 @@ function apendText(featPath){
       
       featsArray.forEach(feat => {
 
+        let spellCall = feat.call;
         let featName = feat.featName;
         let featRequirements = feat.prequisites;
         let art = feat.art;
-        let description = feat.description;
+        let description = "<span id='popupKeywordTextPTag'><i>Call: " + spellCall + "</i></span><br><br>" + feat.description;
         let keywords = feat.magicSchool;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
 

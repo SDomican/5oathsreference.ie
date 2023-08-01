@@ -1,5 +1,5 @@
 To-Do
-[ ]Add "Call" to Spell popups
+[X]Add "Call" to Spell popups
 [X]Copy paste of popups
 [ ]Colourblind contrasting - sort colours???
 [ ]Add Keywords
@@ -11,9 +11,9 @@ To-Do
 [ ]Buy domain
 [ ]Get published on domain
 [ ]Spell Keywords close page on click
-[ ]Clicking near Feat art closes page.
+[X]Clicking near Feat art closes page.
 [ ]Change highlight colour of keywords dynamically
-[ ]Downtime actions page
+[X]Downtime actions page
 [ ]realmFeatsAdd Keyword info to popup
 [ ]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 [ ]Spells page has undefinied prerequisites
@@ -31,6 +31,7 @@ Bugs:
 [ ]Searching & IC Theft popup text too big
 [ ]Effect interactions/priority popup text too big
 [ ]Certain pages not opening on mobile
+[ ] Large gap between text and popup keywords
 
 Future
 Character creator
