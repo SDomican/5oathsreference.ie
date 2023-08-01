@@ -23,7 +23,7 @@ function hidePopup(event){
   let classList = event.target.classList;
   let id = event.target.id;
 
-  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty"){ showHide();}
+  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty" && id!="popupFlexContainer"){ showHide();}
 }
 
 function populateFeatPopup(elementId){

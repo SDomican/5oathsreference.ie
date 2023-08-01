@@ -24,6 +24,7 @@ To-Do
 [X] Fix navbar
 [X] Speed up image load
 [ ]Add lazy load to popups (if required)
+[ ] Have images pop in on mobile when div is opened
 
 Bugs:
 [ ]Text overlap on Journeyman Windfall Alchemy materials
