@@ -37,6 +37,20 @@ function apendText(featPath){
         let art = feat.art;
         let description = feat.description;
 
+        let keywords = feat.keywords;
+        let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
+
+        for (let i = 0; i < keywords.length; i++) {
+          
+          if(i < (keywords.length - 1)){
+            keywordsText += manageKeywordsOnPopup(keywords[i]) + ", ";
+          }
+          else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
+        }
+
+        keywordsText + "</i>";
+        description += keywordsText + "</p>";
+
         if(pathName === "Way of the ritualist"){
           let difficulty = feat.difficulty;
           let materialCosts = feat.materialCosts;
@@ -82,4 +96,18 @@ for(let element of itemIconElements){
 
 document.addEventListener("click", e => hidePopup(e), true)
 
+
+function manageKeywordsOnPopup(keyword){
+  let returnText = "";
+
+  return keyword;
+
+  // switch(keyword){
+  // case "En":
+  //   return "Enchantment"
+  // default:
+  //   return "N/A"
+  // }
+
+}
 
