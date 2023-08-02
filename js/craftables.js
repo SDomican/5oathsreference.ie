@@ -55,10 +55,6 @@ function apendText(featPath){
 
         description = "<p><i id='popupMaterialCost'>Material Cost: " + materialCosts + " </i></p>" + description;
 
-
-
-
-
         let url = "./img/Craftables/" + art + ".png";
 
         featCode +=
