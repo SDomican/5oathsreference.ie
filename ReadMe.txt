@@ -19,7 +19,7 @@ To-Do
 [X]Spells page has undefinied prerequisites
 [ ]Craftable requirements cut off on page
 [X]Add effect calls to popup
-[ ]Effect interactions lists - make them side by side.
+[X]Effect interactions lists - make them side by side.
 [X]Blacksmith - add weapon type to page and popup.
 [X] Fix navbar
 [X] Speed up image load
