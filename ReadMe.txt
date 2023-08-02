@@ -2,7 +2,7 @@ To-Do
 [X]Add "Call" to Spell popups
 [X]Copy paste of popups
 [ ]Colourblind contrasting - sort colours???
-[ ]Add Keywords
+[X]Add Keywords
 [ ]Add Term popup to spells (e.g. what is mass)
 [ ]Check site sizing
 [ ]Check works on mobile

@@ -100,14 +100,19 @@ document.addEventListener("click", e => hidePopup(e), true)
 function manageKeywordsOnPopup(keyword){
   let returnText = "";
 
-  return keyword;
+  switch(keyword){
 
-  // switch(keyword){
-  // case "En":
-  //   return "Enchantment"
-  // default:
-  //   return "N/A"
-  // }
+  case "Combat":
+  returnText = "<span id='keyword'  class='tooltip' data-tooltip='If you decided that your character was a Peacesworn, your character will not be able to take any Feats that have the Combat keyword.'data-tooltip-position='bottom'>Combat</span>";
+  return returnText;
+
+  case "Multiple":
+    returnText = "<span id='keyword'  class='tooltip' data-tooltip='These Feats can be taken multiple times. 'data-tooltip-position='bottom'>Multiple</span>";
+    return returnText;
+
+  default:
+    return keyword;
+  }
 
 }
 
