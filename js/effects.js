@@ -26,6 +26,7 @@ function apendText(featPath){
         let description = feat.description;
         let keywords = feat.magicSchool;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
+        let call = feat.call;
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -35,6 +36,7 @@ function apendText(featPath){
           else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
         }
 
+        description = "<p><i id='popupMaterialCost'>Call: " + call + " </i></p>" + description;
         let url = "./img/Effects/" + art + ".png";
 
         keywordsText + "</i>";
@@ -45,7 +47,7 @@ function apendText(featPath){
             "<div class=\"item-icon iconsize\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" + 
             "<div class=\"item-text-container text\">" +
               "<div class=\"item-title feat-description-title-text\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
+              "<div class=\"feat-description-requirements-text\" style=\"color:" + featPathColour + ";\">Call: " + call + "</div>" +
             "</div>" +       
           "</div>";
         });

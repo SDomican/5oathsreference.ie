@@ -7,20 +7,21 @@
             "feats":[
                 {
                     "featName" : "Weapon blow",
-                    "call" : "",
+                    "call" : "N/A",
                     "art" : "sword-slice",
-                    "description" : "Weapon blows, by default, cause the Single Damage Effect when they strike a location. Weapon blows delivered by ranged projectile weapons (not thrown weapons) apply the Single Damage Effect directly to Body Hits, ignoring armour, this is separate to the Through effect. Players are not required to call <b>Single</b> when striking for the Single Damage Effect.",
+                    "description" : "Weapon blows, by default, cause the Single Damage Effect when they strike a location. Weapon blows delivered by ranged projectile weapons (not thrown weapons) apply the Single Damage Effect directly to Body Hits, ignoring armour, this is separate to the Through effect. Players are not required to call 'Single' when striking for the Single Damage Effect.",
                     "magicSchool" : ["Effect"]
                 },
                 {
                     "featName" : "Zero Damage",
                     "art" : "sword-break",
+                    "call" : "Zero Damage",
                     "description" : "All characters may choose to generate Zero Damage, representing an IC pulled blow. If two characters agree to only generate the Zero Damage Effect then they are not required to call it for their bout; they should call Single once to indicate that they are no longer pulling their blow.",
                     "magicSchool" : ["Effect"]
                 },
                 {
                     "featName" : "Concentration",
-                    "call" : "",
+                    "call" : "N/A",
                     "art" : "rear-aura",
                     "description" : "Certain actions in these rules refer to a character requiring Concentration to perform them. Although fighting, watching where you are walking and talking to people do require you as a player to concentrate, they do not require your character’s “Concentration.” <p>An action will state if it requires Concentration in order to be performed. A character may only concentrate on one thing at a time. If their Concentration is broken, they may begin the task again, but must do so from scratch. Some of the actions that require Concentration include casting a Spell, repairing armour and searching someone.</p>",
                     "magicSchool" : ["Effect"]
@@ -54,14 +55,14 @@
             "feats":[
                 {
                     "featName" : "Restrained",
-                    "call" : "",
+                    "call" : "N/A",
                     "art" : "handcuffed",
                     "description" : "At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash. After 30s roleplayed action miming tying up an unresisting target, the target is restrained. The target should now hold the phys rep in their hands, such that it appears to be binding them (Please note, they should not be OOC tied). A restrained character may not strike, repair armour, cast spells, or move faster than a slow walking place. If there is a suitable phys rep of a solid object such as a tree or a post, a character may be restrained to this object,making them unable to move from the spot. To do this, you should inform the target that they are being restrained to this object, and after the appropriate amount of role played action they hold the binding phys rep such that it is around the object. <p>To release a restrained character, an unrestrained character must spend 30s role played action releasing them, at which point the target is no longer restrained. Alternatively, a character with the Escape Restraints Feat may use that to escape.</p>",
                     "magicSchool" : ["Effect"]
                 },
                 {
                     "featName" : "Unresisting",
-                    "call" : "",
+                    "call" : "N/A",
                     "art" : "person",
                     "description" : "Various Effects and abilities specify “an unresisting target” such as searching, moving, diagnosing, etc. A target can normally choose to cooperate or resist these efforts. Some things that would remove the choice of resisting and make a target unresisting (unless they have a Feat or are using an item which specifies otherwise) would be: being unconscious, or being under the Sleep or Halt Effects.<p>A target that is being actively hostile towards should be considered obviously resisting.</p>",
                     "magicSchool" : ["Effect"]
