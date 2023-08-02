@@ -85,9 +85,6 @@ function manageKeywordsOnPopup(keyword){
 
 }
 
-
-
-
 addSectionContainer("addSectionContainer");
 
 var itemIconElements = document.getElementsByClassName("item-icon"); 

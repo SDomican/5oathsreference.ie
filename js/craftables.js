@@ -101,6 +101,7 @@ addSectionContainer("addSectionContainer");
 
 var itemIconElements = document.getElementsByClassName("item-icon"); 
 
+
 for(let element of itemIconElements){
 
   element.addEventListener("click", e => event.stopPropagation(), true);

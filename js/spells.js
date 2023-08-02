@@ -90,7 +90,6 @@ function filterMagicSchool(magicSchoolList){
   let listToReturn = "";
 
   magicSchoolList.forEach(element => {
-    console.log(element);
 
     if(element === "En" || element === "Ev" || element === "Tr"){
       listToReturn += element;
