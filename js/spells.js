@@ -28,6 +28,7 @@ function apendText(featPath){
         let description = "<span id='popupKeywordTextPTag'><i>Call: " + spellCall + "</i></span><br><br>" + feat.description;
         let keywords = feat.magicSchool;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
+        let magicSchool = filterMagicSchool(feat.magicSchool);
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -46,7 +47,7 @@ function apendText(featPath){
             "<div class=\"item-icon iconsize\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
             "<div class=\"item-text-container text expandable\">" +
               "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(P): " + featRequirements + "</div>" +
+              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(School): " + magicSchool + "</div>" +
             "</div>" +       
           "</div>";
         });
@@ -84,6 +85,20 @@ function manageKeywordsOnPopup(keyword){
 
 }
 
+function filterMagicSchool(magicSchoolList){
+
+  let listToReturn = "";
+
+  magicSchoolList.forEach(element => {
+    console.log(element);
+
+    if(element === "En" || element === "Ev" || element === "Tr"){
+      listToReturn += element;
+    }
+  });
+
+  return listToReturn;
+}
 
 
 

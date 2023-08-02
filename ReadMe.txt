@@ -8,7 +8,7 @@ To-Do
 [ ]Check works on mobile
 [ ]Resize art icons
 [ ]Get permission
-[ ]Buy domain
+[X]Buy domain
 [ ]Get published on domain
 [X]Spell Keywords close page on click
 [X]Clicking near Feat art closes page.
@@ -16,7 +16,7 @@ To-Do
 [X]Downtime actions page
 [ ]realmFeatsAdd Keyword info to popup
 [ ]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
-[ ]Spells page has undefinied prerequisites
+[X]Spells page has undefinied prerequisites
 [ ]Craftable requirements cut off on page
 [ ]Add effect calls to popup
 [ ]Effect interactions lists - make them side by side.
