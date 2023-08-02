@@ -157,7 +157,7 @@
                     "featName" : "Fear of the Wicked",
                     "art" : "fear-gwyllt",
                     "itemType" : "All weapon types",
-                    "description" : "- This item is a weapon or any type. Attunes to hand. While attuned, you may spend 2 Vigour to generate the Fear Gwyllt Effect by weapon blow with this weapon in addition to the Damage Effect of a the weapon blow.",
+                    "description" : "This item is a weapon or any type. Attunes to hand. While attuned, you may spend 2 Vigour to generate the Fear Gwyllt Effect by weapon blow with this weapon in addition to the Damage Effect of a the weapon blow.",
                     "craftableKeyword" : ["Durable"],
                     "ingeredientCost" : ["6 Copper", "3 Fang", "1 Flower", "1 Incense", "1 Pelt"]
                 },

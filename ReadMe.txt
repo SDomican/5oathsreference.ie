@@ -3,7 +3,7 @@ To-Do
 [X]Copy paste of popups
 [ ]Colourblind contrasting - sort colours???
 [X]Add Keywords
-[ ]Add Term popup to spells (e.g. what is mass)
+[X]Add Term popup to spells (e.g. what is mass)
 [ ]Check site sizing
 [ ]Check works on mobile
 [ ]Resize art icons
@@ -20,18 +20,19 @@ To-Do
 [ ]Craftable requirements cut off on page
 [ ]Add effect calls to popup
 [ ]Effect interactions lists - make them side by side.
-[ ]Blacksmith - add weapon type to page and popup.
+[X]Blacksmith - add weapon type to page and popup.
 [X] Fix navbar
 [X] Speed up image load
-[ ]Add lazy load to popups (if required)
+[ ]	Add lazy load to popups (if required)
 [ ] Have images pop in on mobile when div is opened
 
 Bugs:
-[ ]Text overlap on Journeyman Windfall Alchemy materials
-[ ]Searching & IC Theft popup text too big
-[ ]Effect interactions/priority popup text too big
-[ ]Certain pages not opening on mobile
+[ ]	Searching & IC Theft popup text too big
+[ ]	Effect interactions/priority popup text too big
+[ ]	Certain pages not opening on mobile
 [ ] Large gap between text and popup keywords
+[ ] Crafting requirements too large for page
+[ ] change Creviced steel art to armour
 
 Future
 Character creator
