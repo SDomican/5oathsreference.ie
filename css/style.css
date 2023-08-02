@@ -10,6 +10,18 @@
     transition: all 0.2s ease-in;
   }
 
+  .effectInteraction{
+    float:left;
+    width: 50%;
+    height: 47%;
+  }
+
+  .effectInteraction2{
+    float:right;
+    width: 50%;
+    height: 47%;
+  }
+
 .feat-description-title-text{
   margin-top: 0.5vh;
   font-weight: bold;
