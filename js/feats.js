@@ -43,9 +43,9 @@ function apendText(featPath){
         for (let i = 0; i < keywords.length; i++) {
           
           if(i < (keywords.length - 1)){
-            keywordsText += manageKeywordsOnPopup(keywords[i], featPathColour) + ", ";
+            keywordsText += manageKeywordsOnPopup(keywords[i]) + ", ";
           }
-          else{ keywordsText += manageKeywordsOnPopup(keywords[i], featPathColour) + " "; }  
+          else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
         }
 
         keywordsText + "</i>";
@@ -97,7 +97,7 @@ for(let element of itemIconElements){
 document.addEventListener("click", e => hidePopup(e), true)
 
 
-function manageKeywordsOnPopup(keyword, colour){
+function manageKeywordsOnPopup(keyword){
   let returnText = "";
 
   switch(keyword){

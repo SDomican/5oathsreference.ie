@@ -24,19 +24,12 @@ function apendText(featPath){
         let featRequirements = feat.prequisites;
         let art = feat.art;
         let description = feat.description;
+        let keywords = feat.keywords;
+        let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: " + keywords;
 
-        if(pathName === "Way of the ritualist"){
-          let difficulty = feat.difficulty;
-          let materialCosts = feat.materialCosts;
-
-          if(materialCosts !== "N/A" && materialCosts !== "None"){
-            description = "<p><i>Material Costs: " + materialCosts + " </i></p>" + description;
-          }
-
-          if(difficulty !== "N/A"){
-            description = "<p><i>Difficulty: " + difficulty + " </i></p>" + description;
-          }
-        }
+        keywordsText + "</i>";
+        description += keywordsText.replace(",", ", ") + "</p>";
+      
 
         let url = "./img/Realm_Feats/" + art + ".png";
 
