@@ -43,9 +43,9 @@ function apendText(featPath){
         for (let i = 0; i < keywords.length; i++) {
           
           if(i < (keywords.length - 1)){
-            keywordsText += manageKeywordsOnPopup(keywords[i]) + ", ";
+            keywordsText += manageKeywordsOnPopup(keywords[i], featPathColour) + ", ";
           }
-          else{ keywordsText += manageKeywordsOnPopup(keywords[i]) + " "; }  
+          else{ keywordsText += manageKeywordsOnPopup(keywords[i], featPathColour) + " "; }  
         }
 
         keywordsText + "</i>";
@@ -97,17 +97,17 @@ for(let element of itemIconElements){
 document.addEventListener("click", e => hidePopup(e), true)
 
 
-function manageKeywordsOnPopup(keyword){
+function manageKeywordsOnPopup(keyword, colour){
   let returnText = "";
 
   switch(keyword){
 
   case "Combat":
-  returnText = "<span id='keyword'  class='tooltip' data-tooltip='If you decided that your character was a Peacesworn, your character will not be able to take any Feats that have the Combat keyword.'data-tooltip-position='bottom'>Combat</span>";
+  returnText = "<span id='keyword' class='tooltip' data-tooltip='If you decided that your character was a Peacesworn, your character will not be able to take any Feats that have the Combat keyword.'data-tooltip-position='bottom'>Combat</span>";
   return returnText;
 
   case "Multiple":
-    returnText = "<span id='keyword'  class='tooltip' data-tooltip='These Feats can be taken multiple times. 'data-tooltip-position='bottom'>Multiple</span>";
+    returnText = "<span id='keyword' class='tooltip' data-tooltip='These Feats can be taken multiple times. 'data-tooltip-position='bottom'>Multiple</span>";
     return returnText;
 
   default:

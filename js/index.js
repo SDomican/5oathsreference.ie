@@ -48,6 +48,17 @@ function populateFeatPopup(elementId){
   
   let popupDescriptionElement = document.getElementById("popupDescription");
   popupDescriptionElement.innerHTML = popupDescription;
+
+//   let test = document.getElementById('keyword');
+//   test.setAttribute('data-tooltip:hover:after', "background-color='red';");
+//   console.log(test);
+
+//   // document.getElementById('abc').setAttribute('data-tooltip', 'aaa');
+//   document.getElementById("keyword").onmouseover = function()
+// {
+
+//   // this.style.backgroundColor='#0F0';
+// };
 }
 
 

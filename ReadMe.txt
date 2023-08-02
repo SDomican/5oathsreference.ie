@@ -10,7 +10,7 @@ To-Do
 [ ]Get permission
 [ ]Buy domain
 [ ]Get published on domain
-[ ]Spell Keywords close page on click
+[X]Spell Keywords close page on click
 [X]Clicking near Feat art closes page.
 [ ]Change highlight colour of keywords dynamically
 [X]Downtime actions page
