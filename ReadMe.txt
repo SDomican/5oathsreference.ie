@@ -32,7 +32,8 @@ Bugs:
 [ ]	Certain pages not opening on mobile
 [ ] Large gap between text and popup keywords
 [ ] Crafting requirements too large for page
-[ ] change Creviced steel art to armour
+[ ] Change Creviced steel art to armour
+[ ] Crafting materials need spaces between them
 
 Future
 Character creator
