@@ -2,8 +2,6 @@ var popupVisible = false;
 
 function showHide(elementId) {
 
-    console.log("showHide");
-
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
 
@@ -21,11 +19,14 @@ function showHide(elementId) {
 }
 
 function hidePopup(event){
-
+  console.log("hidePopup");
   let classList = event.target.classList;
   let id = event.target.id;
 
-  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty" && id!="popupFlexContainer"){ showHide();}
+  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty" && id!="popupFlexContainer"){ 
+    console.log("showHidefrom hidePopup");
+    
+    showHide();}
 }
 
 function populateFeatPopup(elementId){
