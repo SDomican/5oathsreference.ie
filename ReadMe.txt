@@ -16,7 +16,7 @@ To-Do
 [ ]Change highlight colour of keywords dynamically
 [X]Downtime actions page
 [X]realm FeatsAdd Keyword info to popup
-[ ]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
+[X]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 [X]Spells page has undefinied prerequisites
 [X]Craftable requirements cut off on page
 [X]Add effect calls to popup

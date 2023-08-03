@@ -33,7 +33,7 @@ function populateFeatPopup(elementId){
   let popupArtElement = document.getElementById("popupArt");
   let popupContainerElement = document.getElementById("popupId");
   let popupFlexContainerElement = document.getElementById("popupFlexContainer");
-
+  
   popupFlexContainerElement.style.backgroundColor = colour;
   popupContainerElement.style.backgroundColor = colour;
   popupArtElement.style.backgroundImage = popupArt;
@@ -42,10 +42,20 @@ function populateFeatPopup(elementId){
   let popupDescription = element.getAttribute("data-description");
 
   let popupTextElement = document.getElementById("popupTitle");
+  
   popupTextElement.innerHTML = elementId;
   popupTextElement.style.backgroundColor = colour;
   
   let popupDescriptionElement = document.getElementById("popupDescription");
+
+  if(popupTextElement.innerHTML.toString().includes("realmFeatTag!")){
+    let parentFeat = popupTextElement.innerHTML.toString();
+    parentFeat = getSubstring(parentFeat, "!", "_");
+    
+    let newFeat = popupTextElement.innerHTML.split(parentFeat+"_").pop()
+    popupTextElement.innerHTML = newFeat;
+  }
+
   popupDescriptionElement.innerHTML = popupDescription;
 }
 
@@ -87,7 +97,14 @@ if ('IntersectionObserver' in window) {
     header.style.backgroundImage = "url('"+header.dataset.bgimage+"')";
   });
 }
-  
+
+function getSubstring(str, char1, char2) {
+  return str.substring(
+    str.indexOf(char1) + 1,
+    str.lastIndexOf(char2)
+  );
+}
+
 
 
 
