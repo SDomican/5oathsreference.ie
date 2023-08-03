@@ -33,14 +33,12 @@ function apendText(featPath){
       featsArray.forEach(feat => {
 
         let featName = feat.featName;
-        let featRequirements = feat.ingeredientCost.toString().replace(",", ", ");
+        let featRequirements = feat.ingeredientCost.toString().replaceAll(",", ", ");
         let art = feat.art;
         let description = feat.description;
         let keywords = feat.craftableKeyword;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
-        let materialCosts = feat.ingeredientCost.toString().replace(",", ", ");
-
-        console.log(materialCosts);
+        let materialCosts = feat.ingeredientCost.toString().replaceAll(",", ", ");
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -67,7 +65,7 @@ function apendText(featPath){
             "<div class=\"item-icon iconsize-consumables expandable\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
             "<div class=\"item-text-container-taller text expandable\">" +
               "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Req): " + featRequirements + "</div>" +
+              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Cost): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
 
