@@ -469,7 +469,7 @@
                     "featName" : "Perfect Health",
                     "prequisites" : "3 Sturdy Flesh Feats",
                     "art" : "weight-lifting-up",
-                    "description" : "Desc.",
+                    "description" : "You may reactively spend 1 Vigour to gain Immunity Disease 10s.",
                     "keywords" : ["Resistance", "Sturdy Flesh"]
                 },
                 {
