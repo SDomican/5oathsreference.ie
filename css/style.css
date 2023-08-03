@@ -87,6 +87,21 @@
     box-shadow:0 0 0 1600px rgba(0,0,0,0.5);
 }
 
+.popup-central{
+  position: -webkit-sticky;
+  position: sticky;  
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw; 
+  z-index: 2; 
+  padding: 10px;
+  z-index: 2;  
+  display: flex;
+  border-radius: 0.5vw;
+  box-shadow:0 0 0 1600px rgba(0,0,0,0.5);
+}
+
 .popup-text-container{
     background-color: white;
     border-radius: 0.5vw;

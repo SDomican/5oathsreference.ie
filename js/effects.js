@@ -28,7 +28,7 @@ function apendText(featPath){
         let keywordsText = "";
         let call = feat.call;
 
-        if(featName != "Effect interactions/priority"){
+        if(featName != "Effect interactions/priority" &&  featName != "Searching & IC Theft"){
           keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
 
           for (let i = 0; i < keywords.length; i++) {
@@ -55,13 +55,14 @@ function apendText(featPath){
               "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
               "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">Call: " + call + "</div>" +
             "</div>" +       
-          "</div>";
+          "</div>";        
         });
 
     featCode +=   
       "</div>" +
     "</div>" +
   "</div>";
+
 
 document.getElementById("featsContainer").innerHTML += featCode;
 }

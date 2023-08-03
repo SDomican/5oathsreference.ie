@@ -5,6 +5,7 @@ To-Do
 [X]Add Keywords
 [X]Add Term popup to spells (e.g. what is mass)
 [ ]Check site sizing
+[ ]Check site tablet
 [ ]Check works on mobile
 [ ]Resize art icons
 [ ]Get permission
@@ -17,7 +18,7 @@ To-Do
 [X]realm FeatsAdd Keyword info to popup
 [ ]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 [X]Spells page has undefinied prerequisites
-[ ]Craftable requirements cut off on page
+[X]Craftable requirements cut off on page
 [X]Add effect calls to popup
 [X]Effect interactions lists - make them side by side.
 [X]Blacksmith - add weapon type to page and popup.
@@ -35,6 +36,8 @@ Bugs:
 [ ] Change Creviced steel art to armour
 [ ] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
+[ ] Clicking Searching & IC Theft popup text closes page
+[ ] Effect healing call too cramped
 
 Future
 Character creator
