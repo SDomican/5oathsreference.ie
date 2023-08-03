@@ -39,7 +39,7 @@ Bugs:
 [ ] Clicking Searching & IC Theft popup text closes page
 [ ] Effect healing call too cramped
 [X] P tags need id='hrId' or clicking them will close the popup.
-[ ] Perfect health Feat description missing.
+[X] Perfect health Feat description missing.
 
 
 Future

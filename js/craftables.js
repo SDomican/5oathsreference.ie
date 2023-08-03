@@ -33,12 +33,14 @@ function apendText(featPath){
       featsArray.forEach(feat => {
 
         let featName = feat.featName;
-        let featRequirements = feat.ingeredientCost;
+        let featRequirements = feat.ingeredientCost.toString().replace(",", ", ");
         let art = feat.art;
         let description = feat.description;
         let keywords = feat.craftableKeyword;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
-        let materialCosts = feat.ingeredientCost;
+        let materialCosts = feat.ingeredientCost.toString().replace(",", ", ");
+
+        console.log(materialCosts);
 
         for (let i = 0; i < keywords.length; i++) {
           

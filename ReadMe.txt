@@ -7,7 +7,7 @@ To-Do
 [ ]Check site sizing
 [ ]Check site tablet
 [ ]Check works on mobile
-[ ]Resize art icons
+[X]Resize art icons
 [ ]Get permission
 [X]Buy domain
 [ ]Get published on domain
