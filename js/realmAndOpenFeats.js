@@ -31,6 +31,7 @@ function apendText(featPath){
         keywordsText + "</i>";
         description += keywordsText.replace(",", ", ") + "</p>";
       
+        description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
 
         let url = "./img/Realm_Feats/" + art + ".png";
 
