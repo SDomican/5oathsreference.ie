@@ -2,6 +2,8 @@ var popupVisible = false;
 
 function showHide(elementId) {
 
+  console.log(elementId);
+
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
 
@@ -22,7 +24,7 @@ function hidePopup(event){
   let classList = event.target.classList;
   let id = event.target.id;
 
-  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty" && id!="popupFlexContainer"){showHide();}
+  if(popupVisible && classList != "item-icon iconsize" && classList != "flex-container-text-box popup-text-container" && classList != "flex-container-title" && classList != "popup" && classList != "flex-container-image popupImageArt" && id !="hrId" && id!="popupKeywordText" && id!="popupKeywordTextPTag" && id !="popupMaterialCost" && id !="toolTip" && id !="popupDifficulty" && id!="popupFlexContainer" && id!="keyword"){showHide();}
 }
 
 function populateFeatPopup(elementId){
@@ -47,14 +49,6 @@ function populateFeatPopup(elementId){
   
   let popupDescriptionElement = document.getElementById("popupDescription");
   popupDescriptionElement.innerHTML = popupDescription;
-
-  console.log(popupTextElement.innerHTML);
-
-  if(popupTextElement.innerHTML.includes("Searching &amp; IC Theft")){
-    console.log("PING");
-  }
-
-
 }
 
 

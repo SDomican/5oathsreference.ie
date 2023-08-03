@@ -38,6 +38,9 @@ Bugs:
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 [ ] Clicking Searching & IC Theft popup text closes page
 [ ] Effect healing call too cramped
+[ ] P tags need id='hrId' or clicking them will close the popup.
+[ ] Perfect health Feat description missing.
+
 
 Future
 Character creator

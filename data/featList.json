@@ -95,7 +95,7 @@
                     "featName" : "Well Balanced ",
                     "prequisites" : "Light Armour",
                     "art" : "body-balance",
-                    "description" : "You may reactively spend 1 Vigour to gain Immunity Strikedown 10s",
+                    "description" : "You may reactively spend 1 Vigour to gain Immunity Strikedown 10s.",
                     "keywords" : ["Leather and Steel", "Resistance"]
                 },
                 {
@@ -122,7 +122,7 @@
                     "featName" : "Blade of the Shaper",
                     "prequisites" : "3 Martial Prowess Feats",
                     "art" : "winged-sword",
-                    "description" : "For 2 Vigour you may generate Gwyllt Bane by weapon blow",
+                    "description" : "For 2 Vigour you may generate Gwyllt Bane by weapon blow.",
                     "keywords" : ["Combat", "Martial Prowess"]
                 },
                 {
@@ -143,7 +143,7 @@
                     "featName" : "Last Stand",
                     "prequisites" : "3 Martial Prowess Feats",
                     "art" : "surrounded-shield",
-                    "description" : "Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul><li>Your torso immediately goes to -1 Body hits, if it wasn’t already</li><li>Your deathcount is reduced to 1 minute remaining (if it was greater than this)</li><li>For the next minute, you may use all your locations as if they were on 1 or more Body hits</li><li>You may not generate the Healing, Repair, or Stop Bleed Effects by any means (including by using potions or other items) or cast Spells</li><li>Leaving your death count will end this Effect immediately.</li></ul>",
+                    "description" : "Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul><li id='hrId'>Your torso immediately goes to -1 Body hits, if it wasn’t already</li><li id='hrId'>Your deathcount is reduced to 1 minute remaining (if it was greater than this)</li><li id='hrId'>For the next minute, you may use all your locations as if they were on 1 or more Body hits</li><li id='hrId'>You may not generate the Healing, Repair, or Stop Bleed Effects by any means (including by using potions or other items) or cast Spells</li><li id='hrId'>Leaving your death count will end this Effect immediately.</li></ul>",
                     "keywords" : ["Combat", "Martial Prowess"]
                 },
                 {
@@ -254,7 +254,7 @@
                     "featName" : "Third Level Casting",
                     "prequisites" : "Second Level Casting",
                     "art" : "bolt-spell-cast3",
-                    "description" : "You learn two third level Spells",
+                    "description" : "You learn two third level Spells.",
                     "keywords" : ["Power"]
                 },
                 {
@@ -268,7 +268,7 @@
                     "featName" : "Fifth Level Casting",
                     "prequisites" : "Fourth Level Casting",
                     "art" : "bolt-spell-cast5",
-                    "description" : "You learn two fifth level Spells",
+                    "description" : "You learn two fifth level Spells.",
                     "keywords" : ["Power"]
                 }
             ]
@@ -295,7 +295,7 @@
                     "featName" : "Cutthroat",
                     "prequisites" : "Nothing",
                     "art" : "silenced",
-                    "description" : "For 1 Vigour, on your next weapon blow you may generate the Mute 10s Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow",
+                    "description" : "For 1 Vigour, on your next weapon blow you may generate the Mute 10s Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
                     "keywords" : ["Combat", "Shadowed Blades"]
                 },
                 {
@@ -316,14 +316,14 @@
                     "featName" : "Distilled Fragility",
                     "prequisites" : "1 Shadowed Blades Feat",
                     "art" : "thrown-charcoal",
-                    "description" : "You know how to make a variety of short lived alchemical concoctions that can be activated through Vigour. For 2 Vigour you may deliver the Shatter Effect via a thrown weapon which phys reps throwing a vial of noxious, blinding fumes. This may only be used to target a shield",
+                    "description" : "You know how to make a variety of short lived alchemical concoctions that can be activated through Vigour. For 2 Vigour you may deliver the Shatter Effect via a thrown weapon which phys reps throwing a vial of noxious, blinding fumes. This may only be used to target a shield.",
                     "keywords" : ["Combat", "Shadowed Blades"]
                 },
                 {
                     "featName" : "Distracting Strike",
                     "prequisites" : "1 Shadowed Blades Feat",
                     "art" : "knockout",
-                    "description" : "For 1 Vigour, on your next blow you may generate the Mindslash Effect by blow. This is in addition to the Damage Effect of a weapon blow",
+                    "description" : "For 1 Vigour, on your next blow you may generate the Mindslash Effect by blow. This is in addition to the Damage Effect of a weapon blow.",
                     "keywords" : ["Combat", "Shadowed Blades"]
                 },
                 {
@@ -344,14 +344,14 @@
                     "featName" : "Fatal Blow",
                     "prequisites" : "4 Shadowed Blades Feats",
                     "art" : "pierced-heart",
-                    "description" : "You have studied the exact points to strike to cripple mortal beings. For 2 Vigour, your next weapon blow generates the Mortal Bane Effect",
+                    "description" : "You have studied the exact points to strike to cripple mortal beings. For 2 Vigour, your next weapon blow generates the Mortal Bane Effect.",
                     "keywords" : ["Combat", "Shadowed Blades"]
                 },
                 {
                     "featName" : "Internal Damage",
                     "prequisites" : "2 Shadowed Blades Feats",
                     "art" : "internal-injury",
-                    "description" : "For 3 Vigour, you may generate the Protection Healing 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow",
+                    "description" : "For 3 Vigour, you may generate the Protection Healing 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
                     "keywords" : ["Combat", "Shadowed Blades"]
                 },
                 {
@@ -696,7 +696,7 @@
                     "featName" : "Grand Ritual ",
                     "prequisites" : "Ritual Celebrant",
                     "art" : "over-infinity",
-                    "description" : "<p>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5. At the end of the combined ritual, apply the effects of both rituals in the order of your choosing.</p> <p>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to both rituals.</p><p>A Referee must be present if either of the rituals have the Referee keyword.</p>",
+                    "description" : "<p id='hrId'>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5. At the end of the combined ritual, apply the effects of both rituals in the order of your choosing.</p><p id='hrId'>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to both rituals.</p><p id='hrId'>A Referee must be present if either of the rituals have the Referee keyword.</p>",
                     "keywords" : ["Ritualist"],
                     "materialCosts" : "N/A",
                     "difficulty" : "N/A"
@@ -714,7 +714,7 @@
                     "featName" : "Invigoration",
                     "prequisites" : "Nothing",
                     "art" : "fluffy-trefoil",
-                    "description" : "<p>The Ritualist energises all participants in the ritual, drawing on either a greater source of power, their prior deeds, or their future challenges to invigorate their participants. Upon Successful completion of this ritual, all participants regain all Vigour.</p><p>When performing this ritual, the Ritual Leader must choose which of the Arcane or CotS keywords applies to the performance and adjust their performance appropriately. They cannot apply both.</p>",
+                    "description" : "<p id='hrId'>The Ritualist energises all participants in the ritual, drawing on either a greater source of power, their prior deeds, or their future challenges to invigorate their participants. Upon Successful completion of this ritual, all participants regain all Vigour.</p><p id='hrId'>When performing this ritual, the Ritual Leader must choose which of the Arcane or CotS keywords applies to the performance and adjust their performance appropriately. They cannot apply both.</p>",
                     "keywords" : ["Ritualist", "Arcane", "CotS"],
                     "materialCosts" : "N/A",
                     "difficulty" : "5"
@@ -723,7 +723,7 @@
                     "featName" : "Indelible Mark",
                     "prequisites" : "Nothing",
                     "art" : "maze-cornea",
-                    "description" : "<p>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p>",
+                    "description" : "<p id='hrId'>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p id='hrId'> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p>",
                     "keywords" : ["Ritualist", "Arcane", "Referee"],
                     "materialCosts" : "1 Ink, 1 Heart",
                     "difficulty" : "15"
@@ -732,7 +732,7 @@
                     "featName" : "Make Peace Before War",
                     "prequisites" : "Nothing",
                     "art" : "olive",
-                    "description" : "<p>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p>All participants are also affected by Venom.</p><p> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p>",
+                    "description" : "<p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p id='hrId'>All participants are also affected by Venom.</p><p id='hrId'> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p>",
                     "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
                     "materialCosts" : "1 Incense, 1 Heart",
                     "difficulty" : "30"
@@ -741,7 +741,7 @@
                     "featName" : "Moon Soaked Blades",
                     "prequisites" : "Nothing",
                     "art" : "moon",
-                    "description" : "Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day. <p>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p>",
+                    "description" : "Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p>",
                     "keywords" : ["Ritualist", "CotS"],
                     "materialCosts" : "1 Silver, 1 Fang",
                     "difficulty" : "20"
@@ -750,7 +750,7 @@
                     "featName" : "Moonlit Vigil",
                     "prequisites" : "Nothing",
                     "art" : "evil-moon",
-                    "description" : "Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day. <p>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p>",
+                    "description" : "Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p>",
                     "keywords" : ["Ritualist", "CotS"],
                     "materialCosts" : "1 Bone, 1 Seed",
                     "difficulty" : "20"
@@ -759,7 +759,7 @@
                     "featName" : "Penance of Leaden Blood",
                     "prequisites" : "Nothing",
                     "art" : "death-juice",
-                    "description" : "<p>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged <p><p>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p>",
+                    "description" : "<p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged </p><p id='hrId'>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p>",
                     "keywords" : ["Punishment", "Ritualist", "Arcane"],
                     "materialCosts" : "1 Parchment, 1 Wax",
                     "difficulty" : "10"
@@ -768,7 +768,7 @@
                     "featName" : "Quicken the Inevitable Solace",
                     "prequisites" : "Nothing",
                     "art" : "telefrag",
-                    "description" : "Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p>",
+                    "description" : "Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p id='hrId'>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p>",
                     "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
                     "materialCosts" : "N/A",
                     "difficulty" : "10"
@@ -795,7 +795,7 @@
                     "featName" : "Sacrificial Rite",
                     "prequisites" : "Sympathetic Ingredients",
                     "art" : "sacrificial-dagger",
-                    "description" : "When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat. <p>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p>",
+                    "description" : "When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat.<p id='hrId'>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p>",
                     "keywords" : ["Ritualist"],
                     "materialCosts" : "N/A",
                     "difficulty" : "N/A"
@@ -804,7 +804,7 @@
                     "featName" : "Sever the Unbreakable Bonds",
                     "prequisites" : "Nothing",
                     "art" : "breaking-chain",
-                    "description" : "This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p>",
+                    "description" : "This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p id='hrId'>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p>",
                     "keywords" : ["Ritualist", "Arcane"],
                     "materialCosts" : "None",
                     "difficulty" : "30"
@@ -813,7 +813,7 @@
                     "featName" : "Shaper’s Blessing On The Flock",
                     "prequisites" : "Nothing",
                     "art" : "shepherds-crook",
-                    "description" : "Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day. <p>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p>",
+                    "description" : "Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day.<p id='hrId'>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p>",
                     "keywords" : ["Ritualist", "CotS"],
                     "materialCosts" : "1 Wax, 1 Gold",
                     "difficulty" : "20"
@@ -899,7 +899,7 @@
                     "featName" : "Smithing Lore",
                     "prequisites" : "Nothing",
                     "art" : "gear-hammer",
-                    "description" : "You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p>",
+                    "description" : "You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p id='hrId'>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p>",
                     "keywords" : ["Scholar"]
                 }
             ]
