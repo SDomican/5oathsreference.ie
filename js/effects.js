@@ -9,9 +9,12 @@ function apendText(featPath){
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
   let featPathColour = featPath.featPathColour;
+  let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
+
+  console.log(sectionContainerId);
 
   let featCode = 
-  "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
+  "<div class=\"section-container\" id=\"" + sectionContainerId + "\" style=\"background-color: " + featPathColour + ";\" onclick=\"mobileExpand('" + sectionContainerId + "')\" >" + 
     "<div class=\"section-title\">" +
       "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
     "</div>" +

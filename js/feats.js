@@ -2,7 +2,6 @@ import featJson from '../data/featList.json' assert { type: 'json' };
 import downtimeJson from '../data/downtimeList.json' assert { type: 'json' };
 
 
-
 function addSectionContainer(idToAmend){
 
   var path = window.location.pathname;

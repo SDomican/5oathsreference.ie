@@ -1,6 +1,8 @@
 import spellJson from '../data/craftableList.json' assert { type: 'json' };
 import blacksmithJson from '../data/blacksmithList.json' assert { type: 'json' };
 
+var mq = window.matchMedia( "(max-width: 480px)" );
+
 var path = window.location.pathname;
 var page = path.split("/").pop();
 
@@ -18,9 +20,10 @@ function apendText(featPath){
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
   let featPathColour = featPath.featPathColour;
+  let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
 
   let featCode = 
-  "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
+  "<div class=\"section-container\" id=\"" + sectionContainerId + "\" style=\"background-color: " + featPathColour + ";\" onclick=\"mobileExpand('" + sectionContainerId + "')\" >" + 
     "<div class=\"section-title\">" +
       "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
     "</div>" +
@@ -65,6 +68,12 @@ function apendText(featPath){
               "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Req): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
+
+          if(mq.matches){
+            featCode = featCode.replace("item-wider", "item");
+            featCode = featCode.replace("item-text-container-taller", "item-text-container");
+            featCode = featCode.replace("item-icon iconsize-consumables", "item-icon iconsize");
+          }
         });
 
     featCode +=   

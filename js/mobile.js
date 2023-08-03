@@ -3,9 +3,8 @@ var mq = window.matchMedia( "(max-width: 480px)" );
 
 
 function mobileExpand(sectionContainerId){
-    
-    if (mq.matches) {
 
+    if (mq.matches) {
 
         let element = document.getElementById(sectionContainerId);
 
@@ -40,7 +39,6 @@ function mobileExpand(sectionContainerId){
         });
        
     }
-    
 
 }
 

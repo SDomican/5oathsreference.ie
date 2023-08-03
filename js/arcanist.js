@@ -9,9 +9,10 @@ function apendText(featPath){
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
   let featPathColour = featPath.featPathColour;
+  let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
 
   let featCode = 
-  "<div class=\"section-container\" style=\"background-color: " + featPathColour + ";\">" + 
+  "<div class=\"section-container\" id=\"" + sectionContainerId + "\" style=\"background-color: " + featPathColour + ";\" onclick=\"mobileExpand('" + sectionContainerId + "')\" >" + 
     "<div class=\"section-title\">" +
       "<span class=\"featPath-description-title-text\">" + pathName + "</span>" +
     "</div>" +
@@ -26,6 +27,7 @@ function apendText(featPath){
         let description = feat.description;
         let keywords = feat.craftableKeyword;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
+        
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -48,6 +50,12 @@ function apendText(featPath){
               "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Req): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
+
+          if(mq.matches){
+            featCode = featCode.replace("item-wider", "item");
+            featCode = featCode.replace("item-text-container-taller", "item-text-container");
+            featCode = featCode.replace("item-icon iconsize-consumables", "item-icon iconsize");
+          }
         });
 
     featCode +=   
