@@ -41,7 +41,7 @@
           "ingeredientCost" : ["1 Bark", "1 Fang", "1 Ink", "1 Parchment", "1 Silver", "1 Wax"]
         },
         {
-          "featName" : "Apprentice Windfall Arcanistry",
+          "featName" : "Student Windfall Arcanistry",
           "art" : "windfall",
           "description" : "Randomly produces 3 of a Student level Consumable or a single Student level Durable Item.",
         "craftableKeyword" : ["Windfall"],
