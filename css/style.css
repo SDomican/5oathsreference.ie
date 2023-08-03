@@ -156,6 +156,15 @@
     width: 15%;
 }
 
+.item-wider {
+  float: left;
+  display: flex;
+  font-size: inherit;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 25%;
+}
+
 .item-icon {
     flex: 0 0 auto;
     background-repeat: no-repeat;
@@ -168,6 +177,13 @@
 }
 
 .item-text-container{
+  width: 25vw;
+  height: 9vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-text-container-taller{
   width: 25vw;
   height: 9vh;
   overflow: hidden;
@@ -192,6 +208,12 @@
     width: 20%;
     height: 0;
     padding-top: 20%;
+}
+
+.iconsize-consumables {
+  width: 12%;
+  height: 0;
+  padding-top: 12%;
 }
 
 /* Add a black background color to the top navigation */

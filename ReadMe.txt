@@ -34,7 +34,7 @@ Bugs:
 [ ] Crafting requirements too large for page
 [ ] Change Creviced steel art to armour
 [ ] Crafting materials need spaces between them
-[ ] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
+[X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 
 Future
 Character creator

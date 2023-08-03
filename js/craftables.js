@@ -58,9 +58,9 @@ function apendText(featPath){
         let url = "./img/Craftables/" + art + ".png";
 
         featCode +=
-          "<div class=\"item\">" +
-            "<div class=\"item-icon iconsize expandable\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
-            "<div class=\"item-text-container text expandable\">" +
+          "<div class=\"item-wider\">" +
+            "<div class=\"item-icon iconsize-consumables expandable\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
+            "<div class=\"item-text-container-taller text expandable\">" +
               "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
               "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Req): " + featRequirements + "</div>" +
             "</div>" +       
