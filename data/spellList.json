@@ -2,7 +2,7 @@
 
     "featPath": [
         {
-            "pathName" : "First Level Spells (Cost 1 Vigour)",
+            "pathName" : "First Level Spells (1 Vigour)",
             "featPathColour" : "maroon",
             "feats":[
                 {
@@ -183,7 +183,7 @@
             ]
         },
         {
-            "pathName" : "Second Level Spells (Cost 2 Vigour)",
+            "pathName" : "Second Level Spells (2 Vigour)",
             "featPathColour" : "blue",
             "feats":[
                 {
@@ -329,7 +329,7 @@
             ]
         },
         {
-            "pathName" : "Third Level Spells (Cost 3 Vigour)",
+            "pathName" : "Third Level Spells (3 Vigour)",
             "featPathColour" : "orange",
             "feats":[
                 {
@@ -482,7 +482,7 @@
             ]
         },
         {
-            "pathName" : "Fourth Level Spells (Cost 4 Vigour)",
+            "pathName" : "Fourth Level Spells (4 Vigour)",
             "featPathColour" : "black",
             "feats":[
                 {
@@ -656,7 +656,7 @@
             ]
         },
         {
-            "pathName" : "Fifth Level Spells (Cost 5 Vigour)",
+            "pathName" : "Fifth Level Spells (5 Vigour)",
             "featPathColour" : "purple",
             "feats":[
                 {

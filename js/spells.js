@@ -1,5 +1,7 @@
 import spellJson from '../data/spellList.json' assert { type: 'json' };
 
+var mq = window.matchMedia( "(max-width: 480px)" );
+
 function addSectionContainer(idToAmend){
   spellJson.featPath.forEach((feat) => apendText(feat));
 }
@@ -8,6 +10,11 @@ function apendText(featPath){
 
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
+
+  if(mq.matches){
+    pathName = pathName.toString().replace("Level", "Lvl");
+  }
+
   let featPathColour = featPath.featPathColour;
   let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
 
@@ -111,5 +118,5 @@ for(let element of itemIconElements){
   element.addEventListener("click", e => showHide(element.id), true);
 }
 
-document.addEventListener("click", e => hidePopup(e), true)
+document.addEventListener("click", e => hidePopup(e), true);
   

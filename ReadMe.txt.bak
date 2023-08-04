@@ -5,9 +5,9 @@ To-Do
 [X]Add Keywords
 [X]Add Term popup to spells (e.g. what is mass)
 [ ]Check site sizing
-[ ]Check site tablet
+[X]Check site tablet
 [ ]Check works on mobile
-[ ]Resize art icons
+[X]Resize art icons
 [ ]Get permission
 [X]Buy domain
 [ ]Get published on domain
@@ -16,7 +16,7 @@ To-Do
 [ ]Change highlight colour of keywords dynamically
 [X]Downtime actions page
 [X]realm FeatsAdd Keyword info to popup
-[ ]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
+[X]Reused Species Feats use previous colour - e.g. Humans (Odds and ends)
 [X]Spells page has undefinied prerequisites
 [X]Craftable requirements cut off on page
 [X]Add effect calls to popup
@@ -30,11 +30,11 @@ To-Do
 Bugs:
 [ ]	Searching & IC Theft popup text too big
 [ ]	Effect interactions/priority popup text too big
-[ ]	Certain pages not opening on mobile
-[ ] Large gap between text and popup keywords
+[X]	Certain pages not opening on mobile
+[X] Large gap between text and popup keywords
 [ ] Crafting requirements too large for page
 [ ] Change Creviced steel art to armour
-[ ] Crafting materials need spaces between them
+[X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 [ ] Clicking Searching & IC Theft popup text closes page
 [ ] Effect healing call too cramped
