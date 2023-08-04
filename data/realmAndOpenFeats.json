@@ -311,7 +311,7 @@
         },
         {
             "pathName" : "Krieger",
-            "featPathColour" : "Green",
+            "featPathColour" : "#363945",
             "feats":[
                 {
                     "featName" : "In the Face of Danger",
@@ -352,7 +352,7 @@
         },
         {
             "pathName" : "Vartach",
-            "featPathColour" : "purple",
+            "featPathColour" : "#9C4722",
             "feats":[
                 {
                     "featName" : "Mark of Destiny",
@@ -393,7 +393,7 @@
         },
         {
             "pathName" : "Wildlings",
-            "featPathColour" : "Olive",
+            "featPathColour" : "#FF6F61",
             "feats":[
                 {
                     "featName" : "In Beast’s Clothing",

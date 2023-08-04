@@ -109,7 +109,7 @@
         },
         {
             "pathName" : "Way of martial prowess",
-            "featPathColour" : "green",
+            "featPathColour" : "#FF8000",
             "feats":[
                 {
                     "featName" : "Adrenaline Surge",
@@ -435,7 +435,7 @@
         },
         {
             "pathName" : "Way of sturdy flesh",
-            "featPathColour" : "silver",
+            "featPathColour" : "#8000FF",
             "feats":[
                 {
                     "featName" : "Deathproof",
@@ -858,7 +858,7 @@
         },
         {
             "pathName" : "Way of the scholar",
-            "featPathColour" : "pink",
+            "featPathColour" : "olive",
             "feats":[
                 {
                     "featName" : "Alchemy Lore",
