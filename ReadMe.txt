@@ -30,14 +30,14 @@ To-Do
 Bugs:
 [ ]	Searching & IC Theft popup text too big
 [ ]	Effect interactions/priority popup text too big
-[ ]	Certain pages not opening on mobile
-[ ] Large gap between text and popup keywords
+[X]	Certain pages not opening on mobile
+[X] Large gap between text and popup keywords
 [ ] Crafting requirements too large for page
 [ ] Change Creviced steel art to armour
-[ ] Crafting materials need spaces between them
+[X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 [ ] Clicking Searching & IC Theft popup text closes page
-[ ] Effect healing call too cramped
+[ ] Effect healing call too cramped on mobile
 [X] P tags need id='hrId' or clicking them will close the popup.
 [X] Perfect health Feat description missing.
 
