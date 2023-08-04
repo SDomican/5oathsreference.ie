@@ -110,6 +110,7 @@
     padding: 1vw;
     line-height: 1.5;
     font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    text-align:justify; 
 }
 
 .section-title {
@@ -427,11 +428,41 @@
 
 }
 
+/* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
   .item {width: 30%;}
+
+  .item-wider {width: 30%;}
+
+  .iconsize-consumables{
+    width: 20%;
+    height: 0;
+    padding-top: 20%;
+  }
+
   .item-text-container{height: 5vh;}
   .feat-description-requirements-text{margin-top: 0.25%;}
 
   .topnav{background-color: orange;}
+  .popup{ top: 50%; 
+    width: 80%;}
+
+    .item{
+      width: 33%;
+    }
+
+    .item-text-container{
+      width: 100%;
+      height: 100%;
+    }
+
+    [data-tooltip-position="bottom"]:before {
+      left: 400%;
+    }
+
+    [data-tooltip]:before {
+      min-width: 60vw;
+    }
+
 }
 

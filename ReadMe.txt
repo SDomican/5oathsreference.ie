@@ -5,7 +5,7 @@ To-Do
 [X]Add Keywords
 [X]Add Term popup to spells (e.g. what is mass)
 [ ]Check site sizing
-[ ]Check site tablet
+[X]Check site tablet
 [ ]Check works on mobile
 [X]Resize art icons
 [ ]Get permission
