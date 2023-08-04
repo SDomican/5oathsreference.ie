@@ -26,6 +26,7 @@ To-Do
 [X] Speed up image load
 [ ]	Add lazy load to popups (if required)
 [ ] Have images pop in on mobile when div is opened
+[ ] Size page for laptop.
 
 Bugs:
 [ ]	Searching & IC Theft popup text too big
