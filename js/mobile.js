@@ -22,8 +22,6 @@ function mobileExpand(sectionContainerId){
 
             if(itemTextContainerDiv.style.height === "5%"){
                 itemTextContainerDiv.style.height = "0";
-                // artContainerDiv.style.padding = "0";
-                // artContainerDiv.style.margin = "0";
                 featDescriptionDiv.style.display = "none";
                 featDescriptionRequirementsDiv.style.display = "none";
 

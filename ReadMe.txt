@@ -25,8 +25,11 @@ To-Do
 [X] Fix navbar
 [X] Speed up image load
 [ ]	Add lazy load to popups (if required)
-[ ] Have images pop in on mobile when div is opened
+[X] Have images pop in on mobile when div is opened
 [ ] Size page for laptop.
+[ ] Make icons rounder for mobile.
+[ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
+[ ] make popup text have a p tag and be changeable via CSS.
 
 Bugs:
 [ ]	Searching & IC Theft popup text too big
