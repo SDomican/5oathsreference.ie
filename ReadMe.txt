@@ -37,7 +37,7 @@ Bugs:
 [X]	Certain pages not opening on mobile
 [X] Large gap between text and popup keywords
 [ ] Crafting requirements too large for page
-[ ] Change Creviced steel art to armour
+[X] Change Creviced steel art to armour
 [X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 [ ] Clicking Searching & IC Theft popup text closes page
