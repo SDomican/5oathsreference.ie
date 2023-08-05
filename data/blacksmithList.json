@@ -216,12 +216,12 @@
                     "ingeredientCost" : ["6 Copper", "4 Fang", "1 Gold", "1 Leaf", "3 Parchment"]
                 },
                 {
-                    "featName" : "Master Windfall Forgingd",
+                    "featName" : "Master Windfall Forging",
                     "art" : "windfall",
                     "itemType" : "Windfall",
                     "description" : "Randomly produces a single Master level Durable item.",
                     "craftableKeyword" : ["Windfall"],
-                    "ingeredientCost" : ["5 metals", "2 animal", "1 plants", "2 processe"]
+                    "ingeredientCost" : ["5 metals", "2 animal", "1 plants", "2 processed"]
                 },
                 {
                     "featName" : "Pacifying Edge",
