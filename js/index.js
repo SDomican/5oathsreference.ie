@@ -1,7 +1,7 @@
 var popupVisible = false;
 
 function showHide(elementId) {
-
+  console.log("showHide");
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
 
@@ -10,6 +10,7 @@ function showHide(elementId) {
       x.style.position = "fixed";
       popupVisible = true;
       populateFeatPopup(elementId);
+      x.classList.add("popupVisible");
     }
     else {
       x.style.display = "none";

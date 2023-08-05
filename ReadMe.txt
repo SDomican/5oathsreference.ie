@@ -36,7 +36,7 @@ Bugs:
 [ ]	Effect interactions/priority popup text too big
 [X]	Certain pages not opening on mobile
 [X] Large gap between text and popup keywords
-[ ] Crafting requirements too large for page
+[X] Crafting requirements too large for page
 [X] Change Creviced steel art to armour
 [X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
@@ -46,6 +46,7 @@ Bugs:
 [X] Perfect health Feat description missing.
 [ ] Gap between top and bottom of image icons differs.
 [ ] Thinner padding around item box (i.e. the coloured box).
+[X] closing mobile popup closes parentFeat area.
 
 
 Future

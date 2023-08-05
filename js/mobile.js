@@ -13,6 +13,9 @@ function mobileExpand(sectionContainerId){
         let sectionRow = sectionContainer.firstChild;
         let sectionRowChildren = sectionRow.childNodes;
 
+        let popupElement = document.getElementById("popupId");
+        let isPopupOpen = popupElement.classList.contains("popupVisible");
+
         sectionRowChildren.forEach(item => {
 
             let itemTextContainerDiv = item.lastChild;
@@ -20,14 +23,14 @@ function mobileExpand(sectionContainerId){
             let featDescriptionDiv = itemTextContainerDiv.firstChild;
             let featDescriptionRequirementsDiv = itemTextContainerDiv.lastChild;
 
-            if(itemTextContainerDiv.style.height === "5%"){
+            if(itemTextContainerDiv.style.height === "5%" && isPopupOpen != true){
                 itemTextContainerDiv.style.height = "0";
                 featDescriptionDiv.style.display = "none";
                 featDescriptionRequirementsDiv.style.display = "none";
 
                 artContainerDiv.style.display = "none";
             }
-            else{
+            else {
                 itemTextContainerDiv.style.height = "5%";
                 featDescriptionDiv.style.display = "block";
                 featDescriptionRequirementsDiv.style.display = "block";
@@ -37,6 +40,8 @@ function mobileExpand(sectionContainerId){
                 artContainerDiv.style.margin = "1%";
 
                 artContainerDiv.style.display = "block";
+
+                popupElement.classList.remove("popupVisible");
             }
         });
        
