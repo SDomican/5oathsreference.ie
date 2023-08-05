@@ -22,10 +22,12 @@ function mobileExpand(sectionContainerId){
 
             if(itemTextContainerDiv.style.height === "5%"){
                 itemTextContainerDiv.style.height = "0";
-                artContainerDiv.style.padding = "0";
-                artContainerDiv.style.margin = "0";
+                // artContainerDiv.style.padding = "0";
+                // artContainerDiv.style.margin = "0";
                 featDescriptionDiv.style.display = "none";
                 featDescriptionRequirementsDiv.style.display = "none";
+
+                artContainerDiv.style.display = "none";
             }
             else{
                 itemTextContainerDiv.style.height = "5%";
@@ -35,6 +37,8 @@ function mobileExpand(sectionContainerId){
                 artContainerDiv.style.width = "20%";
                 artContainerDiv.style.padding = "10%";
                 artContainerDiv.style.margin = "1%";
+
+                artContainerDiv.style.display = "block";
             }
         });
        

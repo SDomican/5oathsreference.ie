@@ -7,7 +7,7 @@
   }
 
   .expandable{
-    transition: all 0.2s ease-in;
+    
   }
 
   .effectInteraction{
@@ -392,6 +392,11 @@
   .item-icon{
     margin: 0;
     border-radius: 0;
+
+    display: none;
+    width : 20%;
+    padding : 10%;
+    margin : 1%;
   }
 
   .item-text-container{

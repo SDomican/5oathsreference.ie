@@ -11,8 +11,6 @@ function apendText(featPath){
   let featPathColour = featPath.featPathColour;
   let sectionContainerId = "sectionContainer_" + pathName.split(" ").join("");
 
-  console.log(sectionContainerId);
-
   let featCode = 
   "<div class=\"section-container\" id=\"" + sectionContainerId + "\" style=\"background-color: " + featPathColour + ";\" onclick=\"mobileExpand('" + sectionContainerId + "')\" >" + 
     "<div class=\"section-title\">" +
