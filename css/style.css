@@ -20,6 +20,10 @@
     width: 45%;
   }
 
+  ul{
+    padding-inline-start: 20%;
+  }
+
 .feat-description-title-text{
   margin-top: 5%;
   font-weight: bold;
