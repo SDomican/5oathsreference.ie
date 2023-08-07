@@ -12,14 +12,12 @@
 
   .effectInteraction{
     float:left;
-    width: 50%;
-    height: 47%;
+    width: 45%;
   }
 
   .effectInteraction2{
     float:right;
-    width: 50%;
-    height: 47%;
+    width: 45%;
   }
 
 .feat-description-title-text{
@@ -431,8 +429,13 @@
     width: 70%;
   }
 
+  .popup-text-container{
+    font-size: 16px;
+  }
+
   .flex-container-text-box{
     overflow: scroll;
+    padding: 3%;
   }
 
 }
