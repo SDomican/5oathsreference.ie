@@ -185,7 +185,7 @@
                 },
                 {
                     "featName" : "Healing",
-                    "call" : "Healing 1 (Location)/Full Healing (Location)",
+                    "call" : "Healing 1/Full Healing (Location)",
                     "art" : "healing",
                     "description" : "This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect. This number may be 1, or it may be “Full”, which restores all Body hits to the location.",
                     "magicSchool" : ["Effect"]
