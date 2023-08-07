@@ -389,7 +389,7 @@
 
   .item-icon{
     margin: 0;
-    border-radius: 0;
+    border-radius: 10px;
 
     display: none;
     width : 20%;
@@ -432,12 +432,16 @@
     top: 40%;
     border: solid;
     width: 70%;
+    border-radius: 10px;
   }
 
   .popup-text-container{
     font-size: 14px;
   }
 
+  .section-container{
+    border-radius: 10px;
+  }
 }
 
 /* Tablet */

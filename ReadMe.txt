@@ -27,7 +27,7 @@ To-Do
 [ ]	Add lazy load to popups (if required)
 [X] Have images pop in on mobile when div is opened
 [ ] Size page for laptop.
-[ ] Make icons rounder for mobile.
+[X] Make icons rounder for mobile.
 [ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
 [ ] make popup text have a p tag and be changeable via CSS.
 [ ] vertical monitor CSS (page looks off).
