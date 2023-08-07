@@ -1,7 +1,7 @@
 var popupVisible = false;
 
 function showHide(elementId) {
-  console.log("showHide");
+
     let x = document.getElementById("popupId");
     let bodyElement = document.getElementById("body");
 

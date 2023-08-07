@@ -431,6 +431,10 @@
     width: 70%;
   }
 
+  .flex-container-text-box{
+    overflow: scroll;
+  }
+
 }
 
 /* Tablet */
