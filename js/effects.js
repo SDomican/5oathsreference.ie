@@ -32,7 +32,7 @@ function apendText(featPath){
         let keywordsText = "";
         let call = feat.call;
 
-        if(featName != "Effect interactions/priority" &&  featName != "Searching & IC Theft"){
+        if(featName != "Effect priority" &&  featName != "Searching & IC Theft" &&  featName != "Restrained"){
           keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
 
           for (let i = 0; i < keywords.length; i++) {
@@ -68,10 +68,14 @@ function apendText(featPath){
   "</div>";
 
 if(isMobile){
-  featCode = featCode.replace("E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.","");
+  featCode = featCode.replace("<p id='hrId'> E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.</p>","");
 
   featCode = featCode.replace("(eg “Crawling out of the ground 5! Crawling out of the ground 4!...”)","");
   featCode = featCode.replace("For example: “Destroying the evidence 10! Destroying the evidence 9! Destroying the evidence 8!...”.","");
+  featCode = featCode.replace("Physical Effects priority", "Physical priority");
+  featCode = featCode.replace("Mental Effects priority", "Mental priority");
+  featCode = featCode.replace("<p>Most Immunities are reactive. What this means is that Feat or items will grant a character the ability to spend Vigour and become immune to an Effect when they are targeted with the Effect. If they spend the Vigour, the character declares “No Effect”, and gains the Immunity which lasts for a further short duration as specified by the Feat or item.</p>", "");
+  featCode = featCode.replace("At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash.", "");
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;

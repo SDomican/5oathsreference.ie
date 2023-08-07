@@ -418,24 +418,24 @@
     word-wrap: break-word;
   }
 
+  .flex-container-text-box{
+    overflow: scroll;
+    padding: 3%;
+  }
+
   .popupImageArt{
-    width: 25%;
-    padding-top: 25%;
+    width: 15%;
+    padding-top: 15%;
   }
 
   .popup{
-    top: 50%;
+    top: 40%;
     border: solid;
     width: 70%;
   }
 
   .popup-text-container{
-    font-size: 16px;
-  }
-
-  .flex-container-text-box{
-    overflow: scroll;
-    padding: 3%;
+    font-size: 14px;
   }
 
 }

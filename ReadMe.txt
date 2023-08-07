@@ -31,9 +31,10 @@ To-Do
 [ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
 [ ] make popup text have a p tag and be changeable via CSS.
 [ ] vertical monitor CSS (page looks off).
+[ ] parentFeat - make it not open when clicked when popup is open.
 
 Bugs:
-[ ]	Searching & IC Theft popup text too big
+[X]	Searching & IC Theft popup text too big
 [X]	Effect interactions/priority popup text too big
 [X]	Certain pages not opening on mobile
 [X] Large gap between text and popup keywords
