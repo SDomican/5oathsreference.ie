@@ -71,9 +71,6 @@ if(isMobile){
   featCode = featCode.replace("E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.","");
 }
 
-console.log(featCode);
-
-
 document.getElementById("featsContainer").innerHTML += featCode;
 }
 

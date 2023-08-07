@@ -34,7 +34,7 @@ To-Do
 
 Bugs:
 [ ]	Searching & IC Theft popup text too big
-[ ]	Effect interactions/priority popup text too big
+[X]	Effect interactions/priority popup text too big
 [X]	Certain pages not opening on mobile
 [X] Large gap between text and popup keywords
 [X] Crafting requirements too large for page
