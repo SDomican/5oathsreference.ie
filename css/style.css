@@ -21,19 +21,21 @@
   }
 
 .feat-description-title-text{
-  margin-top: 0.5vh;
+  margin-top: 5%;
   font-weight: bold;
   font-size: inherit;
   overflow: hidden;
   text-overflow: ellipsis;
+  padding-left: 2%;
 }
 
 .feat-description-requirements-text{
-  margin-top: 0.25vh;
+  margin-top: 0.15%;
   font-size: inherit;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  padding-left: 2%;
 }
 
 .flex-container {
@@ -186,8 +188,11 @@
     box-sizing: border-box;
     border-radius: 4px;
     display: inline-block;
-    margin: 0.5vw;
+    margin-left: 0.5vw;
     width: 20vw;
+
+    margin-top: 5%;
+
 }
 
 .item-text-container{
