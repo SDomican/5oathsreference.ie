@@ -30,6 +30,7 @@ To-Do
 [ ] Make icons rounder for mobile.
 [ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
 [ ] make popup text have a p tag and be changeable via CSS.
+[ ] vertical monitor CSS (page looks off).
 
 Bugs:
 [ ]	Searching & IC Theft popup text too big
