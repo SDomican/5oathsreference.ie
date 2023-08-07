@@ -49,6 +49,7 @@ Bugs:
 [ ] Gap between top and bottom of image icons differs.
 [ ] Thinner padding around item box (i.e. the coloured box).
 [X] closing mobile popup closes parentFeat area.
+[ ] Popup keyword tooltips cut off by div.
 
 
 Future
