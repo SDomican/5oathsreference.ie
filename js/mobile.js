@@ -7,7 +7,6 @@ function mobileExpand(sectionContainerId){
     if (mq.matches) {
 
         let element = document.getElementById(sectionContainerId);
-
         let sectionContainer = element.lastChild;
 
         let sectionRow = sectionContainer.firstChild;
@@ -30,7 +29,7 @@ function mobileExpand(sectionContainerId){
 
                 artContainerDiv.style.display = "none";
             }
-            else {
+            else if(isPopupOpen != true){
                 itemTextContainerDiv.style.height = "5%";
                 featDescriptionDiv.style.display = "block";
                 featDescriptionRequirementsDiv.style.display = "block";
@@ -43,6 +42,7 @@ function mobileExpand(sectionContainerId){
 
                 popupElement.classList.remove("popupVisible");
             }
+            else{ popupElement.classList.remove("popupVisible"); }
         });
        
     }

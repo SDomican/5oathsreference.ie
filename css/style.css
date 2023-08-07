@@ -453,7 +453,7 @@
   }
 
   .item-text-container{height: 5vh;}
-  .feat-description-requirements-text{margin-top: 0.25%;}
+  .feat-description-requirements-text{margin-top: 0.25%; display: none;}
 
   .topnav{background-color: orange;}
   .popup{ top: 50%; 
