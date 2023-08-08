@@ -511,8 +511,30 @@
   }
 }
 
+/* Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1400px){
+  .topnav{background-color: purple;}
+
+  .item-text-container-taller{
+    height: 12vh;
+  }
+
+  .feat-description-title-text-larger{
+    margin-top: 2vh;
+    padding-left: 2%;
+    height: 25%;
+    margin-bottom: 0%;
+  }
+
+  .feat-description-requirements-text-larger{
+    padding-left: 2%;
+    height: 50%;
+  }
+
+}
+
 /* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .item {width: 30%;}
 
   .item-wider {width: 30%;}
