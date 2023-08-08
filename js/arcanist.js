@@ -1,4 +1,5 @@
 import spellJson from '../data/arcanistList.json' assert { type: 'json' };
+var mq = window.matchMedia( "(max-width: 480px)" );
 
 function addSectionContainer(idToAmend){
   spellJson.featPath.forEach((feat) => apendText(feat));
@@ -46,12 +47,13 @@ function apendText(featPath){
           "<div class=\"item-wider\">" +
             "<div class=\"item-icon iconsize-consumables expandable\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
             "<div class=\"item-text-container-taller text expandable\">" +
-              "<div class=\"item-title feat-description-title-text expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Cost): " + featRequirements + "</div>" +
+              "<div class=\"item-title feat-description-title-text-larger expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
+              "<div class=\"feat-description-requirements-text-larger expandable\" style=\"color:" + featPathColour + ";\">(Cost): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
 
           if(mq.matches){
+            featCode = featCode.replaceAll("(Cost): ","");
             featCode = featCode.replace("item-wider", "item");
             featCode = featCode.replace("item-text-container-taller", "item-text-container");
             featCode = featCode.replace("item-icon iconsize-consumables", "item-icon iconsize");
