@@ -428,6 +428,11 @@
     max-height: 10vh;
   }
 
+  [data-tooltip]:before {
+    min-width: 75vw;
+    font-size: 11px;
+  }
+
   .feat-description-title-text{
     margin-top: 1%;
     font-size: 14px;
@@ -499,6 +504,10 @@
 
   .section-container{
     border-radius: 10px;
+  }
+
+  #popupKeywordTextPTag{
+    text-align: left;
   }
 }
 

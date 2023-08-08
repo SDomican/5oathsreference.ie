@@ -43,13 +43,13 @@ Bugs:
 [X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
 [ ] Clicking Searching & IC Theft popup text closes page
-[ ] Effect healing call too cramped on mobile
+[X] Effect healing call too cramped on mobile
 [X] P tags need id='hrId' or clicking them will close the popup.
 [X] Perfect health Feat description missing.
 [X] Gap between top and bottom of image icons differs.
 [X] Thinner padding around item box (i.e. the coloured box).
 [X] closing mobile popup closes parentFeat area.
-[ ] Popup keyword tooltips cut off by div.
+[X] Popup keyword tooltips cut off by div.
 
 
 Future
