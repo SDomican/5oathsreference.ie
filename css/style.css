@@ -411,6 +411,15 @@
     max-height: 10vh;
   }
 
+  .feat-description-title-text{
+    margin-top: 1%;
+    font-size: 14px;
+  }
+
+  .feat-description-requirements-text{
+    font-size: 14px;
+  }
+
   .flex-container-image{
     border: solid white;
     border-radius: 5px;
