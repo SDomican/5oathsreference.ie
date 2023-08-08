@@ -79,6 +79,17 @@ if(isMobile){
   featCode = featCode.replace("<p>Most Immunities are reactive. What this means is that Feat or items will grant a character the ability to spend Vigour and become immune to an Effect when they are targeted with the Effect. If they spend the Vigour, the character declares “No Effect”, and gains the Immunity which lasts for a further short duration as specified by the Feat or item.</p>", "");
   featCode = featCode.replace("At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash.", "");
   featCode = featCode.replace(" For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.", "");
+  featCode = featCode.replace("Any weapons or IC items (other than armour or clothing) that are being held or worn visibly by an unresisting character may be freely taken by asking the player to hand them over. To facilitate this we have an IC searching mechanic. While searching another character, you should mime actions of searching them without touching the target.", "");
+  featCode = featCode.replace(" You should spend 30 seconds", "</p><p> You should spend 30 seconds");
+  featCode = featCode.replace("A barrier of invisible magical energy surrounds the character casting the Spell.", "");
+  featCode = featCode.replace("This Effect is instantaneous and may only be cast on the source. ", "");
+  featCode = featCode.replace(", this is the “charges” that the Ward Spell has", "");
+  featCode = featCode.replace(" in their Ward", "");
+  featCode = featCode.replace("At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash. ", "");
+  featCode = featCode.replace("<span style='font-size:12px;'>This Effect is instantaneous.", "<span>This Effect is instantaneous.");
+  featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:12px;'>Certain actions in these rules refer");
+  featCode = featCode.replace("<span><p>At no point should a player be out of character ", "<span style='font-size:12px;'><p>At no point should a player be out of character ");
+  featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:11px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;
