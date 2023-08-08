@@ -46,8 +46,8 @@ Bugs:
 [ ] Effect healing call too cramped on mobile
 [X] P tags need id='hrId' or clicking them will close the popup.
 [X] Perfect health Feat description missing.
-[ ] Gap between top and bottom of image icons differs.
-[ ] Thinner padding around item box (i.e. the coloured box).
+[X] Gap between top and bottom of image icons differs.
+[X] Thinner padding around item box (i.e. the coloured box).
 [X] closing mobile popup closes parentFeat area.
 [ ] Popup keyword tooltips cut off by div.
 
