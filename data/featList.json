@@ -169,14 +169,14 @@
                 },
                 {
                     "featName" : "Mighty Blows",
-                    "prequisites" : "Tripping Blow Feat",
+                    "prequisites" : "Tripping Blow",
                     "art" : "wave-strike",
                     "description" : "When you activate the Tripping Blow Feat with a medium or large weapon, you may additionally generate the Strikedown Effect on your next successful strike within 10 seconds. This is in addition to the Damage Effect of a weapon blow",
                     "keywords" : ["Combat", "Martial Prowess"]
                 },
                 {
                     "featName" : "Punishing Blows",
-                    "prequisites" : "Shattering Strike Feat",
+                    "prequisites" : "Shattering Strike",
                     "art" : "stick-splitting",
                     "description" : "When you activate the Shattering Strike Feat with either a large weapon or a ranged weapon you may additionally generate the Shatter Effect on your next successful strike within 10s. If this Effect is delivered by ranged weapon it will only work on a shield (for safety reasons).",
                     "keywords" : ["Combat", "Martial Prowess"]
@@ -190,7 +190,7 @@
                 },
                 {
                     "featName" : "Room to Breath",
-                    "prequisites" : "Repelling Blow Feat",
+                    "prequisites" : "Repelling Blow",
                     "art" : "expander",
                     "description" : "When you activate the Repelling Blow Feat with a medium or large weapon, you may additionally generate the Push Effect on your next successful strike within 10s. This is in addition to the Damage Effect of a weapon blow.",
                     "keywords" : ["Combat", "Martial Prowess"]
