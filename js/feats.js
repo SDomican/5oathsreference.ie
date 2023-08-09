@@ -206,7 +206,7 @@ const featJson = {
                   "featName" : "Shattering Strike",
                   "prequisites" : "2 Martial Prowess Feats",
                   "art" : "shattered-sword",
-                  "description" : "When you activate the Shattering Strike Feat with either a large weapon or a ranged weapon you may additionally generate the Shatter Effect on your next successful strike within 10s. If this Effect is delivered by ranged weapon it will only work on a shield (for safety reasons).",
+                  "description" : "For 3 Vigour, you may generate the Shatter Effect by weapon blow against a weapon or shield. If this Effect is delivered by ranged weapon or thrown weapon it will only work on a shield (for safety reasons).",
                   "keywords" : ["Combat", "Martial Prowessword"]
               },
               {
