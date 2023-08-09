@@ -34,11 +34,11 @@
 }
 
 .feat-description-title-text-larger{
-  margin-top: 3vh;
+  margin-top: 5%;
   font-weight: bold;
   font-size: inherit;
   overflow: hidden;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 
 .feat-description-requirements-text{
@@ -57,7 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  padding-left: 5%;
+  padding-left: 2%;
   width: 90%;
 }
 
