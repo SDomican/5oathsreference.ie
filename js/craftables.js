@@ -65,7 +65,7 @@ function apendText(featPath){
             "<div class=\"item-icon iconsize-consumables expandable\" data-bgimage=\"" + url + "\" name=\"item-icon\" id = \"" + featName + "\" data-description = \"" + description + "\" style=\"background-color: " + featPathColour + "; background-image: url('');\"></div>" +
             "<div class=\"item-text-container-taller text expandable\">" +
               "<div class=\"item-title feat-description-title-text-larger expandable\" style=\" color:" + featPathColour + ";    \">" + featName + "</div>" +
-              "<div class=\"feat-description-requirements-text expandable\" style=\"color:" + featPathColour + ";\">(Cost): " + featRequirements + "</div>" +
+              "<div class=\"feat-description-requirements-text-larger expandable\" style=\"color:" + featPathColour + ";\">(Cost): " + featRequirements + "</div>" +
             "</div>" +       
           "</div>";
 

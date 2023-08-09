@@ -516,11 +516,26 @@
   .topnav{background-color: purple;}
 
   .item-text-container-taller{
-    height: 12vh;
+    height: 11vh;
+  }
+
+  .item{
+    width: 20%;
+  }
+
+  .feat-description-title-text{
+    margin-top: 5%;
+    padding-left: 3%;
+    height: 35%;
+  }
+
+  .feat-description-requirements-text{
+    padding-left:3%;
+    height: 40%;
   }
 
   .feat-description-title-text-larger{
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     padding-left: 2%;
     height: 25%;
     margin-bottom: 0%;
@@ -529,8 +544,12 @@
   .feat-description-requirements-text-larger{
     padding-left: 2%;
     height: 50%;
+    width: 95%;
   }
 
+  .item-text-container-taller{
+    height: 10.5vh;
+  }
 }
 
 /* Tablet */
