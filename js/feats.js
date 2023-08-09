@@ -207,7 +207,7 @@ const featJson = {
                   "prequisites" : "2 Martial Prowess Feats",
                   "art" : "shattered-sword",
                   "description" : "For 3 Vigour, you may generate the Shatter Effect by weapon blow against a weapon or shield. If this Effect is delivered by ranged weapon or thrown weapon it will only work on a shield (for safety reasons).",
-                  "keywords" : ["Combat", "Martial Prowessword"]
+                  "keywords" : ["Combat", "Martial Prowess"]
               },
               {
                   "featName" : "Tripping Blow",
