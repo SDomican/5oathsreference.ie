@@ -426,6 +426,7 @@
     width: 80%;
     padding-left: 0.5%;
     max-height: 10vh;
+    padding: 0;
   }
 
   [data-tooltip]:before {
