@@ -106,7 +106,7 @@
         },
         {
             "pathName" : "Drakeblooded",
-            "featPathColour" : "orange",
+            "featPathColour" : "darkolivegreen",
             "feats":[
                 {
                     "featName" : "Dragon’s Roar",

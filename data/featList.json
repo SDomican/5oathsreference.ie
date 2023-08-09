@@ -613,7 +613,7 @@
         },
         {
             "pathName" : "Way of the professions",
-            "featPathColour" : "orange",
+            "featPathColour" : "#cd7f32",
             "feats":[
                 {
                     "featName" : "Artisan",
