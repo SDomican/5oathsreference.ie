@@ -1,15 +1,38 @@
 import spellJson from '../data/spellList.json' assert { type: 'json' };
 
+async function loadNames() {
+  const response = await fetch('/data/spellList.json');
+  const names = await response.json();
+
+  // console.log(names.featPath); 
+  return names.featPath;
+}
+
+function addSectionContainer(){
+
+let testVar = loadNames();
+
+testVar.then(featPath => {
+  featPath.forEach((feat) => apendText(feat));
+})
+.catch(err => {
+  console.log(err);
+});
+
+}
+  
+
 var mq = window.matchMedia( "(max-width: 480px)" );
 
-function addSectionContainer(idToAmend){
-  spellJson.featPath.forEach((feat) => apendText(feat));
-}
+// function addSectionContainer(){
+//   spellJson.featPath.forEach((feat) => apendText(feat));
+// }
 
 function apendText(featPath){
 
   let featsArray = featPath.feats;
   let pathName = featPath.pathName;
+
 
   if(mq.matches){
     pathName = pathName.toString().replace("Level", "Lvl");
@@ -30,7 +53,6 @@ function apendText(featPath){
 
         let spellCall = feat.call;
         let featName = feat.featName;
-        let featRequirements = feat.prequisites;
         let art = feat.art;
         let description = "<span id='popupKeywordTextPTag'><i>Call: " + spellCall + "</i></span><br><br>" + feat.description;
         let keywords = feat.magicSchool;
@@ -108,7 +130,7 @@ function filterMagicSchool(magicSchoolList){
 
 
 
-addSectionContainer("addSectionContainer");
+addSectionContainer();
 
 var itemIconElements = document.getElementsByClassName("item-icon"); 
 
