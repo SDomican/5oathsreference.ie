@@ -525,6 +525,10 @@
     padding-left: 2%;
     height: 35%;
     font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 95%;
   }
 
   .feat-description-requirements-text{
