@@ -87,7 +87,7 @@ if ('IntersectionObserver' in window) {
       { rootMargin: "400px" }
     );
 
-    console.log(document);
+    console.log(images);
   images.forEach(image => observer.observe(image));
 });
 
