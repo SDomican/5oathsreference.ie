@@ -109,7 +109,7 @@
         },
         {
             "pathName" : "Way of martial prowess",
-            "featPathColour" : "#FF8000",
+            "featPathColour" : "darkolivegreen",
             "feats":[
                 {
                     "featName" : "Adrenaline Surge",
