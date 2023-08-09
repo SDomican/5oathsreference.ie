@@ -79,7 +79,7 @@ const featJson = {
               },
               {
                   "featName" : "Squire",
-                  "prequisites" : "1 Leather & Steel Feat/Deft Hands",
+                  "prequisites" : "1 Leather & Steel/Deft Hands",
                   "art" : "mounted-knight",
                   "description" : "You are skilled at maintaining armour, weapons and other items. You can manually perform the Repair Effect with 30s of roleplayed action and Concentration, instead of 1 minute of the same.",
                   "keywords" : ["Leather and Steel"]
