@@ -553,6 +553,13 @@
   .item-text-container{
     width: 80%;
   }
+
+  .popupImageArt{
+    width: 7%;
+    height: 0;
+    padding-top: 7%;
+    margin-top: 1vh;
+  }
 }
 
 /* Tablet */
