@@ -516,23 +516,21 @@
 @media only screen and (min-width: 769px) and (max-width: 1400px){
   .topnav{background-color: purple;}
 
-  .item-text-container-taller{
-    height: 11vh;
-  }
-
   .item{
     width: 20%;
   }
 
   .feat-description-title-text{
-    margin-top: 5%;
-    padding-left: 3%;
+    margin-top: 1%;
+    padding-left: 2%;
     height: 35%;
+    font-size: 16px;
   }
 
   .feat-description-requirements-text{
-    padding-left:3%;
+    padding-left:2%;
     height: 40%;
+    font-size: 14px;
   }
 
   .feat-description-title-text-larger{
@@ -550,6 +548,10 @@
 
   .item-text-container-taller{
     height: 10.5vh;
+  }
+
+  .item-text-container{
+    width: 80%;
   }
 }
 
