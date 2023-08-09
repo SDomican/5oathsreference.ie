@@ -3,7 +3,7 @@
     "featPath": [
         {
             "pathName" : "Student Blacksmith:",
-            "featPathColour" : "brown",
+            "featPathColour" : "maroon",
             "feats":[
                 {
                     "featName" : "Fortifying Leathers",
@@ -65,7 +65,7 @@
         },
         {
             "pathName" : "Apprentice Blacksmith:",
-            "featPathColour" : "brown",
+            "featPathColour" : "navy",
             "feats":[
                 {
                     "featName" : "Apprentice Windfall Forging",
@@ -127,7 +127,7 @@
         },
         {
             "pathName" : "Journeyman Blacksmith:",
-            "featPathColour" : "brown",
+            "featPathColour" : "maroon",
             "feats":[
                 {
                     "featName" : "Armour of Broad Resistance",
@@ -189,7 +189,7 @@
         },
         {
             "pathName" : "Master Blacksmith:",
-            "featPathColour" : "brown",
+            "featPathColour" : "navy",
             "feats":[
                 {
                     "featName" : "Armour of Leadership",

@@ -435,7 +435,7 @@
         },
         {
             "pathName" : "Way of sturdy flesh",
-            "featPathColour" : "#8000FF",
+            "featPathColour" : "#993366",
             "feats":[
                 {
                     "featName" : "Deathproof",
@@ -654,7 +654,7 @@
         },
         {
             "pathName" : "Way of the ritualist",
-            "featPathColour" : "blue",
+            "featPathColour" : "navy",
             "feats":[
                 {
                     "featName" : "Benediction of the Shaper's Forgiveness",

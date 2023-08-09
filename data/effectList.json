@@ -105,7 +105,7 @@
         },
         {
             "pathName" : "Mental Effects",
-            "featPathColour" : "purple",
+            "featPathColour" : "blue",
             "feats":[
                 {
                     "featName" : "Fear",
@@ -139,7 +139,7 @@
         },
         {
             "pathName" : "Other Effects",
-            "featPathColour" : "green",
+            "featPathColour" : "black",
             "feats":[
                 {
                     "featName" : "Immunity",
@@ -278,7 +278,7 @@
         },        
         {
             "pathName" : "Event Team Effects",
-            "featPathColour" : "green",
+            "featPathColour" : "DarkOliveGreen",
             "feats":[
                 {
                     "featName" : "Time In",
@@ -319,7 +319,7 @@
         },        
         {
             "pathName" : "Special actions",
-            "featPathColour" : "purple",
+            "featPathColour" : "#993366",
             "feats":[
                 {
                     "featName" : "Searching & IC Theft",
@@ -339,7 +339,7 @@
         },        
         {
             "pathName" : "Effect Modifiers",
-            "featPathColour" : "green",
+            "featPathColour" : "red",
             "feats":[
                 {
                     "featName" : "Full",
@@ -366,7 +366,7 @@
         },        
         {
             "pathName" : "Special Calls & Rules",
-            "featPathColour" : "purple",
+            "featPathColour" : "#9C4722",
             "feats":[
                 {
                     "featName" : "Action Calls",

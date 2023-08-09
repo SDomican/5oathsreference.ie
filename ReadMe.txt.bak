@@ -1,10 +1,9 @@
 To-Do
 [X]Add "Call" to Spell popups
 [X]Copy paste of popups
-[ ]Colourblind contrasting - sort colours???
+[X]Colourblind contrasting - sort colours???
 [X]Add Keywords
 [X]Add Term popup to spells (e.g. what is mass)
-[ ]Check site sizing
 [X]Check site tablet
 [ ]Check works on mobile
 [X]Resize art icons
@@ -24,22 +23,30 @@ To-Do
 [X]Blacksmith - add weapon type to page and popup.
 [X] Fix navbar
 [X] Speed up image load
-[ ]	Add lazy load to popups (if required)
-[ ] Have images pop in on mobile when div is opened
+[X] Have images pop in on mobile when div is opened
+[ ] Size page for laptop.
+[X] Make icons rounder for mobile.
+[ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
+[ ] vertical monitor CSS (page looks off).
+[X] parentFeat - make it not open when clicked when popup is open.
 
 Bugs:
-[ ]	Searching & IC Theft popup text too big
-[ ]	Effect interactions/priority popup text too big
+[X]	Searching & IC Theft popup text too big
+[X]	Effect interactions/priority popup text too big
 [X]	Certain pages not opening on mobile
 [X] Large gap between text and popup keywords
-[ ] Crafting requirements too large for page
-[ ] Change Creviced steel art to armour
+[X] Crafting requirements too large for page
+[X] Change Creviced steel art to armour
 [X] Crafting materials need spaces between them
 [X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
-[ ] Clicking Searching & IC Theft popup text closes page
-[ ] Effect healing call too cramped
+[X] Clicking Searching & IC Theft popup text closes page
+[X] Effect healing call too cramped on mobile
 [X] P tags need id='hrId' or clicking them will close the popup.
 [X] Perfect health Feat description missing.
+[X] Gap between top and bottom of image icons differs.
+[X] Thinner padding around item box (i.e. the coloured box).
+[X] closing mobile popup closes parentFeat area.
+[X] Popup keyword tooltips cut off by div.
 
 
 Future

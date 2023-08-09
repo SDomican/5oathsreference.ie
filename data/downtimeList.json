@@ -3,7 +3,7 @@
     "featPath": [
         {
             "pathName" : "Downtime",
-            "featPathColour" : "blue",
+            "featPathColour" : "navy",
             "feats":[
                 {
                     "featName" : "Analyze",

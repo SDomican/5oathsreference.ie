@@ -58,7 +58,7 @@
         },
         {
             "pathName" : "Apprentice Alchemist:",
-            "featPathColour" : "green",
+            "featPathColour" : "maroon",
             "feats":[
                 {
                     "featName" : "Apprentice Windfall Alchemy",
@@ -168,7 +168,7 @@
         },
         {
             "pathName" : "Master Alchemist:",
-            "featPathColour" : "green",
+            "featPathColour" : "maroon",
             "feats":[
                 {
                     "featName" : "Flash Freeze",

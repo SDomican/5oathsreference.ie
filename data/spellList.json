@@ -330,7 +330,7 @@
         },
         {
             "pathName" : "Third Level Spells (3 Vigour)",
-            "featPathColour" : "orange",
+            "featPathColour" : "green",
             "feats":[
                 {
                     "featName" : "Charm 30s",
