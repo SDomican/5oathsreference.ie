@@ -829,7 +829,7 @@ const featJson = {
               },
               {
                   "featName" : "Supreme Forgiveness ",
-                  "prequisites" : "req",
+                  "prequisites" : "Nothing",
                   "art" : "kneeling",
                   "description" : "Influential and experienced initiates of the Shaper may sometimes feel confident enough in their knowledge of their Gods feelings to speak for them and forgive the crimes of their comrades in the Shapers name. The leader must deliver a speech extolling the virtues of the target of this ritual, the target must speak as to their crimes and what they have learned from their punishment, and all other participants must forgive these crimes. Upon successful completion of this ritual, all ongoing Punishment rituals on the target end",
                   "keywords" : ["Ritualist", "CotS"],
