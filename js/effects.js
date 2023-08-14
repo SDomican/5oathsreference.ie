@@ -42,7 +42,7 @@ const spellJson = {
               },
               {
                   "featName" : "Repair",
-                  "call" : "Repair (Armour location)/Repair (Item)",
+                  "call" : "Repair (Armour location/Item)",
                   "art" : "sewing-string",
                   "description" : "<span><p>This Effect is instantaneous. When this Effect targets a character’s armour, the target character’s Armour hits on the target location are restored by 1. This cannot increase the target’s Armour hits above the total allowed by their Feats and any bonuses given by magic armour. When this Effect targets a weapon, shield, or other item which has been affected by Shatter, it will become usable again.</p><p>The Repair Effect can be delivered manually by all characters on weapons, shields and other items, however armour can only be repaired by a character with the correct Feat (see the Way of Leather and Steel). The Repair Effect is done within touch range and requires 1 minute of roleplayed action of handling and fixing the armour, weapon or shield. Generating the Repair Effect is an action which requires Concentration and the repairer and repairee to be standing stationary for the duration of the required roleplay action. It is not possible to repair the armour or weapons of a target which is actively engaged in melee combat.</p></span>",
                   "magicSchool" : ["Effect"]
