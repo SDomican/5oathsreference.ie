@@ -989,6 +989,7 @@ const featJson = {
       }
   ]
 }
+
 const downtimeJson = {
 
   "featPath": [
@@ -1057,6 +1058,10 @@ const downtimeJson = {
   ]
 }
 
+var mq = window.matchMedia( "(max-width: 480px)" );
+
+var isMobile = mq.matches;
+
 
 function addSectionContainer(idToAmend){
 
@@ -1093,6 +1098,7 @@ function apendText(featPath){
         let description = feat.description;
 
         let keywords = feat.keywords;
+
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
 
         for (let i = 0; i < keywords.length; i++) {
@@ -1117,9 +1123,14 @@ function apendText(featPath){
           if(difficulty !== "N/A"){
             description = "<p><i id='popupDifficulty' >Difficulty: " + difficulty + " </i></p>" + description;
           }
+
+        
         }
 
-        description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
+        if(pathName === "Way of the ritualist" && isMobile && featRequirements === "Nothing"){}
+        else{
+            description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
+        }
 
         let url = "./img/Feats/" + pathName + "/" + art + ".png";
 
@@ -1151,7 +1162,7 @@ for(let element of itemIconElements){
   element.addEventListener("click", e => showHide(element.id), true);
 }
 
-document.addEventListener("click", e => hidePopup(e), true)
+document.addEventListener("click", e => hidePopup(e), true);
 
 
 function manageKeywordsOnPopup(keyword){
