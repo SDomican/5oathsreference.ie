@@ -16,7 +16,7 @@ const featJson = {
                   "featName" : "Path of Renewal: Weeping",
                   "prequisites" : "Nothing",
                   "art" : "weeping",
-                  "description" : "You were previously someone else who died, and have now come back to life as a Weeping, with no memory of your previous life. You must phys rep your status as a Weeping by representing crying blood from your eyes constantly. How you portray this is up to you though a suggested method of representing this would be to use black eyeshadow or face paint around the eyelids for dried and caked blood, with streaks of red face paint or stage/fake blood running down the face. You will need to apply this phys-rep in addition to the phys-rep requirements of your species.<p id='hrId'>You may take any Realm Feat at character creation, this Feat does not need to match where your character began their new life as a Weeping. You may also choose any species for the purpose of taking Way of the Affinity Feats, this choice does not need to match your species but can not be changed after character creation.</p><p id='hrId'>If you participate in a ritual led by a non-Weeping character, you add a 1 point penalty to the total ritual score after any points you contribute due to your other Feats. If you participate in a ritual led by a Weeping character (including you) where the circle is composed entirely of Weeping characters, you add a 1 point bonus to the total ritual score after any points you contribute due to your other Feats. You may not take any Way of the Ritualist Feat with the Quiescent keyword.</p> You may Instantly cast the Detect Weeping Spell for 0 Vigour. Due to the nature of this condition, Weeping does not cost a Feat but must be taken at character creation.",
+                  "description" : "<p id='hrId'>You may take any Realm Feat at character creation, this Feat does not need to match where your character began their new life as a Weeping. You may also choose any species for the purpose of taking Way of the Affinity Feats, this choice does not need to match your species but can not be changed after character creation.</p><p id='hrId'>If you participate in a ritual led by a non-Weeping character, you add a 1 point penalty to the total ritual score after any points you contribute due to your other Feats. If you participate in a ritual led by a Weeping character (including you) where the circle is composed entirely of Weeping characters, you add a 1 point bonus to the total ritual score after any points you contribute due to your other Feats. You may not take any Way of the Ritualist Feat with the Quiescent keyword.</p> You may Instantly cast the Detect Weeping Spell for 0 Vigour. Due to the nature of this condition, Weeping does not cost a Feat but must be taken at character creation.",
                   "keywords" : ["Path of Renewal"]
               }
           ]
@@ -436,6 +436,10 @@ const featJson = {
   ]
 }
 
+var mq = window.matchMedia( "(max-width: 1400px)" );
+
+var isLaptopOrSmaller = mq.matches;
+
 function addSectionContainer(idToAmend){
   featJson.featPath.forEach((feat) => apendText(feat));
 }
@@ -466,9 +470,11 @@ function apendText(featPath){
 
         keywordsText + "</i>";
         description += keywordsText.replace(",", ", ") + "</p>";
-      
-        description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
 
+        if((featName != "Path of Renewal: Weeping" && featName != "The Path of Peace: Peacesworn") && isLaptopOrSmaller){
+            description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
+        }
+      
         let url = "./img/Realm_Feats/" + art + ".png";
 
         featCode +=
