@@ -31,22 +31,7 @@ To-Do
 [X] parentFeat - make it not open when clicked when popup is open.
 
 Bugs:
-[X]	Searching & IC Theft popup text too big
-[X]	Effect interactions/priority popup text too big
-[X]	Certain pages not opening on mobile
-[X] Large gap between text and popup keywords
-[X] Crafting requirements too large for page
-[X] Change Creviced steel art to armour
-[X] Crafting materials need spaces between them
-[X] Pages except Feat and Downtime don't have another popup open when icon is clicked, while a different popup is already open.
-[X] Clicking Searching & IC Theft popup text closes page
-[X] Effect healing call too cramped on mobile
-[X] P tags need id='hrId' or clicking them will close the popup.
-[X] Perfect health Feat description missing.
-[X] Gap between top and bottom of image icons differs.
-[X] Thinner padding around item box (i.e. the coloured box).
-[X] closing mobile popup closes parentFeat area.
-[X] Popup keyword tooltips cut off by div.
+[ ] Last stand list unaligned
 
 
 Future

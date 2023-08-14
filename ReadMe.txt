@@ -31,7 +31,7 @@ To-Do
 [X] parentFeat - make it not open when clicked when popup is open.
 
 Bugs:
-[ ] Last stand list unaligned
+[X] Last stand list unaligned
 
 
 Future
