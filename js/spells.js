@@ -440,7 +440,7 @@ const spellJson = {
               {
                   "featName" : "Protection Stop Bleed 5 minute",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Stop Bleed 5 minutes",
-                  "art" : "protection-sleep",
+                  "art" : "protection-stop-bleed",
                   "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
                   "magicSchool" : ["Tr"]
               },
