@@ -83,13 +83,6 @@ const spellJson = {
                   "magicSchool" : ["Ev"]
               },
               {
-                  "featName" : "Detect Gwyllt",
-                  "call" : "Detect Gwyllt",
-                  "art" : "monster-grasp",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
-                  "magicSchool" : ["Ev"]
-              },
-              {
                   "featName" : "Detect Undead",
                   "call" : "Detect Undead",
                   "art" : "shambling-zombie",
