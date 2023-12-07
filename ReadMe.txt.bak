@@ -7,9 +7,9 @@ To-Do
 [X]Check site tablet
 [ ]Check works on mobile
 [X]Resize art icons
-[ ]Get permission
+[X]Get permission
 [X]Buy domain
-[ ]Get published on domain
+[X]Get published on domain
 [X]Spell Keywords close page on click
 [X]Clicking near Feat art closes page.
 [ ]Change highlight colour of keywords dynamically
@@ -29,9 +29,10 @@ To-Do
 [ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
 [ ] vertical monitor CSS (page looks off).
 [X] parentFeat - make it not open when clicked when popup is open.
+[ ] restrained text too large on mobile
 
 Bugs:
-[ ] Last stand list unaligned
+[X] Last stand list unaligned
 
 
 Future
