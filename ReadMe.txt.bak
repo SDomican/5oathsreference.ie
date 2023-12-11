@@ -29,7 +29,7 @@ To-Do
 [ ] Make mobile the main CSS (have other CSS forms load after as a media tag).
 [ ] vertical monitor CSS (page looks off).
 [X] parentFeat - make it not open when clicked when popup is open.
-[ ] restrained text too large on mobile
+[X] restrained text too large on mobile
 
 Bugs:
 [X] Last stand list unaligned

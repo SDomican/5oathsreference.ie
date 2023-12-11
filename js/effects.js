@@ -474,7 +474,6 @@ if(isMobile){
   featCode = featCode.replace(", this is the “charges” that the Ward Spell has", "");
   featCode = featCode.replace(" in their Ward", "");
   featCode = featCode.replace("At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash. ", "");
-  featCode = featCode.replace("<span style='font-size:12px;'>This Effect is instantaneous.", "<span>This Effect is instantaneous.");
   featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:12px;'>Certain actions in these rules refer");
   featCode = featCode.replace("<span><p>At no point should a player be out of character ", "<span style='font-size:12px;'><p>At no point should a player be out of character ");
   featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:11px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");
