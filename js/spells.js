@@ -9,7 +9,7 @@ const spellJson = {
                   "featName" : "Charm",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)",
                   "art" : "charm",
-                  "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" : "<p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -183,14 +183,14 @@ const spellJson = {
                   "featName" : "Charm 30s Beast",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Beast",
                   "art" : "charm-beast",
-                  "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" : "<p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Charm 30s Mortal",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Mortal",
                   "art" : "charm-mortal",
-                  "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" : "<p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -302,14 +302,14 @@ const spellJson = {
                   "featName" : "Sleep Beast 10s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Beast 10 seconds",
                   "art" : "sleep-beast",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Sleep Mortal 10s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Mortal 10 seconds",
                   "art" : "sleep-mortal",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -329,7 +329,7 @@ const spellJson = {
                   "featName" : "Charm 30s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds",
                   "art" : "charm30",
-                  "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" : "<p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -455,7 +455,7 @@ const spellJson = {
                   "featName" : "Sleep 10s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 10 seconds ",
                   "art" : "sleep",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -510,7 +510,7 @@ const spellJson = {
                   "featName" : "Mass Charm 10s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Charm 10 seconds",
                   "art" : "mass-charm",
-                  "description" : "For the duration of the Effect, the target(s) of this Effect become well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" : "<p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["Mass","C","En"]
               },
               {
@@ -754,7 +754,7 @@ const spellJson = {
                   "featName" : "Sleep 30s",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 30 seconds",
                   "art" : "sleep30",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target takes the Damage Effect after the start of the Sleep Effect or if another character attempts to take an item from them, the Effect ends immediately. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
                   "magicSchool" : ["C","En"]
               }
           ]

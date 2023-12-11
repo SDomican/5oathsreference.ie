@@ -132,7 +132,7 @@ const spellJson = {
                   "featName" : "Charm",
                   "call" : "Charm (Duration)",
                   "art" : "charm",
-                  "description" : "For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend, will not strike them, and will defend them from anyone attempting to harm them. This Effect ends if the source deals damage to the charmed target.",
+                  "description" :  "<p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
                   "magicSchool" : ["Effect"]
               }
           ]
@@ -152,7 +152,7 @@ const spellJson = {
                   "featName" : "Bane",
                   "call" : "(Category) Bane",
                   "art" : "bane",
-                  "description" : "This Effect is instantaneous. A fearsome blow specifically designed to strike at the vulnerabilities of an enemy. When striking an unarmoured location of the Category stated (Beast, Gwyllt, Mortal, or Undead) the location is destroyed, going to -1 Body hits. <p>If a Bane Effect strikes an armoured location 1 point of Damage is dealt to that location. Similarly, if the Bane strikes an unarmoured location and the target is not of the stated Category, they take the Single Damage Effect instead. This Effect cannot be combined with the Damage Effect.</p>",
+                  "description" : "This Effect is instantaneous. A fearsome blow specifically designed to strike at the vulnerabilities of an enemy. If a Bane effect strikes an unarmoured location of the stated Category: that location is destroyed, going to -1 Body hits. Otherwise, the weapon blow delivers Damage as normal. A blow delivered by a ranged weapon will bypass Armour as normal in this case. This Effect cannot be combined with the Damage Effect.",
                   "magicSchool" : ["Effect"]
               },
               {
