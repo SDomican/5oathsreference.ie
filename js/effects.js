@@ -367,7 +367,7 @@ const spellJson = {
                   "call" : "Piercing",
                   "art" : "stick-splitting",
                   "description" : "The Piercing Effect can be added to many Effects, Determined by Feats and magic items. An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.",
-                  "magicSchool" : ["Effect"]
+                  "magicSchool" : ["Effect", "Piercing"]
               }
           ]
       },        
