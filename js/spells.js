@@ -58,35 +58,35 @@ const spellJson = {
                   "featName" : "Detect Beast",
                   "call" : "Detect Beast",
                   "art" : "beast-eye",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Ev"]
               },
               {
                   "featName" : "Detect Bleeding",
                   "call" : "Detect Bleeding",
                   "art" : "bleeding-eye",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Ev"]
               },
               {
                   "featName" : "Detect Gwyllt",
                   "call" : "Detect Gwyllt",
                   "art" : "monster-grasp",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Ev"]
               },
               {
                   "featName" : "Detect Mortal",
                   "call" : "Detect Mortal",
                   "art" : "person",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Ev"]
               },
               {
                   "featName" : "Detect Undead",
                   "call" : "Detect Undead",
                   "art" : "shambling-zombie",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Ev"]
               },
               {
@@ -98,7 +98,7 @@ const spellJson = {
               },
               {
                   "featName" : "Global Stop Bleed",
-                  "call" : "Instant Cast Global Stop Bleed",
+                  "call" : "Global Stop Bleed",
                   "art" : "hand-bandage",
                   "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits.",
                   "magicSchool" : ["Global","Tr"]
@@ -112,7 +112,7 @@ const spellJson = {
               },
               {
                   "featName" : "Mindslash",
-                  "call" : "Instant cast Mindslash",
+                  "call" : "Mindslash",
                   "art" : "brain-tentacle",
                   "description" : "This Effect is instantaneous. The Effect breaks the Concentration of the target",
                   "magicSchool" : ["C","En"]
@@ -316,7 +316,7 @@ const spellJson = {
                   "featName" : "Ward 1",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward One",
                   "art" : "ward1",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.",
+                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.",
                   "magicSchool" : ["Ev"]
               }
           ]
@@ -469,7 +469,7 @@ const spellJson = {
                   "featName" : "Ward 2",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 2",
                   "art" : "ward2",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour</p>",
+                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour</p>",
                   "magicSchool" : ["Ev"]
               }
           ]
@@ -643,7 +643,7 @@ const spellJson = {
                   "featName" : "Ward 3",
                   "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 3",
                   "art" : "ward3",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.<p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell.This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it.<p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
                   "magicSchool" : ["Ev"]
               }
           ]

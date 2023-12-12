@@ -37,8 +37,8 @@ const spellJson = {
                   "featName" : "Notice Bleeding",
                   "call" : "Notice Bleeding",
                   "art" : "ragged-wound",
-                  "description" : "This effect is instantaneous. A character with locations on -1 Body hits will respond by stating the locations that are bleeding. A character that is not bleeding will respond by saying “Not bleeding”. A character who is dead will respond “Dead”. Notice Bleeding will work on a character under the Ward Effect, but does not remove a charge from Ward.",
-                  "magicSchool" : ["Effect"]
+                  "description" : "This effect is instantaneous. A character with locations on -1 Body hits will respond by stating the locations that are bleeding. A character that is not bleeding will respond by saying “Not bleeding”. A character who is dead will respond “Dead”. This Effect is considered to always have the Piercing Modifier.<p>Any character may look at another character within 1 metre for 10s of Concentration and determine if they have any locations which are bleeding by generating the notice bleed effect.</p?",
+                  "magicSchool" : ["Effect","<span id='keyword' class='tooltip' data-tooltip='An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.'data-tooltip-position='bottom'>Piercing</span>"]
               },
               {
                   "featName" : "Repair",
@@ -166,15 +166,15 @@ const spellJson = {
                   "featName" : "Detect",
                   "call" : "Detect (Target group)",
                   "art" : "semi-closed-eye",
-                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
-                  "magicSchool" : ["Effect"]
+                  "description" : "This Effect is instantaneous, when a character who is within Audible range of the source of the effect is a member of the target group or has an item of the target group they must say “Ping” in a loud clear voice. In character, this Effect causes this noise, so everyone around the Detected character is aware of the Effect. This Effect is considered to always have the Piercing Modifier.",
+                  "magicSchool" : ["Effect","<span id='keyword' class='tooltip' data-tooltip='An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.'data-tooltip-position='bottom'>Piercing</span>"]
               },
               {
                   "featName" : "Diagnose",
                   "call" : "Diagnose",
                   "art" : "caduceus",
-                  "description" : "This Effect is instantaneous and has a range of 5cm from an unresisting target. They should OOC tell the source how many Body hits they have left on each location as well as the character’s maximum Body hits on each location, current and maximum Vigour, as well as if they are under the Effects of Disease, Venom, or if they are bleeding. In addition, a Referee may tell the source about special Effects that the target is suffering from. This Effect will work against targets under the Effect of Ward, and will not remove a charge of the Ward.",
-                  "magicSchool" : ["Effect"]
+                  "description" : "This Effect is instantaneous and has a range of 5cm from an unresisting target. They should OOC tell the source how many Body hits they have left on each location as well as the character’s maximum Body hits on each location, current and maximum Vigour, as well as if they are under the Effects of Disease, Venom, or if they are bleeding. In addition, a Referee may tell the source about special Effects that the target is suffering from. This Effect is considered to always have the Piercing Modifier.",
+                  "magicSchool" : ["Effect","<span id='keyword' class='tooltip' data-tooltip='An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.'data-tooltip-position='bottom'>Piercing</span>"]
               },
               {
                   "featName" : "Disease",
@@ -264,7 +264,7 @@ const spellJson = {
                   "featName" : "Ward",
                   "call" : "Ward (Number)",
                   "art" : "ward",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -360,6 +360,13 @@ const spellJson = {
                   "call" : "Mass",
                   "art" : "mass",
                   "description" : "The Mass Modifier can be added to many Effects, determined by Feats and magic items. Using the Mass Modifier with an Effect means the Effect will be used on everyone within 5m of the character generating the Effect, apart from the character themselves. The character may indicate an arc with both hands in front of them, which allows them to target all characters within that arc.<p id='hrId'>The character generating a Mass Effect must specify who will be targeted when completing their call. For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.</p>",
+                  "magicSchool" : ["Effect"]
+              },
+              {
+                  "featName" : "Piercing",
+                  "call" : "Piercing",
+                  "art" : "stick-splitting",
+                  "description" : "The Piercing Effect can be added to many Effects, Determined by Feats and magic items. An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.",
                   "magicSchool" : ["Effect"]
               }
           ]
@@ -473,7 +480,6 @@ if(isMobile){
   featCode = featCode.replace("This Effect is instantaneous and may only be cast on the source. ", "");
   featCode = featCode.replace(", this is the “charges” that the Ward Spell has", "");
   featCode = featCode.replace(" in their Ward", "");
-  featCode = featCode.replace("At no point should a player be out of character grappled or restrained. However there may be situations where a character needs to be restrained. To do so, you will need a phys rep of some kind, such as a ribbon or a sash. ", "");
   featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:12px;'>Certain actions in these rules refer");
   featCode = featCode.replace("<span><p>At no point should a player be out of character ", "<span style='font-size:12px;'><p>At no point should a player be out of character ");
   featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:11px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");

@@ -386,7 +386,7 @@ const featJson = {
                   "featName" : "Puncture",
                   "prequisites" : "Penetrating Strike Feat",
                   "art" : "sun-spear",
-                  "description" : "When you activate the Penetrating Strike Feat with either a ranged weapon or a small weapon you may additionally generate the Through Effect on your next successful weapon strike within 10s. This is in combination with the Damage Effect of a weapon blow",
+                  "description" : "When you activate the Penetrating Strike Feat with either a large weapon or a small weapon you may additionally generate the Through Effect on your next successful weapon strike within 10s. This is in combination with the Damage Effect of a weapon blow",
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
