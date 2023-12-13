@@ -30,6 +30,7 @@ To-Do
 [ ] vertical monitor CSS (page looks off).
 [X] parentFeat - make it not open when clicked when popup is open.
 [X] restrained text too large on mobile
+[ ] Journeyman Windfall Arcanistry text slightly cut off on laptop size.
 
 Bugs:
 [X] Last stand list unaligned
