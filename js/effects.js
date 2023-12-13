@@ -395,8 +395,10 @@ const spellJson = {
 }
 
 var mq = window.matchMedia( "(max-width: 480px)" );
+var lq = window.matchMedia( "only screen and (min-width: 769px) and (max-width: 1400px)" );
 
 var isMobile = mq.matches;
+var isLaptop = lq.matches;
 
 function addSectionContainer(idToAmend){
   spellJson.featPath.forEach((feat) => apendText(feat));
@@ -483,6 +485,10 @@ if(isMobile){
   featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:12px;'>Certain actions in these rules refer");
   featCode = featCode.replace("<span><p>At no point should a player be out of character ", "<span style='font-size:12px;'><p>At no point should a player be out of character ");
   featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:11px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");
+}
+
+if(isLaptop){
+    featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour, ", "<span style='font-size:12px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour, ");
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;
