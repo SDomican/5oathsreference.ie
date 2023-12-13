@@ -143,7 +143,7 @@ const featJson = {
                   "featName" : "Last Stand",
                   "prequisites" : "3 Martial Prowess Feats",
                   "art" : "surrounded-shield",
-                  "description" : "Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul style='padding:2%;'><li id='hrId'>Your torso immediately goes to -1 Body hits, if it wasn’t already</li><li id='hrId'>Your deathcount is reduced to 1 minute remaining (if it was greater than this)</li><li id='hrId'>For the next minute, you may use all your locations as if they were on 1 or more Body hits</li><li id='hrId'>You may not generate the Healing, Repair, or Stop Bleed Effects by any means (including by using potions or other items) or cast Spells</li><li id='hrId'>Leaving your death count will end this Effect immediately.</li></ul>",
+                  "description" : "<span>Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul style='padding:2%;'><li id='hrId'>Your torso immediately goes to -1 Body hits, if it wasn’t already</li><li id='hrId'>Your deathcount is reduced to 1 minute remaining (if it was greater than this)</li><li id='hrId'>For the next minute, you may use all your locations as if they were on 1 or more Body hits</li><li id='hrId'>You may not generate the Healing, Repair, or Stop Bleed Effects by any means (including by using potions or other items) or cast Spells</li><li id='hrId'>Leaving your death count will end this Effect immediately.</li></ul><span>",
                   "keywords" : ["Combat", "Martial Prowess"]
               },
               {
@@ -723,7 +723,7 @@ const featJson = {
                   "featName" : "Indelible Mark",
                   "prequisites" : "Nothing",
                   "art" : "maze-cornea",
-                  "description" : "<p id='hrId'>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p id='hrId'> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p>",
+                  "description" : "<span><p id='hrId'>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p id='hrId'> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p></span>",
                   "keywords" : ["Ritualist", "Arcane", "Referee"],
                   "materialCosts" : "1 Ink, 1 Heart",
                   "difficulty" : "15"
@@ -732,7 +732,7 @@ const featJson = {
                   "featName" : "Make Peace Before War",
                   "prequisites" : "Nothing",
                   "art" : "olive",
-                  "description" : "<p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p id='hrId'>All participants are also affected by Venom.</p><p id='hrId'> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p>",
+                  "description" : "<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p id='hrId'>All participants are also affected by Venom.</p><p id='hrId'> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p></span>",
                   "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
                   "materialCosts" : "1 Incense, 1 Heart",
                   "difficulty" : "30"
@@ -741,7 +741,7 @@ const featJson = {
                   "featName" : "Moon Soaked Blades",
                   "prequisites" : "Nothing",
                   "art" : "moon",
-                  "description" : "Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p>",
+                  "description" : "<span>Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p></span>",
                   "keywords" : ["Ritualist", "CotS"],
                   "materialCosts" : "1 Silver, 1 Fang",
                   "difficulty" : "20"
@@ -750,7 +750,7 @@ const featJson = {
                   "featName" : "Moonlit Vigil",
                   "prequisites" : "Nothing",
                   "art" : "evil-moon",
-                  "description" : "Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p>",
+                  "description" : "<span>Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p></span>",
                   "keywords" : ["Ritualist", "CotS"],
                   "materialCosts" : "1 Bone, 1 Seed",
                   "difficulty" : "20"
@@ -759,7 +759,7 @@ const featJson = {
                   "featName" : "Penance of Leaden Blood",
                   "prequisites" : "Nothing",
                   "art" : "death-juice",
-                  "description" : "<p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged </p><p id='hrId'>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p>",
+                  "description" : "<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged </p><p id='hrId'>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p></span>",
                   "keywords" : ["Punishment", "Ritualist", "Arcane"],
                   "materialCosts" : "1 Parchment, 1 Wax",
                   "difficulty" : "10"
@@ -813,7 +813,7 @@ const featJson = {
                   "featName" : "Shaper’s Blessing On The Flock",
                   "prequisites" : "Nothing",
                   "art" : "shepherds-crook",
-                  "description" : "Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day.<p id='hrId'>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p>",
+                  "description" : "<span>Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day.<p id='hrId'>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p></span>",
                   "keywords" : ["Ritualist", "CotS"],
                   "materialCosts" : "1 Wax, 1 Gold",
                   "difficulty" : "20"
@@ -1059,9 +1059,12 @@ const downtimeJson = {
 }
 
 var mq = window.matchMedia( "(max-width: 480px)" );
+var lq = window.matchMedia( "only screen and (min-width: 769px) and (max-width: 1400px)" );
 
 var isMobile = mq.matches;
+var isLaptop = lq.matches;
 
+console.log(isLaptop);
 
 function addSectionContainer(idToAmend){
 
@@ -1148,6 +1151,20 @@ function apendText(featPath){
       "</div>" +
     "</div>" +
   "</div>";
+
+if(isLaptop){
+    featCode = featCode.replace("<span>Your character enters a crazed state which you should roleplay, ", "<span style='font-size:11px;'>Your character enters a crazed state which you should roleplay, ");
+    featCode = featCode.replace("<span>Initiates of the church of the shaper learn to invigorate", "<span style='font-size:11px;'>Initiates of the church of the shaper learn to invigorate");
+    featCode = featCode.replace("<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.", "<span style='font-size:11px;'><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.");
+    featCode = featCode.replace("<span><p id='hrId'>This ritual places an invisible magical mark upon its target", "<span style='font-size:11px;'><p id='hrId'>This ritual places an invisible magical mark upon its target");
+    featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:11px;'>Those of the Hospitaliers know that their flock need them even when they are not");
+    featCode = featCode.replace("<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.", "<span style='font-size:11px;'><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.");
+    featCode = featCode.replace("<span>Initiates of the church of the shaper learn to reassure their flock,", "<span style='font-size:11px;'>Initiates of the church of the shaper learn to reassure their flock,");
+
+
+
+    
+}
 
 document.getElementById("featsContainer").innerHTML += featCode;
 }
