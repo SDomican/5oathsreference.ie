@@ -145,7 +145,7 @@ const spellJson = {
                   "featName" : "Immunity",
                   "call" : "No Effect",
                   "art" : "bell-shield",
-                  "description" : "Characters may through Feats be immune to an Effect. A character should state 'No Effect' and not take the Effect when they are the target of an Effect to which they are immune. The Feat or item ability that grants the Immunity will determine the duration it lasts. If you are under an Effect and become immune to it, the Effect is removed from you. A character can be immune to multiple Effects at the same time.<p>Peacesworn are always immune to Rampage. The Rend Effect makes the target immune to the Healing Effect while they are suffering Rend.</p> <p>Most Immunities are reactive. What this means is that Feat or items will grant a character the ability to spend Vigour and become immune to an Effect when they are targeted with the Effect. If they spend the Vigour, the character declares “No Effect”, and gains the Immunity which lasts for a further short duration as specified by the Feat or item.</p>",
+                  "description" : "<span>Characters may through Feats be immune to an Effect. A character should state 'No Effect' and not take the Effect when they are the target of an Effect to which they are immune. The Feat or item ability that grants the Immunity will determine the duration it lasts. If you are under an Effect and become immune to it, the Effect is removed from you. A character can be immune to multiple Effects at the same time.<p>Peacesworn are always immune to Rampage. The Rend Effect makes the target immune to the Healing Effect while they are suffering Rend.</p> <p>Most Immunities are reactive. What this means is that Feat or items will grant a character the ability to spend Vigour and become immune to an Effect when they are targeted with the Effect. If they spend the Vigour, the character declares “No Effect”, and gains the Immunity which lasts for a further short duration as specified by the Feat or item.</p></span>",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -490,7 +490,7 @@ if(isMobile){
 if(isLaptop){
     featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour, ", "<span style='font-size:12px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour, ");
     featCode = featCode.replace("<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ", "<span style='font-size:12px;'><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ");
-
+    featCode = featCode.replace("<span>Characters may through Feats be immune to an Effect. A character ", "<span style='font-size:12px;'>Characters may through Feats be immune to an Effect. A character");
     
 }
 
