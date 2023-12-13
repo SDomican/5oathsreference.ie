@@ -514,7 +514,7 @@
 
 /* Laptop */
 @media only screen and (min-width: 769px) and (max-width: 1400px){
-  .topnav{background-color: purple;}
+  /* .topnav{background-color: purple;} */
 
   .item{
     width: 20%;

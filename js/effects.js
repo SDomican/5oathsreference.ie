@@ -132,7 +132,7 @@ const spellJson = {
                   "featName" : "Charm",
                   "call" : "Charm (Duration)",
                   "art" : "charm",
-                  "description" :  "<p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul>",
+                  "description" :  "<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul></span>",
                   "magicSchool" : ["Effect"]
               }
           ]
@@ -489,6 +489,9 @@ if(isMobile){
 
 if(isLaptop){
     featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour, ", "<span style='font-size:12px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour, ");
+    featCode = featCode.replace("<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ", "<span style='font-size:12px;'><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ");
+
+    
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;
