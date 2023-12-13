@@ -1160,10 +1160,6 @@ if(isLaptop){
     featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:11px;'>Those of the Hospitaliers know that their flock need them even when they are not");
     featCode = featCode.replace("<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.", "<span style='font-size:11px;'><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.");
     featCode = featCode.replace("<span>Initiates of the church of the shaper learn to reassure their flock,", "<span style='font-size:11px;'>Initiates of the church of the shaper learn to reassure their flock,");
-
-
-
-    
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;
