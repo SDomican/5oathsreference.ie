@@ -264,7 +264,7 @@ const spellJson = {
                   "featName" : "Ward",
                   "call" : "Ward (Number)",
                   "art" : "ward",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                  "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -478,7 +478,7 @@ if(isMobile){
   featCode = featCode.replace(" For example, the character may add “…all around me” or simply “Mass” before the Effect to target every character within 5m, or “…all within this arc” to target specific characters. The arc must be the area in front of the character between their arms, a character may not designate the area behind them as the arc for a Mass Effect.", "");
   featCode = featCode.replace("Any weapons or IC items (other than armour or clothing) that are being held or worn visibly by an unresisting character may be freely taken by asking the player to hand them over. To facilitate this we have an IC searching mechanic. While searching another character, you should mime actions of searching them without touching the target.", "");
   featCode = featCode.replace(" You should spend 30 seconds", "</p><p> You should spend 30 seconds");
-  featCode = featCode.replace("A barrier of invisible magical energy surrounds the character casting the Spell.", "");
+  featCode = featCode.replace("<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. ", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. ");
   featCode = featCode.replace("This Effect is instantaneous and may only be cast on the source. ", "");
   featCode = featCode.replace(", this is the “charges” that the Ward Spell has", "");
   featCode = featCode.replace(" in their Ward", "");
