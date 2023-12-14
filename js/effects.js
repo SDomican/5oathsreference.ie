@@ -37,7 +37,7 @@ const spellJson = {
                   "featName" : "Notice Bleeding",
                   "call" : "Notice Bleeding",
                   "art" : "ragged-wound",
-                  "description" : "This effect is instantaneous. A character with locations on -1 Body hits will respond by stating the locations that are bleeding. A character that is not bleeding will respond by saying “Not bleeding”. A character who is dead will respond “Dead”. This Effect is considered to always have the Piercing Modifier.<p>Any character may look at another character within 1 metre for 10s of Concentration and determine if they have any locations which are bleeding by generating the notice bleed effect.</p?",
+                  "description" : "<span>This effect is instantaneous. A character with locations on -1 Body hits will respond by stating the locations that are bleeding. A character that is not bleeding will respond by saying “Not bleeding”. A character who is dead will respond “Dead”. This Effect is considered to always have the Piercing Modifier.<p>Any character may look at another character within 1 metre for 10s of Concentration and determine if they have any locations which are bleeding by generating the notice bleed effect.</p></span>",
                   "magicSchool" : ["Effect","<span id='keyword' class='tooltip' data-tooltip='An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.'data-tooltip-position='bottom'>Piercing</span>"]
               },
               {
@@ -482,9 +482,15 @@ if(isMobile){
   featCode = featCode.replace("This Effect is instantaneous and may only be cast on the source. ", "");
   featCode = featCode.replace(", this is the “charges” that the Ward Spell has", "");
   featCode = featCode.replace(" in their Ward", "");
-  featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:12px;'>Certain actions in these rules refer");
+  featCode = featCode.replace("<span>Certain actions in these rules refer", "<span style='font-size:11px;'>Certain actions in these rules refer");
   featCode = featCode.replace("<span><p>At no point should a player be out of character ", "<span style='font-size:12px;'><p>At no point should a player be out of character ");
-  featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:11px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");
+  featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour", "<span style='font-size:10px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour");
+  featCode = featCode.replace("<span>This Effect is instantaneous. If the target is bleeding,", "<span style='font-size:11px;'>This Effect is instantaneous. If the target is bleeding,");
+  featCode = featCode.replace("<p>Attempting to generate an Execute Effect on an invalid target will get a “No Effect” response at the end of the process. All characters can generate this Effect if they have a melee weapon drawn.</p>", "");
+  featCode = featCode.replace("<span>This effect is instantaneous. A character with locations on -1 Body hits", "<span style='font-size:11px;'>This effect is instantaneous. A character with locations on -1 Body hits");
+  
+
+  
 }
 
 if(isLaptop){
