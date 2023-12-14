@@ -352,7 +352,7 @@ const spellJson = {
                   "featName" : "Global",
                   "call" : "Global",
                   "art" : "global",
-                  "description" : "Global is a Modifier that can be applied to the Damage, Healing or Repair Effects, which allows the Effect to target all 6 locations on the target character’s body. A Global Damage Effect will target all 6 locations on the targets body, and remove 1 Body hit from each location, removing Armour hits first as normal. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location. A Global Repair 1 Effect will target all 6 locations on the target character’s body, and restore 1 Armour hit to each location. This Modifier can be combined with the Full Modifier",
+                  "description" : "<span>Global is a Modifier that can be applied to the Damage, Healing or Repair Effects, which allows the Effect to target all 6 locations on the target character’s body. A Global Damage Effect will target all 6 locations on the targets body, and remove 1 Body hit from each location, removing Armour hits first as normal. A Global Healing 1 Effect will target all 6 locations on the target character’s body, and restore 1 Body hit to each location. A Global Repair 1 Effect will target all 6 locations on the target character’s body, and restore 1 Armour hit to each location. This Modifier can be combined with the Full Modifier</span>",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -492,7 +492,7 @@ if(isMobile){
   featCode = featCode.replace("<span>This Effect is instantaneous. The target is forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target is forced ");
   featCode = featCode.replace("<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ", "<span style='font-size:9px;'><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ");
   featCode = featCode.replace("<ul style='padding:2%;'><li id='hrId'>Won't take", "<ul style='padding:5%;'><li id='hrId'>Won't take");
-
+  featCode = featCode.replace("<span>Global is a Modifier that can be applied to the Damage", "<span style='font-size:11px;'>Global is a Modifier that can be applied to the Damage");
   
 
 }
