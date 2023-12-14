@@ -493,7 +493,7 @@ if(isMobile){
   featCode = featCode.replace("<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ", "<span style='font-size:9px;'><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ");
   featCode = featCode.replace("<ul style='padding:2%;'><li id='hrId'>Won't take", "<ul style='padding:5%;'><li id='hrId'>Won't take");
   featCode = featCode.replace("<span>Global is a Modifier that can be applied to the Damage", "<span style='font-size:11px;'>Global is a Modifier that can be applied to the Damage");
-  
+  featCode = featCode.replace("<span>To indicate that an important, interruptible action is being taken IC,", "<span style='font-size:11px;'>To indicate that an important, interruptible action is being taken IC,");
 
 }
 
@@ -501,7 +501,7 @@ if(isLaptop){
     featCode = featCode.replace("<span><p>This Effect is instantaneous. When this Effect targets a character’s armour, ", "<span style='font-size:12px;'><p>This Effect is instantaneous. When this Effect targets a character’s armour, ");
     featCode = featCode.replace("<span><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ", "<span style='font-size:12px;'><p>For the duration of the Effect, the target of this Effect becomes well disposed to the source and treats them as a close friend. ");
     featCode = featCode.replace("<span>Characters may through Feats be immune to an Effect. A character ", "<span style='font-size:12px;'>Characters may through Feats be immune to an Effect. A character");
-    featCode = featCode.replace("<span>To indicate that an important, interruptible action is being taken IC,", "<span style='font-size:12px;'><span>To indicate that an important, interruptible action is being taken IC,");
+    featCode = featCode.replace("<span>To indicate that an important, interruptible action is being taken IC,", "<span style='font-size:12px;'>To indicate that an important, interruptible action is being taken IC,");
     featCode = featCode.replace("<span>Effects are broken into physical effects and mental effects. If one ", "<span style='font-size:12px;'>Effects are broken into physical effects and mental effects. If one ");   
 }
 
