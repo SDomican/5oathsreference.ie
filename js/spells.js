@@ -832,9 +832,6 @@ function apendText(featPath){
 if(isLaptop){
     featCode = featCode.replaceAll("<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed", "<span style='font-size:11px;'><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
-
-
-
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;

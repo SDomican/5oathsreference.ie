@@ -9,14 +9,14 @@ const featJson = {
                   "featName" : "The Path of Peace: Peacesworn",
                   "prequisites" : "Nothing",
                   "art" : "peace-dove",
-                  "description" : "You have sworn the Sixth Oath, the Oath of Peace. You gain an aura that makes this fact obvious to all other creatures, and will be phys repped with a white tabard. Most creatures will be reluctant to strike you or cast Spells at you unless provoked.<p id='hrId'>You may not take any Feat with the Combat keyword, and if you have any when you take this Feat they are lost and replace with Feats that do not have the Combat keyword. This includes Feats with the Species keyword. A full list of combat/non-combat Feats is provided in Appendix 1.</p><p id='hrId'>A Peacesworn character can’t use an item which confers the ability to cause the Damage Effect or another negative Effect. Peacesworn characters are always immune to the Rampage Effect, and may not lose this Immunity.</p>",
+                  "description" : "<span>You have sworn the Sixth Oath, the Oath of Peace. You gain an aura that makes this fact obvious to all other creatures, and will be phys repped with a white tabard. Most creatures will be reluctant to strike you or cast Spells at you unless provoked.<p id='hrId'>You may not take any Feat with the Combat keyword, and if you have any when you take this Feat they are lost and replace with Feats that do not have the Combat keyword. This includes Feats with the Species keyword. A full list of combat/non-combat Feats is provided in Appendix 1.</p><p id='hrId'>A Peacesworn character can’t use an item which confers the ability to cause the Damage Effect or another negative Effect. Peacesworn characters are always immune to the Rampage Effect, and may not lose this Immunity.</p><span>",
                   "keywords" : ["Path of Peace"]
               },
               {
                   "featName" : "Path of Renewal: Weeping",
                   "prequisites" : "Nothing",
                   "art" : "weeping",
-                  "description" : "<p id='hrId'>You may take any Realm Feat at character creation, this Feat does not need to match where your character began their new life as a Weeping. You may also choose any species for the purpose of taking Way of the Affinity Feats, this choice does not need to match your species but can not be changed after character creation.</p><p id='hrId'>If you participate in a ritual led by a non-Weeping character, you add a 1 point penalty to the total ritual score after any points you contribute due to your other Feats. If you participate in a ritual led by a Weeping character (including you) where the circle is composed entirely of Weeping characters, you add a 1 point bonus to the total ritual score after any points you contribute due to your other Feats. You may not take any Way of the Ritualist Feat with the Quiescent keyword.</p> You may Instantly cast the Detect Weeping Spell for 0 Vigour. Due to the nature of this condition, Weeping does not cost a Feat but must be taken at character creation.",
+                  "description" : "<span><p id='hrId'>You may take any Realm Feat at character creation, this Feat does not need to match where your character began their new life as a Weeping. You may also choose any species for the purpose of taking Way of the Affinity Feats, this choice does not need to match your species but can not be changed after character creation.</p><p id='hrId'>If you participate in a ritual led by a non-Weeping character, you add a 1 point penalty to the total ritual score after any points you contribute due to your other Feats. If you participate in a ritual led by a Weeping character (including you) where the circle is composed entirely of Weeping characters, you add a 1 point bonus to the total ritual score after any points you contribute due to your other Feats. You may not take any Way of the Ritualist Feat with the Quiescent keyword.</p> You may Instantly cast the Detect Weeping Spell for 0 Vigour. Due to the nature of this condition, Weeping does not cost a Feat but must be taken at character creation.</span>",
                   "keywords" : ["Path of Renewal"]
               }
           ]
@@ -71,7 +71,7 @@ const featJson = {
                   "featName" : "Careful Maintenance",
                   "prequisites" : "Creidhe",
                   "art" : "anvil",
-                  "description" : "You may spend a downtime action to refresh the duration of a durable item that has not expired. This costs half (rounded down) of the total ingredients required to craft the item, you choose which of the ingredients are required to refresh the Duration. You may use this to maintain items that you are not able to craft. If you attempt to use this ability and do not have the required ingredients available the action will fail but you will be told what ingredients are needed. This Feat can not be used to extend the Duration of any Item crafted with the Joint Purpose Feat.",
+                  "description" : "<span>You may spend a downtime action to refresh the duration of a durable item that has not expired. This costs half (rounded down) of the total ingredients required to craft the item, you choose which of the ingredients are required to refresh the Duration. You may use this to maintain items that you are not able to craft. If you attempt to use this ability and do not have the required ingredients available the action will fail but you will be told what ingredients are needed. This Feat can not be used to extend the Duration of any Item crafted with the Joint Purpose Feat.</span>",
                   "keywords" : ["Affinity"]
               },
               {
@@ -119,7 +119,7 @@ const featJson = {
                   "featName" : "Endless Reach/chain lightning",
                   "prequisites" : "Drakeblooded, Human",
                   "art" : "chain-lightning",
-                  "description" : "So long as you maintain Concentration, after you cast a Single Target spell, you may immediately Instant Cast the same spell on a different target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times for different targets at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any of the Way of Sorcerous Schools Feats or the Expanded Potential Feat.",
+                  "description" : "<span>So long as you maintain Concentration, after you cast a Single Target spell, you may immediately Instant Cast the same spell on a different target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times for different targets at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any of the Way of Sorcerous Schools Feats or the Expanded Potential Feat.</span>",
                   "keywords" : ["Affinity"]
               },
               {
@@ -153,7 +153,7 @@ const featJson = {
                   "featName" : "Pillar of the Community",
                   "prequisites" : "Fathach",
                   "art" : "rock-golem",
-                  "description" : "Your body locations may be targeted with the Repair effect by anyone who can repair any type of armour (including yourself). The roleplayed action takes as long as it takes the repairer to repair armour. <p id='hrId'>When subject to the Repair Effect on any body location, take an equivalent Heal Effect to the target location instead. When healed this way, you may ignore the Disease effect. This does not allow you to ignore Protection or Immunity Healing. While unconscious you may remain aware of your surroundings and able to speak. You may not move or Concentrate while unconscious.</p>",
+                  "description" : "<span>Your body locations may be targeted with the Repair effect by anyone who can repair any type of armour (including yourself). The roleplayed action takes as long as it takes the repairer to repair armour. <p id='hrId'>When subject to the Repair Effect on any body location, take an equivalent Heal Effect to the target location instead. When healed this way, you may ignore the Disease effect. This does not allow you to ignore Protection or Immunity Healing. While unconscious you may remain aware of your surroundings and able to speak. You may not move or Concentrate while unconscious.</p></span>",
                   "keywords" : ["Affinity"]
               },
               {
@@ -437,7 +437,9 @@ const featJson = {
 }
 
 var mq = window.matchMedia( "(max-width: 1400px)" );
+var mobileMatch = window.matchMedia( "(max-width: 480px)" );
 
+var isMobile = mobileMatch.matches;
 var isLaptopOrSmaller = mq.matches;
 
 function addSectionContainer(idToAmend){
@@ -491,6 +493,14 @@ function apendText(featPath){
       "</div>" +
     "</div>" +
   "</div>";
+
+if(isMobile){
+    featCode = featCode.replaceAll("<span>You have sworn the Sixth Oath, the Oath of Peace. ", "<span style='font-size:10px;'>You have sworn the Sixth Oath, the Oath of Peace. ");
+    featCode = featCode.replaceAll("<span><p id='hrId'>You may take any Realm Feat at character creation,", "<span style='font-size:10px;'><p id='hrId'>You may take any Realm Feat at character creation,");
+    featCode = featCode.replaceAll("<span>You may spend a downtime action to refresh the duration", "<span style='font-size:11px;'>You may spend a downtime action to refresh the duration");
+    featCode = featCode.replaceAll("<span>So long as you maintain Concentration, after you cast a Single Target spell", "<span style='font-size:11px;'>So long as you maintain Concentration, after you cast a Single Target spell");
+    featCode = featCode.replaceAll("<span>Your body locations may be targeted with the Repair effect by anyone", "<span style='font-size:11px;'>Your body locations may be targeted with the Repair effect by anyone");
+}
 
 document.getElementById("featsContainer").innerHTML += featCode;
 }
