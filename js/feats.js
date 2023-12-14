@@ -619,21 +619,21 @@ const featJson = {
                   "featName" : "Artisan",
                   "prequisites" : "Nothing",
                   "art" : "artisan",
-                  "description" : "You are skilled at creating useful processed good through a variety of methods.. Each event you attend, gain 3 additional processed material crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific processed material crafting ingredient (one of glass, ink, incense, parchment or wax), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                  "description" : "<span>You are skilled at creating useful processed good through a variety of methods.. Each event you attend, gain 3 additional processed material crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific processed material crafting ingredient (one of glass, ink, incense, parchment or wax), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.</span>",
                   "keywords" : ["Multiple", "Professions"]
               },
               {
                   "featName" : "Farmer",
                   "prequisites" : "Nothing",
                   "art" : "farmer",
-                  "description" : "You are practiced in the field of growing plants and harvesting useful products from them. Each event you attend, gain 3 additional plant crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific plant crafting ingredient (one of bark, flower, leaf, root seed), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                  "description" : "<span>You are practiced in the field of growing plants and harvesting useful products from them. Each event you attend, gain 3 additional plant crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific plant crafting ingredient (one of bark, flower, leaf, root seed), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.</span>",
                   "keywords" : ["Multiple", "Professions"]
               },
               {
                   "featName" : "Hunter",
                   "prequisites" : "Nothing",
                   "art" : "hunter",
-                  "description" : "You are experienced with the arts of tracking animals or finding those animals that have died of illness, natural causes or other means, and breaking them down into useful products. Each event you attend, gain 3 additional animal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific animal crafting ingredient (one of bone, dung, fang, heart, pelt), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.",
+                  "description" : "<span>You are experienced with the arts of tracking animals or finding those animals that have died of illness, natural causes or other means, and breaking them down into useful products. Each event you attend, gain 3 additional animal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific animal crafting ingredient (one of bone, dung, fang, heart, pelt), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.</span>",
                   "keywords" : ["Multiple", "Professions"]
               },
               {
@@ -647,7 +647,7 @@ const featJson = {
                   "featName" : "Miner",
                   "prequisites" : "Nothing",
                   "art" : "miner",
-                  "description" : "You are accustomed to working in the mines and extracting useful metals. Each event you attend, gain 3 additional metal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific metal crafting ingredient (one of bronze, copper, gold, iron, silver), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times",
+                  "description" : "<span>You are accustomed to working in the mines and extracting useful metals. Each event you attend, gain 3 additional metal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific metal crafting ingredient (one of bronze, copper, gold, iron, silver), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.</span>",
                   "keywords" : ["Multiple", "Professions"]
               }
           ]
@@ -687,7 +687,7 @@ const featJson = {
                   "featName" : "Consult the Lost Tome",
                   "prequisites" : "Nothing",
                   "art" : "burning-book",
-                  "description" : "Rather than summoning a specific spirit, you instead shout a question into the afterlife for all to hear. You ask a question of the collective spirit’s wisdom instead of the knowledge of a single being, and within 24 hours of successful completion of this ritual, you receive an answer. This answer may be “that knowledge is not known to those that have passed.” Repeated use of this ritual in a short span of time may result in increased Undead activity. This ritual is known to not receive knowledge from those who have been subject to Quicken the Inevitable Solace.",
+                  "description" : "<span>Rather than summoning a specific spirit, you instead shout a question into the afterlife for all to hear. You ask a question of the collective spirit’s wisdom instead of the knowledge of a single being, and within 24 hours of successful completion of this ritual, you receive an answer. This answer may be “that knowledge is not known to those that have passed.” Repeated use of this ritual in a short span of time may result in increased Undead activity. This ritual is known to not receive knowledge from those who have been subject to Quicken the Inevitable Solace.</span>",
                   "keywords" : ["Referee", "Ritualist", "CotS"],
                   "materialCosts" : "None",
                   "difficulty" : "20"
@@ -696,7 +696,7 @@ const featJson = {
                   "featName" : "Grand Ritual ",
                   "prequisites" : "Ritual Celebrant",
                   "art" : "over-infinity",
-                  "description" : "<p id='hrId'>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5. At the end of the combined ritual, apply the effects of both rituals in the order of your choosing.</p><p id='hrId'>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to both rituals.</p><p id='hrId'>A Referee must be present if either of the rituals have the Referee keyword.</p>",
+                  "description" : "<span><p id='hrId'>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5. At the end of the combined ritual, apply the effects of both rituals in the order of your choosing.</p><p id='hrId'>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to both rituals.</p><p id='hrId'>A Referee must be present if either of the rituals have the Referee keyword.</p></span>",
                   "keywords" : ["Ritualist"],
                   "materialCosts" : "N/A",
                   "difficulty" : "N/A"
@@ -768,7 +768,7 @@ const featJson = {
                   "featName" : "Quicken the Inevitable Solace",
                   "prequisites" : "Nothing",
                   "art" : "telefrag",
-                  "description" : "Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p id='hrId'>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p>",
+                  "description" : "<span>Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p id='hrId'>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p></span>",
                   "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
                   "materialCosts" : "N/A",
                   "difficulty" : "10"
@@ -795,7 +795,7 @@ const featJson = {
                   "featName" : "Sacrificial Rite",
                   "prequisites" : "Sympathetic Ingredients",
                   "art" : "sacrificial-dagger",
-                  "description" : "When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat.<p id='hrId'>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p>",
+                  "description" : "<span>When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat.<p id='hrId'>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p></span>",
                   "keywords" : ["Ritualist"],
                   "materialCosts" : "N/A",
                   "difficulty" : "N/A"
@@ -804,7 +804,7 @@ const featJson = {
                   "featName" : "Sever the Unbreakable Bonds",
                   "prequisites" : "Nothing",
                   "art" : "breaking-chain",
-                  "description" : "This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p id='hrId'>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p>",
+                  "description" : "<span>This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p id='hrId'>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p></span>",
                   "keywords" : ["Ritualist", "Arcane"],
                   "materialCosts" : "None",
                   "difficulty" : "30"
@@ -822,7 +822,7 @@ const featJson = {
                   "featName" : "Solitude of Shame",
                   "prequisites" : "Nothing",
                   "art" : "heavy-thorny-triskelion",
-                  "description" : "Punishment ritual. The ritualist and other participants detail the wrongs that the target has done to them. Following successful completion of this ritual, the target becomes immune to all protections, except Protection Repair, Protection Healing, and Protection Stop Bleed. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.",
+                  "description" : "<span>Punishment ritual. The ritualist and other participants detail the wrongs that the target has done to them. Following successful completion of this ritual, the target becomes immune to all protections, except Protection Repair, Protection Healing, and Protection Stop Bleed. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.</span>",
                   "keywords" : ["Punishment", "Referee", "Ritualist", "CotS"],
                   "materialCosts" : "1 Dung, 1 Glass",
                   "difficulty" : "15"
@@ -831,7 +831,7 @@ const featJson = {
                   "featName" : "Supreme Forgiveness ",
                   "prequisites" : "Nothing",
                   "art" : "kneeling",
-                  "description" : "Influential and experienced initiates of the Shaper may sometimes feel confident enough in their knowledge of their Gods feelings to speak for them and forgive the crimes of their comrades in the Shapers name. The leader must deliver a speech extolling the virtues of the target of this ritual, the target must speak as to their crimes and what they have learned from their punishment, and all other participants must forgive these crimes. Upon successful completion of this ritual, all ongoing Punishment rituals on the target end",
+                  "description" : "<span>Influential and experienced initiates of the Shaper may sometimes feel confident enough in their knowledge of their Gods feelings to speak for them and forgive the crimes of their comrades in the Shapers name. The leader must deliver a speech extolling the virtues of the target of this ritual, the target must speak as to their crimes and what they have learned from their punishment, and all other participants must forgive these crimes. Upon successful completion of this ritual, all ongoing Punishment rituals on the target end.</span>",
                   "keywords" : ["Ritualist", "CotS"],
                   "materialCosts" : "None",
                   "difficulty" : "30"
@@ -885,7 +885,7 @@ const featJson = {
                   "featName" : "Magic Lore",
                   "prequisites" : "Nothing",
                   "art" : "magic-lamp",
-                  "description" : "You have been trained in the art of understanding magic and its rules on a deeper level. You may spend 1 minute concentrating on a magical focus,scroll, or talisman and generate the Identify Effect. You may use the Research downtime action to ask a question relating to magical lore. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.",
+                  "description" : "<span>You have been trained in the art of understanding magic and its rules on a deeper level. You may spend 1 minute concentrating on a magical focus,scroll, or talisman and generate the Identify Effect. You may use the Research downtime action to ask a question relating to magical lore. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.</span>",
                   "keywords" : ["Scholar"]
               },
               {
@@ -899,7 +899,7 @@ const featJson = {
                   "featName" : "Smithing Lore",
                   "prequisites" : "Nothing",
                   "art" : "gear-hammer",
-                  "description" : "You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p id='hrId'>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p>",
+                  "description" : "<span>You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p id='hrId'>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p></span>",
                   "keywords" : ["Scholar"]
               }
           ]
@@ -926,14 +926,14 @@ const featJson = {
                   "featName" : "Enchanting Chain",
                   "prequisites" : "Nothing",
                   "art" : "chained-heart",
-                  "description" : "So long as you maintain Concentration, after you cast a Single Target enchantment Spell, you may immediately Instant Cast another Single Target enchantment Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                  "description" : "<span>So long as you maintain Concentration, after you cast a Single Target enchantment Spell, you may immediately Instant Cast another Single Target enchantment Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.</span>",
                   "keywords" : ["Sorcerous Schools"]
               },
               {
                   "featName" : "Evocative Chain",
                   "prequisites" : "Nothing",
                   "art" : "linked-rings",
-                  "description" : "So long as you maintain Concentration, after you cast a Single Target evocation Spell, you may immediately Instant Cast another Single Target evocation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced.This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                  "description" : "<span>So long as you maintain Concentration, after you cast a Single Target evocation Spell, you may immediately Instant Cast another Single Target evocation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced.This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.</span>",
                   "keywords" : ["Sorcerous Schools"]
               },
               {
@@ -982,7 +982,7 @@ const featJson = {
                   "featName" : "Transmutative Chain",
                   "prequisites" : "Nothing",
                   "art" : "eye-shield",
-                  "description" : "So long as you maintain Concentration, after you cast a Single Target transmutation Spell, you may immediately Instant Cast another Single Target transmutation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.",
+                  "description" : "<span>So long as you maintain Concentration, after you cast a Single Target transmutation Spell, you may immediately Instant Cast another Single Target transmutation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.</span>",
                   "keywords" : ["Sorcerous Schools"]
               }
           ]
@@ -1151,6 +1151,30 @@ function apendText(featPath){
       "</div>" +
     "</div>" +
   "</div>";
+
+  if(isMobile){
+    featCode = featCode.replace("<span>Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul style='padding:2%;'><li id='hrId'>Your torso ", "<span style='font-size:10px;'>Your character enters a crazed state which you should roleplay, shaking off their wounds for one last final fight. You must be unconscious to activate this Feat, and it costs 4 Vigour to activate. When activated the following happens to your character: <ul style='padding:5%;'><li id='hrId'>Your torso ");
+    featCode = featCode.replace("<span>You are skilled at creating useful processed good through ", "<span style='font-size:11px;'>You are skilled at creating useful processed good through ");
+    featCode = featCode.replace("<span>You are practiced in the field of growing plants", "<span style='font-size:11px;'>You are practiced in the field of growing plants");
+    featCode = featCode.replace("<span>You are experienced with the arts of tracking animals", "<span style='font-size:11px;'>You are experienced with the arts of tracking animals");
+    featCode = featCode.replace("<span>You are accustomed to working in the mines", "<span style='font-size:11px;'>You are accustomed to working in the mines");
+    featCode = featCode.replace("<span>Rather than summoning a specific spirit,", "<span style='font-size:11px;'>Rather than summoning a specific spirit,");
+    featCode = featCode.replace("<span><p id='hrId'>You may perform two rituals simultaneously. ", "<span style='font-size:10px;'><p id='hrId'>You may perform two rituals simultaneously. ");
+    featCode = featCode.replace("<span><p id='hrId'>This ritual places an invisible magical mark upon its target", "<span style='font-size:10px;'><p id='hrId'>This ritual places an invisible magical mark upon its target");
+    featCode = featCode.replace("<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.", "<span style='font-size:10px;'><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.");
+    featCode = featCode.replaceAll("<span>Initiates of the church of the shaper", "<span style='font-size:10px;'>Initiates of the church of the shaper");
+    featCode = featCode.replace("<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.", "<span style='font-size:11px;'><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.");
+    featCode = featCode.replace("<span>Must be performed over the corpse of the character(s)", "<span style='font-size:11px;'>Must be performed over the corpse of the character(s)");
+    featCode = featCode.replace("<span>When you lead or participate in a ritual, you may", "<span style='font-size:11px;'>When you lead or participate in a ritual, you may");
+    featCode = featCode.replace("<span>This ritual requires an unresisting target, who", "<span style='font-size:11px;'>This ritual requires an unresisting target, who");
+    featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:11px;'>Those of the Hospitaliers know that their flock need them even when they are not");
+    featCode = featCode.replace("<span>Punishment ritual. The ritualist and other participants detail the wrongs", "<span style='font-size:11px;'>Punishment ritual. The ritualist and other participants detail the wrongs");
+    featCode = featCode.replace("<span>Influential and experienced initiates of the Shaper may", "<span style='font-size:11px;'>Influential and experienced initiates of the Shaper may");
+    featCode = featCode.replace("<span>You have been trained in the art of understanding magic", "<span style='font-size:11px;'>You have been trained in the art of understanding magic");
+    featCode = featCode.replace("<span>You have studied the art of metalwork ", "<span style='font-size:11px;'>You have studied the art of metalwork ");
+    featCode = featCode.replaceAll("<span>So long as you maintain Concentration, after you cast a Single Target ", "<span style='font-size:11px;'>So long as you maintain Concentration, after you cast a Single Target ");
+
+  }
 
 if(isLaptop){
     featCode = featCode.replace("<span>Your character enters a crazed state which you should roleplay, ", "<span style='font-size:11px;'>Your character enters a crazed state which you should roleplay, ");
