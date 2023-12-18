@@ -834,7 +834,7 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed", "<span style='font-size:9px;'><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed");
     featCode = featCode.replaceAll("<ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,", "<ul style='padding:5%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous. The target is forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target is forced ");
-
+    featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
     
   }
 
