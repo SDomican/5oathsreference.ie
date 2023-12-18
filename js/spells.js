@@ -181,14 +181,14 @@ const spellJson = {
           "feats":[
               {
                   "featName" : "Charm 30s Beast",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Beast",
+                  "call" : "<span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Beast<span>",
                   "art" : "charm-beast",
                   "description" : "<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul></span>",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Charm 30s Mortal",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Mortal",
+                  "call" : "<span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Mortal<span>",
                   "art" : "charm-mortal",
                   "description" : "<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul></span>",
                   "magicSchool" : ["C","En"]
@@ -327,7 +327,7 @@ const spellJson = {
           "feats":[
               {
                   "featName" : "Charm 30s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds",
+                  "call" : "<span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds</span>",
                   "art" : "charm30",
                   "description" : "<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed to the source and treats them as a close friend. This Effect ends if the source strikes, or casts an offensive spell at the charmed target. When this effect ends they are aware they were magically compelled. The guidelines for how to behave while under this effect are as follows.</p><p> A Character under the Charm Effect: </p> <ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect, including casting harmful spells or attacking with a weapon.</li><li id='hrId'>Will provide healing or similar nonviolent support to the source of the Effect.</li><li id='hrId'>Will physically protect the source of the Effect if they are martially capable, there is not a requirement for the Charmed Character to injure anyone.</li><li id='hrId'>Is well disposed towards the source of the Effect. This disposition does not extend to allies of the source of the Effect.</li></ul></span>",
                   "magicSchool" : ["C","En"]
@@ -835,11 +835,8 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,", "<ul style='padding:5%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous. The target is forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target is forced ");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
-    featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i>");
+    featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm");
 
-
-    
-    
   }
 
 if(isLaptop){
