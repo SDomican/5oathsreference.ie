@@ -798,7 +798,7 @@ function apendText(featPath){
         let featName = feat.featName;
         let featRequirements = feat.prequisites;
         let art = feat.art;
-        let description = "<span id='popupKeywordTextPTag'><i>Call: " + spellCall + "</i></span><br><br>" + feat.description;
+        let description = "<span id='popupKeywordTextPTag'><i>Call: " + spellCall + "</i></span><br>" + feat.description;
         let keywords = feat.magicSchool;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
         let magicSchool = filterMagicSchool(feat.magicSchool);
