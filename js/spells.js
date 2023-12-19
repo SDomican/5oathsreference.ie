@@ -835,7 +835,7 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,", "<ul style='padding:5%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous. The target is forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target is forced ");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
-    featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span>");
+    featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i></span>");
 
   }
 
