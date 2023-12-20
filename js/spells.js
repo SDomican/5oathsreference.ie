@@ -661,9 +661,9 @@ const spellJson = {
               },
               {
                   "featName" : "Full Global Healing ",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Full Global Healing ",
+                  "call" : "<span id='healing'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Full Global Healing</span>",
                   "art" : "health-increase",
-                  "description" : "This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect. This number may be 1, or it may be “Full”, which restores all Body hits to the location. <p>A Full Healing will restore a character’s Body hits to the total allowed by their Feats and any magic items the character has that give extra Body hits.</p><p>A Global Healing Effect will target all 6 locations on the target character’s body, and restore full Body hit to each location</p>",
+                  "description" : "<span id='healingspan'>This Effect is instantaneous. The target recovers a number of Body hits equal to the amount stated by the generator of this Effect. This number may be 1, or it may be “Full”, which restores all Body hits to the location. <p>A Full Healing will restore a character’s Body hits to the total allowed by their Feats and any magic items the character has that give extra Body hits.</p><p>A Global Healing Effect will target all 6 locations on the target character’s body, and restore full Body hit to each location</p></span>",
                   "magicSchool" : ["Global","C","Ev"]
               },
               {
@@ -849,6 +849,8 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<span>The target falls to the ground, asleep,", "<span style='font-size:11px;'>The target falls to the ground, asleep,");
     featCode = featCode.replaceAll("<i>Call: <span id='fumble'>", "<span id = 'fumble' style='font-size:11px;'><i>");
     featCode = featCode.replace("<span>This Effect is instantaneous. The target(s) are forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target(s) are forced ");
+    featCode = featCode.replaceAll("<i>Call: <span id='healing'>", "<span id = 'healing' style='font-size:11px;'><i>");
+    featCode = featCode.replace("<span id='healingspan'>This Effect is instantaneous. The target recovers", "<span id='healingspan' style='font-size:11px;'>This Effect is instantaneous. The target recovers");
     
   }
 
