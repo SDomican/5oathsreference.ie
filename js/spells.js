@@ -286,16 +286,16 @@ const spellJson = {
               },
               {
                   "featName" : "Rampage 10s Beast",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 10 seconds ",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 10 seconds</span>",
                   "art" : "rampage-beast",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Rampage 10s Mortal",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 10 seconds ",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 10 seconds</span>",
                   "art" : "rampage-mortal",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -460,9 +460,9 @@ const spellJson = {
               },
               {
                   "featName" : "Rampage 10s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 10 seconds",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 10 seconds</span>",
                   "art" : "rampage",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -627,16 +627,16 @@ const spellJson = {
               },
               {
                   "featName" : "Rampage 30s Beast",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 30 seconds",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 30 seconds</span>",
                   "art" : "rampage30-beast",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Rampage 30s Mortal",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 30 seconds",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Mortal 30 seconds</span>",
                   "art" : "rampage30-mortal",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -745,9 +745,9 @@ const spellJson = {
               },
               {
                   "featName" : "Rampage 30s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 30 seconds",
+                  "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 30 seconds</span>",
                   "art" : "rampage30",
-                  "description" : "The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.",
+                  "description" : "<span>The target is filled with uncontrollable rage. For the duration they will strike the closest being to them, including their allies, to the best of their ability and continue either until their target has escaped beyond reasonable pursuit or their target is downed. If they cause a creature to fall unconscious, they will either move to strike the next closest creature, or if there is no other creature close by they will use the Execute call on the downed creature.</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -842,8 +842,13 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external power) to (brief description of desired outcome) and cast Mass Charm 10 seconds</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Mass Charm 10 seconds</span></i></span>");
     featCode = featCode.replaceAll("The guidelines for how to behave while under this effect are as follows.", "");
     featCode = featCode.replaceAll("<i>Call: <span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward", "<span id = 'ward' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Ward ");
+    featCode = featCode.replaceAll("<i>Call: <span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward", "<span id = 'ward' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Ward ");
+
+    featCode = featCode.replaceAll("<i>Call: <span id='rampage'>", "<span id = 'ward' style='font-size:11px;'><i>");
+    featCode = featCode.replaceAll("<span>The target is filled with uncontrollable rage.", "<span style='font-size:11px;'>The target is filled with uncontrollable rage.");
     
 
+    
   }
 
 if(isLaptop){
