@@ -840,6 +840,9 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Mortal<span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm 30 seconds Mortal</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm 30 seconds</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external power) to (brief description of desired outcome) and cast Mass Charm 10 seconds</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Mass Charm 10 seconds</span></i></span>");
+    featCode = featCode.replaceAll("The guidelines for how to behave while under this effect are as follows.", "");
+
+    
 
   }
 
