@@ -300,16 +300,16 @@ const spellJson = {
               },
               {
                   "featName" : "Sleep Beast 10s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Beast 10 seconds",
+                  "call" : "<span id='sleep'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Beast 10 seconds</span>",
                   "art" : "sleep-beast",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "<span>The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).</span>",
                   "magicSchool" : ["C","En"]
               },
               {
                   "featName" : "Sleep Mortal 10s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Mortal 10 seconds",
+                  "call" : "<span id='sleep'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep Mortal 10 seconds</span>",
                   "art" : "sleep-mortal",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "<span>The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -453,9 +453,9 @@ const spellJson = {
               },
               {
                   "featName" : "Sleep 10s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 10 seconds ",
+                  "call" : "<span id='sleep'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 10 seconds</span>",
                   "art" : "sleep",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "<span>The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).</span>",
                   "magicSchool" : ["C","En"]
               },
               {
@@ -752,9 +752,9 @@ const spellJson = {
               },
               {
                   "featName" : "Sleep 30s",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 30 seconds",
+                  "call" : "<span id='sleep'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Sleep 30 seconds</span>",
                   "art" : "sleep30",
-                  "description" : "The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).",
+                  "description" : "<span>The target falls to the ground, asleep, for the duration of the Effect. If the target loses a point of Body after the start of the Sleep Effect, the Effect ends immediately. Items may not be taken from a character under the Sleep Effect, voluntarily or otherwise. While asleep a character is unconscious, unable to take any other actions, and is unaware of what is IC happening around them (players should still stay aware of what is OOC happening around them for safety reasons).</span>",
                   "magicSchool" : ["C","En"]
               }
           ]
@@ -843,11 +843,11 @@ function apendText(featPath){
     featCode = featCode.replaceAll("The guidelines for how to behave while under this effect are as follows.", "");
     featCode = featCode.replaceAll("<i>Call: <span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward", "<span id = 'ward' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Ward ");
     featCode = featCode.replaceAll("<i>Call: <span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward", "<span id = 'ward' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Ward ");
-
     featCode = featCode.replaceAll("<i>Call: <span id='rampage'>", "<span id = 'ward' style='font-size:11px;'><i>");
     featCode = featCode.replaceAll("<span>The target is filled with uncontrollable rage.", "<span style='font-size:11px;'>The target is filled with uncontrollable rage.");
     
-
+    featCode = featCode.replaceAll("<i>Call: <span id='sleep'>", "<span id = 'ward' style='font-size:11px;'><i>");
+    featCode = featCode.replaceAll("<span>The target falls to the ground, asleep,", "<span style='font-size:11px;'>The target falls to the ground, asleep,");
     
   }
 
