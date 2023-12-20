@@ -314,7 +314,7 @@ const spellJson = {
               },
               {
                   "featName" : "Ward 1",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward One",
+                  "call" : "<span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward One</span>",
                   "art" : "ward1",
                   "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
                   "magicSchool" : ["Ev"]
@@ -467,9 +467,9 @@ const spellJson = {
               },
               {
                   "featName" : "Ward 2",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 2",
+                  "call" : "<span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 2</span>",
                   "art" : "ward2",
-                  "description" : "This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p>",
+                  "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
                   "magicSchool" : ["Ev"]
               }
           ]
@@ -641,7 +641,7 @@ const spellJson = {
               },
               {
                   "featName" : "Ward 3",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 3",
+                  "call" : "<span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward 3</span>",
                   "art" : "ward3",
                   "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This energy, or Ward, protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward call is the number of times the character will be protected by the Ward, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. <p>The number of charges on the Ward is determined by the Spell that grants it. A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
                   "magicSchool" : ["Ev"]
@@ -834,14 +834,14 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed", "<span style='font-size:9px;'><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed");
     featCode = featCode.replaceAll("<ul style='padding:2%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,", "<ul style='padding:5%;'><li id='hrId'>Won't take aggressive actions towards the source of the Effect,");
     featCode = featCode.replaceAll("<span>This Effect is instantaneous. The target is forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target is forced ");
-    featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
+    featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. ", "<span style='font-size:9px;'>This Effect is instantaneous and may only be cast on the source. ");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm (10 seconds)</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm (10 seconds)</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Beast<span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm 30 seconds Beast</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds Mortal<span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm 30 seconds Mortal</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Charm 30 seconds</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Charm 30 seconds</span></i></span>");
     featCode = featCode.replaceAll("<i>Call: <span id='charm'>I call upon the power of (an external power) to (brief description of desired outcome) and cast Mass Charm 10 seconds</span></i></span><br><br>", "<span id='charm' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Mass Charm 10 seconds</span></i></span>");
     featCode = featCode.replaceAll("The guidelines for how to behave while under this effect are as follows.", "");
-
+    featCode = featCode.replaceAll("<i>Call: <span id = 'ward'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Ward", "<span id = 'ward' style='font-size:9px;'><i>Call: I call upon the power of (external power) to (desired outcome) and cast Ward ");
     
 
   }
