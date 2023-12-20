@@ -999,9 +999,9 @@ const downtimeJson = {
           "feats":[
               {
                   "featName" : "Analyze",
-                  "prequisites" : "Scholar Feats",
+                  "prequisites" : "<span id='analyze'>Scholar Feats</span>",
                   "art" : "magnifying-glass",
-                  "description" : "Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with Scholar Feats, and the Lore Feat must match the type of item, i.e. weapon items can only be studied by characters with Smithing Lore, magical foci by characters with Magic Lore, and potions by characters with Alchemy Lore.",
+                  "description" : "<span id='analyze2'>Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with Scholar Feats, and the Lore Feat must match the type of item, i.e. weapon items can only be studied by characters with Smithing Lore, magical foci by characters with Magic Lore, and potions by characters with Alchemy Lore.</span>",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1174,6 +1174,10 @@ function apendText(featPath){
     featCode = featCode.replace("<span>You have studied the art of metalwork ", "<span style='font-size:11px;'>You have studied the art of metalwork ");
     featCode = featCode.replaceAll("<span>So long as you maintain Concentration, after you cast a Single Target ", "<span style='font-size:11px;'>So long as you maintain Concentration, after you cast a Single Target ");
 
+    featCode = featCode.replaceAll("<i id='popupMaterialCost'>Prerequisite: <span id='analyze'>", "<span id = 'analyze' style='font-size:10px;'><i id='popupMaterialCost'>Prerequisite: ");
+    featCode = featCode.replace("<span id='analyze2'>", "<span id='analyze2' style='font-size:10px;'>");
+
+    
   }
 
 if(isLaptop){

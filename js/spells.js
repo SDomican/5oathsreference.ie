@@ -849,7 +849,7 @@ function apendText(featPath){
     featCode = featCode.replaceAll("<span>The target falls to the ground, asleep,", "<span style='font-size:11px;'>The target falls to the ground, asleep,");
     featCode = featCode.replaceAll("<i>Call: <span id='fumble'>", "<span id = 'fumble' style='font-size:11px;'><i>");
     featCode = featCode.replace("<span>This Effect is instantaneous. The target(s) are forced ", "<span style='font-size:11px;'>This Effect is instantaneous. The target(s) are forced ");
-    featCode = featCode.replaceAll("<i>Call: <span id='healing'>", "<span id = 'healing' style='font-size:11px;'><i>");
+    featCode = featCode.replaceAll("<i>Call: <span id='healing'>", "<span id = 'healing' style='font-size:11px;'><i>Call: ");
     featCode = featCode.replace("<span id='healingspan'>This Effect is instantaneous. The target recovers", "<span id='healingspan' style='font-size:11px;'>This Effect is instantaneous. The target recovers");
     
   }
