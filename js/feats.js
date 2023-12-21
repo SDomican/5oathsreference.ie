@@ -1167,7 +1167,7 @@ function apendText(featPath){
     featCode = featCode.replace("<span>Must be performed over the corpse of the character(s)", "<span style='font-size:9px;'>Must be performed over the corpse of the character(s)");
     featCode = featCode.replace("<span>When you lead or participate in a ritual, you may", "<span style='font-size:11px;'>When you lead or participate in a ritual, you may");
     featCode = featCode.replace("<span>This ritual requires an unresisting target, who", "<span style='font-size:11px;'>This ritual requires an unresisting target, who");
-    featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:11px;'>Those of the Hospitaliers know that their flock need them even when they are not");
+    featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:9px;'>Those of the Hospitaliers know that their flock need them even when they are not");
     featCode = featCode.replace("<span>Punishment ritual. The ritualist and other participants detail the wrongs", "<span style='font-size:11px;'>Punishment ritual. The ritualist and other participants detail the wrongs");
     featCode = featCode.replace("<span>Influential and experienced initiates of the Shaper may", "<span style='font-size:11px;'>Influential and experienced initiates of the Shaper may");
     featCode = featCode.replace("<span>You have been trained in the art of understanding magic", "<span style='font-size:11px;'>You have been trained in the art of understanding magic");
