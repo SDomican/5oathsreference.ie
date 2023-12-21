@@ -1164,7 +1164,7 @@ function apendText(featPath){
     featCode = featCode.replace("<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.", "<span style='font-size:10px;'><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle.");
     featCode = featCode.replaceAll("<span>Initiates of the church of the shaper", "<span style='font-size:10px;'>Initiates of the church of the shaper");
     featCode = featCode.replace("<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.", "<span style='font-size:11px;'><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death.");
-    featCode = featCode.replace("<span>Must be performed over the corpse of the character(s)", "<span style='font-size:11px;'>Must be performed over the corpse of the character(s)");
+    featCode = featCode.replace("<span>Must be performed over the corpse of the character(s)", "<span style='font-size:9px;'>Must be performed over the corpse of the character(s)");
     featCode = featCode.replace("<span>When you lead or participate in a ritual, you may", "<span style='font-size:11px;'>When you lead or participate in a ritual, you may");
     featCode = featCode.replace("<span>This ritual requires an unresisting target, who", "<span style='font-size:11px;'>This ritual requires an unresisting target, who");
     featCode = featCode.replace("<span>Those of the Hospitaliers know that their flock need them even when they are not", "<span style='font-size:11px;'>Those of the Hospitaliers know that their flock need them even when they are not");
