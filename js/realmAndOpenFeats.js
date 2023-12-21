@@ -496,7 +496,7 @@ function apendText(featPath){
 
 if(isMobile){
     featCode = featCode.replaceAll("<span>You have sworn the Sixth Oath, the Oath of Peace. ", "<span style='font-size:10px;'>You have sworn the Sixth Oath, the Oath of Peace. ");
-    featCode = featCode.replaceAll("<span><p id='hrId'>You may take any Realm Feat at character creation,", "<span style='font-size:10px;'><p id='hrId'>You may take any Realm Feat at character creation,");
+    featCode = featCode.replaceAll("<span><p id='hrId'>You may take any Realm Feat at character creation,", "<span style='font-size:9px;'><p id='hrId'>You may take any Realm Feat at character creation,");
     featCode = featCode.replaceAll("<span>You may spend a downtime action to refresh the duration", "<span style='font-size:11px;'>You may spend a downtime action to refresh the duration");
     featCode = featCode.replaceAll("<span>So long as you maintain Concentration, after you cast a Single Target spell", "<span style='font-size:11px;'>So long as you maintain Concentration, after you cast a Single Target spell");
     featCode = featCode.replaceAll("<span>Your body locations may be targeted with the Repair effect by anyone", "<span style='font-size:11px;'>Your body locations may be targeted with the Repair effect by anyone");
