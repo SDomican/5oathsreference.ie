@@ -133,7 +133,7 @@ const featJson = {
                   "featName" : "Profitable Prowl",
                   "prequisites" : "Drakeblooded, Krieger",
                   "art" : "snatch",
-                  "description" : "The first Travel action you take each downtime generates 8 Pingin in addition to its usual effects.",
+                  "description" : "The first Travel action you take each downtime generates 40 Pingin in addition to its usual effects.",
                   "keywords" : ["Affinity"]
               },
               {

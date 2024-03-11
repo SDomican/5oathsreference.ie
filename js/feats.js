@@ -64,13 +64,6 @@ const featJson = {
                   "keywords" : ["Leather and Steel", "Resistance"]
               },
               {
-                  "featName" : "Quickened Searching",
-                  "prequisites" : "Light Armour",
-                  "art" : "robber-hand",
-                  "description" : "Your familiarity with wearing armour means you know where others are likely to keep things about their person. You may search with only 10s of roleplay action following all other searching rules, and should call “Quickened Searching” while doing so.",
-                  "keywords" : ["Leather and Steel"]
-              },
-              {
                   "featName" : "Reinforced",
                   "prequisites" : "Heavy Armour",
                   "art" : "helmet-head-shot",
@@ -168,13 +161,6 @@ const featJson = {
                   "keywords" : ["Combat", "Martial Prowess"]
               },
               {
-                  "featName" : "Mighty Blows",
-                  "prequisites" : "Tripping Blow",
-                  "art" : "wave-strike",
-                  "description" : "When you activate the Tripping Blow Feat with a medium or large weapon, you may additionally generate the Strikedown Effect on your next successful strike within 10 seconds. This is in addition to the Damage Effect of a weapon blow",
-                  "keywords" : ["Combat", "Martial Prowess"]
-              },
-              {
                   "featName" : "Punishing Blows",
                   "prequisites" : "Shattering Strike",
                   "art" : "stick-splitting",
@@ -207,13 +193,6 @@ const featJson = {
                   "prequisites" : "2 Martial Prowess Feats",
                   "art" : "shattered-sword",
                   "description" : "For 3 Vigour, you may generate the Shatter Effect by weapon blow against a weapon or shield. If this Effect is delivered by ranged weapon or thrown weapon it will only work on a shield (for safety reasons).",
-                  "keywords" : ["Combat", "Martial Prowess"]
-              },
-              {
-                  "featName" : "Tripping Blow",
-                  "prequisites" : "Nothing",
-                  "art" : "tripwire",
-                  "description" : "For 1 Vigour, you may generate the Strikedown Effect by weapon blow. This is in addition to the Damage Effect of the weapon blow",
                   "keywords" : ["Combat", "Martial Prowess"]
               },
               {
@@ -295,7 +274,7 @@ const featJson = {
                   "featName" : "Cutthroat",
                   "prequisites" : "Nothing",
                   "art" : "silenced",
-                  "description" : "For 1 Vigour, on your next weapon blow you may generate the Mute 10s Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
+                  "description" : "For 2 Vigour, on your next weapon blow you may generate the Mute 30s Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
@@ -334,13 +313,6 @@ const featJson = {
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
-                  "featName" : "Escape Restraints",
-                  "prequisites" : "Nothing",
-                  "art" : "handcuffs",
-                  "description" : "After 30s Concentration, you may be free of any IC restraints your character has been the subject of.",
-                  "keywords" : ["Shadowed Blades"]
-              },
-              {
                   "featName" : "Fatal Blow",
                   "prequisites" : "4 Shadowed Blades Feats",
                   "art" : "pierced-heart",
@@ -351,7 +323,7 @@ const featJson = {
                   "featName" : "Internal Damage",
                   "prequisites" : "2 Shadowed Blades Feats",
                   "art" : "internal-injury",
-                  "description" : "For 3 Vigour, you may generate the Protection Healing 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
+                  "description" : "For 2 Vigour, you may generate the Protection Healing 5 minutes Effect by weapon blow. This is in addition to the Damage Effect of a weapon blow.",
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
@@ -372,7 +344,7 @@ const featJson = {
                   "featName" : "Petrifying Potion",
                   "prequisites" : "3 Shadowed Blades Feat",
                   "art" : "medusa-head",
-                  "description" : "You know how to make a variety of short lived alchemical concoctions that you may use offensively. For 3 Vigour, you may deliver the Halt Effect via a thrown weapon which phys reps throwing a vial of chemicals the briefly harden flesh into stone. This is in addition to the Damage Effect of a thrown weapon blow. A character using Petrifying Potion will cause the Single Damage Effect and cause the target to suffer the Halt Effect.",
+                  "description" : "You know how to make a variety of short lived alchemical concoctions that you may use offensively. For 2 Vigour, you may deliver the Halt Effect via a thrown weapon which phys reps throwing a vial of chemicals the briefly harden flesh into stone. This is in addition to the Damage Effect of a thrown weapon blow. A character using Petrifying Potion will cause the Single Damage Effect and cause the target to suffer the Halt Effect.",
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
@@ -407,9 +379,16 @@ const featJson = {
                   "featName" : "Silencing Strikes",
                   "prequisites" : "Cutthroat Feat",
                   "art" : "cloak-dagger",
-                  "description" : "When you activate the Cutthroat Feat you may additionally generate the Mute 10s Effect by weapon blow with small and medium weapons on your next successful strike within 10s. This is in addition to the Damage Effect of a weapon blow.",
+                  "description" : "When you activate the Cutthroat Feat you may additionally generate the Mute 30s Effect by weapon blow with small and medium weapons on your next successful strike within 10s. This is in addition to the Damage Effect of a weapon blow.",
                   "keywords" : ["Combat","Shadowed Blades"]
               },
+              {
+                "featName" : "Skullduggery",
+                "prequisites" : "Nothing",
+                "art" : "stiletto",
+                "description" : "After 30s Concentration and RP, you may be free of any IC restraints your character has been the subject of. You may search with only 10s of roleplay action following all other searching rules, and should call “Quickened Searching” while doing so.",
+                "keywords" : ["Combat","Shadowed Blades"]
+            },
               {
                   "featName" : "Slip Strike ",
                   "prequisites" : "Nothing",
@@ -421,14 +400,21 @@ const featJson = {
                   "featName" : "Steering the Conversation",
                   "prequisites" : "1 Shadowed Blades Feat",
                   "art" : "conversation",
-                  "description" : "You may submit a piece of information (true or false) to be included in reports from a specific realm. The Event Team will decide how this information affects the reports",
+                  "description" : "You may submit a piece of information (true or false) to be included in reports from a specific realm. The Event Team will decide how this information affects the reports.",
                   "keywords" : ["Shadowed Blades"]
+              },
+              {
+                "featName" : "Throwing Weapon Expert",
+                "prequisites" : "Nothing",
+                "art" : "thrown-daggers",
+                "description" : "You can generate the Repair effect on a Throwing Weapon after 10s of roleplay instead of the usual 60s.",
+                "keywords" : ["Combat","Shadowed Blades"]
               },
               {
                   "featName" : "Volatile Substances",
                   "prequisites" : "2 Shadowed Blades Feats",
                   "art" : "chemical-bolt",
-                  "description" : "You know how to make a variety of short lived alchemical concoctions that you may activate with Vigour. For 2 Vigour you may deliver the Global Single Damage Effect via a thrown weapon which phys reps throwing a cocktail of volatile alchemical substances",
+                  "description" : "You know how to make a variety of short lived alchemical concoctions that you may activate with Vigour. For 1 Vigour you may deliver the Global Single Damage Effect via a thrown weapon which phys reps throwing a cocktail of volatile alchemical substances",
                   "keywords" : ["Combat", "Shadowed Blades"]
               }
           ]
@@ -517,28 +503,28 @@ const featJson = {
                   "featName" : "Student Alchemist",
                   "prequisites" : "Nothing",
                   "art" : "test-tube-held",
-                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. Start the first event after you take this Feat with the Tonic Potion item.",
+                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. Start the first event after you take this Feat with the Tonic Potion item.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Apprentice Alchemist",
                   "prequisites" : "Student Alchemist",
                   "art" : "test-tube-held1",
-                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. Start the first event after you take this Feat with the Flesh and Steel item.",
+                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. You may use the Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with the Flesh and Steel item.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Journeyman Alchemist",
                   "prequisites" : "Apprentice Alchemist",
                   "art" : "test-tube-held2",
-                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. Start the first event after you take this Feat with the Dazzling Liquid item.",
+                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. Start the first event after you take this Feat with the Dazzling Liquid item.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Master Alchemist",
                   "prequisites" : "Journeyman Alchemist",
                   "art" : "test-tube-held3",
-                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Master Alchemist in Appendix 4. Start the first event after you take this Feat with the Revitalising Tonic item.",
+                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action.. Your character knows all the recipes listed under Master Alchemist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with the Revitalising Tonic item.",
                   "keywords" : ["Alchemist", "Crafting"]
               }
           ]
@@ -551,28 +537,28 @@ const featJson = {
                   "featName" : "Student Arcanist",
                   "prequisites" : "Nothing",
                   "art" : "gem-chain",
-                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. Start the first event after you take this Feat with the Student Ritual Effigy item.",
+                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. You may spend 1 minute concentrating on a magical focus, scroll, or talisman and generate the Identify Effect. Start the first event after you take this Feat with the Student Ritual Effigy item.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Apprentice Arcanist",
                   "prequisites" : "Student Arcanist",
                   "art" : "gem-chain1",
-                  "description" : "Allows the crafting of apprentice arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Arcanist in Appendix 4. Start the first event after you take this Feat with the Greater Eye of the Shaper item.",
+                  "description" : "Allows the crafting of apprentice arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Arcanist in Appendix 4. You may use the Research downtime action to ask a question relating to Magic Items specifically. Start the first event after you take this Feat with the Greater Eye of the Shaper item.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Journeyman Arcanist",
                   "prequisites" : "Apprentice Arcanist",
                   "art" : "gem-chain2",
-                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. Start the first event after you take this Feat with the Lesser Way Stone item.",
+                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Start the first event after you take this Feat with the Lesser Way Stone item.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Master Arcanist",
                   "prequisites" : "Journeyman Arcanist",
                   "art" : "gem-chain3",
-                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Master Arcanist in Appendix 4. Start the first event after you take this Feat with the Casting Crystal item.",
+                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Master Arcanist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with the Casting Crystal item.",
                   "keywords" : ["Arcanist", "Crafting"]
               }
           ]
@@ -585,29 +571,43 @@ const featJson = {
                   "featName" : "Student Blacksmith",
                   "prequisites" : "Nothing",
                   "art" : "wayforge",
-                  "description" : "Allows the crafting of student blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Student Blacksmith in Appendix 4. Start the first event after you take this Feat with the Fortifying Leathers item.",
+                  "description" : "Allows the crafting of student blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Student Blacksmith in Appendix 4. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. Start the first event after you take this Feat with the Fortifying Leathers item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Apprentice Blacksmith",
                   "prequisites" : "Student Blacksmith",
                   "art" : "wayforge1",
-                  "description" : "Allows the crafting of apprentice blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Blacksmith in Appendix 4. Start the first event after you take this Feat with the Creviced Steel item.",
+                  "description" : "Allows the crafting of apprentice blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Blacksmith in Appendix 4. You may use the Research downtime action to ask a question relating to smithing. You may repair Light Armour. Start the first event after you take this Feat with the Creviced Steel item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Journeyman Blacksmith",
                   "prequisites" : "Apprentice Blacksmith",
                   "art" : "wayforge2",
-                  "description" : "Allows the crafting of journeyman blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Blacksmith in Appendix 4. Start the first event after you take this Feat with the Fear of the Wicked item.",
+                  "description" : "Allows the crafting of journeyman blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Blacksmith in Appendix 4. You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may repair Heavy Armour. Start the first event after you take this Feat with the Fear of the Wicked item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Master Blacksmith",
                   "prequisites" : "Journeyman Blacksmith",
                   "art" : "wayforge3",
-                  "description" : "Allows the crafting of master blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Master Blacksmith in Appendix 4. Start the first event after you take this Feat with True Foe’s Weapon item.",
+                  "description" : "Allows the crafting of master blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Master Blacksmith in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with True Foe’s Weapon item.",
                   "keywords" : ["Crafting", "Forge"]
+              }
+          ]
+      },
+      ,
+      {
+          "pathName" : "Way of Crafting",
+          "featPathColour" : "teal",
+          "feats":[
+              {
+                  "featName" : "Tireless Crafting",
+                  "prequisites" : "Student Arcanist Or Student Alchemist",
+                  "art" : "coffee-cup",
+                  "description" : "<span style='font-size:12px;'>You may submit a Crafting action to the Event Team once each day on the Friday and Saturday of an event. This Crafting action may only produce Consumable items. <b>This action must be submitted before 10pm.</b></br></br> The cost for the action is the recipe cost plus one ingredient per item, per level. This means that each Student level item costs one additional ingredient and a Master level item costs four additional ingredients. Three Student level items will cost an additional three ingredients, three Master level items will cost an additional twelve ingredients. You will receive the items at Time In the following day.</span>",
+                  "keywords" : ["<span style=''>Crafting</span>"]
               }
           ]
       },
@@ -640,7 +640,7 @@ const featJson = {
                   "featName" : "Merchant",
                   "prequisites" : "Nothing",
                   "art" : "merchant",
-                  "description" : "You have a steady stream of income. Each event you attend, gain 6 additional coins. This Feat may be taken multiple times, up to 3 times",
+                  "description" : "You have a steady stream of income. Each event you attend, gain 30 additional Pingin. This Feat may be taken multiple times, up to 3 times.",
                   "keywords" : ["Multiple", "Professions"]
               },
               {
@@ -861,13 +861,6 @@ const featJson = {
           "featPathColour" : "olive",
           "feats":[
               {
-                  "featName" : "Alchemy Lore",
-                  "prequisites" : "Nothing",
-                  "art" : "drink-me",
-                  "description" : "You have extensively studied the secrets of potions, poisons, and their ingredients. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. You may use the Research downtime action to ask a question relating to alchemical lore. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
-                  "keywords" : ["Scholar"]
-              },
-              {
                   "featName" : "Anatomist",
                   "prequisites" : "Nothing",
                   "art" : "anatomy",
@@ -896,10 +889,10 @@ const featJson = {
                   "keywords" : ["Scholar"]
               },
               {
-                  "featName" : "Smithing Lore",
-                  "prequisites" : "Nothing",
-                  "art" : "gear-hammer",
-                  "description" : "<span>You have studied the art of metalwork and its uses in making weapons, armour, and other items. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. You may use the Research downtime action to ask a question relating to smithing lore. <p id='hrId'>You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also get additional relevant information throughout events at times deemed relevant by the Event Team</p></span>",
+                  "featName" : "Spiritual Healer",
+                  "prequisites" : "Anatomist",
+                  "art" : "prayer",
+                  "description" : "This character has training in tending to spiritual wounds as well as physical wounds, they specialize in the identification and treatment of Afflictions. <br/><br/>You may open Lingering Wounds with 10s RP even if the card lists a longer time. Also, you may read and open Affliction cards even if you do not otherwise meet the requirements to do so.<br/><br/> You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
                   "keywords" : ["Scholar"]
               }
           ]
@@ -1001,7 +994,7 @@ const downtimeJson = {
                   "featName" : "Analyze",
                   "prequisites" : "<span id='analyze'>Scholar Feats</span>",
                   "art" : "magnifying-glass",
-                  "description" : "<span id='analyze2'>Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with Scholar Feats, and the Lore Feat must match the type of item, i.e. weapon items can only be studied by characters with Smithing Lore, magical foci by characters with Magic Lore, and potions by characters with Alchemy Lore.</span>",
+                  "description" : "<span id='analyze2'>Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with appropriate Crafting Feats, and Feat must match the type of item, i.e. weapon items can only be studied by characters with Apprentice Blacksmith, magical foci by characters with Apprentice Arcanist, and potions by characters with Apprentice Alchemist.</span>",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1023,6 +1016,22 @@ const downtimeJson = {
                   "prequisites" : "Non-Peacesworn Only",
                   "art" : "guards",
                   "description" : "Your character stands guard duty in a Settlement, and gets paid 2 coins as a reward. This action is only available in smaller Settlements. A Peacesworn character cannot use the Guard action.",
+                  "keywords" : ["Downtime"]
+              },
+              ,
+              {
+                  "featName" : "Learn Location",
+                  "prequisites" : "None",
+                  "art" : "treasure-map",
+                  "description" : "When a Character takes the Travel Action they may only Travel to Locations that their character knows, if they wish to add to that list they may use this Action to do so. This Action costs 10 pingin and requires another character who knows the target location <b>and is in the same location</b> as you to take the Teach Location Action and list you as their student. If these conditions are met your character will add that location to their list and move to the named Location as if they had taken the Travel Action.",
+                  "keywords" : ["Downtime"]
+              },
+              ,
+              {
+                  "featName" : "Teach Location",
+                  "prequisites" : "None",
+                  "art" : "annexation",
+                  "description" : "This Action allows a Character to teach one of the Locations on their list to another character. This Action costs 10 pingin and requires another character to take the Learn Location Action and list you as their Teacher. If these conditions are met the student will add that location to their list and both of you will move to the named Location as if you had taken the Travel Action. Multiple Characters may learn from you in the same action, but all must be in the same location as you when they take the Learn Location Action.",
                   "keywords" : ["Downtime"]
               },
               {

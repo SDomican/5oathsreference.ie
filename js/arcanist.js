@@ -248,12 +248,14 @@ function apendText(featPath){
       featsArray.forEach(feat => {
 
         let featName = feat.featName;
-        let featRequirements = feat.ingeredientCost.toString().replaceAll(",", ", ");
+        let featRequirements = feat.ingeredientCost.toString();
+        featRequirements = replaceAll(featRequirements,",", ", ");
         let art = feat.art;
         let description = feat.description;
         let keywords = feat.craftableKeyword;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
-        let materialCosts = feat.ingeredientCost.toString().replaceAll(",", ", ");
+        let materialCosts = feat.ingeredientCost.toString();
+        materialCosts = replaceAll(materialCosts, ",", ", ");
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -332,4 +334,12 @@ for(let element of itemIconElements){
 }
 
 document.addEventListener("click", e => hidePopup(e), true)
+
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+}
+
+function replaceAll(str, find, replace) {
+  return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+}
   

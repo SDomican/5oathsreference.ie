@@ -278,13 +278,6 @@ const spellJson = {
                   "magicSchool" : ["Tr"]
               },
               {
-                  "featName" : "Protection Strikedown 5 minute",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Protection Strikedown 5 minutes",
-                  "art" : "protection-strikedown",
-                  "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
-                  "magicSchool" : ["Tr"]
-              },
-              {
                   "featName" : "Rampage 10s Beast",
                   "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage Beast 10 seconds</span>",
                   "art" : "rampage-beast",
@@ -737,13 +730,6 @@ const spellJson = {
                   "magicSchool" : ["Mass","Tr"]
               },
               {
-                  "featName" : "Mass Protection Strikedown 5 minute",
-                  "call" : "I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Mass Protection Strikedown 5 minute",
-                  "art" : "mass-protection-strikedown",
-                  "description" : "The target is protected from the specified Effect for the duration, and should call “No Effect” to any instances of it while protected. This does not remove any instances of any Effect they are already under when they get take the Protection Effect.",
-                  "magicSchool" : ["Mass", "Tr"]
-              },
-              {
                   "featName" : "Rampage 30s",
                   "call" : "<span id='rampage'>I call upon the power of (an external greater power) to (brief description of desired outcome) and cast Rampage 30 seconds</span>",
                   "art" : "rampage30",
@@ -761,6 +747,8 @@ const spellJson = {
       }
   ]
 }
+
+
 
 var mq = window.matchMedia( "(max-width: 480px)" );
 var lq = window.matchMedia( "only screen and (min-width: 769px) and (max-width: 1400px)" );
@@ -855,8 +843,8 @@ function apendText(featPath){
   }
 
 if(isLaptop){
-    featCode = featCode.replaceAll("<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed", "<span style='font-size:11px;'><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed");
-    featCode = featCode.replaceAll("<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
+    featCode = replaceAll(featCode, "<span><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed", "<span style='font-size:11px;'><p>For the duration of the Effect, the target(s) of this Effect becomes well disposed");
+    featCode = replaceAll(featCode, "<span>This Effect is instantaneous and may only be cast on the source. A barrier", "<span style='font-size:11px;'>This Effect is instantaneous and may only be cast on the source. A barrier");
 }
 
 document.getElementById("featsContainer").innerHTML += featCode;
@@ -914,4 +902,12 @@ for(let element of itemIconElements){
 }
 
 document.addEventListener("click", e => hidePopup(e), true);
+
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+  }
+  
+  function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+  }
   

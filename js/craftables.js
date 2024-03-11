@@ -14,14 +14,6 @@ const blacksmithJson = {
                   "ingeredientCost" : ["3 Bronze", "1 Dung", "1 Pelt"]
               },
               {
-                  "featName" : "Hamstringing Knife",
-                  "art" : "plain-dagger",
-                  "itemType" : "Small weapon",
-                  "description" : "This item is a small weapon. Attunes to hand. While attuned, when you activate the Tripping Blow Feat with this small weapon, you may additionally generate the Strikedown Effect on your next successful weapon blow with this weapon within 10s. This is in addition to the Damage effect of a weapon blow",
-                  "craftableKeyword" : ["Durable"],
-                  "ingeredientCost" : ["3 Copper", "1 Fang", "1 Glass", "1 Heart"]
-              },
-              {
                   "featName" : "Improved Steel",
                   "art" : "all-for-one",
                   "itemType" : "Heavy armour",
@@ -324,7 +316,7 @@ const spellJson = {
               {
                   "featName" : "Bracing Brew",
                   "art" : "protection-strikedown",
-                  "description" : " This item is a potion. On use, generate the Protection Strikedown 5 min and Protection Push 5 min Effects.",
+                  "description" : "This item is a potion. On use, generate the Protection Push 10 min Effect. ",
                   "craftableKeyword" : ["Consumable"],
                   "ingeredientCost" : ["1 Bark", "1 Pelt", "1 Flower"]
               },
@@ -510,12 +502,14 @@ function apendText(featPath){
       featsArray.forEach(feat => {
 
         let featName = feat.featName;
-        let featRequirements = feat.ingeredientCost.toString().replaceAll(",", ", ");
+        let featRequirements = feat.ingeredientCost.toString();
+        featRequirements = replaceAll(featRequirements, ",", ", ");
         let art = feat.art;
         let description = feat.description;
         let keywords = feat.craftableKeyword;
         let keywordsText = "<hr id='hrId'><p id='popupKeywordTextPTag'><i id='popupKeywordText'>Keywords: ";
-        let materialCosts = feat.ingeredientCost.toString().replaceAll(",", ", ");
+        let materialCosts = feat.ingeredientCost.toString();
+        materialCosts = replaceAll(materialCosts, ",", ", ");
 
         for (let i = 0; i < keywords.length; i++) {
           
@@ -547,7 +541,7 @@ function apendText(featPath){
           "</div>";
 
           if(mq.matches){
-            featCode = featCode.replaceAll("(Cost): ", "");
+            featCode = replaceAll("(Cost): ", "");
             featCode = featCode.replace("item-wider", "item");
             featCode = featCode.replace("item-text-container-taller", "item-text-container");
             featCode = featCode.replace("item-icon iconsize-consumables", "item-icon iconsize");
@@ -596,4 +590,13 @@ for(let element of itemIconElements){
 }
 
 document.addEventListener("click", e => hidePopup(e), true)
+
+
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+  }
+  
+  function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+  }
   

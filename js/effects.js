@@ -173,7 +173,7 @@ const spellJson = {
                   "featName" : "Diagnose",
                   "call" : "Diagnose",
                   "art" : "caduceus",
-                  "description" : "This Effect is instantaneous and has a range of 5cm from an unresisting target. They should OOC tell the source how many Body hits they have left on each location as well as the character’s maximum Body hits on each location, current and maximum Vigour, as well as if they are under the Effects of Disease, Venom, or if they are bleeding. In addition, a Referee may tell the source about special Effects that the target is suffering from. This Effect is considered to always have the Piercing Modifier.",
+                  "description" : "This Effect is instantaneous and has a range of 5cm from an unresisting target. The target should out of character answer any questions the source asks about their current and maximum Body Hits, current and maximum Vigour, and whether or not they are Bleeding or under any other effects such as Disease or Venom. In addition, a Referee may tell the source about special Effects that the target is suffering from. This Effect is considered to always have the Piercing Modifier.",
                   "magicSchool" : ["Effect","<span id='keyword' class='tooltip' data-tooltip='An Effect with the Piercing Modifier bypasses Ward, affecting the target as if there was no Ward without removing a charge. Some effects are always considered to have the Piercing Effect and do not need to have the Modifier called. These effects include: Detect, Diagnose, and Notice Bleeding.'data-tooltip-position='bottom'>Piercing</span>"]
               },
               {
