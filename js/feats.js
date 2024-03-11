@@ -386,7 +386,7 @@ const featJson = {
                 "featName" : "Skullduggery",
                 "prequisites" : "Nothing",
                 "art" : "stiletto",
-                "description" : "After 30s Concentration and RP, you may be free of any IC restraints your character has been the subject of. You may search with only 10s of roleplay action following all other searching rules, and should call “Quickened Searching” while doing so.",
+                "description" : "After 30 seconds of Concentration and roleplay, you may be free of any in-character restraints your character has been the subject of. You may search with only 10 seconds of roleplay action following all other searching rules, and should call “Quickened Searching” while doing so.",
                 "keywords" : ["Combat","Shadowed Blades"]
             },
               {
