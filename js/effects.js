@@ -88,13 +88,6 @@ const spellJson = {
                   "magicSchool" : ["Effect"]
               },
               {
-                  "featName" : "Strikedown",
-                  "call" : "Strikedown",
-                  "art" : "strikedown",
-                  "description" : "This Effect is instantaneous. The target is made to fall to the ground. Their torso must fall on the ground before they can get back up. If it is OOC unsafe to do so, they may kneel down and not take any offensive action (including Spellcasting) for 5s instead.",
-                  "magicSchool" : ["Effect"]
-              },
-              {
                   "featName" : "Halt",
                   "call" : "Halt (Duration)",
                   "art" : "halt",
@@ -386,7 +379,7 @@ const spellJson = {
                   "featName" : "Effect priority",
                   "call" : "N/A",
                   "art" : "priority",
-                  "description" : "<span>Effects are broken into physical effects and mental effects. If one Effect would interfere with carrying out another Effect, physical takes precedence over mental, and the first listed Effect gets resolved first. If the original Effect would still be in duration when the interfering Effect is resolved you then resolve the original Effect until the duration is over.<p id='hrId'> E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.</p><hr/><div class='effectInteraction' id='hrId'><i id='hrId'>Physical Effects priority</i><ul id='hrId'><li id='hrId'>Fumble</li><li id='hrId'>Push</li><li id='hrId'>Strikedown</li><li id='hrId'>Halt</li></ul></div><div class='effectInteraction2'><i id='hrId'>Mental Effects priority</i><ul><li id='hrId'>Lure</li><li id='hrId'>Fear</li><li id='hrId'>Rampage</li><li id='hrId'>Sleep</li><li id='hrId'>Daze</li><li id='hrId'>Charm</li></ul></div></span>",
+                  "description" : "<span>Effects are broken into physical effects and mental effects. If one Effect would interfere with carrying out another Effect, physical takes precedence over mental, and the first listed Effect gets resolved first. If the original Effect would still be in duration when the interfering Effect is resolved you then resolve the original Effect until the duration is over.<p id='hrId'> E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.</p><hr/><div class='effectInteraction' id='hrId'><i id='hrId'>Physical Effects priority</i><ul id='hrId'><li id='hrId'>Fumble</li><li id='hrId'>Push</li><li id='hrId'>Halt</li></ul></div><div class='effectInteraction2'><i id='hrId'>Mental Effects priority</i><ul><li id='hrId'>Lure</li><li id='hrId'>Fear</li><li id='hrId'>Rampage</li><li id='hrId'>Sleep</li><li id='hrId'>Daze</li><li id='hrId'>Charm</li></ul></div></span>",
                   "magicSchool" : ["Effect"]
               }
           ]
