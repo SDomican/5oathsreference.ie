@@ -892,7 +892,7 @@ const featJson = {
                   "featName" : "Spiritual Healer",
                   "prequisites" : "Anatomist",
                   "art" : "prayer",
-                  "description" : "This character has training in tending to spiritual wounds as well as physical wounds, they specialize in the identification and treatment of Afflictions. <br/><br/>You may open Lingering Wounds with 10s RP even if the card lists a longer time. Also, you may read and open Affliction cards even if you do not otherwise meet the requirements to do so.<br/><br/> You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
+                  "description" : "This character has training in tending to spiritual wounds as well as physical wounds, they specialize in the identification and treatment of Afflictions. <br/><br/>You may open Lingering Wounds with 10 seconds of roleplay even if the card lists a longer time. Also, you may read and open Affliction cards even if you do not otherwise meet the requirements to do so.<br/><br/> You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
                   "keywords" : ["Scholar"]
               }
           ]
