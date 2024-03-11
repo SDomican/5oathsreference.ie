@@ -407,7 +407,7 @@ const featJson = {
                 "featName" : "Throwing Weapon Expert",
                 "prequisites" : "Nothing",
                 "art" : "thrown-daggers",
-                "description" : "You can generate the Repair effect on a Throwing Weapon after 10s of roleplay instead of the usual 60s.",
+                "description" : "You can generate the Repair effect on a Throwing Weapon after 10 seconds of roleplay instead of the usual 60 seconds.",
                 "keywords" : ["Combat","Shadowed Blades"]
               },
               {
