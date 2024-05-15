@@ -29,7 +29,7 @@ const spellJson = {
           {
             "featName" : "Student Ritual Effigy",
             "art" : "puppet",
-            "description" : "This item is a crystal. On use, generates the Protection Daze 5 minute and Protection Charm 5 minute Effects.",
+            "description" : "This item is an effigy. On use, gives +5 to the ritual score of the ritual it is used in.",
             "craftableKeyword" : ["Consumable"],
             "ingeredientCost" : ["1 Heart", "1 Wax"]
         },
