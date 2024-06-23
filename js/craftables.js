@@ -541,7 +541,7 @@ function apendText(featPath){
           "</div>";
 
           if(mq.matches){
-            featCode = replaceAll("(Cost): ", "");
+            featCode = replaceAll(featCode, "(Cost): ", "");
             featCode = featCode.replace("item-wider", "item");
             featCode = featCode.replace("item-text-container-taller", "item-text-container");
             featCode = featCode.replace("item-icon iconsize-consumables", "item-icon iconsize");
