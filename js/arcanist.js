@@ -77,7 +77,7 @@ const spellJson = {
           {
             "featName" : "Apprentice Windfall Arcanistry",
             "art" : "windfall",
-            "description" : "Randomly produces 3 of a Student level Consumable or a single Student level Durable Item.",
+            "description" : "Randomly produces 3 of an Apprentice level Consumable or a single Student level Durable Item.",
             "craftableKeyword" : ["Windfall"],
             "ingeredientCost" : ["1 metal", "1 animal", "1 plant", "3 processed"]
           },
@@ -153,7 +153,7 @@ const spellJson = {
             {
             "featName" : "Journeyman Windfall Arcanistry",
             "art" : "windfall",
-            "description" : "Randomly produces 3 of a Student level Consumable or a single Student level Durable Item.",
+            "description" : "Randomly produces 3 of a Journeyman level Consumable or a single Student level Durable Item.",
             "craftableKeyword" : ["Windfall"],
             "ingeredientCost" : ["1 metals", "1 animals", "2 plants", "4 processed"]
             },
@@ -208,7 +208,7 @@ const spellJson = {
             {
             "featName" : "Master Windfall Arcanistry",
             "art" : "windfall",
-            "description" : "Randomly produces 3 of a Student level Consumable or a single Student level Durable Item.",
+            "description" : "Randomly produces 3 of a Master level Consumable or a single Student level Durable Item.",
             "craftableKeyword" : ["Windfall"],
             "ingeredientCost" : ["1 metals", "2 animals", "3 plants", "4 processed"]
             },
