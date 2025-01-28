@@ -182,6 +182,13 @@ const featJson = {
                   "keywords" : ["Combat", "Martial Prowess"]
               },
               {
+                "featName" : "Voice of Command",
+                "prequisites" : "1 Martial Prowess Feat",
+                "art" : "conqueror",
+                "description" : "Reactively spend 1 Vigour to gain Immunity Mute 10s.",
+                "keywords" : ["Resistance", "Martial Prowess"]
+              },
+              {
                   "featName" : "Second Wind",
                   "prequisites" : "3 Martial Prowess Feats",
                   "art" : "pummeled",
@@ -313,6 +320,13 @@ const featJson = {
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
+                "featName" : "Ear to the Ground",
+                "prequisites" : "Nothing",
+                "art" : "human-ear",
+                "description" : "Each event you attend you will receive reports on recent events from across the Five Realms.",
+                "keywords" : ["Shadowed Blades"]
+            },
+              {
                   "featName" : "Fatal Blow",
                   "prequisites" : "4 Shadowed Blades Feats",
                   "art" : "pierced-heart",
@@ -330,7 +344,7 @@ const featJson = {
                   "featName" : "Local Informants",
                   "prequisites" : "Nothing",
                   "art" : "spy",
-                  "description" : "Each time you take this Feat select one of the realms. Each event you attend you will receive a report on recent events in that realm",
+                  "description" : "For each time you have purchased this Feat, you may submit one Research action relating to recent events and activities in Tirneach. The availability of information will be based on your Feats. Using this Feat without access to information from a Realm (either through Ear to the Ground or a Realm Feat) will produce no additional information. This Feat may be taken up to 3 times.",
                   "keywords" : ["Multiple", "Shadowed Blades"]
               },
               {
@@ -348,18 +362,18 @@ const featJson = {
                   "keywords" : ["Combat", "Shadowed Blades"]
               },
               {
-                  "featName" : "Pointed Questions",
-                  "prequisites" : "1 Shadowed Blades Feat",
-                  "art" : "discussion",
-                  "description" : "You may use the Research downtime action to ask a question about recent events and activities in Tirneach. The availability of information will be based on your Feats. Taking this Feat without the Local Informants Feats will produce no additional information.",
-                  "keywords" : ["Shadowed Blades"]
-              },
-              {
                   "featName" : "Puncture",
                   "prequisites" : "Penetrating Strike Feat",
                   "art" : "sun-spear",
                   "description" : "When you activate the Penetrating Strike Feat with either a large weapon or a small weapon you may additionally generate the Through Effect on your next successful weapon strike within 10s. This is in combination with the Damage Effect of a weapon blow",
                   "keywords" : ["Combat", "Shadowed Blades"]
+              },
+              {
+                "featName" : "Roll with the Blow",
+                "prequisites" : "1 Shadowed Blades Feat",
+                "art" : "helmet-head-shot",
+                "description" : "Reactively spend 1 Vigour to gain Immunity Push 10s.",
+                "keywords" : ["Combat", "Shadowed Blades", "Resistance"]
               },
               {
                   "featName" : "Severed Artery",
@@ -400,14 +414,14 @@ const featJson = {
                   "featName" : "Steering the Conversation",
                   "prequisites" : "1 Shadowed Blades Feat",
                   "art" : "conversation",
-                  "description" : "You may submit a piece of information (true or false) to be included in reports from a specific realm. The Event Team will decide how this information affects the reports.",
+                  "description" : "You may submit a piece of information to be circulated amongst the well-informed residents of a Realm you receive information from. This information may be true or false and you will not be identified as its source. This information will also be reflected in reports on events in that realm.",
                   "keywords" : ["Shadowed Blades"]
               },
               {
                 "featName" : "Throwing Weapon Expert",
                 "prequisites" : "Nothing",
                 "art" : "thrown-daggers",
-                "description" : "You can generate the Repair effect on a Throwing Weapon after 10 seconds of roleplay instead of the usual 60 seconds.",
+                "description" : "You may throw a Throwing Weapon picked up from the ground without repairing it.",
                 "keywords" : ["Combat","Shadowed Blades"]
               },
               {
@@ -432,17 +446,24 @@ const featJson = {
               },
               {
                   "featName" : "Die Hard",
-                  "prequisites" : "Sturdy Flesh Feat",
+                  "prequisites" : "1 Sturdy Flesh Feat",
                   "art" : "time-bomb",
                   "description" : "Your death count is extended by 120 seconds (to 420 seconds total, or 7 minutes).",
                   "keywords" : ["Sturdy Flesh"]
               },
               {
+                "featName" : "Strong Grip",
+                "prequisites" : "1 Sturdy Flesh Feat",
+                "art" : "hand-grip",
+                "description" : "Reactively spend 1 Vigour to gain Immunity Fumble 10s.",
+                "keywords" : ["Sturdy Flesh", "Resistance"]
+            },
+              {
                   "featName" : "Fortified Resistance",
                   "prequisites" : "3 Sturdy Flesh Feats",
                   "art" : "armor-upgrade",
                   "description" : "When you spend 1 Vigour to activate any Resistance Feat, gain Immunity 1 minute to the Effect listed in the Feat instead of Immunity 10s.",
-                  "keywords" : ["Sturdy Flesh"]
+                  "keywords" : ["Sturdy Flesh", "Resistance"]
               },
               {
                   "featName" : "Immutable Body",
@@ -459,13 +480,6 @@ const featJson = {
                   "keywords" : ["Resistance", "Sturdy Flesh"]
               },
               {
-                  "featName" : "Plague Bearer",
-                  "prequisites" : "2 Sturdy Flesh Feats",
-                  "art" : "plague-doctor-profile",
-                  "description" : "While you are under the Disease Effect you may generate the Disease Effect by weapon blow for 2 Vigour.",
-                  "keywords" : ["Sturdy Flesh"]
-              },
-              {
                   "featName" : "Seasoned Veteran",
                   "prequisites" : "2 Sturdy Flesh Feats",
                   "art" : "medal",
@@ -477,7 +491,7 @@ const featJson = {
                   "prequisites" : "3 Sturdy Flesh Feats",
                   "art" : "no-scorpion",
                   "description" : "Reactively spend 1 Vigour to gain Immunity Venom 10s.",
-                  "keywords" : ["Sturdy Flesh"]
+                  "keywords" : ["Sturdy Flesh", "Resistance"]
               },
               {
                   "featName" : "Veteran",
@@ -503,28 +517,28 @@ const featJson = {
                   "featName" : "Student Alchemist",
                   "prequisites" : "Nothing",
                   "art" : "test-tube-held",
-                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. Start the first event after you take this Feat with the Tonic Potion item.",
+                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. Start the first event after you take this Feat with three Tonic Potion item.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Apprentice Alchemist",
                   "prequisites" : "Student Alchemist",
                   "art" : "test-tube-held1",
-                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. You may use the Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with the Flesh and Steel item.",
+                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. You may use the Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with three Flesh and Steel items.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Journeyman Alchemist",
                   "prequisites" : "Apprentice Alchemist",
                   "art" : "test-tube-held2",
-                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. Start the first event after you take this Feat with the Dazzling Liquid item.",
+                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. Start the first event after you take this Feat with three Dazzling Liquid items.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Master Alchemist",
                   "prequisites" : "Journeyman Alchemist",
                   "art" : "test-tube-held3",
-                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action.. Your character knows all the recipes listed under Master Alchemist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with the Revitalising Tonic item.",
+                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action.. Your character knows all the recipes listed under Master Alchemist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Revitalising Tonic items.",
                   "keywords" : ["Alchemist", "Crafting"]
               }
           ]
@@ -537,7 +551,7 @@ const featJson = {
                   "featName" : "Student Arcanist",
                   "prequisites" : "Nothing",
                   "art" : "gem-chain",
-                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. You may spend 1 minute concentrating on a magical focus, scroll, or talisman and generate the Identify Effect. Start the first event after you take this Feat with the Student Ritual Effigy item.",
+                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. You may spend 1 minute concentrating on a magical focus, scroll, or talisman and generate the Identify Effect. Start the first event after you take this Feat with three Student Ritual Effigy items.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
@@ -551,14 +565,14 @@ const featJson = {
                   "featName" : "Journeyman Arcanist",
                   "prequisites" : "Apprentice Arcanist",
                   "art" : "gem-chain2",
-                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Start the first event after you take this Feat with the Lesser Way Stone item.",
+                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Start the first event after you take this Feat with three Lesser Way Stone items.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Master Arcanist",
                   "prequisites" : "Journeyman Arcanist",
                   "art" : "gem-chain3",
-                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Master Arcanist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with the Casting Crystal item.",
+                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Master Arcanist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Casting Crystal items.",
                   "keywords" : ["Arcanist", "Crafting"]
               }
           ]
@@ -640,7 +654,7 @@ const featJson = {
                   "featName" : "Merchant",
                   "prequisites" : "Nothing",
                   "art" : "merchant",
-                  "description" : "You have a steady stream of income. Each event you attend, gain 30 additional Pingin. This Feat may be taken multiple times, up to 3 times.",
+                  "description" : "<span>You have a steady stream of income and know people who can access equipment, for a reasonable price... Each event you attend, gain 30 additional Pingin. This Feat may be taken multiple times, up to 3 times.</span><br/><br/>Your character may use the Trade action during downtime to purchase a single Durable or Consumable item of a level no greater than the number of times you have taken the Merchant Feat.",
                   "keywords" : ["Multiple", "Professions"]
               },
               {
@@ -649,211 +663,14 @@ const featJson = {
                   "art" : "miner",
                   "description" : "<span>You are accustomed to working in the mines and extracting useful metals. Each event you attend, gain 3 additional metal crafting ingredients selected at random from the ingredients common in your character’s Location at the end of downtime. Your character may use the Gather action during downtime to search for a specific metal crafting ingredient (one of bronze, copper, gold, iron, silver), and will receive 1 of that ingredient for each time you have taken this Feat. This Feat may be taken multiple times, up to 3 times.</span>",
                   "keywords" : ["Multiple", "Professions"]
-              }
-          ]
-      },
-      {
-          "pathName" : "Way of the ritualist",
-          "featPathColour" : "navy",
-          "feats":[
-              {
-                  "featName" : "Benediction of the Shaper's Forgiveness",
-                  "prequisites" : "Nothing",
-                  "art" : "caduceus",
-                  "description" : "The Shaper understands that even their most devoted followers will sometimes fail, and need help to do better. Led by an initiate of the Shaper, each participant must loudly confess to all present a way that they have personally failed, and how they resolve to do better. Upon successful completion of this ritual, all participants gain the blessing of Cure Protection Healing, Full Global Healing.",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "None",
-                  "difficulty" : "10"
               },
               {
-                  "featName" : "Binding Ties",
-                  "prequisites" : "Nothing",
-                  "art" : "sun-priest",
-                  "description" : "This ritual is used to ensure loyalty among Torchbearers and their allies. During the ritual, the leader must declare their loyalty to their fellows, and the celebrants take it in turns to swear loyalty to each other on something important to them. Upon successful completion of the ritual, all participants take: Global Sunder Gwyllt, Global Gwyllt Bane, Protection Charm 1 hour, Protection Rampage 1 hour, Protection Lure 1 hour.",
-                  "keywords" : ["Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "1 Incense, 1 Iron",
-                  "difficulty" : "30"
-              },
-              {
-                  "featName" : "Chastisement of the Traitorous Hands",
-                  "prequisites" : "Nothing",
-                  "art" : "spiked-halo",
-                  "description" : "Punishment ritual. The ritualist and other participants detail how the target has betrayed them. Following successful completion of this ritual, the target loses the ability to generate the Repair Effect. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.",
-                  "keywords" : ["Punishment", "Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "1 Root, 1 Bone",
-                  "difficulty" : "15"
-              },
-              {
-                  "featName" : "Consult the Lost Tome",
-                  "prequisites" : "Nothing",
-                  "art" : "burning-book",
-                  "description" : "<span>Rather than summoning a specific spirit, you instead shout a question into the afterlife for all to hear. You ask a question of the collective spirit’s wisdom instead of the knowledge of a single being, and within 24 hours of successful completion of this ritual, you receive an answer. This answer may be “that knowledge is not known to those that have passed.” Repeated use of this ritual in a short span of time may result in increased Undead activity. This ritual is known to not receive knowledge from those who have been subject to Quicken the Inevitable Solace.</span>",
-                  "keywords" : ["Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "None",
-                  "difficulty" : "20"
-              },
-              {
-                  "featName" : "Grand Ritual ",
-                  "prequisites" : "Ritual Celebrant",
-                  "art" : "over-infinity",
-                  "description" : "<span><p id='hrId'>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5. At the end of the combined ritual, apply the effects of both rituals in the order of your choosing.</p><p id='hrId'>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to both rituals.</p><p id='hrId'>A Referee must be present if either of the rituals have the Referee keyword.</p></span>",
-                  "keywords" : ["Ritualist"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "N/A"
-              },
-              {
-                  "featName" : "Honour the Shaper's Champions ",
-                  "prequisites" : "Nothing",
-                  "art" : "laurels",
-                  "description" : "Initiates of the Shaper learn that while humility is important, so too is proper pride in one’s achievements. Each participant must loudly proclaim one great deed they have done for the Shaper that day, and the ritualist and other participants must praise them for it. Upon successful completion of this ritual, all participants gain the benefit of: Cure Protection Repair, Full Global Repair",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "None",
-                  "difficulty" : "10"
-              },
-              {
-                  "featName" : "Invigoration",
-                  "prequisites" : "Nothing",
-                  "art" : "fluffy-trefoil",
-                  "description" : "<p id='hrId'>The Ritualist energises all participants in the ritual, drawing on either a greater source of power, their prior deeds, or their future challenges to invigorate their participants. Upon Successful completion of this ritual, all participants regain all Vigour.</p><p id='hrId'>When performing this ritual, the Ritual Leader must choose which of the Arcane or CotS keywords applies to the performance and adjust their performance appropriately. They cannot apply both.</p>",
-                  "keywords" : ["Ritualist", "Arcane", "CotS"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "5"
-              },
-              {
-                  "featName" : "Indelible Mark",
-                  "prequisites" : "Nothing",
-                  "art" : "maze-cornea",
-                  "description" : "<span><p id='hrId'>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p id='hrId'> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p></span>",
-                  "keywords" : ["Ritualist", "Arcane", "Referee"],
-                  "materialCosts" : "1 Ink, 1 Heart",
-                  "difficulty" : "15"
-              },
-              {
-                  "featName" : "Make Peace Before War",
-                  "prequisites" : "Nothing",
-                  "art" : "olive",
-                  "description" : "<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p id='hrId'>All participants are also affected by Venom.</p><p id='hrId'> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p></span>",
-                  "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "1 Incense, 1 Heart",
-                  "difficulty" : "30"
-              },
-              {
-                  "featName" : "Moon Soaked Blades",
-                  "prequisites" : "Nothing",
-                  "art" : "moon",
-                  "description" : "<span>Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p></span>",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "1 Silver, 1 Fang",
-                  "difficulty" : "20"
-              },
-              {
-                  "featName" : "Moonlit Vigil",
-                  "prequisites" : "Nothing",
-                  "art" : "evil-moon",
-                  "description" : "<span>Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p></span>",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "1 Bone, 1 Seed",
-                  "difficulty" : "20"
-              },
-              {
-                  "featName" : "Penance of Leaden Blood",
-                  "prequisites" : "Nothing",
-                  "art" : "death-juice",
-                  "description" : "<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged </p><p id='hrId'>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p></span>",
-                  "keywords" : ["Punishment", "Ritualist", "Arcane"],
-                  "materialCosts" : "1 Parchment, 1 Wax",
-                  "difficulty" : "10"
-              },
-              {
-                  "featName" : "Quicken the Inevitable Solace",
-                  "prequisites" : "Nothing",
-                  "art" : "telefrag",
-                  "description" : "<span>Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p id='hrId'>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p></span>",
-                  "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "10"
-              },
-              {
-                  "featName" : "Ready Ritualist",
-                  "prequisites" : "1 Ritualist Feat",
-                  "art" : "tribal-pendant",
-                  "description" : "Each event you attend, gain 4 randomly chosen ingredients of types that are used for paying Ritual Material Costs.",
-                  "keywords" : ["Ritualist"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "N/A"
-              },
-              {
-                  "featName" : "Ritual Celebrant",
-                  "prequisites" : "Nothing",
-                  "art" : "robe",
-                  "description" : "Adds an additional +1 to the points generated when contributing to a ritual, either as a leader or just a regular participant. This Feat may be taken up to 4 times. The first time you take this Feat, you gain the ability to attune Ritual Texts",
-                  "keywords" : ["Multiple", "Ritualist"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "N/A"
-              },
-              {
-                  "featName" : "Sacrificial Rite",
-                  "prequisites" : "Sympathetic Ingredients",
-                  "art" : "sacrificial-dagger",
-                  "description" : "<span>When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat.<p id='hrId'>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p></span>",
-                  "keywords" : ["Ritualist"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "N/A"
-              },
-              {
-                  "featName" : "Sever the Unbreakable Bonds",
-                  "prequisites" : "Nothing",
-                  "art" : "breaking-chain",
-                  "description" : "<span>This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p id='hrId'>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p></span>",
-                  "keywords" : ["Ritualist", "Arcane"],
-                  "materialCosts" : "None",
-                  "difficulty" : "30"
-              },
-              {
-                  "featName" : "Shaper’s Blessing On The Flock",
-                  "prequisites" : "Nothing",
-                  "art" : "shepherds-crook",
-                  "description" : "<span>Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day.<p id='hrId'>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p></span>",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "1 Wax, 1 Gold",
-                  "difficulty" : "20"
-              },
-              {
-                  "featName" : "Solitude of Shame",
-                  "prequisites" : "Nothing",
-                  "art" : "heavy-thorny-triskelion",
-                  "description" : "<span>Punishment ritual. The ritualist and other participants detail the wrongs that the target has done to them. Following successful completion of this ritual, the target becomes immune to all protections, except Protection Repair, Protection Healing, and Protection Stop Bleed. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.</span>",
-                  "keywords" : ["Punishment", "Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "1 Dung, 1 Glass",
-                  "difficulty" : "15"
-              },
-              {
-                  "featName" : "Supreme Forgiveness ",
-                  "prequisites" : "Nothing",
-                  "art" : "kneeling",
-                  "description" : "<span>Influential and experienced initiates of the Shaper may sometimes feel confident enough in their knowledge of their Gods feelings to speak for them and forgive the crimes of their comrades in the Shapers name. The leader must deliver a speech extolling the virtues of the target of this ritual, the target must speak as to their crimes and what they have learned from their punishment, and all other participants must forgive these crimes. Upon successful completion of this ritual, all ongoing Punishment rituals on the target end.</span>",
-                  "keywords" : ["Ritualist", "CotS"],
-                  "materialCosts" : "None",
-                  "difficulty" : "30"
-              },
-              {
-                  "featName" : "Sympathetic Ingredients",
-                  "prequisites" : "1 Ritualist Feat",
-                  "art" : "incense",
-                  "description" : "When you lead or participate in a Ritual, ingredients may be used to pay its Material Costs as though they were any other ingredient of the same type. (The four types are metal, animal, plant, and processed material – so you could use bronze instead of iron, or fang instead of dung.)",
-                  "keywords" : ["Ritualist"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "N/A"
-              },
-              {
-                  "featName" : "Whisper With The Dead",
-                  "prequisites" : "Nothing",
-                  "art" : "divided-spiral",
-                  "description" : "The spirit of a dead character may be summoned to the ritual circle for 5 minutes if their corpse, part thereof, or an item of significance to that character (+10 to difficulty), is placed in the circle. They may freely converse with anyone in the ritual circle but cannot affect anyone physically. At the end of the 5 minutes they return to the land of the dead. Repeated or frivolous use of this ritual on the same target has been known to unsettle the spirits enough to create undead.",
-                  "keywords" : ["Referee", "Ritualist", "CotS"],
-                  "materialCosts" : "N/A",
-                  "difficulty" : "15"
-              }
+                "featName" : "Steadfast Negotiator",
+                "prequisites" : "1 Professions Feat",
+                "art" : "shaking-hands",
+                "description" : "<span>Reactively spend 1 Vigour to gain Immunity Charm 10s.</span>",
+                "keywords" : ["Professions", "Resistance"]
+            }
           ]
       },
       {
@@ -878,7 +695,7 @@ const featJson = {
                   "featName" : "Magic Lore",
                   "prequisites" : "Nothing",
                   "art" : "magic-lamp",
-                  "description" : "<span>You have been trained in the art of understanding magic and its rules on a deeper level. You may spend 1 minute concentrating on a magical focus,scroll, or talisman and generate the Identify Effect. You may use the Research downtime action to ask a question relating to magical lore. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.</span>",
+                  "description" : "<span>You have been trained in the art of understanding magic and its rules on a deeper level. You may use the Research downtime action to ask a question relating to magical lore. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may spend 1 minute concentrating on a Ritual Text and generate the Identify Effect. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.</span>",
                   "keywords" : ["Scholar"]
               },
               {
@@ -887,6 +704,13 @@ const featJson = {
                   "art" : "gift-of-knowledge",
                   "description" : "You have received extensive training in the tenets of the church. Gain a +1 bonus to your score for rituals you participate in that have the Church of the Shaper (CotS) keyword. You may use the Research downtime action to ask a question relating to religious lore. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.",
                   "keywords" : ["Scholar"]
+              },
+              {
+                "featName" : "Researcher’s Focus",
+                "prequisites" : "1 Scholar feat",
+                "art" : "archive-research",
+                "description" : "Reactively spend 1 Vigour to gain Immunity Daze 10s.",
+                "keywords" : ["Resistance","Scholar"]
               },
               {
                   "featName" : "Spiritual Healer",
@@ -977,8 +801,260 @@ const featJson = {
                   "art" : "eye-shield",
                   "description" : "<span>So long as you maintain Concentration, after you cast a Single Target transmutation Spell, you may immediately Instant Cast another Single Target transmutation Spell on the same target for 1 less Vigour (to a minimum of 1). This may be repeated any number of times on the same target at increasing cost, such that the second instant cast costs the base cost, the third instant cast costs base cost plus 1, and so on. The costs of these additional castings may not be reduced. This Feat may not be combined with any other Way of Sorcerous Schools Feat, the Chain Lightning Feat, or the Expanded Potential Feat.</span>",
                   "keywords" : ["Sorcerous Schools"]
-              }
+              },
+              {
+                "featName" : "Rapid Response",
+                "prequisites" : "Nothing",
+                "art" : "ambulance",
+                "description" : "<span>You may cast any spell you know that generates the Cure effect on a single target as a Piercing Instant cast for 1 extra Vigour.</span>",
+                "keywords" : ["Sorcerous Schools"]
+            }
           ]
+      },
+      {
+        "pathName" : "Way of the Ritualist",
+        "featPathColour" : "navy",
+        "feats":[
+            {
+                "featName" : "Advanced Ritualist",
+                "prequisites" : "Trained Ritualist",
+                "art" : "pointy-hat",
+                "description" : "You contribute +1 to all Rituals and may Attune Ritual Texts.",
+                "keywords" : ["Ritualist"]
+            },
+            {
+                "featName" : "Grand Ritual",
+                "prequisites" : "Advanced Ritualist",
+                "art" : "over-infinity",
+                "description" : "<span><p id='hrId'>You may perform two rituals simultaneously. The combined Ritual must meet all the requirements and costs of both Rituals. You must appropriately roleplay a combined performance. At the end of the combined ritual, apply the effects of both rituals. The difficulty of the combined ritual is the difficulty of the more difficult of the two rituals plus 5.</p><p id='hrId'>Difficulty reductions and/or bonuses to ritual score based on keywords, or from knowing the ritual, may only be applied if they would apply to <b>both</b> rituals.</p>If you are using a Ritual Circle with a difficulty limit, such as an Eye of the Shaper or Way Stone, only compare the difficulty of the more difficult of the two rituals to see if the ritual is allowed.</p><p id='hrId'>A Referee must be present if either of the rituals have the Referee keyword. At the discretion of the ref or event team combined rituals may have emergent properties.</p></span>",
+                "keywords" : ["Ritualist"]
+            },
+            {
+                "featName" : "Ready Ritualist",
+                "prequisites" : "1 Ritualist Feat",
+                "art" : "tribal-pendant",
+                "description" : "Each event you attend, gain 4 randomly chosen ingredients of types that are used for paying Ritual Material Costs.",
+                "keywords" : ["Ritualist"],
+                "materialCosts" : "N/A",
+                "difficulty" : "N/A"
+            },
+            {
+                "featName" : "Ritual Leader",
+                "prequisites" : "Trained Ritualist",
+                "art" : "minions",
+                "description" : "You contribute +2 to all Rituals in which you are the Leader.",
+                "keywords" : ["Ritualist"]
+            },
+            {
+                "featName" : "Rote Learning",
+                "prequisites" : "Trained Ritualist",
+                "art" : "quill",
+                "description" : "Each time you take this Feat you choose two new Rituals that you can perform.",
+                "keywords" : ["Multiple","Ritualist"]
+            },
+            {
+                "featName" : "Sacrificial Rite",
+                "prequisites" : "Sympathetic Ingredients",
+                "art" : "sacrificial-dagger",
+                "description" : "<span>When you lead or participate in a ritual, you may destroy Ingredients and Durable Items to add power. For each Ingredient destroyed add 1 point to the ritual total, for each Durable Item destroyed add 15 points to the ritual total. You may not gain power in this way from a Durable Item that expires at the end of the current event. A ritual may gain a maximum of 15 points from this Feat.<p id='hrId'>Lammies for Items destroyed in this way should be handed over to a referee as soon as possible.</p></span>",
+                "keywords" : ["Ritualist"],
+                "materialCosts" : "N/A",
+                "difficulty" : "N/A"
+            },
+            {
+                "featName" : "Skilled Participant",
+                "prequisites" : "Nothing",
+                "art" : "team-upgrade",
+                "description" : "You contribute +2 to all Rituals in which you are <b>not</b> the Leader.",
+                "keywords" : ["Ritualist"]
+            },
+            {
+                "featName" : "Sympathetic Ingredients",
+                "prequisites" : "1 Ritualist Feat",
+                "art" : "incense",
+                "description" : "When you lead or participate in a Ritual, ingredients may be used to pay its Material Costs as though they were any other ingredient of the same type. (The four types are metal, animal, plant, and processed material – so you could use bronze instead of iron, or fang instead of dung.)",
+                "keywords" : ["Ritualist"],
+                "materialCosts" : "N/A",
+                "difficulty" : "N/A"
+            },
+            {
+                "featName" : "Trained Ritualist",
+                "prequisites" : "Nothing",
+                "art" : "robe",
+                "description" : "You contribute +1 to all Rituals and may perform the Invigorate Ritual.",
+                "keywords" : ["Ritualist"]
+            },
+
+            
+        ]
+    },
+      {
+        "pathName" : "Rituals",
+        "featPathColour" : "darkslategrey",
+        "feats":[
+            {
+                "featName" : "Benediction of the Shaper's Forgiveness",
+                "prequisites" : "Nothing",
+                "art" : "caduceus",
+                "description" : "The Shaper understands that even their most devoted followers will sometimes fail, and need help to do better. Led by an initiate of the Shaper, each participant must loudly confess to all present a way that they have personally failed, and how they resolve to do better. Upon successful completion of this ritual, all participants gain the blessing of Cure Protection Healing, Full Global Healing.",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "None",
+                "difficulty" : "10"
+            },
+            {
+                "featName" : "Binding Ties",
+                "prequisites" : "Nothing",
+                "art" : "sun-priest",
+                "description" : "This ritual is used to ensure loyalty among Torchbearers and their allies. During the ritual, the leader must declare their loyalty to their fellows, and the celebrants take it in turns to swear loyalty to each other on something important to them. Upon successful completion of the ritual, all participants take: Piercing Global Sunder Gwyllt, Piercing Global Gwyllt Bane, Protection Charm 1 hour, Protection Rampage 1 hour, Protection Lure 1 hour.",
+                "keywords" : ["Referee", "Ritualist", "CotS"],
+                "materialCosts" : "1 Incense, 1 Iron",
+                "difficulty" : "30"
+            },
+            {
+                "featName" : "Chastisement of Traitorous Hands",
+                "prequisites" : "Nothing",
+                "art" : "spiked-halo",
+                "description" : "Punishment ritual. The ritualist and other participants detail how the target has betrayed them. Following successful completion of this ritual, the target loses the ability to generate the Repair Effect. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.",
+                "keywords" : ["Punishment", "Referee", "Ritualist", "CotS"],
+                "materialCosts" : "1 Root, 1 Bone",
+                "difficulty" : "15"
+            },
+            {
+                "featName" : "Consult the Lost Tome",
+                "prequisites" : "Nothing",
+                "art" : "burning-book",
+                "description" : "<span>Rather than summoning a specific spirit, you instead shout a question into the afterlife for all to hear. You ask a question of the collective spirit’s wisdom instead of the knowledge of a single being, and within 24 hours of successful completion of this ritual, you receive an answer. This answer may be “that knowledge is not known to those that have passed.” Repeated use of this ritual in a short span of time may result in increased Undead activity. This ritual is known to not receive knowledge from those who have been subject to Quicken the Inevitable Solace.</span>",
+                "keywords" : ["Referee", "Ritualist", "CotS"],
+                "materialCosts" : "None",
+                "difficulty" : "20"
+            },
+            {
+                "featName" : "Honour the Shaper's Champions ",
+                "prequisites" : "Nothing",
+                "art" : "laurels",
+                "description" : "Initiates of the Shaper learn that while humility is important, so too is proper pride in one’s achievements. Each participant must loudly proclaim one great deed they have done for the Shaper that day, and the ritualist and other participants must praise them for it. Upon successful completion of this ritual, all participants gain the benefit of: Cure Protection Repair, Full Global Repair",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "None",
+                "difficulty" : "10"
+            },
+            {
+                "featName" : "Invigoration",
+                "prequisites" : "Nothing",
+                "art" : "fluffy-trefoil",
+                "description" : "<p id='hrId'>The Ritualist energises all participants in the ritual, drawing on either a greater source of power, their prior deeds, or their future challenges to invigorate their participants. Upon Successful completion of this ritual, all participants regain all Vigour.</p><p id='hrId'>When performing this ritual, the Ritual Leader must choose which of the Arcane or CotS keywords applies to the performance and adjust their performance appropriately. They cannot apply both.</p>",
+                "keywords" : ["Ritualist", "Arcane", "CotS"],
+                "materialCosts" : "N/A",
+                "difficulty" : "5"
+            },
+            {
+                "featName" : "Indelible Mark",
+                "prequisites" : "Nothing",
+                "art" : "maze-cornea",
+                "description" : "<span><p id='hrId'>This ritual places an invisible magical mark upon its target. The target must be present in the ritual circle and does not count as a participant. The participants must call out how those who read the mark in the future will perceive that target and what they will know about them as a result of it. The leader must distil these intentions down to a single clear idea that is focused upon and branded onto the target. The mark must be summed up in one or two words which a referee will place on a card to be given to the target. The target then counts as Marked.</p><p id='hrId'> Taking this Feat grants the ability to cast Detect Marked for 1 Vigour. You may read the card of any Marked individuals you have detected. Marks fade upon death.</p></span>",
+                "keywords" : ["Ritualist", "Arcane", "Referee"],
+                "materialCosts" : "1 Ink, 1 Heart",
+                "difficulty" : "15"
+            },
+            {
+                "featName" : "Make Peace Before War",
+                "prequisites" : "Nothing",
+                "art" : "olive",
+                "description" : "<span><p id='hrId'>A ritual of the Shaper, used to prepare warriors for their fate before a battle. All participants resolve to let go of earthly ties and make peace with their possible death, and speak one fear they have that they must face, and how they intend to face it. After a successful ritual, all participants gain the following benefits: Regain all Vigour, Full Global Heal, Full Global Repair, Protection Sleep 1 hour, Protection Fear 1 hour, Protection Rampage 1 Hour.</p><p id='hrId'>All participants are also affected by Venom.</p><p id='hrId'> Additionally, any characters who die in the hour following this ritual immediately gain the benefit of the Quicken the Inevitable Solace ritual. Characters under the Effect of Venom may not participate in this ritual, and all benefits of this ritual are lost if the Venom Effect is removed.</p></span>",
+                "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
+                "materialCosts" : "1 Incense, 1 Heart",
+                "difficulty" : "30"
+            },
+            {
+                "featName" : "Moon Soaked Blades",
+                "prequisites" : "Nothing",
+                "art" : "moon",
+                "description" : "<span>Initiates of the church of the shaper learn to invigorate their flock, and drive them on to destroy the Gwyllt. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon excoriating the evils of the Gwyllt and each other participant must pledge to drive them out and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Gwyllt may be used at 1 less Vigour cost, to a minimum of 1 Vigour, for the rest of the day.</p></span>",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "1 Silver, 1 Fang",
+                "difficulty" : "20"
+            },
+            {
+                "featName" : "Moonlit Vigil",
+                "prequisites" : "Nothing",
+                "art" : "evil-moon",
+                "description" : "<span>Initiates of the church of the shaper learn to reassure their flock, and spur them on to combat the undead. To aid this, they learn a special ritual, which a leader may cast once per day. The ritual leader must deliver a sermon railing against the abominations of the undead, and each other participant must pledge to combat them and state one way they plan to do so that day.<p id='hrId'>Upon successful completion of this ritual all participants gain the following blessing: all Spells and other abilities they possess that target only Undead may be used at 1 less Vigour cost, to a minimum of 1, for the rest of the day.</p></span>",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "1 Bone, 1 Seed",
+                "difficulty" : "20"
+            },
+            {
+                "featName" : "Penance of Leaden Blood",
+                "prequisites" : "Nothing",
+                "art" : "death-juice",
+                "description" : "<span><p id='hrId'>Punishment ritual. The target must be confronted with descriptions of their own death. Specifically, deaths that could have been avoided if they had not spurned those who would aid them. They must know they will bear this curse until they can earn back the trust of those they have wronged </p><p id='hrId'>Following successful completion of this ritual, the target’s death count is reduced by 60 seconds. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target. While a target can only be affected by one Penance of leaden blood at a time, this ritual does stack with venom.</p></span>",
+                "keywords" : ["Punishment", "Ritualist", "Arcane"],
+                "materialCosts" : "1 Parchment, 1 Wax",
+                "difficulty" : "10"
+            },
+            {
+                "featName" : "Quicken the Inevitable Solace",
+                "prequisites" : "Nothing",
+                "art" : "telefrag",
+                "description" : "<span>Must be performed over the corpse of the character(s) in question, or items of high significance to them (add +10 to the difficulty). The ritualist must allay any fears or unresolved issues that may tempt the spirit to remain. Upon successful completion of this ritual, the souls of the characters concern are made one with the Shaper, and may not be contacted or corrupted, nor may their corpses become undead beings. <p id='hrId'>If the target is already undead, they are destroyed upon successful completion of this ritual. Any knowledge held solely by the character is lost and may not be discovered through the Consult the Lost Tome ritual, or the Whisper with the Dead ritual.</p></span>",
+                "keywords" : ["Quiescent", "Referee", "Ritualist", "CotS"],
+                "materialCosts" : "N/A",
+                "difficulty" : "10"
+            },
+            {
+                "featName" : "Sever the Unbreakable Bonds",
+                "prequisites" : "Nothing",
+                "art" : "breaking-chain",
+                "description" : "<span>This ritual requires an unresisting target, who may or may not contribute to the ritual score. The target must be guided to a mindset of isolation and independence, separate both from those things that might aid them and those that might hinder them. Only then can the bond be broken.<p id='hrId'>Upon successful completion, all items currently attuned to the target deattune, even if they cannot normally be deattuned.</p></span>",
+                "keywords" : ["Ritualist", "Arcane"],
+                "materialCosts" : "None",
+                "difficulty" : "30"
+            },
+            {
+                "featName" : "Shaper’s Blessing On The Flock",
+                "prequisites" : "Nothing",
+                "art" : "shepherds-crook",
+                "description" : "<span>Those of the Hospitaliers know that their flock need them even when they are not there, so have perfected this ritual to aid even in their absence. The Ritualist calls upon the Shaper to aid and bless their flock, while each celebrant explains one danger they expect to face that day.<p id='hrId'>The leader may use this ritual once per day. Upon successful completion, all participants gain a dated card and write their name upon it. At any stage during that day they may tear this card (including while unconscious, but not while bleeding) to gain one of the following benefits: Full Global Healing; Cure Venom; Cure Disease.</p></span>",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "1 Wax, 1 Gold",
+                "difficulty" : "20"
+            },
+            {
+                "featName" : "Sheltering Vapours",
+                "prequisites" : "Nothing",
+                "art" : "bottle-vapors",
+                "description" : "<span>This ritual requires an unresisting target who may not contribute to the ritual score and who must remain in the circle for the duration of the ritual. It may be performed on up to three such targets at a time. The target(s) must be directed to a mindset of security, they must believe that they are protected by the ritual participants and obscured from their enemies and those who would wish to do them harm. They should be guided to imagine the protection coalescing around them in physical form. Upon successful completion of the ritual, the target(s) gains the Ward 2 Effect.</span>",
+                "keywords" : ["Arcane"],
+                "materialCosts" : "1 Incense per Target",
+                "difficulty" : "10"
+            },
+            {
+                "featName" : "Solitude of Shame",
+                "prequisites" : "Nothing",
+                "art" : "heavy-thorny-triskelion",
+                "description" : "<span>Punishment ritual. The ritualist and other participants detail the wrongs that the target has done to them. Following successful completion of this ritual, the target becomes immune to all protections, except Protection Repair, Protection Healing, and Protection Stop Bleed. This persists until one of the participants of the original ritual who can cast this ritual performs this ritual again to remove it and forgive the target.</span>",
+                "keywords" : ["Punishment", "Referee", "Ritualist", "CotS"],
+                "materialCosts" : "1 Dung, 1 Glass",
+                "difficulty" : "15"
+            },
+            {
+                "featName" : "Supreme Forgiveness ",
+                "prequisites" : "Nothing",
+                "art" : "kneeling",
+                "description" : "<span>Influential and experienced initiates of the Shaper may sometimes feel confident enough in their knowledge of their Gods feelings to speak for them and forgive the crimes of their comrades in the Shapers name. The leader must deliver a speech extolling the virtues of the target of this ritual, the target must speak as to their crimes and what they have learned from their punishment, and all other participants must forgive these crimes. Upon successful completion of this ritual, all ongoing Punishment rituals on the target end.</span>",
+                "keywords" : ["Ritualist", "CotS"],
+                "materialCosts" : "None",
+                "difficulty" : "30"
+            },
+            {
+                "featName" : "Whisper With The Dead",
+                "prequisites" : "Nothing",
+                "art" : "divided-spiral",
+                "description" : "The spirit of a dead character may be summoned to the ritual circle for 5 minutes if their corpse, part thereof, or an item of significance to that character (+10 to difficulty), is placed in the circle. They may freely converse with anyone in the ritual circle but cannot affect anyone physically. At the end of the 5 minutes they return to the land of the dead. Repeated or frivolous use of this ritual on the same target has been known to unsettle the spirits enough to create undead.",
+                "keywords" : ["Referee", "Ritualist", "CotS"],
+                "materialCosts" : "N/A",
+                "difficulty" : "15"
+            }
+        ]
       }
   ]
 }
@@ -1043,9 +1119,9 @@ const downtimeJson = {
               },
               {
                   "featName" : "Research",
-                  "prequisites" : "A Scholar Feat/Pointed Questions Feat",
+                  "prequisites" : "A Feat which permits this action",
                   "art" : "archive-research",
-                  "description" : "To select this action, your character needs to have an appropriate Feat. This action allows your character to seek the answer to a question about the world of the game relating to their qualifying Feat. The answer to your character’s question may not be available in their Location, or at all, in which case the response will either point your character to another Location where the answer could be, or make it clear that the answer is not something they can discover using the Research action.",
+                  "description" : "To select this action, your character needs to have an appropriate Feat. This action allows your character to seek the answer to a <b>single</b> question about the world of the game relating to their qualifying Feat. The answer to your character’s question may not be available in their Location, or at all, in which case the response will either point your character to another Location where the answer could be, or make it clear that the answer is not something they can discover using the Research action. <br><br/>Each rank of a Feat may only be used in a research action once per Downtime.",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1061,7 +1137,14 @@ const downtimeJson = {
                   "art" : "sinagot",
                   "description" : "As described above, your character starts their downtime either at their Location at the end of their last downtime or the last Location of the band. If your character wishes to Travel to another location halfway through their downtime, they select this action and pick their new Location from their list of Known Locations. Travel between any two Locations, however far they are from each other in the game world, takes one action.",
                   "keywords" : ["Downtime"]
-              }
+              },
+              {
+                "featName" : "Trade",
+                "prequisites" : "Merchant Feat",
+                "art" : "cash",
+                "description" : "This action allows your character to purchase a single Durable or Consumable item of a level no greater than the number of times you have taken the Merchant Feat. Any Durable items purchased this way will have a duration of two events rather than three events. This purchase will cost the appropriate amount of Pingin (but not ingredients). One rank of Merchant allows a character to purchase Student level Items, two ranks provide access to Apprentice, and Three provides access to Journeyman.",
+                "keywords" : ["Downtime"]
+            }
           ]
       }
   ]
@@ -1124,7 +1207,7 @@ function apendText(featPath){
         keywordsText + "</i>";
         description += keywordsText + "</p>";
 
-        if(pathName === "Way of the ritualist"){
+        if(pathName === "Rituals"){
           let difficulty = feat.difficulty;
           let materialCosts = feat.materialCosts;
 
@@ -1139,7 +1222,7 @@ function apendText(featPath){
         
         }
 
-        if(pathName === "Way of the ritualist" && isMobile && featRequirements === "Nothing"){}
+        if(pathName === "Rituals" && isMobile && featRequirements === "Nothing"){}
         else{
             description = "<p><i id='popupMaterialCost'>Prerequisite: " + featRequirements + " </i></p>" + description;
         }

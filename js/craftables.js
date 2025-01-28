@@ -25,7 +25,7 @@ const blacksmithJson = {
                   "featName" : "Lengthy Silence",
                   "art" : "silenced",
                   "itemType" : "Large Weapon",
-                  "description" : "This item is a large weapon. Attunes to hand. While attuned, when you activate the Cutthroat Feat with this large weapon, you may additionally generate the Mute 10s Effect on your next successful weapon blow with this weapon within 10s,. This is in addition to the normal damage for a weapon blow.",
+                  "description" : "This item is a large weapon. Attunes to hand. While attuned, when you activate the Cutthroat Feat with this large weapon, you may additionally generate the Mute 30s Effect on your next successful weapon blow with this weapon within 10s,. This is in addition to the normal damage for a weapon blow.",
                   "craftableKeyword" : ["Durable"],
                   "ingeredientCost" : ["2 Iron", "2 Bone", "1 Pelt", "1 Parchment"]
               },

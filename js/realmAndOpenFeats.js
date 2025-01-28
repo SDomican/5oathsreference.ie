@@ -29,28 +29,28 @@ const featJson = {
                   "featName" : "Stubborn as a Goat",
                   "prequisites" : "Baol",
                   "art" : "ram",
-                  "description" : "You are adept navigating hilly regions. You may reactively spend 1 Vigour to gain Immunity Push for 10s. You are also familiar with a wide range of Locations in Baol.",
+                  "description" : "You are adept navigating hilly regions. You may reactively spend 1 Vigour to gain Immunity Push for 10s. You are also familiar with a wide range of Locations in Baol, and each event you attend you will receive a report on recent events in Baol.",
                   "keywords" : ["Realm", "Resistance"]
               },
               {
                   "featName" : "Careful Hands",
                   "prequisites" : "Bruid",
                   "art" : "gloves",
-                  "description" : "You have learned the value of keeping your tools to hand in the dangerous forests of Bruid. You may reactively spend 1 Vigour to gain Immunity Fumble for 10s. You are also familiar with a wide range of Locations in Bruid.",
+                  "description" : "You have learned the value of keeping your tools to hand in the dangerous forests of Bruid. You may reactively spend 1 Vigour to gain Immunity Fumble for 10s. You are also familiar with a wide range of Locations in Bruid, and each event you attend you will receive a report on recent events in Bruid.",
                   "keywords" : ["Realm", "Resistance"]
               },
               {
                   "featName" : "Strident Voice",
                   "prequisites" : "Draíod",
                   "art" : "shouting",
-                  "description" : "You are well used to shouting over your rivals in debates in your homeland. You may reactively spend 1 Vigour to gain Immunity Mute 10s. You are also familiar with a wide range of Locations in Draíod.",
+                  "description" : "You are well used to shouting over your rivals in debates in your homeland. You may reactively spend 1 Vigour to gain Immunity Mute 10s. You are also familiar with a wide range of Locations in Draíod, and each event you attend you will receive a report on recent events in Draíod.",
                   "keywords" : ["Realm", "Resistance"]
               },
               {
                   "featName" : "Loyalty Undivided",
                   "prequisites" : "Siabhal",
                   "art" : "public-speaker",
-                  "description" : "The politics of your homeland have taught you to know your own mind. You may reactively spend 1 Vigour gain Immunity Charm 10s. You are also familiar with a wide range of Locations in Siabhal.",
+                  "description" : "The politics of your homeland have taught you to know your own mind. You may reactively spend 1 Vigour gain Immunity Charm 10s. You are also familiar with a wide range of Locations in Siabhal, and each event you attend you will receive a report on recent events in Siabhal.",
                   "keywords" : ["Realm", "Resistance"]
               }
               ,
@@ -58,7 +58,7 @@ const featJson = {
                   "featName" : "Clarity of Focus",
                   "prequisites" : "Uasa",
                   "art" : "dagger-rose",
-                  "description" : "You are used to watching for daggers in the dark and are seldom surprised. You may reactively spend 1 Vigour to gain Immunity Daze 10s. You are also familiar with a wide range of Locations in Uasa.",
+                  "description" : "You are used to watching for daggers in the dark and are seldom surprised. You may reactively spend 1 Vigour to gain Immunity Daze 10s. You are also familiar with a wide range of Locations in Uasa, and each event you attend you will receive a report on recent events in Uasa.",
                   "keywords" : ["Leather and Steel, Resistance"]
               }
           ]
@@ -297,7 +297,7 @@ const featJson = {
                   "featName" : "What Doesn’t Kill You",
                   "prequisites" : "Leasair, Wildling",
                   "art" : "skull-crossed-bones",
-                  "description" : "While Immune to an effect, each time you are hit by an instance of that effect, after the instance that triggered your Immunity, your next weapon blow within 10s may deliver that effect for 0 Vigour.",
+                  "description" : "When this character is subject to an Effect with a Non-Instantaneous Duration which runs its entire duration naturally, they may choose to become Immune to that Effect for 30s immediately after the triggering Effect ends.",
                   "keywords" : ["Affinity", "Combat"]
               },
               {
