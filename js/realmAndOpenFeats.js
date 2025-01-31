@@ -427,7 +427,7 @@ const featJson = {
                   "featName" : "What Doesn’t Kill You",
                   "prequisites" : "Leasair, Wildling",
                   "art" : "skull-crossed-bones",
-                  "description" : "While Immune to an effect, each time you are hit by an instance of that effect, after the instance that triggered your Immunity, your next weapon blow within 10s may deliver that effect for 0 Vigour.",
+                  "description" : "When this character is subject to an Effect with a Non-Instantaneous Duration which runs its entire duration naturally, they may choose to become Immune to that Effect for 30s immediately after the triggering Effect ends.",
                   "keywords" : ["Affinity", "Combat"]
               }
           ]
