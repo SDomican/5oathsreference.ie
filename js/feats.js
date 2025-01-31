@@ -812,7 +812,7 @@ const featJson = {
           ]
       },
       {
-        "pathName" : "Way of the Ritualist",
+        "pathName" : "Way of the ritualist",
         "featPathColour" : "navy",
         "feats":[
             {
