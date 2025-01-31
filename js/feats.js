@@ -517,7 +517,7 @@ const featJson = {
                   "featName" : "Student Alchemist",
                   "prequisites" : "Nothing",
                   "art" : "test-tube-held",
-                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. Start the first event after you take this Feat with three Tonic Potion item.",
+                  "description" : "Allows the crafting of student alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Student Alchemist in Appendix 4. You may spend 1 minute concentrating on a potion or poison and generate the Identify Effect. Start the first event after you take this Feat with three Tonic Potion items.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
