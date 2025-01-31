@@ -60,6 +60,13 @@
                     "art" : "sinagot",
                     "description" : "As described above, your character starts their downtime either at their Location at the end of their last downtime or the last Location of the band. If your character wishes to Travel to another location halfway through their downtime, they select this action and pick their new Location from their list of Known Locations. Travel between any two Locations, however far they are from each other in the game world, takes one action.",
                     "keywords" : ["Downtime"]
+                },
+                {
+                    "featName" : "Trade",
+                    "prequisites" : "Merchant Feat",
+                    "art" : "",
+                    "description" : "This action allows your character to purchase a single Durable or Consumable item of a level no greater than the number of times you have taken the Merchant Feat. Any Durable items purchased this way will have a duration of two events rather than three events. This purchase will cost the appropriate amount of Pingin (but not ingredients). One rank of Merchant allows a character to purchase Student level Items, two ranks provide access to Apprentice, and Three provides access to Journeyman.",
+                    "keywords" : ["Downtime"]
                 }
             ]
         }

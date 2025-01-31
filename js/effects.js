@@ -30,7 +30,7 @@ const spellJson = {
                   "featName" : "Execute",
                   "call" : "Execute",
                   "art" : "executioner-hood",
-                  "description" : "<span>This Effect is instantaneous. If the target is bleeding, they are killed instantly. Any character wielding a melee weapon may generate this effect by concentrating on an unresisting, bleeding target within melee strike range and repeating the OOC call “Executing” at a level audible to all within 10 metres while counting down from 30 seconds. They may then strike with a call of “Execute” and instantly kill that target at the end of the 30 seconds.<p>Attempting to generate an Execute Effect on an invalid target will get a “No Effect” response at the end of the process. All characters can generate this Effect if they have a melee weapon drawn.</p></span>",
+                  "description" : "<span>This Effect is instantaneous. If the target is bleeding, they are killed instantly. Any character wielding a melee weapon may generate this effect by concentrating on an unresisting, bleeding target within melee strike range and repeating the OOC call “Executing” at a level audible to all within 10 metres while counting down from 10 seconds. They may then strike with a call of “Execute” and instantly kill that target at the end of the 10 seconds.<p>Attempting to generate an Execute Effect on an invalid target will get a “No Effect” response at the end of the process. All characters can generate this Effect if they have a melee weapon drawn.</p></span>",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -194,14 +194,14 @@ const spellJson = {
                   "featName" : "Lure",
                   "call" : "Lure (Duration)",
                   "art" : "lure",
-                  "description" : "For the duration, the target of this Effect becomes fixated on the source of the Effect and can do nothing but move towards it at normal walking speed, altering their path if the source moves locations, and remaining motionless when they reach the source. Being struck by the Damage Effect will not break the Lure Effect. Please note: Grappling/restraining people is not permitted.",
+                  "description" : "For the duration, the target of this Effect becomes fixated on the source of the Effect and can do nothing but move towards it at normal walking speed, altering their path if the source moves locations, and remaining motionless when they reach the source. A character under this Effect may not speak. Being struck by the Damage Effect will not break the Lure Effect. Please note: Grappling/restraining people is not permitted.",
                   "magicSchool" : ["Effect"]
               },
               {
                   "featName" : "Mindslash",
                   "call" : "Mindslash",
                   "art" : "brain-tentacle",
-                  "description" : "This Effect is instantaneous. The Effect breaks the Concentration of the target.",
+                  "description" : "This Effect is instantaneous. The Effect breaks the Concentration of the target. This Effect is Instant and if generated via spell does not require casting vocals.",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -236,7 +236,7 @@ const spellJson = {
                   "featName" : "Stop Bleed",
                   "call" : "Stop Bleed (Location)",
                   "art" : "stop-bleed",
-                  "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits.",
+                  "description" : "This Effect is instantaneous. This Effect has a range of 5cm from the target unless otherwise specified. The target’s Body hits on the target location are restored to 0 Body hits if on -1 Body hits. This Effect is “Instant” and if generated via spell does not require casting vocals",
                   "magicSchool" : ["Effect"]
               },
               {
@@ -250,21 +250,21 @@ const spellJson = {
                   "featName" : "Venom",
                   "call" : "Venom",
                   "art" : "venom",
-                  "description" : "This Effect is instantaneous. The target of a Venom Effect has their deathcount length reduced by 120 seconds. If a character is in their deathcount when struck by Venom, the reduction does not happen until they leave their current deathcount. This reduction stays in place until Time Out or until the application of a Cure Effect, whichever comes first.",
+                  "description" : "This Effect is instantaneous. The target of a Venom Effect has their deathcount length reduced by 180 seconds. If a character is in their deathcount when struck by Venom, the reduction does not happen until they leave their current deathcount. This reduction stays in place until Time Out or until the application of a Cure Effect, whichever comes first.",
                   "magicSchool" : ["Effect"]
               },
               {
                   "featName" : "Ward",
                   "call" : "Ward (Number)",
                   "art" : "ward",
-                  "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
+                  "description" : "<span>This Effect is instantaneous and may only be cast on the source. A barrier of invisible magical energy surrounds the character casting the Spell. This Ward protects the character from any ranged, Non Piercing Effect not delivered by weapon blow that would normally affect them (Except Drop, Diagnose and Notice Bleed). The number in the Ward is the number of times the character will be protected, this is the “charges” that the Ward Spell has. A character should respond “warded” if their Ward protects them from an Effect in this way, and one charge in their Ward is removed. The number of charges on the Ward is determined by the Spell that grants it. <p>A Ward Effect expires when all charges are removed, the character attunes to an item, or if the character willingly drops their Ward. A warded character cannot regain Vigour.</p></span>",
                   "magicSchool" : ["Effect"]
               },
               {
                   "featName" : "Sunder",
                   "call" : "Sunder",
                   "art" : "sunder",
-                  "description" : "This Effect is instantaneous. If this Effect targets a location that location’s Armour hits are reduced to 0. If the location’s Armour hits were already at 0, then the location is taken to -1 Body hits. This Effect cannot be combined with a Damage Effect.",
+                  "description" : "This Effect is instantaneous. If this Effect targets a location that location’s Armour hits are reduced to 0. If the location’s Armour hits were already at 0, then the location is taken to -1 Body hits. If this Effect targets a weapon or shield they are instead subject to the Shatter Effect. <br></br>This Effect cannot be combined with a Damage Effect. ",
                   "magicSchool" : ["Effect"]
               }
           ]
