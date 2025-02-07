@@ -524,21 +524,21 @@ const featJson = {
                   "featName" : "Apprentice Alchemist",
                   "prequisites" : "Student Alchemist",
                   "art" : "test-tube-held1",
-                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. You may use the Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with three Flesh and Steel items.",
+                  "description" : "Allows the crafting of apprentice Alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Alchemist in Appendix 4. You may submit one Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with three Flesh and Steel items.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Journeyman Alchemist",
                   "prequisites" : "Apprentice Alchemist",
                   "art" : "test-tube-held2",
-                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. Start the first event after you take this Feat with three Dazzling Liquid items.",
+                  "description" : "Allows the crafting of journeyman alchemy items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Alchemist in Appendix 4. You may also use the Analyze downtime action to study an alchemical item to add it to your Way of the Alchemist crafting list at the relevant level. You may also submit one additional Research downtime action to ask a question relating to alchemical lore. Start the first event after you take this Feat with three Dazzling Liquid items.",
                   "keywords" : ["Alchemist", "Crafting"]
               },
               {
                   "featName" : "Master Alchemist",
                   "prequisites" : "Journeyman Alchemist",
                   "art" : "test-tube-held3",
-                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action.. Your character knows all the recipes listed under Master Alchemist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Revitalising Tonic items.",
+                  "description" : "Allows the crafting of master alchemy items in downtime using the Craft action.. Your character knows all the recipes listed under Master Alchemist. You may submit one additional Research downtime action to ask a question relating to alchemical lore. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Revitalising Tonic items.",
                   "keywords" : ["Alchemist", "Crafting"]
               }
           ]
@@ -551,28 +551,28 @@ const featJson = {
                   "featName" : "Student Arcanist",
                   "prequisites" : "Nothing",
                   "art" : "gem-chain",
-                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Student Arcanist in Appendix 4. You may spend 1 minute concentrating on a magical focus, scroll, or talisman and generate the Identify Effect. Start the first event after you take this Feat with three Student Ritual Effigy items.",
+                  "description" : "Allows the crafting of student arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Student Arcanist. You may spend 1 minute concentrating on a magical focus, scroll, or talisman and generate the Identify Effect. Start the first event after you take this Feat with three Student Ritual Effigy items.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Apprentice Arcanist",
                   "prequisites" : "Student Arcanist",
                   "art" : "gem-chain1",
-                  "description" : "Allows the crafting of apprentice arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Arcanist in Appendix 4. You may use the Research downtime action to ask a question relating to Magic Items specifically. Start the first event after you take this Feat with the Greater Eye of the Shaper item.",
+                  "description" : "Allows the crafting of apprentice arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Arcanist. You may submit one Research downtime action to ask a question relating to Magic Items specifically. Start the first event after you take this Feat with the Greater Eye of the Shaper item.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Journeyman Arcanist",
                   "prequisites" : "Apprentice Arcanist",
                   "art" : "gem-chain2",
-                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist in Appendix 4. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. Start the first event after you take this Feat with three Lesser Way Stone items.",
+                  "description" : "Allows the crafting of journeyman arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Arcanist. You may also use the Analyze downtime action to study an arcane item to add it to your Way of the Arcanist crafting list at the relevant level. You may also submit one additional Research downtime action to ask a question relating to magic items. Start the first event after you take this Feat with three Lesser Way Stone items.",
                   "keywords" : ["Arcanist", "Crafting"]
               },
               {
                   "featName" : "Master Arcanist",
                   "prequisites" : "Journeyman Arcanist",
                   "art" : "gem-chain3",
-                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action.. Your character knows all the recipes listed under Master Arcanist in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Casting Crystal items.",
+                  "description" : "Allows the crafting of master arcanist items in downtime using the Craft action. Your character knows all the recipes listed under Master Arcanist. You may submit one additional Research downtime action to ask a question relating to magic items. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with three Casting Crystal items.",
                   "keywords" : ["Arcanist", "Crafting"]
               }
           ]
@@ -585,28 +585,28 @@ const featJson = {
                   "featName" : "Student Blacksmith",
                   "prequisites" : "Nothing",
                   "art" : "wayforge",
-                  "description" : "Allows the crafting of student blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Student Blacksmith in Appendix 4. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. Start the first event after you take this Feat with the Fortifying Leathers item.",
+                  "description" : "Allows the crafting of student blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Student Blacksmith. You may spend 1 minute concentrating on a weapon or set of armour and generate the Identify Effect. Start the first event after you take this Feat with the Fortifying Leathers item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Apprentice Blacksmith",
                   "prequisites" : "Student Blacksmith",
                   "art" : "wayforge1",
-                  "description" : "Allows the crafting of apprentice blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Blacksmith in Appendix 4. You may use the Research downtime action to ask a question relating to smithing. You may repair Light Armour. Start the first event after you take this Feat with the Creviced Steel item.",
+                  "description" : "Allows the crafting of apprentice blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Apprentice Blacksmith. You may submit one Research downtime action to ask a question relating to smithing. You may repair Light Armour. Start the first event after you take this Feat with the Creviced Steel item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Journeyman Blacksmith",
                   "prequisites" : "Apprentice Blacksmith",
                   "art" : "wayforge2",
-                  "description" : "Allows the crafting of journeyman blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Blacksmith in Appendix 4. You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may repair Heavy Armour. Start the first event after you take this Feat with the Fear of the Wicked item.",
+                  "description" : "Allows the crafting of journeyman blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Journeyman Blacksmith. You may also use the Analyze downtime action to study a smithed item to add it to your Way of the Forge crafting list at the relevant level. You may also submit one additional Research downtime action to ask a question relating to smithing. You may repair Heavy Armour. Start the first event after you take this Feat with the Fear of the Wicked item.",
                   "keywords" : ["Crafting", "Forge"]
               },
               {
                   "featName" : "Master Blacksmith",
                   "prequisites" : "Journeyman Blacksmith",
                   "art" : "wayforge3",
-                  "description" : "Allows the crafting of master blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Master Blacksmith in Appendix 4. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with True Foe’s Weapon item.",
+                  "description" : "Allows the crafting of master blacksmith items in downtime using the Craft action. Your character knows all the recipes listed under Master Blacksmith. You may submit one additional Research downtime action to ask a question relating to smithing. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. Start the first event after you take this Feat with True Foe’s Weapon item.",
                   "keywords" : ["Crafting", "Forge"]
               }
           ]
@@ -688,22 +688,22 @@ const featJson = {
                   "featName" : "Five Realms Lore",
                   "prequisites" : "Nothing",
                   "art" : "torc",
-                  "description" : "You have either travelled widely in the Five Realms or you have closely studied the accounts of those who have. You may use the Research downtime action to ask a question relating to the history and geography of the Five Realms. Your character is familiar with more Locations throughout the Five Realms than the average character. You may get additional relevant information to the history and geography of the Realms throughout events at times deemed relevant by the Event Team.",
-                  "keywords" : ["Scholar"]
+                  "description" : "You have either travelled widely in the Five Realms or you have closely studied the accounts of those who have. For each time you have purchased this Feat, you may submit one Research action relating to the history and geography of the Five Realms during Downtime. Your character is familiar with more Locations throughout the Five Realms than the average character. You may get additional relevant information to the history and geography of the Realms throughout events at times deemed relevant by the Event Team. This Feat may be taken up to 3 times.",
+                  "keywords" : ["Multiple","Scholar"]
               },
               {
                   "featName" : "Magic Lore",
                   "prequisites" : "Nothing",
                   "art" : "magic-lamp",
-                  "description" : "<span>You have been trained in the art of understanding magic and its rules on a deeper level. You may use the Research downtime action to ask a question relating to magical lore. Gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may spend 1 minute concentrating on a Ritual Text and generate the Identify Effect. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.</span>",
-                  "keywords" : ["Scholar"]
+                  "description" : "<span>You have been trained in the art of understanding magic and its rules on a deeper level. For each time you have purchased this Feat, you may submit one Research action relating to magical lore during Downtime. The first time you purchase this Feat, gain a +1 bonus to your score for rituals you participate in that have the Arcane keyword. You may spend 1 minute concentrating on a Ritual Text and generate the Identify Effect. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. This Feat may be taken up to 3 times.</span>",
+                  "keywords" : ["Multiple","Scholar"]
               },
               {
                   "featName" : "Religion Lore",
                   "prequisites" : "Nothing",
                   "art" : "gift-of-knowledge",
-                  "description" : "You have received extensive training in the tenets of the church. Gain a +1 bonus to your score for rituals you participate in that have the Church of the Shaper (CotS) keyword. You may use the Research downtime action to ask a question relating to religious lore. You may also get additional relevant information throughout events at times deemed relevant by the Event Team.",
-                  "keywords" : ["Scholar"]
+                  "description" : "You have received extensive training in the tenets of the church. The first time you purchase this Feat, gain a +1 bonus to your score for rituals you participate in that have the Church of the Shaper (CotS) keyword.For each time you have purchased this Feat, you may submit one Research action relating to religious lore during Downtime. You may also get additional relevant information throughout events at times deemed relevant by the Event Team. This Feat may be taken up to 3 times.",
+                  "keywords" : ["Multiple", "Scholar"]
               },
               {
                 "featName" : "Researcher’s Focus",
@@ -1091,7 +1091,7 @@ const downtimeJson = {
                   "featName" : "Guard",
                   "prequisites" : "Non-Peacesworn Only",
                   "art" : "guards",
-                  "description" : "Your character stands guard duty in a Settlement, and gets paid 2 coins as a reward. This action is only available in smaller Settlements. A Peacesworn character cannot use the Guard action.",
+                  "description" : "Your character stands guard duty in a Settlement, and gets paid 2 coins as a reward. This action is only available in smaller Settlements and all Ridings. A Peacesworn character cannot use the Guard action.",
                   "keywords" : ["Downtime"]
               },
               ,
