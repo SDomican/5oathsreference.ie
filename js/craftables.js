@@ -197,7 +197,7 @@ const blacksmithJson = {
                   "itemType" : "All weapon types",
                   "description" : "This item is a weapon of any type. Attunes to hand. While attuned, you may spend 3 Vigour to generate the Halt 10s Effect by weapon blow with this weapon in addition to the Damage Effect of the weapon blow",
                   "craftableKeyword" : ["Durable"],
-                  "ingeredientCost" : ["Bronze", "2 Copper", "1 Flower", "4 Heart", "2 Ink"]
+                  "ingeredientCost" : ["6 Bronze", "2 Copper", "1 Flower", "4 Heart", "2 Ink"]
               },
               {
                   "featName" : "Masterwork Armour",
