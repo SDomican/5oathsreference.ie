@@ -1077,21 +1077,21 @@ const downtimeJson = {
                   "featName" : "Analyze",
                   "prequisites" : "<span id='analyze'>Scholar Feats</span>",
                   "art" : "magnifying-glass",
-                  "description" : "<span id='analyze2'>Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with appropriate Crafting Feats, and Feat must match the type of item, i.e. weapon items can only be studied by characters with Apprentice Blacksmith, magical foci by characters with Apprentice Arcanist, and potions by characters with Apprentice Alchemist.</span>",
+                  "description" : "<span id='analyze2'>Your character spends time analyzing an item they have found on their adventures, learning how to reproduce it and any relevant additional information as determined by the Event Team. The item may be above the level which your character can craft, in which case they will learn the recipe but will be unable to make it until they learn the required level of Crafting Feat. This action may only be used with items that are not listed in the recipes in Appendix 4 of the Player’s Handbook. This action may only be taken by characters with appropriate Crafting Feats, and Feat must match the type of item, i.e. weapon items can only be studied by characters with Apprentice Blacksmith, magical foci by characters with Apprentice Arcanist, and potions by characters with Apprentice Alchemist. This action is available by default in all Settlements.</span>",
                   "keywords" : ["Downtime"]
               },
               {
                   "featName" : "Craft",
                   "prequisites" : "Crafting Feats",
                   "art" : "crafting",
-                  "description" : "Your character makes one durable item or one to three consumable items with the same recipe according to the Crafting Feats your character has, if they have the correct Ingredients for the recipe as per Appendix 4. Arcanist and Alchemist crafting are mostly possible only in Locations which are larger Settlements, whereas most Locations which are at least a small Settlement will have a smithy for Forge crafting. The Ingredients needed for the recipe will be used up.",
+                  "description" : "Your character makes one durable item or one to three consumable items with the same recipe according to the Crafting Feats your character has, if they have the correct Ingredients for the recipe as per Appendix 5. By default Arcanist and Alchemist crafting are possible only in larger Settlements, whereas Blacksmithing is possible in all Settlements. The Ingredients needed for the recipe will be used up.",
                   "keywords" : ["Downtime"]
               },
               {
                   "featName" : "Gather",
                   "prequisites" : "Profession Feats",
                   "art" : "basket",
-                  "description" : "Your character is adept at seeking out Ingredients, and has better luck in finding exactly what they want. A character with one or more Professions Feats can use this action to find a particular Ingredient no matter where they are. For each instance of this action taken, a character will get 1 of the specified Ingredient for each Feat of the relevant type they have. A character with 2 Artisan Feats could use this action to gather 2 Glass, for example.",
+                  "description" : "Your character is adept at seeking out Ingredients, and has better luck in finding exactly what they want. A character with one or more Professions Feats can use this action to find a particular Ingredient no matter where they are. For each instance of this action taken, a character will get 1 of the specified Ingredient for each Feat of the relevant type they have. A character with 2 Artisan Feats could use this action to gather 2 Glass, for example. This action is available by default in Ridings.",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1120,7 +1120,7 @@ const downtimeJson = {
                   "featName" : "Research",
                   "prequisites" : "A Feat which permits this action",
                   "art" : "archive-research",
-                  "description" : "To select this action, your character needs to have an appropriate Feat. This action allows your character to seek the answer to a <b>single</b> question about the world of the game relating to their qualifying Feat. The answer to your character’s question may not be available in their Location, or at all, in which case the response will either point your character to another Location where the answer could be, or make it clear that the answer is not something they can discover using the Research action. <br><br/>Each rank of a Feat may only be used in a research action once per Downtime.",
+                  "description" : "To select this action, your character needs to have an appropriate Feat. This action allows your character to seek the answer to a <b>single</b> question about the world of the game relating to their qualifying Feat. The answer to your character’s question may not be available in their Location, or at all, in which case the response will either point your character to another Location where the answer could be, or make it clear that the answer is not something they can discover using the Research action. <br><br/>Each rank of a Feat may only be used in a research action once per Downtime. By default this action is available at all Locations.",
                   "keywords" : ["Downtime"]
               },
               {
