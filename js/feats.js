@@ -724,7 +724,7 @@ const featJson = {
                   "prequisites" : "Five Realms Lore",
                   "art" : "periscope",
                   "description" : "<p>You may read Scouting Assessment cards. </p>With 60s of Concentration and RP representing your character taking the lay of the land and assessing enemy positions you may generate the Scout Effect for 0 vigour. You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
-                  "keywords" : ["Downtime"]
+                  "keywords" : ["Scholar"]
               },
           ]
       },
