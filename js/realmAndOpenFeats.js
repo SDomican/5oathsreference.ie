@@ -71,7 +71,7 @@ const featJson = {
                   "featName" : "Careful Maintenance",
                   "prequisites" : "Creidhe",
                   "art" : "anvil",
-                  "description" : "<span>You may spend a downtime action to refresh the duration of a durable item that has not expired. This costs half (rounded down) of the total ingredients required to craft the item, you choose which of the ingredients are required to refresh the Duration. You may use this to maintain items that you are not able to craft. If you attempt to use this ability and do not have the required ingredients available the action will fail but you will be told what ingredients are needed. This Feat can not be used to extend the Duration of any Item crafted with the Joint Purpose Feat.</span>",
+                  "description" : "<span>You gain access to a permanently available Opportunity (available at all Locations) to refresh the duration of a durable item that has not expired. This costs half (rounded down) of the total ingredients required to craft the item, you choose which of the ingredients are required to refresh the Duration. You may use this to maintain items that you are not able to craft. If you attempt to use this ability and do not have the required ingredients available the action will fail but you will be told what ingredients are needed. This Feat can not be used to extend the Duration of any Item crafted with the Joint Purpose Feat.</span>",
                   "keywords" : ["Affinity"]
               },
               {

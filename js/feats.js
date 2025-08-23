@@ -414,7 +414,7 @@ const featJson = {
                   "featName" : "Steering the Conversation",
                   "prequisites" : "1 Shadowed Blades Feat",
                   "art" : "conversation",
-                  "description" : "You may submit a piece of information to be circulated amongst the well-informed residents of a Realm you receive information from. This information may be true or false and you will not be identified as its source. This information will also be reflected in reports on events in that realm.",
+                  "description" : "You may submit a piece of information, true or false, to be circulated amongst the well-informed residents of a Realm you receive information from. You will not be identified as its source. This information will also be reflected in reports on events in that realm. This information may be edited by the event team to fit in with the intended medium of rumours and hearsay. NPCs may react to this information in uptime.",
                   "keywords" : ["Shadowed Blades"]
               },
               {
@@ -718,7 +718,14 @@ const featJson = {
                   "art" : "prayer",
                   "description" : "This character has training in tending to spiritual wounds as well as physical wounds, they specialize in the identification and treatment of Afflictions. <br/><br/>You may open Lingering Wounds with 10 seconds of roleplay even if the card lists a longer time. Also, you may read and open Affliction cards even if you do not otherwise meet the requirements to do so.<br/><br/> You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
                   "keywords" : ["Scholar"]
-              }
+              },
+              {
+                  "featName" : "Tracker",
+                  "prequisites" : "Five Realms Lore",
+                  "art" : "periscope",
+                  "description" : "<p>You may read Scouting Assessment cards. </p>With 60s of Concentration and RP representing your character taking the lay of the land and assessing enemy positions you may generate the Scout Effect for 0 vigour. You may also get additional relevant information throughout games at times deemed relevant by the Event Team.",
+                  "keywords" : ["Downtime"]
+              },
           ]
       },
       {
@@ -1088,18 +1095,10 @@ const downtimeJson = {
                   "keywords" : ["Downtime"]
               },
               {
-                  "featName" : "Guard",
-                  "prequisites" : "Non-Peacesworn Only",
-                  "art" : "guards",
-                  "description" : "Your character stands guard duty in a Settlement, and gets paid 2 coins as a reward. This action is only available in smaller Settlements and all Ridings. A Peacesworn character cannot use the Guard action.",
-                  "keywords" : ["Downtime"]
-              },
-              ,
-              {
                   "featName" : "Learn Location",
                   "prequisites" : "None",
                   "art" : "treasure-map",
-                  "description" : "When a Character takes the Travel Action they may only Travel to Locations that their character knows, if they wish to add to that list they may use this Action to do so. This Action costs 10 pingin and requires another character who knows the target location <b>and is in the same location</b> as you to take the Teach Location Action and list you as their student. If these conditions are met your character will add that location to their list and move to the named Location as if they had taken the Travel Action.",
+                  "description" : "When a Character takes the Travel Action they may only Travel to Locations that their character knows, if they wish to add to that list they may use this Action to do so. This Action costs 10 pingin and requires another character who knows the target location <b>and is in the same location</b> as you to take the Teach Location Action and list you as their student. If these conditions are met your character will add that location to their list and move to the named Location as if they had taken the Travel Action. By default this action is available at all Locations.",
                   "keywords" : ["Downtime"]
               },
               ,
@@ -1107,14 +1106,14 @@ const downtimeJson = {
                   "featName" : "Teach Location",
                   "prequisites" : "None",
                   "art" : "annexation",
-                  "description" : "This Action allows a Character to teach one of the Locations on their list to another character. This Action costs 10 pingin and requires another character to take the Learn Location Action and list you as their Teacher. If these conditions are met the student will add that location to their list and both of you will move to the named Location as if you had taken the Travel Action. Multiple Characters may learn from you in the same action, but all must be in the same location as you when they take the Learn Location Action.",
+                  "description" : "This Action allows a Character to teach one of the Locations on their list to another character. This Action costs 10 pingin and requires another character to take the Learn Location Action and list you as their Teacher. If these conditions are met the student will add that location to their list and both of you will move to the named Location as if you had taken the Travel Action. Multiple Characters may learn from you in the same action, but all must be in the same location as you when they take the Learn Location Action. By default this action is available at all Locations.",
                   "keywords" : ["Downtime"]
               },
               {
-                  "featName" : "Mediate",
-                  "prequisites" : "Peacesworn Only",
+                  "featName" : "Use Connection",
+                  "prequisites" : "None",
                   "art" : "discussion",
-                  "description" : "Your character acts as a mediator in local disputes, an investigator into violent matters where only a Peacesworn can be trusted, and generally provides a calming influence in the locality. The local populace are grateful and the character receives a payment of 2 coins to represent this. This action is only available in smaller Settlements. Only a Peacesworn character can use the Mediate action.",
+                  "description" : "Some Connection Lammies grant access to unique downtime actions, taking this action allows your character to take advantage of their connection according to the text of the lammie.",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1125,17 +1124,24 @@ const downtimeJson = {
                   "keywords" : ["Downtime"]
               },
               {
-                  "featName" : "Scout",
+                  "featName" : "Scouting",
                   "prequisites" : "None",
                   "art" : "periscope",
-                  "description" : "Your character spends some time roving over a Region or Riding Location, getting a good idea of any threats or military activity in the Location. This will give your character an idea of what types of creatures are active in the area, and any other information deemed relevant by the Event Team.",
+                  "description" : "Your character scouts a Riding to gather information on what threats the band might face there. When a character takes this action they contribute to a pool of Scout actions generated by the band for a given Riding that downtime period. Every character who took the Scout action in that Riding then receives a report containing the information uncovered. The level of detail and specificity in the report will depend on the number of Scout actions taken in that Riding. The number of Scout actions required to uncover all relevant information will vary depending on the conditions in the Riding, this number can be learned by reading Scouting Assessment cards for the Riding in question. This action may only be used in Ridings to which the band has been ordered or from which the band has received offers of employment.",
+                  "keywords" : ["Downtime"]
+              },
+              {
+                  "featName" : "Take Opportunity",
+                  "prequisites" : "Relevant opportunity",
+                  "art" : "look-at",
+                  "description" : "<p>Take Opportunity can only be used on opportunities written by the event team that are explicitly flagged to be engaged with in downtime in this way. Using this action without a valid opportunity will result in a failed action.</p> One Opportunity that is always available is to Walk the Way of Wisdom. The Way of Wisdom is a route of pilgrimage deep in Draíod, it is said to have been discovered by the First Réig and is believed to grant visions and insights from the Shaper to those who brave its depths. Taking this opportunity allows your character to traverse the Way of Wisdom and you will receive a description of their experiences there. This Opportunity can be taken at any Location and will use all four of your downtime actions. This Opportunity may only be taken once in a lifetime by each character.",
                   "keywords" : ["Downtime"]
               },
               {
                   "featName" : "Travel",
                   "prequisites" : "None",
                   "art" : "sinagot",
-                  "description" : "As described above, your character starts their downtime either at their Location at the end of their last downtime or the last Location of the band. If your character wishes to Travel to another location halfway through their downtime, they select this action and pick their new Location from their list of Known Locations. Travel between any two Locations, however far they are from each other in the game world, takes one action.",
+                  "description" : "As described above, your character starts their downtime either at their Location at the end of their last downtime or the last Location of the band. If your character wishes to Travel to another location halfway through their downtime, they select this action and pick their new Location from their list of Known Locations. Travel between any two Locations, however far they are from each other in the game world, takes one action. By default this action is available at all Locations.",
                   "keywords" : ["Downtime"]
               },
               {
@@ -1144,7 +1150,14 @@ const downtimeJson = {
                 "art" : "cash",
                 "description" : "This action allows your character to purchase a single Durable or Consumable item of a level no greater than the number of times you have taken the Merchant Feat. Any Durable items purchased this way will have a duration of two events rather than three events. This purchase will cost the appropriate amount of Pingin (but not ingredients). One rank of Merchant allows a character to purchase Student level Items, two ranks provide access to Apprentice, and Three provides access to Journeyman.",
                 "keywords" : ["Downtime"]
-            }
+            },
+            {
+                  "featName" : "Work",
+                  "prequisites" : "None",
+                  "art" : "guards",
+                  "description" : "Your character takes on paid work. This could be acting as a bodyguard to a wealthy local, patrolling on behalf of the Rider, meditating in disputes, doing small piece work in your craft or profession, or any number of other tasks. Taking on work in this way gives a payment of 10 Pingin. This action is available by default in all Settlements.",
+                  "keywords" : ["Downtime"]
+              },
           ]
       }
   ]

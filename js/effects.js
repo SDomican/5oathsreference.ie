@@ -381,6 +381,13 @@ const spellJson = {
                   "art" : "priority",
                   "description" : "<span>Effects are broken into physical effects and mental effects. If one Effect would interfere with carrying out another Effect, physical takes precedence over mental, and the first listed Effect gets resolved first. If the original Effect would still be in duration when the interfering Effect is resolved you then resolve the original Effect until the duration is over.<p id='hrId'> E.g. If your character is hit with Rampage 30s, and 15 seconds into the duration of that they suffer the Lure Effect. Lure has priority as it is higher on the list for mental Effects than Rampage. Your character follows the Lure Effect’s directions for the next 10 seconds, before reverting to the Rampage Effect for the final 5 seconds of its duration.</p><hr/><div class='effectInteraction' id='hrId'><i id='hrId'>Physical Effects priority</i><ul id='hrId'><li id='hrId'>Fumble</li><li id='hrId'>Push</li><li id='hrId'>Halt</li></ul></div><div class='effectInteraction2'><i id='hrId'>Mental Effects priority</i><ul><li id='hrId'>Lure</li><li id='hrId'>Fear</li><li id='hrId'>Rampage</li><li id='hrId'>Sleep</li><li id='hrId'>Daze</li><li id='hrId'>Charm</li></ul></div></span>",
                   "magicSchool" : ["Effect"]
+              },
+              {
+                  "featName" : "Scout",
+                  "call" : "Scout",
+                  "art" : "heavy-arrow",
+                  "description" : "<span> This effect is instantaneous. In response to hearing this call, a referee will respond with one of five calls indicating approximately how many enemies remain to spawn in to the current encounter, at the time of the response: <ul><li><strong>UNKNOWN</strong> — The situation is unclear, likely due to either the environment or to enemy action.</li><li><strong>BLACK</strong> — There are an unlimited number of enemies remaining.</li><li><strong>RED</strong> — More than half the available enemy force remains.</li><li><strong>YELLOW</strong> — Less than half the available enemy force remains.</li><li><strong>GREEN</strong> — The only remaining enemies are the ones currently being phys-repped.</li></ul>",
+                  "magicSchool" : ["Effect"]
               }
           ]
       }
